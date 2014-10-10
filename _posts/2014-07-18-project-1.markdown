@@ -1,0 +1,13 @@
+---
+layout: default
+title: Development of body representations in humans and robots
+link: http://www.icub.org/other/icdl-epirob-2014/dbr_workshop.html
+modal-id: 1
+date: 2014-08-15
+img: developmentofbodyrepresentations.png
+alt: development-of-body-representations-website
+project-date: August 2014
+category: design
+description: fill me with some description!
+
+---

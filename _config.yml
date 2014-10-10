@@ -1,0 +1,31 @@
+# Site settings
+title: alecive
+email: alecive87@gmail.com
+description: "Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description."
+skills: Alessandro Roncone
+
+# Color settings (hex-codes without the leading hash-tag)
+color:
+  primary: 5bf9a9 #80B3FF
+  secondary: 5dc5bf #FD6E8A
+  secondary-dark: 2d9b95 #A2122F
+  secondary-darker: 1e827c
+
+# Social networks usernames (many more available: google-plus, flickr, dribbble, pinterest, instagram, tumblr, linkedin, etc.)
+social:
+  - title: google-plus
+    url: https://plus.google.com/+AlessandroRoncone
+  - title: github
+    url: http://github.com/alecive
+  - title: linkedin
+    url: https://www.linkedin.com/in/alessandroroncone
+
+
+# Postal address (add as many lines as necessary)
+address:
+  - line: Rapallo, 16035
+  - line: Genova, Italy
+
+# Build settings
+markdown: kramdown
+permalink: pretty
