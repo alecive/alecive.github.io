@@ -6,11 +6,10 @@ skills: Alessandro Roncone
 
 # Color settings (hex-codes without the leading hash-tag)
 color:
-  primary: 5bf9a9 #80B3FF
-  secondary: 5dc5bf #FD6E8A
-  secondary-dark: 2d9b95 #A2122F
+  primary: 5bf9a9
+  secondary: 5dc5bf
+  secondary-dark: 2d9b95
   secondary-darker: 1e827c
-
 # Social networks usernames (many more available: google-plus, flickr, dribbble, pinterest, instagram, tumblr, linkedin, etc.)
 social:
   - title: google-plus
@@ -29,3 +28,33 @@ address:
 # Build settings
 markdown: kramdown
 permalink: pretty
+
+# Color combinations to test
+# 
+# DEFAULT
+# color:
+#   primary: 5bf9a9
+#   secondary: 5dc5bf
+#   secondary-dark: 2d9b95
+#   secondary-darker: 1e827c
+#   
+# ALTERNATIVE 1
+# color:
+#   primary: adcbe3
+#   secondary: 787ca0
+#   secondary-dark: 62678e
+#   secondary-darker: 525676
+#
+# ALTERNATIVE 2
+# color:
+#   primary: 82c4e6
+#   secondary: c7eb55
+#   secondary-dark: aed52f
+#   secondary-darker: 96bc20
+#
+# ALTERNATIVE 3
+# color:
+#   primary: 80B3FF
+#   secondary: FD6E8A
+#   secondary-dark: fc4468
+#   secondary-darker: dd3b5a
