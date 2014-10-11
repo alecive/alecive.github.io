@@ -8,6 +8,6 @@ img: flatwoken.jpg
 alt: flatwoken-icons
 project-date: September 2014
 category: design
-description: fill me with some description!
+description: 
 
 ---

@@ -3,10 +3,10 @@
     <div class="portfolio-modal modal fade" id="portfolioModal-{{ post.modal-id }}" tabindex="-1" role="dialog" aria-hidden="true">
         <div class="modal-content">
             <div class="close-modal" data-dismiss="modal">
-                <div class="lr">
-                    <div class="rl">
-                    </div>
-                </div>
+                <button type="button" class="btn btn-default"><i class="fa fa-3x fa-times-circle"></i></button>
+<!--                 <div class="lr">
+                    <div class="rl"></div>
+                </div> -->
             </div>
             <div class="container">
                 <div class="row">
@@ -16,20 +16,7 @@
                             <hr class="star-primary">
                             <a href="{{ post.link }}" target="blank"><img src="img/portfolio/{{ post.img }}" class="img-responsive img-centered" alt="{{ post.alt }}"></a>
                             <p>{{ post.description }}</p>
-                            <ul class="list-inline item-details">
-                                <li>Link:
-                                    <strong><a href="{{ post.link }}">{{ post.client }}</a>
-                                    </strong>
-                                </li>
-                                <li>Date:
-                                    <strong><a href="{{ post.link }}">{{ post.project-date }}</a>
-                                    </strong>
-                                </li>
-                                <li>Category:
-                                    <strong><a href="{{ post.link }}">{{ post.category }}</a>
-                                    </strong>
-                                </li>
-                            </ul>
+                            <p class="footer"><i>Click on the image above for further information about this project.</i></p>
                             <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
                         </div>
                     </div>

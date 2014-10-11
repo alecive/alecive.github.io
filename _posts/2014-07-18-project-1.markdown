@@ -8,6 +8,6 @@ img: developmentofbodyrepresentations.png
 alt: development-of-body-representations-website
 project-date: August 2014
 category: design
-description: fill me with some description!
+description: 
 
 ---

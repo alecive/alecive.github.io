@@ -248,8 +248,8 @@ section.success {
     width: 100%;
     height: 100%;
     opacity: 0;
-    background: rgba(0,0,0,.6);
-    background-image: url('/img/bg.png');
+    background: rgba(0,0,0,.5);
+    /*background-image: url('/img/bg.png');*/
     -webkit-transition: all ease .5s;
     -moz-transition: all ease .5s;
     transition: all ease .5s;
@@ -303,9 +303,26 @@ section.success {
 .btn-outline:active,
 .btn-outline.active {
     border: solid 2px #fff;
-    color: #{{ site.color.secondary-dark }};
     background: #fff;
+    color: #{{ site.color.secondary-dark }};
 }
+
+.btn-default {
+    color: #fff;
+    border: none;
+    background-color: #{{ site.color.secondary }};
+    border-radius: 0;
+    text-transform: uppercase;
+    font-weight: 700;
+}
+
+.btn-default:hover,
+.btn-default:focus,
+.btn-default:active {
+    color: #fff;
+    background-color: #{{ site.color.secondary-dark }};
+}
+
 
 .floating-label-form-group {
     position: relative;
@@ -429,7 +446,7 @@ footer .footer-below {
 }
 
 .portfolio-modal .modal-content {
-    padding: 200px 0;
+    padding: 60px 0;
     min-height: 100%;
     border: 0;
     border-radius: 0;
@@ -457,6 +474,14 @@ footer .footer-below {
     font-size: 3em;
 }
 
+.portfolio-modal .modal-content p {
+    font-size: 1.25em;
+}
+
+.portfolio-modal .modal-content p.footer {
+    font-size: 1em;
+}
+
 .portfolio-modal .modal-content img {
     margin-bottom: 30px;
     border: 5px solid #{{ site.color.secondary }};
@@ -476,8 +501,20 @@ footer .footer-below {
     cursor: pointer;
 }
 
+.portfolio-modal .close-modal .btn-default {
+    background-color: transparent;
+    border: none;
+    color: #{{ site.color.secondary }};
+}
+
+.portfolio-modal .close-modal .btn-default:hover,
+.portfolio-modal .close-modal .btn-default:focus,
+.portfolio-modal .close-modal .btn-default:active {
+    color: #{{ site.color.secondary-dark }};
+}
+
 .portfolio-modal .close-modal:hover {
-    opacity: .3;
+    
 }
 
 .portfolio-modal .close-modal .lr {
