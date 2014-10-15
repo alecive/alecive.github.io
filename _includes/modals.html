@@ -3,22 +3,27 @@
     <div class="portfolio-modal modal fade" id="portfolioModal-{{ post.modal-id }}" tabindex="-1" role="dialog" aria-hidden="true">
         <div class="modal-content">
             <div class="close-modal" data-dismiss="modal">
-                <button type="button" class="btn btn-default"><i class="fa fa-3x fa-times-circle"></i></button>
-<!--                 <div class="lr">
+                <!-- <button type="button" class="btn btn-default"><i class="fa fa-3x fa-times-circle"></i></button> -->
+                <div class="lr">
                     <div class="rl"></div>
-                </div> -->
+                </div>
             </div>
             <div class="container">
                 <div class="row">
                     <div class="col-lg-8 col-lg-offset-2">
-                        <div class="modal-body">
+                        <a href="{{ post.link }}" target="blank"><div class="modal-body">
                             <h2>{{ post.title }}</h2>
+                            <h3>{{ post.description }}</h3>
                             <hr class="star-primary">
-                            <a href="{{ post.link }}" target="blank"><img src="img/portfolio/{{ post.img }}" class="img-responsive img-centered" alt="{{ post.alt }}"></a>
-                            <p>{{ post.description }}</p>
+                            <img src="img/portfolio/{{ post.img }}" class="img-responsive img-centered" alt="{{ post.alt }}">
+                            {% if post.content %}
+                                <div style="padding: 0px 100px;">
+                                    <div id="article">{{ post.content }}</div>
+                                </div>
+                            {% endif %}
                             <p class="footer"><i>Click on the image above for further information about this project.</i></p>
                             <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
-                        </div>
+                        </div></a>
                     </div>
                 </div>
             </div>

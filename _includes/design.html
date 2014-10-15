@@ -12,14 +12,18 @@
                 {% for post in site.posts %}
                     {% if post.categories contains 'design' %}
                         <div class="col-sm-4 portfolio-item">
-                            <a href="#portfolioModal-{{ post.modal-id }}" class="portfolio-link" data-toggle="modal">
-                                <div class="caption">
-                                    <div class="caption-content">
-                                        <i class="fa fa-search-plus fa-3x"></i>
+                            {% if post.article %}
+                                <a href="{{ post.url }}" class="portfolio-link" data-toggle="modal">
+                            {% else %}
+                                <a href="#portfolioModal-{{ post.modal-id }}" class="portfolio-link" data-toggle="modal">
+                            {% endif %}
+                                    <div class="caption">
+                                        <div class="caption-content">
+                                            <i class="fa fa-search-plus fa-3x"></i>
+                                        </div>
                                     </div>
-                                </div>
-                                <img src="img/portfolio/{{ post.img }}" class="img-responsive" alt="{{ post.alt }}">
-                            </a>
+                                    <img src="img/portfolio/{{ post.img }}" class="img-responsive" alt="{{ post.alt }}">
+                                </a>
                         </div>
                     {% endif %}
                 {% endfor %}
