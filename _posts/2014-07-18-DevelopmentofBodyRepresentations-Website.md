@@ -8,7 +8,7 @@ img: developmentofbodyrepresentations.png
 alt: development-of-body-representations-website
 category: design
 description: 
-article: yes
+article: no
 ---
 
 #### Type: _web development_

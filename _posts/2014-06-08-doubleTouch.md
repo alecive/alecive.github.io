@@ -8,7 +8,7 @@ alt: double-touch
 date: 2014-06-08
 category: research
 description: 
-article: no
+article: yes
 
 ---
 
