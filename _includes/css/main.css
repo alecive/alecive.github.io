@@ -532,7 +532,7 @@ footer {
 }
 
 footer h3 {
-    margin-bottom: 30px;
+    margin-bottom: 20px;
 }
 
 footer .footer-above {
@@ -542,7 +542,7 @@ footer .footer-above {
 }
 
 footer .footer-col {
-    margin-bottom: 50px;
+    margin-bottom: 30px;
 }
 
 footer .footer-below {
@@ -699,4 +699,16 @@ footer .footer-below {
     -webkit-transform: rotate(90deg);
     -ms-transform: rotate(90deg);
     transform: rotate(90deg);
+}
+
+@media(max-width:450px) {
+    section h2 {
+        margin: 0;
+        font-size: 2em;
+    }
+
+    footer .footer-below {
+        display: none;
+    }
+
 }

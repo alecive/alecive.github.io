@@ -4,7 +4,7 @@ email: alecive87@gmail.com
 description: 
 skills: Alessandro Roncone
 aboutA: "Personal webpage of Alessandro Roncone, aka alecive (or alecive87 ), robotic engineer and designer. Creator of AwOken and FlatWoken icon sets, many themes for GNOME2 and GNOME3, and more. He works at iCub Facility, Istituto Italiano di Tecnologia, GENOVA, Italy."
-aboutB: ""
+aboutB: "Alessandro Roncone has a 4-year experience in robotics engineering, working full time with the iCub, one of the most advanced humanoid robots out there. He is mainly working on perception and multisensory integration. His deep knowledge of C++, Matlab and the YARP/ICUB software architecture has been mainly used for sensor fusion, computer vision, tactile perception and control. Head over the research section for more information on his work."
 
 # Color settings (hex-codes without the leading hash-tag)
 # color:
@@ -39,15 +39,16 @@ color:
 # Color combinations to test
 # 
 # DEFAULT
-  primary: 5bf9a9
-  primary-dark: 1ad677
-  secondary: 5dc5bf
-  secondary-dark: 2d9b95
-  secondary-darker: 1e827c
-  secondary-alpha: rgba(30,130,124,.7)     # This is the same as the secondary color but with an alpha value
+  # primary: 5bf9a9
+  # primary-dark: 1ad677
+  # secondary: 5dc5bf
+  # secondary-dark: 2d9b95
+  # secondary-darker: 1e827c
+  # secondary-alpha: rgba(30,130,124,.7)     # This is the same as the secondary color but with an alpha value
 #   
 # ALTERNATIVE 1
 #   primary: adcbe3
+#   primary-dark: 5492c4
 #   secondary: 787ca0
 #   secondary-dark: 62678e
 #   secondary-darker: 525676
@@ -55,14 +56,24 @@ color:
 #
 # ALTERNATIVE 2
 #   primary: 82c4e6
+#   primary-dark: 4297c2
 #   secondary: c7eb55
 #   secondary-dark: aed52f
 #   secondary-darker: 96bc20
 #   secondary-alpha: rgba(150,188,32,.7)     # This is the same as the secondary color but with an alpha value
 #
 # ALTERNATIVE 3
-#   primary: 80B3FF
-#   secondary: FD6E8A
+#   primary: 80b3ff
+#   primary-dark: 366bba
+#   secondary: fd6e8a
 #   secondary-dark: fc4468
 #   secondary-darker: dd3b5a
-#   secondary-alpha: rgba(2210,59,90,.7)     # This is the same as the secondary color but with an alpha value
+#   secondary-alpha: rgba(210,59,90,.7)     # This is the same as the secondary color but with an alpha value
+#   
+# ALTERNATIVE 4
+  primary: bcceae
+  primary-dark: 9faf91
+  secondary: 4ea294
+  secondary-dark: 3b7970
+  secondary-darker: 2b6161
+  secondary-alpha: rgba(78,162,148,.7)     # This is the same as the secondary color but with an alpha value
