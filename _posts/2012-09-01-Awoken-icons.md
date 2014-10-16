@@ -1,7 +1,7 @@
 ---
 layout: post
 title: AwOken icons
-link: 
+link: http://alecive.deviantart.com/art/AwOken-163570862
 modal-id: 4
 date: 2012-09-01
 img: awoken.png
@@ -14,7 +14,7 @@ article: yes
 
 *AwOken* is a project born in 2010 with the attempt to bring a whole new experience in Linux community. Being inspired by the great work of _brsev_ on *Token icons*, AwOken project is aimed to provide a complete and coherent iconset, with an eye on design and minimalism. It comes with three different flavours (AwOken, AwOkenDark, AwOkenWhite), but is provided with a script that let you customize it with *40590000000* unique combinations.
 
-AwOken iconset is an open, never ending project. New icons are restlessy designed (and icon requests are warmly welcome), and official portings are on the way. Currently, AwOken is available on *Linux* (GNOME, KDE and XCFE), but <b>Android</b> porting are planned.
+AwOken iconset is an open, never ending project. New icons are restlessy designed (and icon requests are warmly welcome), and official portings are on the way. Currently, AwOken is available on *Linux* (GNOME, KDE and XCFE), but <b>Android</b> porting are planned. More than *2 million* downloads make it one of the most downloaded icon themes ever.
 
 AwOken icons are released under `cc-by-nc-sa` license, so feel free to download and use them for personal use. To purchase a commercial use license, drop me a line and we will arrange easily.
 
@@ -29,9 +29,3 @@ AwOken icons are released under `cc-by-nc-sa` license, so feel free to download 
 {% include image.html url="screenshots/shot7_alecive.png" description="Screenshot by alecive" %}
 {% include image.html url="screenshots/shot8_alecive.png" description="Screenshot by alecive" %}
 {% include image.html url="screenshots/shot9_alecive.png" description="Screenshot by alecive" %}
-
-
-~~~
-Test
-
-~~~

@@ -10,7 +10,9 @@
             </div>
             <div id="article">
                 {% if page.article %}
+                <a href="/img/portfolio/{{ page.img }}" target="_blank">
                     <img src="/img/portfolio/{{ page.img }}" class="img-responsive img-centered" alt="{{ page.alt }}">
+                </a>
                 {% endif %}
                 {{ content }}
             </div>
