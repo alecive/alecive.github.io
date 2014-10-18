@@ -1,7 +1,8 @@
 ---
 layout: post
 title: double Touch
-link: 
+link: https://github.com/alecive/periPersonalSpace
+link-alt: GitHub repository
 modal-id: 3
 img: doubleTouch.png
 alt: double-touch

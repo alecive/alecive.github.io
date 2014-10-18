@@ -1,7 +1,8 @@
 ---
 layout: post
 title: A New Start
-link: http://alecive.deviantart.com/art/A-New-Start-1-3-169100684
+download-link: http://alecive.deviantart.com/art/A-New-Start-1-3-169100684
+download-alt: A New Start Suite on DeviantART
 modal-id: 5
 date: 2011-06-10
 img: aNewStart.png
