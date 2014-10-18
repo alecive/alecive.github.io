@@ -9,6 +9,12 @@
                 </div>
             </div>
             <div id="article">
+                {% if page.download-link%}
+                    <h2>Download Link: <a href="/img/portfolio/{{ page.download-link }}" target="_blank">{{ page.download-alt }}</a></h2>
+                {% elsif page.link%}
+                    <h2>Link: <a href="/img/portfolio/{{ page.link }}" target="_blank">{{ page.link-alt }}</a></h2>
+                {% endif%}
+
                 {% if page.article %}
                 <a href="/img/portfolio/{{ page.img }}" target="_blank">
                     <img src="/img/portfolio/{{ page.img }}" class="img-responsive img-centered" alt="{{ page.alt }}">
