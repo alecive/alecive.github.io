@@ -2,7 +2,7 @@
 layout: post
 title: Development of body representations in humans and robots
 link:  http://www.icub.org/other/icdl-epirob-2014/dbr_workshop.html
-alt:   Website on iCub.org
+link-alt:   Website on iCub.org
 modal-id: 1
 date: 2014-09-01
 img: developmentofbodyrepresentations.png
