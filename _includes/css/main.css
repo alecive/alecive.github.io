@@ -652,6 +652,9 @@ footer .footer-below {
     .portfolio-modal .modal-content .modal-postcontent {
         padding: 0;
     }
+/*    #portfolio .portfolio-item {
+        padding: 0px;
+    }*/
 }
 
 .portfolio-modal .close-modal {
