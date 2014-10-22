@@ -277,7 +277,7 @@ section.success {
 #article h2 {
     margin-top: 25px;
     padding-left: 10px;
-    font-size: 1.2em;
+    font-size: 1em;
     border-left: 40px solid #{{ site.color.primary }};
     border-right: none;
     border-top: none;
