@@ -22,7 +22,7 @@ Minimal, fresh and relaxing, ANewStart is a complete suite for Linux desktops. N
 
 This themes comes also with: _AWN Theme, CoverGloobus Theme, Conky files, Firefox Startpage (a modified version of startpage by =Folter-x),Gnome-panel (and AWN) background images_. Unfortunately, from the 1.3 version these themes are not fully supported, since for compatibility reasons with GNOME3 they became quite useless or unusable.
 
-Other informations:
+Miscellanea:
 
   * Icon Theme: [AwOken icons](http://alecive.github.io/design/2012/09/01/Awoken-icons/), colored with 99/15/00 color combination (from 2.4 version, the color combination is 3/217/255 since I've moved from CMY to RGB)
   * Wallpapers: [Frozen by TheOats](http://theoats.deviantart.com/art/Frozen-148293611) and [Cold Wallpaper by xhoOp](http://xhoop.deviantart.com/art/Cold-Wallpaper-271689860)

@@ -20,9 +20,9 @@ A New Start Blood is the dark version of ANewStart suite for Linux. Tough color 
 
 *ANewStartBlood* is the first attempt to port ANewStart guidelines in a dark fashion. As its big brother, ANewStartBlood is a complete suite for GNOME. It's designed to work under _Gnome-Shell, Gnome-Fallback and Unity_. For Unity and Gnome-Fallback mode, please read the README file inside the pack. There is also a Conky file to meet the theme overall guidelines.
 
-Other informations:
+Miscellanea:
 
-  * Icon Theme: [AwOken icons](http://alecive.github.io/design/2012/09/01/Awoken-icons/), colored with 20/99/99 color combination
+  * Icons: [AwOken icons](http://alecive.github.io/design/2012/09/01/Awoken-icons/), colored with 20/99/99 color combination
   * Wallpaper: [Autumn Leaf by seand00de0211](http://seand00de0211.deviantart.com/art/Autumn-leaf-251476077)
   * IDEA: [ANewStart suite](http://0.0.0.0:4000/design/2011/06/10/ANewStart-GTK/)
 
