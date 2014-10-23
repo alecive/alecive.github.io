@@ -11,7 +11,7 @@ permalink: cv.html
 summary: #Robotics, engineering and design in a single package!
 
 skills:
- - name: Programming Languages
+ - name: Programming Skills
    items:
     - name: C++
       knowledge: 99
@@ -25,6 +25,26 @@ skills:
       knowledge: 70
     - name: Python
       knowledge: 60
+ - name: CM Skills
+   items:
+    - name: Git
+      knowledge: 90
+    - name: Subversion
+      knowledge: 80
+ - name: Mobile Skills
+   items:
+    - name: Android
+      knowledge: 45
+ - name: Software Skills
+   items: 
+    - name: Linux
+      knowledge: 95
+    - name: Windows
+      knowledge: 30
+    - name: Gimp
+      knowledge: 70
+    - name: Inkscape
+      knowledge: 95
  - name: Languages
    items:
     - name: Italian
@@ -33,16 +53,6 @@ skills:
       knowledge: 80
     - name: French
       knowledge: 25
- - name: Mobile
-   items:
-    - name: Android
-      knowledge: 45
- - name: CM
-   items:
-    - name: Git
-      knowledge: 90
-    - name: Subversion
-      knowledge: 90
 
 education:
  colleges:

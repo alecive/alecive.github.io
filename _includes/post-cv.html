@@ -18,10 +18,19 @@
                     {% for skill in page.skills %}
                     <p><b>{{ skill.name }}: </b></p>
                     <ul>
-                    {% for item in skill.items %}
-                    <li><span class="label" style="opacity: 0.{{ item.knowledge }};"><e class="ok"> {{ item.name }} </e><e class="hover"> {{ item.knowledge }}% </e></span></li>
-                    {% endfor %}
+<!--                     {% for item in skill.items %}
+                        <li><span class="label" style="opacity: 0.{{ item.knowledge }};"><e class="ok"> {{ item.name }} </e><e class="hover"> {{ item.knowledge }}% </e></span></li>
+                    {% endfor %} -->
                     </ul>
+                    {% for item in skill.items %}
+                        <div class="progress">
+                            <div class="progress-bar" role="progressbar" data-percent="{{ item.knowledge }}%" style="width: {{ item.knowledge }}%;">
+                                <span class="sr-only">{{ item.knowledge }}% Complete</span>
+                            </div>
+                            <span class="progress-type">{{ item.name }}</span>
+                            <span class="progress-completed">{{ item.knowledge }}%</span>
+                        </div>
+                    {% endfor %}
                     {% endfor %}
 
 
