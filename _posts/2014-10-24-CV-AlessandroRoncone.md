@@ -1,10 +1,10 @@
 ---
 layout: post-cv
 title: Curriculum Vitae
-download-link: 
+download-link: cv.pdf
 modal-id: 8
 category: cv
-description: 
+description: I am a robotics engineer and a designer
 article: yes
 permalink: cv.html
 
@@ -12,43 +12,43 @@ skills:
  - name: Programming Skills
    items:
     - name: C++
-      knowledge: 95
-    - name: Matlab
-      knowledge: 95
-    - name: CSS3 & HTML5
-      knowledge: 95
-    - name: Bash
       knowledge: 85
-    - name: R
+    - name: Matlab
+      knowledge: 80
+    - name: CSS3 & HTML5
+      knowledge: 90
+    - name: Bash
       knowledge: 70
+    - name: R
+      knowledge: 50
     - name: Python
-      knowledge: 60
+      knowledge: 30
  - name: CM Skills
    items:
     - name: Git
-      knowledge: 90
-    - name: Subversion
       knowledge: 80
+    - name: Subversion
+      knowledge: 70
  - name: Mobile Skills
    items:
     - name: Android
-      knowledge: 45
+      knowledge: 40
  - name: Software Skills
    items: 
     - name: Linux
-      knowledge: 95
+      knowledge: 90
     - name: Windows
       knowledge: 30
     - name: Gimp
       knowledge: 70
     - name: Inkscape
-      knowledge: 95
+      knowledge: 90
  - name: Languages
    items:
     - name: Italian
-      knowledge: 100
+      knowledge: 95
     - name: English
-      knowledge: 80
+      knowledge: 70
     - name: French
       knowledge: 25
 
@@ -63,19 +63,19 @@ education:
    title: Master Degree in NeuroEngineering
    start: 2008
    end: 2011
-   location: Università degli studi di Genova IT
+   location: Università degli studi di Genova, IT
    description: Thesis title `Visuo-Haptic Integration for Object Characterization in an Unstructured Environment`
  - name: B.Sc. with honors
    title: Bachelor Degree in Biomedical Engineering
    start: 2005
    end: 2008
-   location: Università degli studi di Genova IT
+   location: Università degli studi di Genova, IT
    description: Thesis title `Support Vector Machine Analysis applied to a Manipulator in a NonStructured Environment`
  - name: Student with scolarship at ISICT
    title: c/o Istituto Superiore di Studi in Tecnologie dell'Informazione e della Comunicazione
    start: 2005
    end: 2008
-   location: Università degli studi di Genova IT
+   location: Università degli studi di Genova, IT
    description: 
 
 professional:
@@ -130,7 +130,7 @@ publications:
    description:
 ---
 
-#  UNDER CONSTRUCTION - DO NOT RELY ON IT
+<h2 class="only-print">Personal Website: <a href="http://alecive.github.io"></a></h2>
 
 ## Who am I
 

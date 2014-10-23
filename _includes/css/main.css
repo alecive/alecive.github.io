@@ -277,6 +277,7 @@ section.success {
     border-top: none;
     border-bottom: none;
     border-radius: 0;
+    text-align: left;
 }
 
 #article h2 {
@@ -288,6 +289,7 @@ section.success {
     border-top: none;
     border-bottom: none;
     border-radius: 0;
+    text-align: left;
 }
 
 #article h3 {
@@ -423,6 +425,8 @@ section.success {
 #article .progress {
     position: relative;
     height: 25px;
+    left: 20px;
+    margin-right: 20px;
 }
 
 #article .progress {
@@ -482,12 +486,12 @@ section.success {
     margin-bottom: 20px;
     padding-bottom: 0px;
     padding-top: 0px;
-    padding-left: 4px;
+    padding-left: 8px;
     border-left: 6px solid #{{ site.color.secondary }};
 }
 
 #article .cv-item:hover {
-    padding-left: 0px;
+    padding-left: 4px;
     border-left: 10px solid #{{ site.color.secondary-dark }};
 }
 
@@ -497,10 +501,7 @@ section.success {
 #article .cv-item h4 {
     margin-left: 0px;
     border-left: none;
-    padding-left: 0px
-}
-
-#article .cv-item h2 {
+    padding-left: 0px;
     text-align: left;
 }
 
@@ -868,10 +869,70 @@ footer .footer-below {
 
 }
 
+.only-print, .only-print * {
+    display: none !important;
+}
+
 @media print
 {    
     .no-print, .no-print *
     {
         display: none !important;
+    }
+
+    .only-print, .only-print * {
+        display: inline-block !important;
+    }
+
+    .hover {
+        display: none !important;
+    }
+
+    #article h2 {
+        font-size: 1em;
+        text-align: left;
+    }
+
+    #article h3 {
+        font-size: .9em;
+    }
+
+    #article h2.only-print,
+    #article h4.only-print {
+        text-align: left;
+        text-transform: none;
+        font-size: .9em;
+    }
+
+    #article h4.only-print {
+        font-size: .7em;
+        text-align: justify;
+    }
+
+    #article h2.only-print a {
+        text-transform: lowercase;
+    }
+
+    #article .cv-item h2 {
+        font-size: 0.8em;
+        margin-bottom: 4px;
+        margin-top: 4px;
+    }
+
+    #article .cv-item h2 {
+        font-size: 0.8em;
+    }
+
+    #article .cv-item h3 {
+        margin-top: 4px;
+        font-size: 0.8em;
+    }
+
+    section h2 {
+        font-size: 1.6em;
+    }
+
+    section h3 {
+        font-size: 1.2em;
     }
 }

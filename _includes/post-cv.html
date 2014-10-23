@@ -9,7 +9,7 @@
             </div>
         </div>
         <div id="article">
-            <p>{{ content }}</p>
+            {{ content }}
 
             <h2>Education</h2>
             {% for college in page.education %}
@@ -58,7 +58,7 @@
                     <div class="col-sm-4">
                         <div class="cv-section-title">
                             <h4>{{item.start}} - {{item.end}}</h4>
-                            <h2>{{item.location}}</h2>
+                            <h3>{{item.location}}</h3>
                             <!-- <p>2010 - 2012 Senior Graphic Designer <br> 2012 - 2014 Project Manager</p> -->
                         </div>
                     </div>
@@ -78,7 +78,7 @@
                     <div class="col-sm-4">
                         <div class="cv-section-title">
                             <h4>{{item.start}} - {{item.end}}</h4>
-                            <h2>{{item.location}}</h2>
+                            <h3>{{item.location}}</h3>
                             <!-- <p>2010 - 2012 Senior Graphic Designer <br> 2012 - 2014 Project Manager</p> -->
                         </div>
                     </div>
@@ -92,16 +92,18 @@
                 </div>
             {% endfor %}
 
-            <h2>Skills and Technical Expertise</h2>
+            <h2>Skills and Technical Expertise</h2>  
             {% for skill in page.skills %}
+            <div class="row cv-item">
                 <p><b>{{ skill.name }}: </b></p>
-                <ul>
-            <!--{% for item in skill.items %}
-                    <li><span class="label" style="opacity: 0.{{ item.knowledge }};"><e class="ok"> {{ item.name }} </e><e class="hover"> {{ item.knowledge }}% </e></span></li>
-                {% endfor %} -->
-                </ul>
+                <div class="only-print">
                 {% for item in skill.items %}
-                    <div class="progress">
+                    <span class="label" style="opacity: 0.{{ item.knowledge }};"><e class="ok"> {{ item.name }} </e><e class="hover"> {{ item.knowledge }}% </e></span>
+                {% endfor %} 
+                </div>
+
+                {% for item in skill.items %}
+                    <div class="progress no-print">
                         <div class="progress-bar" role="progressbar" data-percent="{{ item.knowledge }}%" style="width: {{ item.knowledge }}%;">
                             <span class="sr-only">{{ item.knowledge }}% Complete</span>
                         </div>
@@ -109,59 +111,10 @@
                         <span class="progress-completed">{{ item.knowledge }}%</span>
                     </div>
                 {% endfor %}
+            </div>
             {% endfor %}
 
-<!-- 
-
-            <h2>Professional Experience</h2>
-
-                {% for item in page.professional %}
-                <div class="row">
-                    <div class="col-xs-8 nohref">
-                        <h4><a href="{{ item.link }}"><strong>{{ item.name }}</strong></a></h4>
-                    </div>
-                    <div class="col-xs-4 text-right">
-                        <h5><em>{{ item.start | date: "%b %Y" }} to {{ item.end | date: "%b %Y" }}</em></h5>
-                        <h5>{{ item.location }}</h5>
-                    </div>
-                </div>
-                <div class="row">
-                    <div class="col-xs-12">
-                        <h4><em>{{ item.title }}</em></h4>
-
-                        <p>{{ item.summary }}</p>
-
-                        <br/>
-
-                        <h4>Notable Projects:</h4>
-
-                        {% for project in item.projects %}
-                        {% if project.link %}
-                        <h5><a href="{{ project.link }}"><strong>{{ project.name }}</strong></a></h5>
-                        {% else %}
-                        <h5><strong>{{ project.name }}</strong></h5>
-                        {% endif %}
-
-                        <p>{{ project.description }}</p>
-
-                        <p><b>Applicable Skills:</b>
-                            {% for skill in project.skills %}
-                            <span class="label label-default skills"> {{ skill }} </span>
-                            {% endfor %}
-                        </p>
-                        <br/>
-                        {% endfor %}
-                    </div>
-                </div>
-
-                <br/>
-                {% endfor %}
-
-            <h2>Certifications and Awards</h2>
-                {% for item in page.certsAndAwards %}
-                <h4>{{ item.name }}, {{ item.year }}</h4>
-                {% endfor %} -->
-
+            <h4 class="only-print">This CV has been auto(-magically) generated from the correspondent page on my personal website. For this reason, there may be some formatting problems here and there. Compilation Date: <i>{{ page.date | date: '%B %d, %Y' }}</i></h4>
         </div>
     </div>
 </section>
