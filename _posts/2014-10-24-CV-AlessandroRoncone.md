@@ -53,70 +53,86 @@ skills:
       knowledge: 25
 
 education:
- colleges:
-  - name: Ph.D.
-    title: Life and Humanoid Technologies
-    start: 2012
-    end: Present
-    location: Istituto Italiano di Tecnologia (IIT), Genova IT
-    description: Doctoral course in Robotics, Cognition and Interaction Technologies
-  - name: M.Sc. with honors
-    title: Master Degree in NeuroEngineering
-    start: 2008
-    end: 2011
-    location: Università degli studi di Genova IT
-    description: Thesis title `Visuo-Haptic Integration for Object Characterization in an Unstructured Environment`
+ - name: Ph.D. student
+   title: Life and Humanoid Technologies
+   start: 2012
+   end: Present
+   location: Istituto Italiano di Tecnologia (IIT), Genova IT
+   description: Doctoral course in Robotics, Cognition and Interaction Technologies
+ - name: M.Sc. with honors
+   title: Master Degree in NeuroEngineering
+   start: 2008
+   end: 2011
+   location: Università degli studi di Genova IT
+   description: Thesis title `Visuo-Haptic Integration for Object Characterization in an Unstructured Environment`
+ - name: B.Sc. with honors
+   title: Bachelor Degree in Biomedical Engineering
+   start: 2005
+   end: 2008
+   location: Università degli studi di Genova IT
+   description: Thesis title `Support Vector Machine Analysis applied to a Manipulator in a NonStructured Environment`
+ - name: Student with scolarship at ISICT
+   title: c/o Istituto Superiore di Studi in Tecnologie dell'Informazione e della Comunicazione
+   start: 2005
+   end: 2008
+   location: Università degli studi di Genova IT
+   description: 
 
 professional:
- - name: Acme Inc.
-   link: http://acme.com
-   location: Nowhere, NY
-   start: 10/1979
+ - name: Ph.D. Fellow
+   title: Life and Humanoid Technologies
+   start: 2012
    end: Present
-   title: Code Monkey
-   summary: Been on this sinking ship since before the internet.
-   projects:
+   location: Istituto Italiano di Tecnologia (IIT), Genova IT
+   description: Doctoral course in Robotics, Cognition and Interaction Technologies
+ - name: Icon Designer
+   title: Icon Designer in outsourcing
+   start: Jul.
+   end: Oct. 2013
+   location: Coop la Lucerna
+ - name: Icon Designer
+   title: Icon Designer in outsourcing
+   start: Oct.
+   end: Dec. 2011
+   location: Magor Corp.
+ - name: Icon Designer
+   title: Icon Designer in outsourcing
+   start: Feb.
+   end: Mar. 2013
+   location: The Castle Project
 
-    - name: Koala DSP
-      description: Implemented a unique DSP algorithm to mimic koala bears.
-      skills:
-       - Hardcore C
-       - Hardcore DSP
+graphics:
+ - name: FlatWoken Icons
+   start: 2013
+   end: present
+ - name: AwOken Icons
+   start: 2010
+   end: 2013
 
-    - name: First Company Website
-      link: http://acme.com/
-      description: Learned HTML and rocked everyone's world.
-      skills:
-       - HTML
-       - Not CSS
-
-
- - name: Buford University
-   link: http://buu.edu
-   location: Elseware, OK
-   start: 12/1966
-   end: 10/1979
-   title: Lab Rat
-   summary: Responsible for labs and stuff.
-   projects:
-
-    - name: Punch Card Optimization
-      description: Since I coded like the wind (even then), I needed a better way to write software
-      skills:
-       - Diplomacy
-       - Reading
-       - Writing
-
-certsAndAwards:
- - name: Advanced Rubber Necking
-   year: 2000
- - name: Crimes and Indigestion
-   year: 2007
+publications:
+ - title: "Gaze Stabilization for Humanoid Robots: A Comprehensive Framework"
+   authors: Alessandro Roncone, Ugo Pattacini, Giorgio Metta, and Lorenzo Natale
+   year: 2014
+   venue: IEEE-RAS International Conference on Humanoid Robots
+   where: Madrid, Spain, November 18-20, 2014
+   description:
+ - title: "3D Stereo Estimation and Fully Automated Learning of Eye-Hand Coordination in Humanoid Robots"
+   authors: S. R. Fanello, U. Pattacini, I. Gori, V. Tikhanoff, M. Randazzo, A. Roncone, F. Odone, and G. Metta
+   year: 2014
+   venue: IEEE-RAS International Conference on Humanoid Robots
+   where: Madrid, Spain, November 18-20, 2014
+   description:
+ - title: "Automatic kinematic chain calibration using artificial skin: self-touch in the iCub humanoid robot"
+   authors: Alessandro Roncone, Matej Hoffmann, Ugo Pattacini, and Giorgio Metta
+   year: 2014
+   venue: IEEE International Conference on Robotics and Automation (ICRA)
+   where: Hong Kong, China, May 31-June 7, 2014
+   description:
 ---
 
-## Who am I
+#  UNDER CONSTRUCTION - DO NOT RELY ON IT
 
-#### Robotics, engineering and design in a single package!
+## Who am I
 
 ## Summary
 

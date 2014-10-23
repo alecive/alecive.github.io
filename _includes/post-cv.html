@@ -9,14 +9,12 @@
             </div>
         </div>
         <div id="article">
-            <h1>UNDER CONSTRUCTION - DO NOT RELY ON IT</h1>
-
             <p>{{ content }}</p>
 
             <h2>Education</h2>
-            {% for college in page.education.colleges %}
+            {% for college in page.education %}
                 <div class="row cv-item">  
-                    <div class="col-sm-3">
+                    <div class="col-sm-4">
                         <div class="cv-section-title">
                             <h4>{{college.start}} - {{college.end}}</h4>
                             <h2>{{college.location}}</h2>
@@ -24,10 +22,71 @@
                         </div>
                     </div>
 
-                    <div class="col-sm-9">
+                    <div class="col-sm-8">
                         <h2>{{college.name}}</h2>
                         <p><i>{{college.title}}</i><br>
                         {{college.description}}
+                        </p>
+                    </div>
+                </div>
+            {% endfor %}
+
+            <h2>Publications</h2>
+            {% for item in page.publications %}
+                <div class="row cv-item">  
+                    <div class="col-sm-4">
+                        <div class="cv-section-title">
+                            <h3>{{item.year}}</h3>
+                            <h4>{{item.venue}}</h4>
+                            <p>{{item.where}}</p>
+                            <!-- <p>2010 - 2012 Senior Graphic Designer <br> 2012 - 2014 Project Manager</p> -->
+                        </div>
+                    </div>
+
+                    <div class="col-sm-8">
+                        <h2>{{item.title}}</h2>
+                        <p><i>{{item.authors}}</i><br>
+                        {{item.description}}
+                        </p>
+                    </div>
+                </div>
+            {% endfor %}
+
+            <h2>Professional Experience</h2>
+            {% for item in page.professional %}
+                <div class="row cv-item">  
+                    <div class="col-sm-4">
+                        <div class="cv-section-title">
+                            <h4>{{item.start}} - {{item.end}}</h4>
+                            <h2>{{item.location}}</h2>
+                            <!-- <p>2010 - 2012 Senior Graphic Designer <br> 2012 - 2014 Project Manager</p> -->
+                        </div>
+                    </div>
+
+                    <div class="col-sm-8">
+                        <h2>{{item.name}}</h2>
+                        <p><i>{{item.title}}</i><br>
+                        {{item.description}}
+                        </p>
+                    </div>
+                </div>
+            {% endfor %}
+
+            <h2>Graphic Design</h2>
+            {% for item in page.graphics %}
+                <div class="row cv-item">  
+                    <div class="col-sm-4">
+                        <div class="cv-section-title">
+                            <h4>{{item.start}} - {{item.end}}</h4>
+                            <h2>{{item.location}}</h2>
+                            <!-- <p>2010 - 2012 Senior Graphic Designer <br> 2012 - 2014 Project Manager</p> -->
+                        </div>
+                    </div>
+
+                    <div class="col-sm-8">
+                        <h2>{{item.name}}</h2>
+                        <p><i>{{item.title}}</i><br>
+                        {{item.description}}
                         </p>
                     </div>
                 </div>
@@ -44,19 +103,14 @@
                 {% for item in skill.items %}
                     <div class="progress">
                         <div class="progress-bar" role="progressbar" data-percent="{{ item.knowledge }}%" style="width: {{ item.knowledge }}%;">
-                            <span class="sr-only">{{ item.knowledge }}% Complete</span>
+                            <span class="progress-completed">{{ item.knowledge }}%</span>
                         </div>
                         <span class="progress-type">{{ item.name }}</span>
-                        <span class="progress-completed">{{ item.knowledge }}%</span>
                     </div>
                 {% endfor %}
             {% endfor %}
 
-<!--                 <h2>Education</h2>
-                {% for college in page.education.colleges %}
-                <h3><a href="{{ college.link }}"><strong>{{ college.name }}</strong></a></h3>
-                <h4><em>{{ college.degree }}, {{ college.year }}</em></h4>
-                {% endfor %}
+<!-- 
 
             <h2>Professional Experience</h2>
 

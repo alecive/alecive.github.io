@@ -464,13 +464,13 @@ section.success {
     background-color: #{{ site.color.secondary-dark }};
 }
 
-#article .progress > .progress-completed {
+#article .progress-bar > .progress-completed {
     position: absolute;
     right: 0px;
     font-weight: 800;
     padding: 0px 10px;
     color: #ddd;
-    font-size: 0.7em;
+    font-size: 0.9em;
     background:transparent;
     margin: 0px;
 }
@@ -478,8 +478,16 @@ section.success {
 #article .cv-item {
     margin-left: 14px;
     margin-top: 10px;
-    border-left: 10px solid #{{ site.color.primary }};
     margin-bottom: 20px;
+    padding-bottom: 0px;
+    padding-top: 0px;
+    padding-left: 4px;
+    border-left: 6px solid #{{ site.color.secondary }};
+}
+
+#article .cv-item:hover {
+    padding-left: 0px;
+    border-left: 10px solid #{{ site.color.secondary-dark }};
 }
 
 #article .cv-item h1,
