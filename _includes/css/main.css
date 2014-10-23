@@ -450,6 +450,7 @@ section.success {
     line-height: 22px;
     color: #FFF;
     text-align: center;
+    margin-right: 20px;
     background-color: #{{ site.color.secondary }};
     transition: width 1.6s ease 0s;
 }
@@ -464,13 +465,13 @@ section.success {
     background-color: #{{ site.color.secondary-dark }};
 }
 
-#article .progress-bar > .progress-completed {
+#article .progress > .progress-completed {
     position: absolute;
     right: 0px;
     font-weight: 800;
     padding: 0px 10px;
-    color: #ddd;
-    font-size: 0.9em;
+    color: #{{ site.color.secondary-darker }};
+    font-size: 0.7em;
     background:transparent;
     margin: 0px;
 }
@@ -865,4 +866,12 @@ footer .footer-below {
         display: none;
     }
 
+}
+
+@media print
+{    
+    .no-print, .no-print *
+    {
+        display: none !important;
+    }
 }

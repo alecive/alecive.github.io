@@ -103,9 +103,10 @@
                 {% for item in skill.items %}
                     <div class="progress">
                         <div class="progress-bar" role="progressbar" data-percent="{{ item.knowledge }}%" style="width: {{ item.knowledge }}%;">
-                            <span class="progress-completed">{{ item.knowledge }}%</span>
+                            <span class="sr-only">{{ item.knowledge }}% Complete</span>
                         </div>
                         <span class="progress-type">{{ item.name }}</span>
+                        <span class="progress-completed">{{ item.knowledge }}%</span>
                     </div>
                 {% endfor %}
             {% endfor %}
