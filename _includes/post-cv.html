@@ -114,7 +114,7 @@
             </div>
             {% endfor %}
 
-            <h4 class="only-print">This CV has been auto(-magically) generated from the correspondent page on my personal website. For this reason, there may be some formatting problems here and there. Compilation Date: <i>{{ page.date | date: '%B %d, %Y' }}</i></h4>
+            <p class="only-print" style="border-left: 10px solid #{{ site.color.primary }}; padding-left: 10px;">This CV has been auto(<i>-magically</i>) generated from the correspondent page on my personal website. For this reason, there may be some formatting problems here and there. Compilation Date: <i>{{ page.date | date: '%B %d, %Y' }}</i></p>
         </div>
     </div>
 </section>
