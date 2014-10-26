@@ -17,14 +17,16 @@
                     <div class="col-sm-4">
                         <div class="cv-section-title">
                             <h4>{{college.start}} - {{college.end}}</h4>
-                            <h2>{{college.location}}</h2>
+                            {% if college.location-link %}<h2><a href="{{college.location-link}}" target="_blank">{{college.location}}</a></h2>
+                            {% else %}<h2>{{college.location}}</h2>
+                            {% endif %}
                             <!-- <p>2010 - 2012 Senior Graphic Designer <br> 2012 - 2014 Project Manager</p> -->
                         </div>
                     </div>
 
                     <div class="col-sm-8">
                         <h2>{{college.name}}</h2>
-                        <p><i>{{college.title}}</i><br>
+                        <p>{% if college.title %}<i>{{college.title}}</i><br>{% endif %}
                         {{college.description}}
                         </p>
                     </div>
@@ -58,14 +60,16 @@
                     <div class="col-sm-4">
                         <div class="cv-section-title">
                             <h4>{{item.start}} - {{item.end}}</h4>
-                            <h3>{{item.location}}</h3>
+                            {% if item.location-link %}<h3><a href="{{item.location-link}}" target="_blank">{{item.location}}</a></h3>
+                            {% else %}<h3>{{item.location}}</h3>
+                            {% endif %}
                             <!-- <p>2010 - 2012 Senior Graphic Designer <br> 2012 - 2014 Project Manager</p> -->
                         </div>
                     </div>
 
                     <div class="col-sm-8">
                         <h2>{{item.name}}</h2>
-                        <p><i>{{item.title}}</i><br>
+                        <p>{% if item.title %}<i>{{item.title}}</i><br>{% endif %}
                         {{item.description}}
                         </p>
                     </div>
@@ -78,14 +82,16 @@
                     <div class="col-sm-4">
                         <div class="cv-section-title">
                             <h4>{{item.start}} - {{item.end}}</h4>
-                            <h3>{{item.location}}</h3>
+                            {% if item.location-link %}<h3><a href="{{item.location-link}}" target="_blank">{{item.location}}</a></h3>
+                            {% else %}<h3>{{item.location}}</h3>
+                            {% endif %}
                             <!-- <p>2010 - 2012 Senior Graphic Designer <br> 2012 - 2014 Project Manager</p> -->
                         </div>
                     </div>
 
                     <div class="col-sm-8">
                         <h2>{{item.name}}</h2>
-                        <p><i>{{item.title}}</i><br>
+                        <p>{% if item.title %}<i>{{item.title}}</i><br>{% endif %}
                         {{item.description}}
                         </p>
                     </div>

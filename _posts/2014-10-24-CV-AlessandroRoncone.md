@@ -57,30 +57,34 @@ skills:
       knowledge: 25
 
 education:
- - name: Ph.D. student
-   title: Life and Humanoid Technologies
+ - name: Ph.D. student in Life and Humanoid Technologies
+   title: Doctoral course in Robotics, Cognition and Interaction Technologies
    start: 2012
    end: Present
    location: Istituto Italiano di Tecnologia (IIT), Genova IT
-   description: Doctoral course in Robotics, Cognition and Interaction Technologies
- - name: M.Sc. with honors
-   title: Master Degree in NeuroEngineering
+   location-link: http://www.iit.it
+   description: 
+ - name: M.Sc. with honors in NeuroEngineering
+   title: Thesis title `Visuo-Haptic Integration for Object Characterization in an Unstructured Environment`
    start: 2008
    end: 2011
    location: Università degli studi di Genova, IT
-   description: Thesis title `Visuo-Haptic Integration for Object Characterization in an Unstructured Environment`
- - name: B.Sc. with honors
-   title: Bachelor Degree in Biomedical Engineering
-   start: 2005
-   end: 2008
-   location: Università degli studi di Genova, IT
-   description: Thesis title `Support Vector Machine Analysis applied to a Manipulator in a NonStructured Environment`
- - name: Student with scolarship at ISICT
-   title: c/o Istituto Superiore di Studi in Tecnologie dell'Informazione e della Comunicazione
-   start: 2005
-   end: 2008
-   location: Università degli studi di Genova, IT
+   location-link: http://www.unige.it
    description: 
+ - name: B.Sc. with honors in Biomedical Engineering
+   title: Thesis title `Support Vector Machine Analysis applied to a Manipulator in a NonStructured Environment`
+   start: 2005
+   end: 2008
+   location: Università degli studi di Genova, IT
+   location-link: http://www.unige.it
+   description: 
+ - name: Student (with scolarship) at ISICT
+   title: 
+   start: 2005
+   end: 2008
+   location: ISICT (Istituto Superiore di Studi in Tecnologie dell'Informazione e della Comunicazione)
+   location-link: http://www.isict.it/
+   description: "ISICT is an acronym, that stands for <i>Institute of Advanced Studies in Information and Communication Technologies</i>. It is a consortium created in May 2003 that supports the courses provided by the University of Genoa in order to integrate them with a teaching that is the result of close collaboration between universities, companies and agencies. The goal is to  prepare young people for integration into the labor market, and as such I attended a number of additional courses ranging from <i>Marketing</i> to <i>Telecommunications</i> to <i>Aerospace Engineering</i>. I've been also selected for a scolarship, after a thorough examination (only three positions were available)."
 
 professional:
  - name: Ph.D. Fellow
@@ -88,22 +92,26 @@ professional:
    start: 2012
    end: Present
    location: Istituto Italiano di Tecnologia (IIT), Genova IT
+   location-link: http://www.iit.it
    description: Doctoral course in Robotics, Cognition and Interaction Technologies
  - name: Icon Designer
    title: Icon Designer in outsourcing
    start: Jul.
    end: Oct. 2013
    location: Coop la Lucerna
+   location-link: http://cooplalucerna.it/
  - name: Icon Designer
    title: Icon Designer in outsourcing
    start: Oct.
    end: Dec. 2011
    location: Magor Corp.
+   location-link: http://www.magorcorp.com/
  - name: Icon Designer
    title: Icon Designer in outsourcing
    start: Feb.
    end: Mar. 2013
    location: The Castle Project
+   location-link: http://www.castleproject.org.uk/
 
 graphics:
  - name: FlatWoken Icons
@@ -148,6 +156,8 @@ publications:
  * Obsessed by two things: _pixel-perfect graphics_, and _bit-perfect code_.
 
 ## Who am I
+
+Work in progress :)
 
 ## Summary
 

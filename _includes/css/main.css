@@ -333,7 +333,7 @@ section.success {
 
 #article code {
     padding: .25em .5em;
-    font-size: 85%;
+    font-size: 0.85em;
     color: #bf616a;
     border: none;
 }
@@ -355,7 +355,6 @@ section.success {
 
 #article pre code {
     padding: 0;
-    font-size: 100%;
     color: inherit;
     background-color: transparent;
 }

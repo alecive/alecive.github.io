@@ -6,13 +6,6 @@ skills: Alessandro Roncone
 aboutA: "Personal webpage of Alessandro Roncone, aka alecive (or alecive87 ), robotic engineer and designer. Creator of AwOken and FlatWoken icon sets, many themes for GNOME2 and GNOME3, and more. He works at iCub Facility, Istituto Italiano di Tecnologia, GENOVA, Italy."
 aboutB: "Alessandro Roncone has a 4-year experience in robotics engineering, working full time with the iCub, one of the most advanced humanoid robots out there. He is mainly working on perception and multisensory integration. His deep knowledge of C++, Matlab and the YARP/ICUB software architecture has been mainly used for sensor fusion, computer vision, tactile perception and control. Head over the research section for more information on his work."
 
-
-# Color settings (hex-codes without the leading hash-tag)
-# color:
-#   primary: 5bf9a9
-#   secondary: 5dc5bf
-#   secondary-dark: 2d9b95
-#   secondary-darker: 1e827c
 # Social networks usernames (many more available: google-plus, flickr, dribbble, pinterest, instagram, tumblr, linkedin, etc.)
 social:
   - title: google-plus
@@ -37,7 +30,8 @@ permalink: pretty
 color:
   articletext: 515151
 
-# Color combinations to test
+# Color settings (hex-codes without the leading hash-tag)
+# I've put different combinations to test
 # 
 # DEFAULT
   # primary: 5bf9a9
