@@ -13,6 +13,10 @@ skills:
    items:
     - name: C++
       knowledge: 85
+    - name: OpenCV
+      knowledge: 55
+    - name: IPOPT
+      knowledge: 65
     - name: Matlab
       knowledge: 80
     - name: CSS3 & HTML5
@@ -33,7 +37,7 @@ skills:
    items:
     - name: Android
       knowledge: 40
- - name: Software Skills
+ - name: OS/Software Skills
    items: 
     - name: Linux
       knowledge: 90
@@ -131,6 +135,17 @@ publications:
 ---
 
 <h2 class="only-print">Personal Website: <a href="http://alecive.github.io"></a></h2>
+
+## Me at a glance
+
+ * Robotics Engineer with 4 year full-time experience with one of the most advanced robots out there, i.e. the [iCub](http://www.icub.org)
+ * Research interests: multisensory integration, calibration, kinematics, tactile sensing, computer vision applied to robotics, sensor fusion,
+ * Some experience with optimization (e.g. [IPOPT](https://projects.coin-or.org/Ipopt), a software designed for large-scale nonlinear optimization problems), and control engineering
+ * C++ developer, with a fine knowledge of **YARP** and **iCub** software and libraries.
+ * Some of my work is available to download at my [GitHub page](http://github.com/alecive/), or in [Robotology](https://github.com/robotology)
+ * Long-time Linux user, and active contributor to the Linux FOSS community
+ * Graphic Designer and freelancer in the spare time, with a number of successfull projects and employments
+ * Obsessed by two things: _pixel-perfect graphics_, and _bit-perfect code_.
 
 ## Who am I
 
