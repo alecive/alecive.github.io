@@ -160,7 +160,7 @@ publications:
 
 ## Who am I
 
-Work in progress :)
+Work in progress
 
 ## Summary
 
