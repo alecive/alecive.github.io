@@ -20,23 +20,23 @@ skills:
     - name: Matlab
       knowledge: 80
     - name: CSS3 & HTML5
-      knowledge: 90
+      knowledge: 85
     - name: Bash
-      knowledge: 70
+      knowledge: 60
     - name: R
-      knowledge: 50
+      knowledge: 40
     - name: Python
       knowledge: 30
  - name: CM Skills
    items:
     - name: Git
-      knowledge: 70
+      knowledge: 75
     - name: Subversion
       knowledge: 60
  - name: Mobile Skills
    items:
-    - name: Android
-      knowledge: 40
+    - name: Android Development
+      knowledge: 20
  - name: OS/Software Skills
    items: 
     - name: Linux
@@ -54,7 +54,7 @@ skills:
     - name: English
       knowledge: 70
     - name: French
-      knowledge: 25
+      knowledge: 5
 
 education:
  - name: Ph.D. student in Life and Humanoid Technologies
