@@ -23,7 +23,7 @@ article: yes
 
 Here is a video that summarizes the behavior:
 
-{% include video.html url="//www.youtube.com/embed/NSGea-tCLZM" description="" %}
+{% include video.html url="//www.youtube.com/embed/NSGea-tCLZM" %}
 
 ## Description
 
@@ -44,8 +44,8 @@ To fulfil our requirements, we provide a mathematical formulation for the forwar
 
 To validate our work we set up two experiments:
 
- * Exp. A: compensation of self-generated motion: we issue a predefined sequence at the yaw, pitch, and roll of the torso and test both the kFF and the iFB conditions carrying out a repeatable comparison between the two.
- * Exp. B: compensation in presence of an external perturbation: the motion of the fixation point is caused by the experimenter who physically moves the torso of the robot. In this case there is no feedforward signal available, and the robot uses only the iFB signal.
+ * <i>Exp. A:</i> compensation of self-generated motion: we issue a predefined sequence at the yaw, pitch, and roll of the torso and test both the kFF and the iFB conditions carrying out a repeatable comparison between the two.
+ * <i>Exp. B:</i> compensation in presence of an external perturbation: the motion of the fixation point is caused by the experimenter who physically moves the torso of the robot. In this case there is no feedforward signal available, and the robot uses only the iFB signal.
 
 For each experiment, two different sessions have been conducted: in the first session the robot stabilizes the gaze only with the eyes, while in the second session it uses both the neck and the eyes. In both the scenarios, a session without compensation has been performed and used as a baseline for comparison. It is worth noticing that Experiment A is obviously a more controlled scenario, and for this reason we have used it to obtain a quantitative analysis. In Experiment B instead the disturbances are generated manually, and, as such, it is provided only a qualitative assessment of the performance of the iFB modality. For validation we use the dense optical flow measured from the cameras (cf. <i>Figure 3</i>). This can be used as an external, unbiased measure because it is not used in the stabilization loop.
 

@@ -12,8 +12,6 @@ description:
 article: yes
 ---
 
-#### Type: _web development_
-
 #### Event: _Development of body representations in humans and robots_
 
 #### Event Organizers: _Matej Hoffmann, Alessandro Roncone, Lorenzo Jamone, Beata Grzyb_

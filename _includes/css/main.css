@@ -77,6 +77,10 @@ hr.star-primary:after {
     background-color: #fff;
 }
 
+ul {
+    list-style-type: square;
+}
+
 .img-centered {
     margin: 0 auto;
 }
@@ -318,10 +322,21 @@ section.success {
     text-transform: capitalize;
 }
 
-#article img {
+#article-img {
+    max-width: 100%;
+    margin: auto;
+}
+
+#article-img img {
     max-width: 100%;
     margin: 30px auto;
     border: 5px solid #{{ site.color.primary }};
+}
+
+@media(min-width:992px) {
+    #article-img {
+        max-width: 70%;
+    }
 }
 
 #article code,
@@ -396,11 +411,11 @@ section.success {
 #article span {
     color: #fff;
     border: none;
-    background-color: #{{ site.color.secondary }};
     border-radius: 0;
     text-transform: uppercase;
     font-weight: 700;
     margin-right: 10px;
+    background-color: #{{ site.color.secondary }};
 }
 
 #article span:hover,
@@ -474,10 +489,10 @@ section.success {
     right: 0px;
     font-weight: 800;
     padding: 0px 10px;
-    color: #{{ site.color.secondary-darker }};
     font-size: 0.7em;
     background:transparent;
     margin: 0px;
+    color: #{{ site.color.secondary-darker }};
 }
 
 #article .cv-item {
