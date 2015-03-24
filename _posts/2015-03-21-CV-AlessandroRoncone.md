@@ -57,13 +57,14 @@ skills:
       knowledge: 5
 
 education:
- - name: Ph.D. student in Life and Humanoid Technologies
-   title: Doctoral course in Robotics, Cognition and Interaction Technologies
+ - name: Ph.D. in Life and Humanoid Technologies
+   title: Thesis title `Expanding sensorimotor capabilities of humanoid robots through multisensory integration. A study on the implementation of peripersonal space on the iCub.`
    start: 2012
-   end: Present
+   end: 2015
    location: Istituto Italiano di Tecnologia (IIT), Genova IT
    location-link: http://www.iit.it
-   description: 
+   description: "<i>Abstract:</i> The new generation of robotic devices will require machines able to adequately perform rich interactions with objects -- and eventually humans -- in their environment. This aspect will prove fundamental in the context of moving robots from the controlled domains typical of a factory environment toward our -- much less structured -- everyday life. To this end, robots need the ability to express some sort of awareness of their body and their surroundings: instead of focusing exclusively on the end-effector as the only part that interacts with the environment, the robotic field needs to move toward a more distributed, decentralized representation of the self and the nearby space. More importantly, albeit a consistently improving technology, robotic systems are equipped with inherently faulty systems characterized by calibration and systematic errors that need to be effectively coped with.
+   This thesis deals with the formalization and the development of a system able to let a humanoid robot learn a multisensory representation of the space around its body (or peripersonal space). The robot is equipped with a whole-body artificial skin and learns the consequences of its interaction with the self and the environment by means of a multisensory (tactile-motor and tactile-visual) representation. This results in the extension of the robot's tactile domain toward the nearby space, in such a way that it lets the robot to implicitly cope with modeling or calibration errors. Further, this representation is put under testing with a sensory-based guidance of the motor actions performed by the robot: that is, an avoidance and catching controller capable of using any body part in order to either prevent collision with or come into contact with incoming objects."
  - name: M.Sc. with honors in NeuroEngineering
    title: Thesis title `Visuo-Haptic Integration for Object Characterization in an Unstructured Environment`
    start: 2008
@@ -72,12 +73,12 @@ education:
    location-link: http://www.unige.it
    description: "In my thesis, I implemented a system able to leverage on a multisensory-based machine learning system in order to improve the detection and the identification of an object in the robot's workspace. In particular, I implemented an SVM-based system able to integrate between the visual system and the haptic information coming from the F/T sensor of the iCub robot. The system proved to be successful in improving the vision-based detection of a set of objects by means of the haptic exploration of the same objects."
  - name: B.Sc. with honors in Biomedical Engineering
-   title: Thesis title `Support Vector Machine Analysis applied to a Manipulator in a NonStructured Environment`
+   title: Thesis title `Support Vector Machine Analysis applied to a Manipulator in a Non-Structured Environment`
    start: 2005
    end: 2009
    location: Università degli studi di Genova, IT
    location-link: http://www.unige.it
-   description: 
+   description: "This work dealt with the implementation of a system able to control a robotic arm and develop a goalkeeper-like behavior in an air hockey setup. The robot was using a supervised learning setup in order to understand which of the puck trajectories he previously experienced was scoring a point, and eventually developed the ability to prevent such points by predicting the final outcome of a trajectory given some initial acquisitions."
  - name: Student (with scolarship) at ISICT
    title: 
    start: 2005
@@ -93,7 +94,7 @@ professional:
    end: Present
    location: Istituto Italiano di Tecnologia (IIT), Genova IT
    location-link: http://www.iit.it
-   description: Doctoral course in Robotics, Cognition and Interaction Technologies
+   description: Doctoral course in Robotics, Cognition and Interaction Technologies. See the <i>`Education`</i> section above for details about my Ph.D. thesis.
  - name: Icon Designer
    title: Icon Designer in outsourcing
    start: Jul.
@@ -158,10 +159,10 @@ publications:
  * Graphic Designer and freelancer in the spare time, with a number of successfull projects and employments.
  * Obsessed by two things: _pixel-perfect graphics_, and _bit-perfect code_.
 
-## Who am I
+<!-- ## Who am I
 
-Work in progress
+Work in progress-->
 
 ## Summary
 
-Alessandro Roncone was born in Genova (GE), Italy, 1987. He received his _Bachelor's Degree in Biomedical Engineering_ with the score of **110/110 with honors** at the University of Genova in February 2008. In July 2011 he completed his _Master Degree in NeuroEngineering_ (with the score of **110/110 with honors**) in the same University. He is currently a _Ph.D. fellow at iCub Facility, Istituto Italiano di Tecnologia, GENOVA, Italy_. The goal of his Ph.D. project is to exploit insights from neuroscience in order to implement a model of **Peripersonal Space (PPS)** on the iCub. The PPS is thought to have a crucial role in humans as well as in animals, acting as an interface between the body and the outside world. It is defined as the space immediately surrounding our bodies, within which objects can be reached and manipulated. It is intimately multisensory, and shows high plasticity: it can be dynamically modulated by incoming information, short term or long term experience, and contextual demands.
+Alessandro Roncone was born in Genova (GE), Italy, 1987. He received his _Bachelor's Degree in Biomedical Engineering_ with the score of **110/110 with honors** at the University of Genova in February 2008. In July 2011 he completed his _Master Degree in NeuroEngineering_ (with the score of **110/110 with honors**) in the same University. He is currently a _Ph.D. fellow at iCub Facility, Istituto Italiano di Tecnologia, GENOVA, Italy_. The goal of his Ph.D. project is to exploit insights from neuroscience in order to implement a model of **Peripersonal Space (PPS)** on the iCub. See below for details on its Ph.D. project.
