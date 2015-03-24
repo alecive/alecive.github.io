@@ -86,7 +86,7 @@ color:
 # ALTERNATIVE 5
   primary: c0cad0
   primary-dark: 879aa5
-  secondary: 4c5968
-  secondary-dark: 3b4551
+  secondary: 546374
+  secondary-dark: 434f5d
   secondary-darker: 333b45
-  secondary-alpha: rgba(76,89,104,.7)     # This is the same as the secondary color but with an alpha value
+  secondary-alpha: rgba(84,99,116,.7)     # This is the same as the secondary color but with an alpha value
