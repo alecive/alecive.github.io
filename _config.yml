@@ -44,36 +44,36 @@ color:
   # secondary-alpha: rgba(30,130,124,.7)     # This is the same as the secondary color but with an alpha value
 #   
 # ALTERNATIVE 1
-#   primary: adcbe3
-#   primary-dark: 5492c4
-#   secondary: 787ca0
-#   secondary-dark: 62678e
-#   secondary-darker: 525676
-#   secondary-alpha: rgba(120,124,160,.7)     # This is the same as the secondary color but with an alpha value
+  # primary: adcbe3
+  # primary-dark: 5492c4
+  # secondary: 787ca0
+  # secondary-dark: 62678e
+  # secondary-darker: 525676
+  # secondary-alpha: rgba(120,124,160,.7)     # This is the same as the secondary color but with an alpha value
 #
 # ALTERNATIVE 2
-#   primary: 82c4e6
-#   primary-dark: 4297c2
-#   secondary: c7eb55
-#   secondary-dark: aed52f
-#   secondary-darker: 96bc20
-#   secondary-alpha: rgba(150,188,32,.7)     # This is the same as the secondary color but with an alpha value
+  # primary: 82c4e6
+  # primary-dark: 4297c2
+  # secondary: c7eb55
+  # secondary-dark: aed52f
+  # secondary-darker: 96bc20
+  # secondary-alpha: rgba(150,188,32,.7)     # This is the same as the secondary color but with an alpha value
 #
 # ALTERNATIVE 3
-#   primary: 80b3ff
-#   primary-dark: 366bba
-#   secondary: fd6e8a
-#   secondary-dark: fc4468
-#   secondary-darker: dd3b5a
-#   secondary-alpha: rgba(210,59,90,.7)     # This is the same as the secondary color but with an alpha value
+  # primary: 80b3ff
+  # primary-dark: 366bba
+  # secondary: fd6e8a
+  # secondary-dark: fc4468
+  # secondary-darker: dd3b5a
+  # secondary-alpha: rgba(210,59,90,.7)     # This is the same as the secondary color but with an alpha value
 #   
 # ALTERNATIVE 4
-  primary: bcceae
-  primary-dark: 9faf91
-  secondary: 4ea294
-  secondary-dark: 3b7970
-  secondary-darker: 2b6161
-  secondary-alpha: rgba(78,162,148,.7)     # This is the same as the secondary color but with an alpha value
+  # primary: bcceae
+  # primary-dark: 9faf91
+  # secondary: 4ea294
+  # secondary-dark: 3b7970
+  # secondary-darker: 2b6161
+  # secondary-alpha: rgba(78,162,148,.7)     # This is the same as the secondary color but with an alpha value
 #
 # ALTERNATIVE 5
   # primary: 8fb2ad
@@ -82,3 +82,11 @@ color:
   # secondary-dark: 3b7970
   # secondary-darker: 2b6161
   # secondary-alpha: rgba(78,162,148,.7)     # This is the same as the secondary color but with an alpha value
+#
+# ALTERNATIVE 5
+  primary: c0cad0
+  primary-dark: 879aa5
+  secondary: 4c5968
+  secondary-dark: 3b4551
+  secondary-darker: 333b45
+  secondary-alpha: rgba(76,89,104,.7)     # This is the same as the secondary color but with an alpha value
