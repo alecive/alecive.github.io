@@ -144,6 +144,12 @@ publications:
    venue: IEEE International Conference on Robotics and Automation (ICRA)
    where: Hong Kong, China, May 31-June 7, 2014
    description: <a href="http://spectrum.ieee.org/automaton/robotics/robotics-software/video-friday-robot-racecar-kilobot-display-humanoid-skin" target="_blank">It was featured at the IEEE Spectrum Video Friday!</a>
+
+misc:
+ - title: "Organizer of the <i>Development of body representations in humans and robots</i> workshop"
+   authors: "Matej Hoffmann, Alessandro Roncone, Lorenzo Jamone, and Beata Grzyb"
+   year: 2014
+   description: "Half-day workshop @ICDL-EPIROB 2014 Conference. The goal of the workshop has been to <i>explore the possibility of robots developing models inspired by the mechanisms of human body representations</i>. In this way, they can on one hand become new modeling tools for empirical sciences - expanding the domain of computational modeling by anchoring it to the physical environment and a physical body. Consequently, complete sensorimotor loops can be instantiated and not only algorithms but whole behaviors validated. On the other hand, robot controllers endowed with multimodal whole-body awareness and plasticity typical of humans should give rise to - in robotics unprecedented - autonomy, robustness, and resilience."
 ---
 
 <h2 class="only-print">Personal Website: <a href="http://alecive.github.io"></a></h2>

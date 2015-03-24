@@ -54,6 +54,27 @@
                 </div>
             {% endfor %}
 
+            <h2>Misc</h2>
+            {% for item in page.misc %}
+                <div class="row cv-item">  
+                    <div class="col-sm-4">
+                        <div class="cv-section-title">
+                            <h3>{{item.year}}</h3>
+                            <h4>{{item.venue}}</h4>
+                            <p>{{item.where}}</p>
+                            <!-- <p>2010 - 2012 Senior Graphic Designer <br> 2012 - 2014 Project Manager</p> -->
+                        </div>
+                    </div>
+
+                    <div class="col-sm-8">
+                        <h2>{{item.title}}</h2>
+                        <p><i>{{item.authors}}</i><br>
+                        {{item.description}}
+                        </p>
+                    </div>
+                </div>
+            {% endfor %}
+
             <h2>Professional Experience</h2>
             {% for item in page.professional %}
                 <div class="row cv-item">  
