@@ -150,6 +150,18 @@ misc:
    authors: "Matej Hoffmann, Alessandro Roncone, Lorenzo Jamone, and Beata Grzyb"
    year: 2014
    description: "Half-day workshop @ICDL-EPIROB 2014 Conference. The goal of the workshop has been to <i>explore the possibility of robots developing models inspired by the mechanisms of human body representations</i>. In this way, they can on one hand become new modeling tools for empirical sciences - expanding the domain of computational modeling by anchoring it to the physical environment and a physical body. Consequently, complete sensorimotor loops can be instantiated and not only algorithms but whole behaviors validated. On the other hand, robot controllers endowed with multimodal whole-body awareness and plasticity typical of humans should give rise to - in robotics unprecedented - autonomy, robustness, and resilience."
+ - title: "Modeling the development of body knowledge using humanoid robots"
+   authors: "Matej Hoffmann, Alessandro Roncone, Giorgio Metta"
+   year: 2014
+   venue: "The International conference on Infant Studies"
+   where: Berlin, Germany, July 3-5, 2014
+   description: "Oral presentation at the <i>International Conference on Infant Studies</i>."
+ - title: "Modeling the development of human body representations"
+   authors: "Matej Hoffmann, Alessandro Roncone, Giorgio Metta"
+   year: 2013
+   venue: "SMLC '13 - Workshop on Synthetic Modeling of Life and Cognition: Open Questions"
+   where: Bergamo, Italy, September 12-14, 2013
+   description: "Oral presentation at the workshop on <i>Synthetic Modeling of Life and Cognition</i>: Open Questions."
 ---
 
 <h2 class="only-print">Personal Website: <a href="http://alecive.github.io"></a></h2>
