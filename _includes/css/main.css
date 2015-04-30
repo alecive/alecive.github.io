@@ -569,6 +569,10 @@ section.success {
     margin-bottom: 20px;
 }*/
 
+#portfolio {
+    margin-top: 100px;
+}
+
 #portfolio .portfolio-item {
     right: 0;
     margin: 0 0 15px;
@@ -916,7 +920,7 @@ footer .footer-below {
 {    
     header .container {
         padding-top: 20px;
-        padding-bottom: 50px;
+        padding-bottom: 0px;
     }
 
     .no-print, .no-print *
@@ -957,14 +961,18 @@ footer .footer-below {
         text-transform: lowercase;
     }
 
-    #article .cv-item h2 {
-        font-size: 0.8em;
-        margin-bottom: 4px;
+    #article .cv-item {
         margin-top: 4px;
+        margin-bottom: 6px;
+        margin-left: 0px;
+        margin-right: 0px;
+        padding-left: 0px;
     }
 
     #article .cv-item h2 {
         font-size: 0.8em;
+        margin-bottom: 4px;
+        margin-top: 4px;
     }
 
     #article .cv-item h3 {
