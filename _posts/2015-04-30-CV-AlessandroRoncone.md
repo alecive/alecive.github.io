@@ -88,10 +88,16 @@ education:
    description: "ISICT is an acronym, that stands for <i>Institute of Advanced Studies in Information and Communication Technologies</i>. It is a consortium created in May 2003 that supports the courses provided by the University of Genoa in order to integrate them with a teaching that is the result of close collaboration between universities, companies and agencies. The goal is to  prepare young people for integration into the labor market, and as such I attended a number of additional courses ranging from <i>Marketing</i> to <i>Telecommunications</i> to <i>Aerospace Engineering</i>. I've been also selected for a scolarship, after a thorough examination (only three positions were available)."
 
 professional:
+ - name: Post Doc
+   title: Post Doc @ iCub Facility
+   start: 2015
+   end: present
+   location: Istituto Italiano di Tecnologia (IIT), Genova IT
+   location-link: http://www.iit.it
  - name: Ph.D. Fellow
    title: Life and Humanoid Technologies
    start: 2012
-   end: Present
+   end: 2015
    location: Istituto Italiano di Tecnologia (IIT), Genova IT
    location-link: http://www.iit.it
    description: Doctoral course in Robotics, Cognition and Interaction Technologies. See the <i>`Education`</i> section above for details about my Ph.D. thesis.
@@ -183,4 +189,5 @@ Work in progress-->
 
 ## Summary
 
-Alessandro Roncone was born in Genova (GE), Italy, 1987. He received his _Bachelor's Degree in Biomedical Engineering_ with the score of **110/110 with honors** at the University of Genova in February 2008. In July 2011 he completed his _Master Degree in NeuroEngineering_ (with the score of **110/110 with honors**) in the same University. He is currently a _Ph.D. fellow at iCub Facility, Istituto Italiano di Tecnologia, GENOVA, Italy_. The goal of his Ph.D. project is to exploit insights from neuroscience in order to implement a model of **Peripersonal Space (PPS)** on the iCub. See below for details on its Ph.D. project.
+Alessandro Roncone was born in Genova (GE), Italy, 1987. He received his _Bachelor's Degree in Biomedical Engineering_ with the score of **110/110 with honors** at the "Università degli Studi di Genova" in February 2008. In July 2011 he completed his _Master Degree in NeuroEngineering_ (with the score of **110/110 with honors**) in the same university. In April 2015 he got a Ph.D. in _Robotics, Cognition and Interaction Technologies_ from the "Università degli studi di Genova" and "Istituto Italiano di Tecnologia". During his PhD he worked in the Cognitive Humanoids laboratory of the department of "Robotics, Brain and Cognitive Sciences" and the "iCub Facility" in IIT, Genova. The goal of his Ph.D. project is to exploit insights from neuroscience in order to implement a model of **Peripersonal Space (PPS)** on the iCub humanoid robot (see below for details on its Ph.D. project). 
+He is currently working as a Post Doc at the iCub Facility in IIT.
