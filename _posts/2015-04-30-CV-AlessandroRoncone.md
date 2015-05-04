@@ -53,8 +53,6 @@ skills:
       knowledge: 95
     - name: English
       knowledge: 70
-    - name: French
-      knowledge: 5
 
 education:
  - name: Ph.D. in Life and Humanoid Technologies
@@ -168,6 +166,9 @@ misc:
    venue: "SMLC '13 - Workshop on Synthetic Modeling of Life and Cognition: Open Questions"
    where: Bergamo, Italy, September 12-14, 2013
    description: "Oral presentation at the workshop on <i>Synthetic Modeling of Life and Cognition</i>: Open Questions."
+ - title: "Researcher of the week"
+   year: 2013-2014
+   description: "I've been researcher of the week for two times. Despite its name, this award is given very rarely to outstanding research performed in the iCub Facility at IIT."
 ---
 
 <h2 class="only-print">Personal Website: <a href="http://alecive.github.io"></a></h2>
