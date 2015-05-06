@@ -30,7 +30,7 @@ permalink: pretty
 # Some more default colors
 # 
 color:
-  articletext: 515151
+  articletext: 4e4e4e
 
 # Color settings (hex-codes without the leading hash-tag)
 # I've put different combinations to test
@@ -40,7 +40,6 @@ color:
   # primary-dark: 1ad677
   # secondary: 5dc5bf
   # secondary-dark: 2d9b95
-  # secondary-darker: 1e827c
   # secondary-alpha: rgba(30,130,124,.7)     # This is the same as the secondary color but with an alpha value
 #   
 # ALTERNATIVE 1
@@ -48,7 +47,6 @@ color:
   # primary-dark: 5492c4
   # secondary: 787ca0
   # secondary-dark: 62678e
-  # secondary-darker: 525676
   # secondary-alpha: rgba(120,124,160,.7)     # This is the same as the secondary color but with an alpha value
 #
 # ALTERNATIVE 2
@@ -56,7 +54,6 @@ color:
   # primary-dark: 4297c2
   # secondary: c7eb55
   # secondary-dark: aed52f
-  # secondary-darker: 96bc20
   # secondary-alpha: rgba(150,188,32,.7)     # This is the same as the secondary color but with an alpha value
 #
 # ALTERNATIVE 3
@@ -64,7 +61,6 @@ color:
   # primary-dark: 366bba
   # secondary: fd6e8a
   # secondary-dark: fc4468
-  # secondary-darker: dd3b5a
   # secondary-alpha: rgba(210,59,90,.7)     # This is the same as the secondary color but with an alpha value
 #   
 # ALTERNATIVE 4
@@ -72,7 +68,6 @@ color:
   # primary-dark: 9faf91
   # secondary: 4ea294
   # secondary-dark: 3b7970
-  # secondary-darker: 2b6161
   # secondary-alpha: rgba(78,162,148,.7)     # This is the same as the secondary color but with an alpha value
 #
 # ALTERNATIVE 5
@@ -80,13 +75,19 @@ color:
   # primary-dark: 9faf91
   # secondary: c7e2db
   # secondary-dark: 3b7970
-  # secondary-darker: 2b6161
   # secondary-alpha: rgba(78,162,148,.7)     # This is the same as the secondary color but with an alpha value
 #
-# ALTERNATIVE 5
-  primary: c0cad0
-  primary-dark: 879aa5
-  secondary: 546374
-  secondary-dark: 434f5d
-  secondary-darker: 333b45
+# ALTERNATIVE 6
+  # primary: c0cad0
+  # primary-dark: 879aa5
+  # secondary: 546374
+  # secondary-dark: 434f5d
+  # secondary-alpha: rgba(84,99,116,.7)     # This is the same as the secondary color but with an alpha value
+
+# ALTERNATIVE 6
+  primary: c0cad0                         # This is the gray color
+  primary-dark: 879aa5                    # This is the gray color (used for the bold fondts)
+  secondary: 0892d0                       # This is the blue color
+  secondary-dark: 055c83                  # This is the blue color
   secondary-alpha: rgba(84,99,116,.7)     # This is the same as the secondary color but with an alpha value
+  tertiary: e20e59                        # These are the pink accents
