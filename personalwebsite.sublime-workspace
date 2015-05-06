@@ -1,0 +1,1474 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"r",
+				"rgba()"
+			],
+			[
+				"trak",
+				"trackInPort"
+			],
+			[
+				"Update",
+				"updateModule"
+			],
+			[
+				"print",
+				"printMessage"
+			],
+			[
+				"way",
+				"wayPoints"
+			],
+			[
+				"wa",
+				"wayPoint"
+			],
+			[
+				"xFP",
+				"xFP_R"
+			],
+			[
+				"neck",
+				"neck"
+			],
+			[
+				"dx_FP_",
+				"dx_FP_p"
+			],
+			[
+				"FF_",
+				"FF_init_cnt"
+			],
+			[
+				"FF",
+				"FFstate"
+			],
+			[
+				"nek",
+				"neckVel"
+			],
+			[
+				"out",
+				"outPortVNeck"
+			],
+			[
+				"J_T",
+				"J_TN"
+			],
+			[
+				"y",
+				"yDebug"
+			],
+			[
+				"nec",
+				"neckVel"
+			],
+			[
+				"J",
+				"J_T"
+			],
+			[
+				"J_",
+				"J_TN"
+			],
+			[
+				"Po",
+				"PolyDriver"
+			],
+			[
+				"send",
+				"sendNeckVel"
+			],
+			[
+				"torso",
+				"torsoControllerThread"
+			],
+			[
+				"dq_",
+				"dq_E"
+			],
+			[
+				"to",
+				"toString"
+			],
+			[
+				"dx_",
+				"dx_FP_FF"
+			],
+			[
+				"dx",
+				"dx_FP_FF"
+			],
+			[
+				"compute_",
+				"compute_dxFP_wholeBodyMode"
+			],
+			[
+				"inW",
+				"inWBPort"
+			],
+			[
+				"siz",
+				"size"
+			],
+			[
+				"dq",
+				"dq_NE_FF"
+			],
+			[
+				"FF_S",
+				"FF_STATE_IDLE"
+			],
+			[
+				"whole",
+				"wholeBody"
+			],
+			[
+				"_dq",
+				"_dq_N"
+			],
+			[
+				"dele",
+				"deleteGuiTarget"
+			],
+			[
+				"txl",
+				"txlList"
+			],
+			[
+				"cl",
+				"clear"
+			],
+			[
+				"auto",
+				"autoConnect"
+			],
+			[
+				"module",
+				"moduleRF"
+			],
+			[
+				"Taxe",
+				"Taxel"
+			],
+			[
+				"iCu",
+				"iCubSkin1D"
+			],
+			[
+				"iCubS",
+				"iCubSkinName"
+			],
+			[
+				"rf",
+				"rfAngle"
+			],
+			[
+				"is",
+				"isIMUCalibrated"
+			],
+			[
+				"gI",
+				"gImageSize"
+			],
+			[
+				"modR",
+				"modErr"
+			],
+			[
+				"mod",
+				"modErr"
+			],
+			[
+				"create",
+				"createParulyMap"
+			],
+			[
+				"vel",
+				"velAL"
+			],
+			[
+				"import",
+				"importGuiFALDumper"
+			],
+			[
+				"XT",
+				"XTickLabel"
+			],
+			[
+				"bott",
+				"bottom3"
+			],
+			[
+				"YT",
+				"YTickLabel"
+			],
+			[
+				"remo",
+				"removeline"
+			],
+			[
+				"syn",
+				"synchRates"
+			],
+			[
+				"remove",
+				"removed_ts_ids"
+			],
+			[
+				"gui",
+				"guiFAL"
+			],
+			[
+				"dm",
+				"dump"
+			],
+			[
+				"radn",
+				"randColors"
+			],
+			[
+				"rn",
+				"randColors"
+			],
+			[
+				"rand",
+				"randColors"
+			],
+			[
+				"ts",
+				"ts_id0"
+			],
+			[
+				"else",
+				"elseif	elseif"
+			],
+			[
+				"ra",
+				"rawDump"
+			],
+			[
+				"dataset",
+				"dataset2cell"
+			],
+			[
+				"rwa",
+				"rawDump"
+			],
+			[
+				"for",
+				"for"
+			],
+			[
+				"gu",
+				"guiFAL"
+			],
+			[
+				"raw",
+				"rawDump"
+			],
+			[
+				"forma",
+				"formatSpec"
+			],
+			[
+				"rad",
+				"rawDump"
+			],
+			[
+				"filenam",
+				"filename"
+			],
+			[
+				"cur",
+				"curDump"
+			],
+			[
+				"f",
+				"f"
+			],
+			[
+				"dataD",
+				"dataDumperPortOut"
+			],
+			[
+				"imageP",
+				"imagePortOutL"
+			],
+			[
+				"skin",
+				"skinGuiPortHandR"
+			],
+			[
+				"skinG",
+				"skinGuiPortForearmR"
+			],
+			[
+				"skinP",
+				"skinPortOut"
+			],
+			[
+				"taxels",
+				"taxels_2Dlearned"
+			],
+			[
+				"line",
+				"lineToChange"
+			],
+			[
+				"lef",
+				"leftForearm"
+			],
+			[
+				"right",
+				"rightHand"
+			],
+			[
+				"righ",
+				"rightHand"
+			],
+			[
+				"file",
+				"filenames"
+			],
+			[
+				"tex",
+				"text-decoration"
+			],
+			[
+				"navba",
+				"navbar-dark"
+			],
+			[
+				"margin",
+				"margin-bottom"
+			],
+			[
+				"thig",
+				"Things"
+			],
+			[
+				"border",
+				"border"
+			],
+			[
+				"padd",
+				"padding"
+			],
+			[
+				"back",
+				"background"
+			],
+			[
+				"optil",
+				"opticalFlowExternalTaxels"
+			],
+			[
+				"gaze",
+				"gazeStabilizerThread"
+			],
+			[
+				"integrator",
+				"integrator_gain"
+			],
+			[
+				"hed",
+				"headEyes"
+			],
+			[
+				"ing",
+				"int_gain"
+			],
+			[
+				"integrato",
+				"integrator_gain"
+			],
+			[
+				"int",
+				"int_gain"
+			],
+			[
+				"sub",
+				"subVector"
+			],
+			[
+				"veb",
+				"verbosity"
+			],
+			[
+				"opt",
+				"opticalFlowExternalTaxels"
+			],
+			[
+				"fuc",
+				"function"
+			],
+			[
+				"data",
+				"dataArray"
+			],
+			[
+				"fun",
+				"function"
+			],
+			[
+				"col",
+				"cols2remove"
+			],
+			[
+				"as",
+				"asString"
+			],
+			[
+				"lin",
+				"linEst_optFlow"
+			],
+			[
+				"fgt",
+				"fgtTrackerPos"
+			],
+			[
+				"fgtT",
+				"fgtTrackerPos"
+			],
+			[
+				"get",
+				"get3DPoint"
+			],
+			[
+				"fingertip",
+				"fingertipTracker"
+			],
+			[
+				"finger",
+				"fingertipTracker"
+			],
+			[
+				"HM",
+				"HSVmin"
+			],
+			[
+				"result",
+				"resultL"
+			],
+			[
+				"resul",
+				"resultR"
+			],
+			[
+				"HSV",
+				"HSVmax"
+			],
+			[
+				"Hsvm",
+				"HSVmin"
+			],
+			[
+				"3D",
+				"3DPoint"
+			],
+			[
+				"imgR",
+				"imgR"
+			],
+			[
+				"image",
+				"imageInL"
+			],
+			[
+				"img",
+				"imgL"
+			],
+			[
+				"_o",
+				"_oR"
+			],
+			[
+				"mask",
+				"maskL"
+			],
+			[
+				"msk",
+				"mskL"
+			],
+			[
+				"Pixel",
+				"PixelRgb"
+			],
+			[
+				"imgL",
+				"imgLHSV"
+			],
+			[
+				"imageIN",
+				"imageInR"
+			],
+			[
+				"imageI",
+				"imageInL"
+			],
+			[
+				"imageO",
+				"imageOutL"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "_config.yml",
+			"settings":
+			{
+				"buffer_size": 3632,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "_includes/research.html",
+			"settings":
+			{
+				"buffer_size": 1527,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"contents": "Searching 60 files for \"darker\"\n\n/home/alecive/Programmazione/git/alecive.github.io/_config.yml:\n   41    # secondary: 5dc5bf\n   42    # secondary-dark: 2d9b95\n   43:   # secondary-darker: 1e827c\n   44    # secondary-alpha: rgba(30,130,124,.7)     # This is the same as the secondary color but with an alpha value\n   45  #   \n   ..\n   49    # secondary: 787ca0\n   50    # secondary-dark: 62678e\n   51:   # secondary-darker: 525676\n   52    # secondary-alpha: rgba(120,124,160,.7)     # This is the same as the secondary color but with an alpha value\n   53  #\n   ..\n   57    # secondary: c7eb55\n   58    # secondary-dark: aed52f\n   59:   # secondary-darker: 96bc20\n   60    # secondary-alpha: rgba(150,188,32,.7)     # This is the same as the secondary color but with an alpha value\n   61  #\n   ..\n   65    # secondary: fd6e8a\n   66    # secondary-dark: fc4468\n   67:   # secondary-darker: dd3b5a\n   68    # secondary-alpha: rgba(210,59,90,.7)     # This is the same as the secondary color but with an alpha value\n   69  #   \n   ..\n   73    # secondary: 4ea294\n   74    # secondary-dark: 3b7970\n   75:   # secondary-darker: 2b6161\n   76    # secondary-alpha: rgba(78,162,148,.7)     # This is the same as the secondary color but with an alpha value\n   77  #\n   ..\n   81    # secondary: c7e2db\n   82    # secondary-dark: 3b7970\n   83:   # secondary-darker: 2b6161\n   84    # secondary-alpha: rgba(78,162,148,.7)     # This is the same as the secondary color but with an alpha value\n   85  #\n   ..\n   89    # secondary: 546374\n   90    # secondary-dark: 434f5d\n   91:   # secondary-darker: 333b45\n   92    # secondary-alpha: rgba(84,99,116,.7)     # This is the same as the secondary color but with an alpha value\n   93  \n   ..\n   97    secondary: 0892d0\n   98    secondary-dark: 0777a9\n   99:   secondary-darker: 055c83\n  100    secondary-alpha: rgba(84,99,116,.7)     # This is the same as the secondary color but with an alpha value\n  101  \n\n/home/alecive/Programmazione/git/alecive.github.io/_includes/css/main.css:\n   24  a.active {\n   25      outline: 0;\n   26:     color: #{{ site.color.secondary-darker }};\n   27      /*font-weight: 700;*/\n   28  }\n   ..\n  182  .navbar-default .navbar-nav > li > a:hover,\n  183  .navbar-default .navbar-nav > li > a:focus {\n  184:     color: #{{ site.color.secondary-darker }};\n  185      -webkit-transition: all ease .5s;\n  186      -moz-transition: all ease .5s;\n  ...\n  191  .navbar-default .navbar-nav > .active > a:hover,\n  192  .navbar-default .navbar-nav > .active > a:focus {\n  193:     background-color: #{{ site.color.secondary-darker }};\n  194      -webkit-transition: all ease 1.5s;\n  195      -moz-transition: all ease 1.5s;\n  ...\n  237      .navbar-default .navbar-toggle:focus {\n  238          border: none;\n  239:         background-color: #{{ site.color.secondary-darker }};\n  240      }\n  241  }\n  ...\n  521      background:transparent;\n  522      margin: 0px;\n  523:     color: #{{ site.color.secondary-darker }};\n  524  }\n  525  \n\n13 matches across 2 files\n",
+			"settings":
+			{
+				"buffer_size": 3016,
+				"line_ending": "Unix",
+				"name": "Find Results",
+				"scratch": true
+			}
+		},
+		{
+			"file": "_includes/css/main.css",
+			"settings":
+			{
+				"buffer_size": 14962,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "personalwebsite.sublime-project",
+			"settings":
+			{
+				"buffer_size": 409,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/home/alecive/Programmazione/git/phd-thesis/phd-thesis.sublime-project",
+			"settings":
+			{
+				"buffer_size": 348,
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 400.0,
+		"last_filter": "package",
+		"selected_items":
+		[
+			[
+				"package",
+				"Package Control: Remove Package"
+			],
+			[
+				"insta",
+				"Package Control: Install Package"
+			],
+			[
+				"instal",
+				"Package Control: Install Package"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"ascii",
+				"Preferences: Ascii Replacer Key Bindings – User"
+			],
+			[
+				"packa",
+				"Package Control: Install Package"
+			],
+			[
+				"asci",
+				"Find non ascii"
+			],
+			[
+				"remove pa",
+				"Package Control: Remove Package"
+			],
+			[
+				"git:pu",
+				"Git: Push"
+			],
+			[
+				"git com",
+				"Git: Commit"
+			],
+			[
+				"git: add ",
+				"Git: Add..."
+			],
+			[
+				"git:log",
+				"Git: Log Current File"
+			],
+			[
+				"git",
+				"Package Control: Install Package"
+			],
+			[
+				"lte",
+				"LaTeXTools: Reconfigure and migrate settings"
+			],
+			[
+				"packages",
+				"Preferences: Browse Packages"
+			],
+			[
+				"brow",
+				"Preferences: Browse Packages"
+			],
+			[
+				"disa",
+				"Package Control: Disable Package"
+			],
+			[
+				"enable",
+				"Package Control: Enable Package"
+			],
+			[
+				"package control:",
+				"Package Control: List Packages"
+			],
+			[
+				"preferences",
+				"Preferences: Settings - Default"
+			]
+		],
+		"width": 484.0
+	},
+	"console":
+	{
+		"height": 365.0,
+		"history":
+		[
+			"glue path",
+			"glue",
+			"ls",
+			"import urllib.request,os,hashlib; h = '7183a2d3e96f11eeadd761d777e62404' + 'e330c659d4bb41d3bdf022e94cab3cd0'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://sublime.wbond.net/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by) ",
+			"echo $PATH",
+			"pdflatex Report_AlessandroRoncone",
+			"pdflatex Report_AlessandroRoncone.tex",
+			"latexmk Report_AlessandroRoncone.tex",
+			"import urllib.request,os; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); open(os.path.join(ipp, pf), 'wb').write(urllib.request.urlopen( 'http://sublime.wbond.net/' + pf.replace(' ','%20')).read()) ",
+			"echo \"ciao\"",
+			"\"help\"",
+			"help",
+			"cd",
+			"pwd"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/home/alecive/Programmazione/git/alecive.github.io",
+		"/home/alecive/Programmazione/git/alecive.github.io/_includes"
+	],
+	"file_history":
+	[
+		"/home/alecive/.config/sublime-text-3/Packages/Glue/Glue.sublime-settings",
+		"/home/alecive/Programmazione/git/alecive.github.io/terminal.glue",
+		"/home/alecive/.config/sublime-text-3/Packages/Glue/keymaps/Default (Linux).sublime-keymap",
+		"/home/alecive/Programmazione/git/alecive.github.io/personalwebsite.sublime-project",
+		"/home/alecive/Programmazione/git/phd-thesis/phd-thesis.sublime-workspace",
+		"/home/alecive/Programmazione/git/funny-things/modules/iCubBlinker/main.cpp",
+		"/home/alecive/Desktop/Reharsal-Speech.md",
+		"/home/alecive/Desktop/LightTable/LightTable",
+		"/home/alecive/Programmazione/git/phd-thesis/Chapters/05-DoubleTouch.tex",
+		"/home/alecive/Programmazione/git/phd-thesis/FrontBackMatter/Abstract.tex",
+		"/home/alecive/Programmazione/git/phd-thesis/phd-thesis.tex",
+		"/home/alecive/Programmazione/git/phd-thesis/Chapters/08-AvoidanceCatching.tex",
+		"/home/alecive/Programmazione/git/phd-thesis/Chapters/09-Conclusions.tex",
+		"/home/alecive/Programmazione/git/phd-thesis/Bibliography.bib",
+		"/home/alecive/Programmazione/yarp/src/yarpdataplayer-qt/src/RC/res.qrc",
+		"/home/alecive/Programmazione/git/phd-thesis/Chapters/APP-DenavitHartenberg.tex",
+		"/home/alecive/Programmazione/yarp/src/yarpdataplayer-qt/src/RC/yarpdataplayer_resource.rc",
+		"/home/alecive/Programmazione/yarp/src/yarpdataplayer-qt/src/RC/yarpdataplayer.pro",
+		"/home/alecive/Programmazione/git/phd-thesis/Chapters/03-iCub.tex",
+		"/home/alecive/Programmazione/git/phd-thesis/Chapters/02-PeriPersonalSpace.tex",
+		"/home/alecive/Programmazione/git/phd-thesis/Chapters/01-Introduction.tex",
+		"/home/alecive/Programmazione/git/phd-thesis/Chapters/04-Milestones.tex",
+		"/home/alecive/Programmazione/git/phd-thesis/Chapters/07-VisuoTactile.tex",
+		"/home/alecive/Programmazione/git/phd-thesis/FrontBackMatter/Contents.tex",
+		"/home/alecive/Programmazione/git/phd-thesis/FrontBackMatter/Titlepage.tex",
+		"/home/alecive/Programmazione/git/phd-thesis/Chapters/06-SelfCalibration.tex",
+		"/home/alecive/Programmazione/git/phd-thesis/FrontBackMatter/Acknowledgments.tex",
+		"/home/alecive/Programmazione/git/phd-thesis/FrontBackMatter/Declaration.tex",
+		"/home/alecive/Programmazione/git/phd-thesis/FrontBackMatter/Publication.tex",
+		"/home/alecive/Programmazione/git/phd-thesis/FrontBackMatter/Dedication.tex",
+		"/home/alecive/Programmazione/git/iCub/gaze-stabilization/modules/gazeStabilizer/gazeStabilizerThread.cpp",
+		"/home/alecive/Programmazione/git/iCub/gaze-stabilization/modules/torsoController/torsoControllerThread.cpp",
+		"/home/alecive/Programmazione/iCub/icub-main/app/simCartesianControl/scripts/cartesianSolver.xml.template",
+		"/home/alecive/Desktop/PhD/Conferences-Workshops/2015IROS/IROS2015.tex",
+		"/home/alecive/Programmazione/git/iCub/periPersonalSpace/modules/doubleTouch/iCubDblTchThrd.cpp",
+		"/tmp/.fr-8LpZVY/intents/Where is the @Object.json",
+		"/tmp/.fr-HMjxjW/entities/Object.json",
+		"/home/alecive/Programmazione/git/phd-thesis/classicthesis-config.tex",
+		"/home/alecive/Programmazione/git/iCub/periPersonalSpace/modules/doubleTouch/iCubDoubleTouch.cpp",
+		"/home/alecive/Programmazione/git/iCub/periPersonalSpace/lib/src/iCubDblTchSlv.cpp",
+		"/home/alecive/Programmazione/git/iCub/periPersonalSpace/lib/include/iCub/periPersonalSpace/iCubDblTchSlv.h",
+		"/home/alecive/Programmazione/git/iCub/periPersonalSpace/lib/src/iKinFwdMod.cpp",
+		"/home/alecive/Programmazione/iCub/icub-main/src/tools/iCubGui/src/main.cpp",
+		"/home/alecive/Programmazione/iCub/icub-main/src/tools/iCubGui/src/settingsdialog.ui",
+		"/home/alecive/Programmazione/iCub/icub-main/src/tools/iCubGui/src/qavimator.ui",
+		"/home/alecive/Programmazione/iCub/icub-main/src/tools/iCubGui/src/qavimator.cpp",
+		"/home/alecive/Desktop/PhD/Conferences-Workshops/2014 ICRA - Kinematic Calibration - Self Touch/selftouch_ICRA2014.tex",
+		"/home/alecive/Programmazione/git/phd-thesis/FrontBackMatter/Titleback.tex",
+		"/home/alecive/Desktop/PhD/Conferences-Workshops/IROS2015/IROS2015.tex",
+		"/home/alecive/Desktop/drawing.svg",
+		"/home/alecive/Desktop/SVGDrawingAnimation/SVGDrawingAnimation/js/svganimations2.js",
+		"/home/alecive/Desktop/SVGDrawingAnimation/SVGDrawingAnimation/css/demo.css",
+		"/home/alecive/Programmazione/iCub/icub-main/src/libraries/iKin/src/iKinFwd.cpp",
+		"/home/alecive/Programmazione/git/phd-thesis/Chapters/00-Snippets.tex",
+		"/home/alecive/Programmazione/git/phd-thesis/Chapters/00-Template.tex",
+		"/home/alecive/Programmazione/git/phd-thesis/Chapters/APP-ParzenWindows.tex",
+		"/home/alecive/Programmazione/git/phd-thesis/thesis.tex",
+		"/home/alecive/Programmazione/git/iCub/chessEyeTest/src/chessEyeTestThread.cpp",
+		"/tmp/science.bib",
+		"/home/alecive/Dropbox/Public/ICDL-EPIROB 2014 Workshop/index.html",
+		"/home/alecive/Dropbox/Public/ICDL-EPIROB 2014 Workshop/css/component.css",
+		"/home/alecive/Programmazione/git/iCub/workspace-estimation/matlab/utils/FwdKin.m",
+		"/home/alecive/Programmazione/git/iCub/workspace-estimation/matlab/DH_v1Thumb.ini",
+		"/home/alecive/Programmazione/git/iCub/workspace-estimation/matlab/DH_bunny.ini",
+		"/home/alecive/Programmazione/git/iCub/workspace-estimation/matlab/DH_v1Little.ini",
+		"/home/alecive/Programmazione/git/iCub/workspace-estimation/matlab/DH_v1Index.ini",
+		"/home/alecive/Programmazione/git/iCub/workspace-estimation/matlab/DH_v1Middle.ini",
+		"/home/alecive/Programmazione/git/iCub/workspace-estimation/matlab/script.m",
+		"/home/alecive/Programmazione/git/iCub/workspace-estimation/matlab/drawKinematicChain.m",
+		"/home/alecive/Programmazione/git/iCub/workspace-estimation/matlab/drawJointWorkspace.m",
+		"/home/alecive/Programmazione/git/iCub/workspace-estimation/matlab/drawPointCloud.m",
+		"/home/alecive/Programmazione/git/iCub/workspace-estimation/matlab/DH_v1Ring.ini",
+		"/home/alecive/Programmazione/git/iCub/workspace-estimation/matlab/output_v1Little.ini",
+		"/home/alecive/Desktop/test/node-v0.6.0/nodejs-0.6.0_amd64/DEBIAN/control",
+		"/tmp/pinker-The_Lang-Bibtex.bib",
+		"/home/alecive/Programmazione/git/phd-thesis/classicthesis.sty",
+		"/home/alecive/Programmazione/git/pps_gitlab/papers/frontiers/latex/4-Conclusions.tex",
+		"/home/alecive/.config/sublime-text-3/Packages/User/BufferScroll.sublime-settings",
+		"/home/alecive/.config/sublime-text-3/Packages/BufferScroll/BufferScroll.sublime-settings",
+		"/home/alecive/Desktop/phd-thesis-0.7/Chapters/iCubVisuoTactile.tex",
+		"/home/alecive/Programmazione/git/phd-thesis/Chapters/3-Results.tex",
+		"/home/alecive/Programmazione/git/phd-thesis/Chapters/2-MaterialMethods.tex",
+		"/home/alecive/Programmazione/git/phd-thesis/Chapters/08-avoidanceCatching.tex",
+		"/home/alecive/Programmazione/git/phd-thesis/Chapters/07-visuoTactile.tex",
+		"/home/alecive/Programmazione/git/phd-thesis/Chapters/iCubVisuoTactile.tex",
+		"/home/alecive/Programmazione/git/phd-thesis/Chapters/Milestones.tex",
+		"/home/alecive/Programmazione/git/iCub/periPersonalSpace/modules/ultimateTracker/utManagerThread.cpp",
+		"/home/alecive/Programmazione/git/pps_gitlab/avoidanceCatchingExp/export_fig/export_fig.m",
+		"/home/alecive/Programmazione/git/pps_gitlab/vtRF_MatLab/montecarloFinal4Paper.m",
+		"/home/alecive/Programmazione/git/pps_gitlab/processRealData/mainFinal4Paper.m",
+		"/home/alecive/Programmazione/git/phd-thesis/Chapters/PPS/3-Results.tex",
+		"/home/alecive/Programmazione/git/iCub/periPersonalSpace/modules/ultimateTracker/ultimateTracker.cpp",
+		"/home/alecive/Programmazione/git/iCub/periPersonalSpace/modules/fingertipTracker/fingertipTracker.cpp",
+		"/home/alecive/Programmazione/git/phd-thesis/Chapters/PPS/2-MaterialMethods.tex",
+		"/home/alecive/Programmazione/iCub/icub-main/src/tools/frameGrabberGui2-qt/mainwindow.ui",
+		"/home/alecive/Programmazione/git/iCub/periPersonalSpace/modules/fingertipTracker/fgtThread.cpp",
+		"/home/alecive/Programmazione/git/phd-thesis/Chapters/iCub.tex",
+		"/home/alecive/Programmazione/git/pps_gitlab/papers/frontiers/latex/2-MaterialMethods.tex",
+		"/home/alecive/Programmazione/git/phd-thesis/Chapters/PeriPersonalSpace.tex",
+		"/home/alecive/Programmazione/git/phd-thesis/Chapters/Snippets.tex",
+		"/home/alecive/Programmazione/git/phd-thesis/gfx/DoubleTouch/DHDIRECT_A.tex",
+		"/home/alecive/Programmazione/git/phd-thesis/gfx/DoubleTouch/DHDIRECT_B.tex",
+		"/home/alecive/Programmazione/git/phd-thesis/gfx/DoubleTouch/classic.tex",
+		"/home/alecive/Programmazione/git/phd-thesis/gfx/DoubleTouch/proposed.tex",
+		"/home/alecive/Programmazione/git/phd-thesis/Chapters/00Template.tex",
+		"/home/alecive/Programmazione/git/phd-thesis/Chapters/Conclusions.tex",
+		"/home/alecive/Programmazione/git/phd-thesis/Chapters/DoubleTouch.tex",
+		"/home/alecive/Programmazione/git/phd-thesis/Chapters/Introduction.tex",
+		"/home/alecive/Programmazione/git/phd-thesis/Chapters/PPS/4-Conclusions.tex",
+		"/home/alecive/Programmazione/git/phd-thesis/main.tex",
+		"/home/alecive/Programmazione/git/phd-thesis/lablst.tex",
+		"/home/alecive/Programmazione/iCub/icub-main/src/tools/iCubSkinGui-qt/CMakeLists.txt",
+		"/home/alecive/Programmazione/iCub/icub-main/src/tools/iCubSkinGui-qt/src/CMakeLists.txt",
+		"/home/alecive/Programmazione/iCub/icub-main/src/tools/iCubSkinGui-qt/plugin/CMakeLists.txt",
+		"/home/alecive/Programmazione/git/phd-thesis/Chapters/PPS/1-IntroRelatedWork.tex",
+		"/home/alecive/Programmazione/iCub/icub-main/src/tools/frameGrabberGui2-qt/main.cpp",
+		"/home/alecive/Programmazione/iCub/icub-main/src/tools/frameGrabberGui2-qt/mainwindow.cpp",
+		"/home/alecive/Programmazione/git/pps_gitlab/processRealData/plotTaxelResponse.m",
+		"/home/alecive/Programmazione/git/pps_gitlab/avoidanceCatchingExp/main.m",
+		"/home/alecive/Programmazione/git/pps_gitlab/avoidanceCatchingExp/plotDump_avoidance.m",
+		"/home/alecive/Programmazione/git/pps_gitlab/avoidanceCatchingExp/plotDump_catching.m",
+		"/home/alecive/Programmazione/git/pps_gitlab/vtRF_MatLab/montecarloNew.m",
+		"/home/alecive/Programmazione/git/pps_gitlab/vtRF_MatLab/parzenExampleNew.m",
+		"/home/alecive/Programmazione/git/pps_gitlab/vtRF_MatLab/test.m",
+		"/home/alecive/Programmazione/git/pps_gitlab/vtRF_MatLab/reductionScript.m",
+		"/home/alecive/Programmazione/git/pps_gitlab/vtRF_MatLab/plot_data.m",
+		"/home/alecive/Programmazione/git/pps_gitlab/vtRF_MatLab/plot_event.m",
+		"/home/alecive/Programmazione/git/pps_gitlab/vtRF_MatLab/periPersonalSpace/taxels_onlyleft_doubleTouch1.ini"
+	],
+	"find":
+	{
+		"height": 38.0
+	},
+	"find_in_files":
+	{
+		"height": 106.0,
+		"where_history":
+		[
+			"",
+			"/home/alecive/Programmazione/git/phd-thesis/Chapters",
+			"/home/alecive/Programmazione/git/phd-thesis/FrontBackMatter",
+			"/home/alecive/Programmazione/git/phd-thesis/Chapters",
+			"",
+			"~",
+			""
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"h2",
+			"portfolio",
+			"color",
+			"h2",
+			"site.color.secondary-darker",
+			"dark",
+			"site.color.secondary-darker",
+			"darker",
+			"lg",
+			"positive",
+			"512",
+			".png",
+			"images/",
+			"in pursuance of ",
+			"delocalized",
+			"decentralized",
+			"delocalized",
+			"ubaldi",
+			"Serino, A.",
+			"L\\'{a}davas, E.",
+			"Bassolino, M.",
+			"  note   = {Show tune introduced in the 1945 musical Carousel}\n",
+			"Gallese, V.",
+			"Fogassi, L.",
+			"Fadiga, L.",
+			"Rizzolatti, G.",
+			"IROS",
+			"victor",
+			"iCub",
+			"icub",
+			"capable",
+			"inFFProperty",
+			"property",
+			"checkmotiondone",
+			"cite",
+			"natbib",
+			"@book",
+			"book",
+			"the hindlimb",
+			"fatal",
+			"yFatal",
+			"fatal",
+			"hoffmann",
+			"about",
+			"IROS",
+			"booktitle = {Intelligent Robots and Systems (IROS), 2011 IEEE/RSJ International Conference on},",
+			"IROS",
+			"Mitte",
+			"Mitter",
+			"width=.48\\",
+			"textwidth",
+			"gfx/PPS/",
+			"\\citet{",
+			"\\myfloatalign",
+			"\\autoref{sec:",
+			"\\autoref{fig:",
+			"fig:app:DH",
+			"para",
+			"rot",
+			"serial",
+			"axis",
+			"p_",
+			"FOREARM_LEFT",
+			"locate",
+			"%!TEX root = ../thesis.tex",
+			"listing",
+			"capitalize",
+			"%!TEX root = ../phd-thesis_AlessandroRoncone.tex",
+			"%!TEX root = ../thesis.tex",
+			"dava",
+			"ref",
+			"href",
+			"url",
+			"{url",
+			"tabb-content5",
+			"blank",
+			"home",
+			"figure",
+			"scaling",
+			"scalingfactor",
+			"workspacelimits",
+			"sec:implementation",
+			"sec:milestones",
+			"sec:basiccapabilities",
+			"–",
+			"–-",
+			"--",
+			"Carroll1865",
+			"bib",
+			"biblate",
+			"bibl",
+			"(\\autoref{",
+			"});",
+			"color",
+			"version",
+			"classic",
+			"version",
+			"the the",
+			"pipeline",
+			"ball",
+			",'2'),'-pdf','-png');",
+			"opticalflowA",
+			"[$3D$ Parzen Window smoothing.]",
+			"[$2D$ projection of the Parzen Window estimation.]",
+			" 2D ",
+			" 3D ",
+			"horizontalLayout_8",
+			" 3D ",
+			"3D ",
+			"addtople",
+			"qtreewidget",
+			"height=.32\\",
+			"2D ",
+			"fingertiptracking",
+			"HSVmin",
+			"illustra",
+			"mos:mm:",
+			"main",
+			"%!TEX root = ../../main.tex",
+			"%!TEX root = ../main.tex",
+			"main.tex",
+			"sgn",
+			"intro:pps",
+			"re}[",
+			"qtquick",
+			"re}[htb]",
+			"$TTC$",
+			"TTC "
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"site.color.tertiary",
+			"site.color.secondary-dark",
+			"512x512",
+			".svg",
+			"../../../yarpgui-icons/512/",
+			"decentralized",
+			"Serino, Andrea",
+			"L\\'{a}davas, Elisabetta",
+			"Bassolino, Michela",
+			"Gallese, Vittorio",
+			"Fogassi, Leonardo",
+			"Fadiga, Luciano",
+			"Rizzolatti, Giacomo",
+			"{iCub}",
+			"width=.43\\",
+			"linewidth",
+			"gfx/",
+			"\\cite{",
+			"\\centering",
+			"Section \\ref{sec:",
+			"Figure \\ref{fig:",
+			"fig:app:dh",
+			"x_p^",
+			"%!TEX root = ../phd-thesis.tex",
+			"%!TEX root = ../phd-thesis_AlessandroRoncone.tex",
+			"sec:mil:implementation",
+			"sec:mil:milestones",
+			"sec:mil:basiccapabilities",
+			"-",
+			"--",
+			"Pinker2007",
+			"[\\autoref{",
+			"}];",
+			",'2'),'-pdf','-png','-painters');",
+			"opticalflowC",
+			"opticalflowB",
+			"[$3D$ Parzen Window smoothing.]            ",
+			"[$2D$ projection of the Parzen estimation.]",
+			" $2D$ ",
+			" $3D$ ",
+			"$3D $",
+			"height=.34\\",
+			"$2D$ ",
+			"opticalflow",
+			"mos:",
+			"%!TEX root = ../../thesis.tex",
+			"%!TEX root = ../thesis.tex",
+			"intropps",
+			"re}",
+			"emph",
+			":avcat:controller",
+			":mos:mm:",
+			":mos:res:",
+			":mos:res",
+			"pdf",
+			"figure}",
+			"\\myfloatalign",
+			"avcat:res:",
+			"section{",
+			"figure}",
+			"\\autoref{",
+			"emph{",
+			"empth{",
+			"\\autoref{",
+			"fig:dt:sel",
+			"\\subsection",
+			"selftouch",
+			"fig:calib:",
+			"eq:dt:",
+			"\\autoref{",
+			"emph",
+			"\\autoref{",
+			"section{",
+			" -- ",
+			"bm{",
+			"gfx/DoubleTouch",
+			"section{",
+			"sec:icub:hw:",
+			"sec:icub:sw:",
+			"sec:icub:sw",
+			"sec:icub:hw",
+			"emph{",
+			"empth{",
+			"information",
+			"section{",
+			"sec:icub",
+			"emph",
+			"\\citet{",
+			"gfx/PPS/",
+			"\\subsubsection{",
+			"$ \\\\ ",
+			" & $",
+			"$ & $",
+			"Natale, Lorenzo",
+			"Metta, Giorgio",
+			"Pattacini, Ugo",
+			"Hoffmann, Matej",
+			"Roncone, Alessandro",
+			"\\subsection{",
+			"peripersonal space",
+			"fig:dt:iCub}",
+			"",
+			"p(\\bm{x})",
+			"",
+			"\\textsl{",
+			"\\cite{",
+			"\\subfloat[]{",
+			"\\bm{",
+			"Chapters/PPS/gfx/",
+			"}",
+			"\\textsl{",
+			"\\myfloatalign",
+			"\\subfloat[]{",
+			"\\bm{x}",
+			"\\bm",
+			"Chapters/PPS/gfx/",
+			" ",
+			"_i",
+			"\\textsl{",
+			"",
+			" -- ",
+			"\\input{Chapters/PPS/",
+			"\\input{PPS/",
+			"\\right\\rangle$",
+			"$\\left\\langle",
+			"${\\left\\langle",
+			"\\bm",
+			"\\textsl{"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 3,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "_config.yml",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 3632,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1969,
+								1969
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/YAML/YAML.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 434.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "_includes/research.html",
+					"semi_transient": true,
+					"settings":
+					{
+						"buffer_size": 1527,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								230,
+								230
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 3016,
+						"regions":
+						{
+							"match":
+							{
+								"flags": 112,
+								"regions":
+								[
+									[
+										181,
+										187
+									],
+									[
+										416,
+										422
+									],
+									[
+										649,
+										655
+									],
+									[
+										881,
+										887
+									],
+									[
+										1115,
+										1121
+									],
+									[
+										1347,
+										1353
+									],
+									[
+										1579,
+										1585
+									],
+									[
+										1803,
+										1809
+									],
+									[
+										2101,
+										2107
+									],
+									[
+										2306,
+										2312
+									],
+									[
+										2577,
+										2583
+									],
+									[
+										2820,
+										2826
+									],
+									[
+										2961,
+										2967
+									]
+								],
+								"scope": ""
+							}
+						},
+						"selection":
+						[
+							[
+								2001,
+								2001
+							]
+						],
+						"settings":
+						{
+							"detect_indentation": false,
+							"line_numbers": false,
+							"output_tag": 1,
+							"result_base_dir": "",
+							"result_file_regex": "^([A-Za-z\\\\/<].*):$",
+							"result_line_regex": "^ +([0-9]+):",
+							"scroll_past_end": true,
+							"syntax": "Packages/Default/Find Results.hidden-tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 672.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 3,
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "_includes/css/main.css",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 14962,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								9858,
+								10304
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/CSS/CSS.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 8328.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "personalwebsite.sublime-project",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 409,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								409,
+								409
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JSON.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 5,
+					"type": "text"
+				},
+				{
+					"buffer": 5,
+					"file": "/home/alecive/Programmazione/git/phd-thesis/phd-thesis.sublime-project",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 348,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JSON.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 4,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 24.0
+	},
+	"input":
+	{
+		"height": 162.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "personalwebsite.sublime-project",
+	"replace":
+	{
+		"height": 72.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"gazestabilizert",
+				"modules/gazeStabilizer/gazeStabilizerThread.cpp"
+			],
+			[
+				"",
+				"~/Programmazione/git/alecive.github.io/_includes/post.html"
+			],
+			[
+				"visuo",
+				"modules/visuoTactileRF/visuoTactileRF.cpp"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"",
+				"~/Programmazione/git/pps_gitlab/papers/frontiers/frontiers--paper.sublime-project"
+			]
+		],
+		"width": 380.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": false,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 187.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}

@@ -1,0 +1,15 @@
+{
+  "folders":
+  [
+    {
+      "follow_symlinks": true,
+      "path": "/home/alecive/Programmazione/git/alecive.github.io",
+      "folder_exclude_patterns": ["_site"],
+      // "file_exclude_patterns": ["*.aux","*.lot","*.lof","*.bbl","*.blg","*.fdb_latexmk","*.log","*.lol","*.out","*.synctex.gz","*.toc","missfont.log","*.pdf","*.eps","*.png",".dia"]
+    }
+  ],
+  "settings":
+  {
+      "tab_size": 2
+  },
+}
