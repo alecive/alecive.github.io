@@ -128,6 +128,13 @@ header img {
     margin: 0 auto 20px;
     border-radius: 100%;
     background-color: #{{ site.color.secondary }};
+    -webkit-transition: all ease .3s;
+    -moz-transition: all ease .3s;
+    transition: all ease .3s;
+}
+
+header img:hover {
+    background-color: #{{ site.color.tertiary }};
 }
 
 header .intro-text .name,
@@ -347,6 +354,10 @@ section.success p {
     font-weight: bold;
 }
 
+#article a:hover {
+    color: #{{ site.color.tertiary }};
+}
+
 #article h1,
 #article h2,
 #article h3,
@@ -359,6 +370,12 @@ section.success p {
     border-radius: 0;
 }
 
+#article h1:hover,
+#article h2:hover,
+#article h3:hover,
+#article h4:hover {
+    border-color: #{{ site.color.tertiary }};
+}
 
 #article h1 {
     margin-top: 30px;
@@ -587,13 +604,12 @@ section.success p {
     margin-bottom: 20px;
     padding-bottom: 0px;
     padding-top: 0px;
-    padding-left: 8px;
+    padding-left: 0px;
     border-left: 6px solid #{{ site.color.secondary }};
 }
 
 #article .cv-item:hover {
-    padding-left: 4px;
-    border-left: 10px solid #{{ site.color.secondary-dark }};
+    border-left-color: #{{ site.color.tertiary }};
 }
 
 #article .cv-item h1,
@@ -725,7 +741,7 @@ section.success p {
 .btn-outline.active {
     border: solid 2px #fff;
     background: #fff;
-    color: #{{ site.color.secondary-dark }};
+    color: #{{ site.color.tertiary }};
 }
 
 .btn-default {
@@ -875,11 +891,11 @@ footer .footer-below {
     }
 
     #article .cv-item {
-        margin-top: 4px;
+        /*margin-top: 4px;*/
         margin-bottom: 6px;
         margin-left: 0px;
         margin-right: 0px;
-        padding-left: 0px;
+        padding-left: 4px;
     }
 
     #article .cv-item h2 {
