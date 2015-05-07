@@ -13,26 +13,28 @@ skills:
    items:
     - name: C++
       knowledge: 85
-    - name: OpenCV
-      knowledge: 55
-    - name: IPOPT
-      knowledge: 65
     - name: Matlab
-      knowledge: 80
+      knowledge: 75
     - name: CSS3 & HTML5
       knowledge: 85
+    - name: IPOPT
+      knowledge: 65
     - name: Bash
       knowledge: 60
+    - name: OpenCV
+      knowledge: 55
     - name: R
       knowledge: 40
     - name: Python
-      knowledge: 30
+      knowledge: 20
  - name: CM Skills
    items:
     - name: Git
       knowledge: 75
     - name: Subversion
       knowledge: 60
+    - name: cvs
+      knowledge: 20
  - name: Mobile Skills
    items:
     - name: Android Development
@@ -69,21 +71,21 @@ education:
    end: 2011
    location: Università degli studi di Genova, IT
    location-link: http://www.unige.it
-   description: "In my thesis, I implemented a system able to leverage on a multisensory-based machine learning system in order to improve the detection and the identification of an object in the robot's workspace. In particular, I implemented an SVM-based system able to integrate between the visual system and the haptic information coming from the F/T sensor of the iCub robot. The system proved to be successful in improving the vision-based detection of a set of objects by means of the haptic exploration of the same objects."
+   description: "I implemented a multisensory machine learning system in order to improve the detection and the identification of an object in the iCub robot's workspace. Specifically, I implemented an SVM-based system able to integrate between the visual system and the haptic information coming from the F/T sensor of the iCub robot. The system proved to be successful in improving the vision-based detection of a set of objects by means of the haptic exploration of the same objects."
  - name: B.Sc. with honors in Biomedical Engineering
    title: Thesis title `Support Vector Machine Analysis applied to a Manipulator in a Non-Structured Environment`
    start: 2005
    end: 2009
    location: Università degli studi di Genova, IT
    location-link: http://www.unige.it
-   description: "This work dealt with the implementation of a system able to control a robotic arm and develop a goalkeeper-like behavior in an air hockey setup. The robot was using a supervised learning setup in order to understand which of the puck trajectories he previously experienced was scoring a point, and eventually developed the ability to prevent such points by predicting the final outcome of a trajectory given some initial acquisitions."
- - name: Student (with scolarship) at ISICT
+   description: "I implemented a system able to control a PUMA robotic arm and develop a goalkeeper-like behavior in an air hockey setup. The robot was using a supervised learning technique in order to understand which of the puck trajectories he previously experienced was scoring a point. Based on this, it learned the ability to prevent such points by predicting the final outcome of a trajectory given some initial acquisitions. Its success rate was beyond 95%."
+ - name: Student (with scholarship) at ISICT
    title: 
    start: 2005
    end: 2008
    location: ISICT (Istituto Superiore di Studi in Tecnologie dell'Informazione e della Comunicazione)
    location-link: http://www.isict.it/
-   description: "ISICT is an acronym, that stands for <i>Institute of Advanced Studies in Information and Communication Technologies</i>. It is a consortium created in May 2003 that supports the courses provided by the University of Genoa in order to integrate them with a teaching that is the result of close collaboration between universities, companies and agencies. The goal is to  prepare young people for integration into the labor market, and as such I attended a number of additional courses ranging from <i>Marketing</i> to <i>Telecommunications</i> to <i>Aerospace Engineering</i>. I've been also selected for a scolarship, after a thorough examination (only three positions were available)."
+   description: "ISICT stands for <i>Institute of Advanced Studies in Information and Communication Technologies</i>. It is a consortium that integrates the courses provided by the University of Genoa with lessons held by industry leaders. The goal is to better prepare students for the labor market. To this end, I attended a number of additional courses ranging from <i>Marketing</i> to <i>Telecommunications</i> to <i>Aerospace Engineering</i>. I've been also selected for a scholarship, after a thorough examination (only three positions were available)."
 
 professional:
  - name: Post Doc
@@ -153,7 +155,9 @@ misc:
  - title: "Organizer of the <i>Development of body representations in humans and robots</i> workshop"
    authors: "Matej Hoffmann, Alessandro Roncone, Lorenzo Jamone, and Beata Grzyb"
    year: 2014
-   description: "Half-day workshop @ICDL-EPIROB 2014 Conference. The goal of the workshop has been to <i>explore the possibility of robots developing models inspired by the mechanisms of human body representations</i>. In this way, they can on one hand become new modeling tools for empirical sciences - expanding the domain of computational modeling by anchoring it to the physical environment and a physical body. Consequently, complete sensorimotor loops can be instantiated and not only algorithms but whole behaviors validated. On the other hand, robot controllers endowed with multimodal whole-body awareness and plasticity typical of humans should give rise to - in robotics unprecedented - autonomy, robustness, and resilience."
+   venue: "IEEE International Conference on Development and Learning and on Epigenetic Robotics"
+   where: Genoa, Italy, October 13-16, 2014
+   description: "Half-day workshop @ICDL-EPIROB 2014 Conference. The goal of the workshop was to <i>explore the possibility of robots developing models inspired by the mechanisms of human body representations</i>. In this way, they can on one hand become new modeling tools for empirical sciences - expanding the domain of computational modeling by anchoring it to the physical environment and a physical body. On the other hand, robot controllers endowed with multimodal whole-body awareness and plasticity typical of humans should give rise to - in robotics unprecedented - autonomy, robustness, and resilience."
  - title: "Modeling the development of body knowledge using humanoid robots"
    authors: "Matej Hoffmann, Alessandro Roncone, Giorgio Metta"
    year: 2014
@@ -168,6 +172,7 @@ misc:
    description: "Oral presentation at the workshop on <i>Synthetic Modeling of Life and Cognition</i>: Open Questions."
  - title: "Researcher of the week"
    year: 2013-2014
+   venue: IIT (Istituto Italiano di Tecnologia)
    description: "I've been researcher of the week for two times. Despite its name, this award is given very rarely to outstanding research performed in the iCub Facility at IIT."
 ---
 
@@ -179,7 +184,7 @@ misc:
  * Research interests: **robotics**, multisensory integration, calibration, kinematics, tactile sensing, machine learning, computer vision, sensor fusion.
  * Some experience with signal processing, optimization (e.g. [IPOPT](https://projects.coin-or.org/Ipopt), a software designed for large-scale nonlinear optimization problems), and control engineering.
  * _C++ developer_, with a fine knowledge of **YARP** and **iCub** software and libraries.
- * Some of my work is available to download at my [GitHub page](http://github.com/alecive/), or in [Robotology](https://github.com/robotology).
+ * Some of my work is available to download at my [GitHub page](http://github.com/alecive/), or in the [Robotology GitHub Organization](https://github.com/robotology).
  * Long-time Linux user, and active contributor to the Linux FOSS community.
  * Graphic Designer and freelancer in the spare time, with a number of successfull projects and employments.
  * Obsessed by two things: _pixel-perfect graphics_, and _bit-perfect code_.
