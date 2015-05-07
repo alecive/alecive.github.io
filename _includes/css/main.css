@@ -262,6 +262,14 @@ section.success p {
 }
 
 @media(max-width:767px) {
+    #post {
+        padding-top: 100px;
+    }
+
+    #post-cv {
+        padding-top: 50px;
+    }
+
     section {
         padding: 75px 0;
     }
@@ -339,46 +347,45 @@ section.success p {
     font-weight: bold;
 }
 
-#article h1 {
-    margin-top: 30px;
-    padding-left: 10px;
-    font-size: 1.3em;
-    border-left: 40px solid #{{ site.color.primary }};
+#article h1,
+#article h2,
+#article h3,
+#article h4 {
+    text-align: left;
+    border: 10px solid #{{ site.color.primary }};
     border-right: none;
     border-top: none;
     border-bottom: none;
     border-radius: 0;
-    text-align: left;
+}
+
+
+#article h1 {
+    margin-top: 30px;
+    padding-left: 10px;
+    font-size: 1.3em;
+    border-left-width: 40px;
 }
 
 #article h2 {
     margin-top: 25px;
     padding-left: 6px;
     font-size: 1em;
-    border-left: 20px solid #{{ site.color.primary }};
-    border-right: none;
-    border-top: none;
-    border-bottom: none;
-    border-radius: 0;
-    text-align: left;
+    border-left-width: 20px;
 }
 
 #article h3 {
     margin-top: 20px;
     font-size: 1em;
     padding-left: 4px;
-    border-left: 15px solid #{{ site.color.primary }};
-}
-
-#article h4 {
-    margin-top: 16px;
-    font-size: .8em;
-    padding-left: 4px;
-    border-left: 10px solid #{{ site.color.primary }};
+    border-left-width: 15px;
 }
 
 #article h4 {
     margin-top: 10px;
+    font-size: .8em;
+    padding-left: 4px;
+    border-left-width: 10px;
 }
 
 #article h3,
@@ -386,6 +393,17 @@ section.success p {
 #article h5,
 #article h6 {
     text-transform: capitalize;
+}
+
+@media(max-width:450px) {
+    #article h3,
+    #article h4 {
+        border-left: none;
+    }   
+
+    ul {
+        padding-left: 10px;
+    }
 }
 
 #article-img {
@@ -420,6 +438,7 @@ section.success p {
 }
 
 #article pre {
+    margin: 0 auto;
     display: block;
     /*font-size: .8rem;*/
     line-height: 1.4;
@@ -427,7 +446,8 @@ section.success p {
     white-space: pre-wrap;
     word-break: break-all;
     word-wrap: break-word;
-    border-left: 20px solid #{{ site.color.primary }};
+/*    border-left: 20px solid #{{ site.color.primary }};*/
+    border-left: none;
     border-right: none;
     border-top: none;
     border-bottom: none;
@@ -606,10 +626,6 @@ section.success p {
     width: 100%;
     height: 100%;
 }
-
-/*#article .article-img .pre {
-    margin-bottom: 20px;
-}*/
 
 #portfolio {
     margin-top: 0px;

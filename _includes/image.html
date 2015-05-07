@@ -1,12 +1,12 @@
 <div id="article-img">
     {% if include.description%}
         <a href="/img/{{ include.url }}" target="_blank">
-            <img src="/img/{{ include.url }}" class="img-responsive img-centered" alt="{{ include.description }}" style="margin-bottom: 0px;" />
+            <img src="/img/{{ include.url }}" class="img-responsive img-centered" alt="{{ include.description }}" style="margin-bottom: 0px;{% if include.width%}{{include.width}}{% endif%}" />
         </a>
-        <pre style="margin-bottom: 20px;"><code>{{ include.description }}</code></pre>
+        <pre style="margin-bottom: 20px;{% if include.width%}{{include.width}}{% endif%}"><code>{{ include.description }}</code></pre>
     {% else%}
         <a href="/img/{{ include.url }}" target="_blank">
-            <img src="/img/{{ include.url }}" class="img-responsive img-centered" alt="{{ include.url }}" style="margin-bottom: 20px;" />
+            <img src="/img/{{ include.url }}" class="img-responsive img-centered" alt="{{ include.url }}" style="margin-bottom: 20px;{% if include.width%}{{include.width}}{% endif%}" />
         </a>
     {% endif%}
 </div>

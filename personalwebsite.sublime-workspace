@@ -4,6 +4,18 @@
 		"selected_items":
 		[
 			[
+				"font",
+				"font-size"
+			],
+			[
+				"artic",
+				"articletext"
+			],
+			[
+				"art",
+				"articletext"
+			],
+			[
 				"r",
 				"rgba()"
 			],
@@ -502,18 +514,6 @@
 			[
 				"imgL",
 				"imgLHSV"
-			],
-			[
-				"imageIN",
-				"imageInR"
-			],
-			[
-				"imageI",
-				"imageInL"
-			],
-			[
-				"imageO",
-				"imageOutL"
 			]
 		]
 	},
@@ -523,7 +523,63 @@
 			"file": "_config.yml",
 			"settings":
 			{
-				"buffer_size": 3632,
+				"buffer_size": 3893,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "_includes/design.html",
+			"settings":
+			{
+				"buffer_size": 1575,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "_includes/css/main.css",
+			"settings":
+			{
+				"buffer_size": 16608,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "_includes/post.html",
+			"settings":
+			{
+				"buffer_size": 1049,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "_includes/post-cv.html",
+			"settings":
+			{
+				"buffer_size": 6668,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "_posts/2014-06-08-doubleTouch.md",
+			"settings":
+			{
+				"buffer_size": 3058,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "_posts/2015-01-22-gazeStabilization.md",
+			"settings":
+			{
+				"buffer_size": 6666,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "_includes/image.html",
+			"settings":
+			{
+				"buffer_size": 620,
 				"line_ending": "Unix"
 			}
 		},
@@ -531,25 +587,47 @@
 			"file": "_includes/research.html",
 			"settings":
 			{
-				"buffer_size": 1527,
+				"buffer_size": 1608,
 				"line_ending": "Unix"
 			}
 		},
 		{
-			"contents": "Searching 60 files for \"darker\"\n\n/home/alecive/Programmazione/git/alecive.github.io/_config.yml:\n   41    # secondary: 5dc5bf\n   42    # secondary-dark: 2d9b95\n   43:   # secondary-darker: 1e827c\n   44    # secondary-alpha: rgba(30,130,124,.7)     # This is the same as the secondary color but with an alpha value\n   45  #   \n   ..\n   49    # secondary: 787ca0\n   50    # secondary-dark: 62678e\n   51:   # secondary-darker: 525676\n   52    # secondary-alpha: rgba(120,124,160,.7)     # This is the same as the secondary color but with an alpha value\n   53  #\n   ..\n   57    # secondary: c7eb55\n   58    # secondary-dark: aed52f\n   59:   # secondary-darker: 96bc20\n   60    # secondary-alpha: rgba(150,188,32,.7)     # This is the same as the secondary color but with an alpha value\n   61  #\n   ..\n   65    # secondary: fd6e8a\n   66    # secondary-dark: fc4468\n   67:   # secondary-darker: dd3b5a\n   68    # secondary-alpha: rgba(210,59,90,.7)     # This is the same as the secondary color but with an alpha value\n   69  #   \n   ..\n   73    # secondary: 4ea294\n   74    # secondary-dark: 3b7970\n   75:   # secondary-darker: 2b6161\n   76    # secondary-alpha: rgba(78,162,148,.7)     # This is the same as the secondary color but with an alpha value\n   77  #\n   ..\n   81    # secondary: c7e2db\n   82    # secondary-dark: 3b7970\n   83:   # secondary-darker: 2b6161\n   84    # secondary-alpha: rgba(78,162,148,.7)     # This is the same as the secondary color but with an alpha value\n   85  #\n   ..\n   89    # secondary: 546374\n   90    # secondary-dark: 434f5d\n   91:   # secondary-darker: 333b45\n   92    # secondary-alpha: rgba(84,99,116,.7)     # This is the same as the secondary color but with an alpha value\n   93  \n   ..\n   97    secondary: 0892d0\n   98    secondary-dark: 0777a9\n   99:   secondary-darker: 055c83\n  100    secondary-alpha: rgba(84,99,116,.7)     # This is the same as the secondary color but with an alpha value\n  101  \n\n/home/alecive/Programmazione/git/alecive.github.io/_includes/css/main.css:\n   24  a.active {\n   25      outline: 0;\n   26:     color: #{{ site.color.secondary-darker }};\n   27      /*font-weight: 700;*/\n   28  }\n   ..\n  182  .navbar-default .navbar-nav > li > a:hover,\n  183  .navbar-default .navbar-nav > li > a:focus {\n  184:     color: #{{ site.color.secondary-darker }};\n  185      -webkit-transition: all ease .5s;\n  186      -moz-transition: all ease .5s;\n  ...\n  191  .navbar-default .navbar-nav > .active > a:hover,\n  192  .navbar-default .navbar-nav > .active > a:focus {\n  193:     background-color: #{{ site.color.secondary-darker }};\n  194      -webkit-transition: all ease 1.5s;\n  195      -moz-transition: all ease 1.5s;\n  ...\n  237      .navbar-default .navbar-toggle:focus {\n  238          border: none;\n  239:         background-color: #{{ site.color.secondary-darker }};\n  240      }\n  241  }\n  ...\n  521      background:transparent;\n  522      margin: 0px;\n  523:     color: #{{ site.color.secondary-darker }};\n  524  }\n  525  \n\n13 matches across 2 files\n",
+			"file": "_includes/header.html",
 			"settings":
 			{
-				"buffer_size": 3016,
-				"line_ending": "Unix",
-				"name": "Find Results",
-				"scratch": true
+				"buffer_size": 2460,
+				"line_ending": "Unix"
 			}
 		},
 		{
-			"file": "_includes/css/main.css",
+			"file": "_includes/header-post.html",
 			"settings":
 			{
-				"buffer_size": 14962,
+				"buffer_size": 2125,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "_includes/header-cv.html",
+			"settings":
+			{
+				"buffer_size": 2341,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "_includes/about.html",
+			"settings":
+			{
+				"buffer_size": 864,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "_includes/about-page.html",
+			"settings":
+			{
+				"buffer_size": 878,
 				"line_ending": "Unix"
 			}
 		},
@@ -697,10 +775,14 @@
 	"expanded_folders":
 	[
 		"/home/alecive/Programmazione/git/alecive.github.io",
-		"/home/alecive/Programmazione/git/alecive.github.io/_includes"
+		"/home/alecive/Programmazione/git/alecive.github.io/_includes",
+		"/home/alecive/Programmazione/git/alecive.github.io/_posts"
 	],
 	"file_history":
 	[
+		"/home/alecive/Programmazione/git/alecive.github.io/_includes/header-post.html",
+		"/home/alecive/Programmazione/git/alecive.github.io/_includes/header-cv.html",
+		"/home/alecive/Programmazione/git/alecive.github.io/_includes/about-page.html",
 		"/home/alecive/.config/sublime-text-3/Packages/Glue/Glue.sublime-settings",
 		"/home/alecive/Programmazione/git/alecive.github.io/terminal.glue",
 		"/home/alecive/.config/sublime-text-3/Packages/Glue/keymaps/Default (Linux).sublime-keymap",
@@ -825,10 +907,7 @@
 		"/home/alecive/Programmazione/git/pps_gitlab/vtRF_MatLab/montecarloNew.m",
 		"/home/alecive/Programmazione/git/pps_gitlab/vtRF_MatLab/parzenExampleNew.m",
 		"/home/alecive/Programmazione/git/pps_gitlab/vtRF_MatLab/test.m",
-		"/home/alecive/Programmazione/git/pps_gitlab/vtRF_MatLab/reductionScript.m",
-		"/home/alecive/Programmazione/git/pps_gitlab/vtRF_MatLab/plot_data.m",
-		"/home/alecive/Programmazione/git/pps_gitlab/vtRF_MatLab/plot_event.m",
-		"/home/alecive/Programmazione/git/pps_gitlab/vtRF_MatLab/periPersonalSpace/taxels_onlyleft_doubleTouch1.ini"
+		"/home/alecive/Programmazione/git/pps_gitlab/vtRF_MatLab/reductionScript.m"
 	],
 	"find":
 	{
@@ -853,6 +932,26 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"width:",
+			".name",
+			"span",
+			"header",
+			"100%",
+			"cv",
+			"img-",
+			"portfolio-link",
+			"alpha",
+			"section",
+			"succes",
+			"about",
+			"about p",
+			"star-white-on-primary",
+			"star-white-on-secondary",
+			"primary-dark",
+			"hr.star-primary",
+			"star-light",
+			"star",
+			"start",
 			"h2",
 			"portfolio",
 			"color",
@@ -960,27 +1059,7 @@
 			" 2D ",
 			" 3D ",
 			"horizontalLayout_8",
-			" 3D ",
-			"3D ",
-			"addtople",
-			"qtreewidget",
-			"height=.32\\",
-			"2D ",
-			"fingertiptracking",
-			"HSVmin",
-			"illustra",
-			"mos:mm:",
-			"main",
-			"%!TEX root = ../../main.tex",
-			"%!TEX root = ../main.tex",
-			"main.tex",
-			"sgn",
-			"intro:pps",
-			"re}[",
-			"qtquick",
-			"re}[htb]",
-			"$TTC$",
-			"TTC "
+			" 3D "
 		],
 		"highlight": true,
 		"in_selection": false,
@@ -988,6 +1067,14 @@
 		"regex": false,
 		"replace_history":
 		[
+			"portfolio-link-tertiary",
+			"star-tertiary-on-white",
+			"star-secondary-on-white",
+			"star-tertiary-on-primary",
+			"star-secondary-on-primary",
+			"star-white-on-primary",
+			"hr.star-primary-on-white",
+			"star-white-on-secondary",
 			"site.color.tertiary",
 			"site.color.secondary-dark",
 			"512x512",
@@ -1107,15 +1194,7 @@
 			" ",
 			"_i",
 			"\\textsl{",
-			"",
-			" -- ",
-			"\\input{Chapters/PPS/",
-			"\\input{PPS/",
-			"\\right\\rangle$",
-			"$\\left\\langle",
-			"${\\left\\langle",
-			"\\bm",
-			"\\textsl{"
+			""
 		],
 		"reverse": false,
 		"show_context": true,
@@ -1126,7 +1205,7 @@
 	"groups":
 	[
 		{
-			"selected": 3,
+			"selected": 6,
 			"sheets":
 			[
 				{
@@ -1135,15 +1214,15 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 3632,
+						"buffer_size": 3893,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								1969,
-								1969
+								3752,
+								3752
 							]
 						],
 						"settings":
@@ -1153,27 +1232,203 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 434.0,
+						"translation.y": 1250.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 2,
+					"stack_index": 10,
 					"type": "text"
 				},
 				{
 					"buffer": 1,
-					"file": "_includes/research.html",
-					"semi_transient": true,
+					"file": "_includes/design.html",
+					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 1527,
+						"buffer_size": 1575,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								230,
-								230
+								370,
+								370
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 9,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "_includes/css/main.css",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 16608,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								5473,
+								5473
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/CSS/CSS.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 3824.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "_includes/post.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1049,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								306,
+								306
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 11,
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "_includes/post-cv.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 6668,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								373,
+								373
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 4,
+					"type": "text"
+				},
+				{
+					"buffer": 5,
+					"file": "_posts/2014-06-08-doubleTouch.md",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 3058,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								81,
+								81
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Markdown/Markdown.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 3,
+					"type": "text"
+				},
+				{
+					"buffer": 6,
+					"file": "_posts/2015-01-22-gazeStabilization.md",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 6666,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								3451,
+								3451
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Markdown/Markdown.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 720.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 7,
+					"file": "_includes/image.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 620,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								268,
+								268
 							]
 						],
 						"settings":
@@ -1190,132 +1445,187 @@
 					"type": "text"
 				},
 				{
-					"buffer": 2,
+					"buffer": 8,
+					"file": "_includes/research.html",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 3016,
-						"regions":
-						{
-							"match":
-							{
-								"flags": 112,
-								"regions":
-								[
-									[
-										181,
-										187
-									],
-									[
-										416,
-										422
-									],
-									[
-										649,
-										655
-									],
-									[
-										881,
-										887
-									],
-									[
-										1115,
-										1121
-									],
-									[
-										1347,
-										1353
-									],
-									[
-										1579,
-										1585
-									],
-									[
-										1803,
-										1809
-									],
-									[
-										2101,
-										2107
-									],
-									[
-										2306,
-										2312
-									],
-									[
-										2577,
-										2583
-									],
-									[
-										2820,
-										2826
-									],
-									[
-										2961,
-										2967
-									]
-								],
-								"scope": ""
-							}
-						},
-						"selection":
-						[
-							[
-								2001,
-								2001
-							]
-						],
-						"settings":
-						{
-							"detect_indentation": false,
-							"line_numbers": false,
-							"output_tag": 1,
-							"result_base_dir": "",
-							"result_file_regex": "^([A-Za-z\\\\/<].*):$",
-							"result_line_regex": "^ +([0-9]+):",
-							"scroll_past_end": true,
-							"syntax": "Packages/Default/Find Results.hidden-tmLanguage",
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 672.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 3,
-					"type": "text"
-				},
-				{
-					"buffer": 3,
-					"file": "_includes/css/main.css",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 14962,
+						"buffer_size": 1608,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								9858,
-								10304
+								276,
+								276
 							]
 						],
 						"settings":
 						{
-							"syntax": "Packages/CSS/CSS.tmLanguage",
+							"syntax": "Packages/HTML/HTML.tmLanguage",
 							"tab_size": 4,
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 8328.0,
+						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 0,
+					"stack_index": 8,
 					"type": "text"
 				},
 				{
-					"buffer": 4,
+					"buffer": 9,
+					"file": "_includes/header.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 2460,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								2192,
+								2192
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 240.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 7,
+					"type": "text"
+				},
+				{
+					"buffer": 10,
+					"file": "_includes/header-post.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 2125,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 6,
+					"type": "text"
+				},
+				{
+					"buffer": 11,
+					"file": "_includes/header-cv.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 2341,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1559,
+								1559
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 5,
+					"type": "text"
+				},
+				{
+					"buffer": 12,
+					"file": "_includes/about.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 864,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								556,
+								556
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 13,
+					"type": "text"
+				},
+				{
+					"buffer": 13,
+					"file": "_includes/about-page.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 878,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								801,
+								801
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 12,
+					"type": "text"
+				},
+				{
+					"buffer": 14,
 					"file": "personalwebsite.sublime-project",
 					"semi_transient": false,
 					"settings":
@@ -1333,17 +1643,19 @@
 						],
 						"settings":
 						{
-							"syntax": "Packages/JavaScript/JSON.tmLanguage"
+							"syntax": "Packages/JavaScript/JSON.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 5,
+					"stack_index": 15,
 					"type": "text"
 				},
 				{
-					"buffer": 5,
+					"buffer": 15,
 					"file": "/home/alecive/Programmazione/git/phd-thesis/phd-thesis.sublime-project",
 					"semi_transient": false,
 					"settings":
@@ -1367,7 +1679,7 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 4,
+					"stack_index": 14,
 					"type": "text"
 				}
 			]
@@ -1375,7 +1687,7 @@
 	],
 	"incremental_find":
 	{
-		"height": 24.0
+		"height": 38.0
 	},
 	"input":
 	{
