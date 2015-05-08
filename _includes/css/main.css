@@ -347,7 +347,7 @@ section.success p {
 
 #article em,
 #article strong {
-    color: #{{ site.color.primary-dark }};
+    color: #{{ site.color.primary }};
 }
 
 #article strong {
@@ -543,7 +543,6 @@ section.success p {
 #article .progress {
     position: relative;
     height: 25px;
-    left: 20px;
     margin-right: 20px;
 }
 
@@ -577,6 +576,10 @@ section.success p {
     transition: width 1.6s ease 0s;
 }
 
+#article .progress:hover .progress-bar {
+    background-color: #{{ site.color.tertiary }};
+}
+
 #article .progress > .progress-type {
     position: absolute;
     left: 0px;
@@ -585,6 +588,10 @@ section.success p {
     line-height: 22px;
     color: #FFF;
     background-color: #{{ site.color.secondary-dark }};
+}
+
+#article .progress:hover > .progress-type {
+    background-color: #{{ site.color.secondary }};
 }
 
 #article .progress > .progress-completed {

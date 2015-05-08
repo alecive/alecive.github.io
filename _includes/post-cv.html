@@ -121,22 +121,24 @@
             <h2>Skills and Technical Expertise</h2>  
             {% for skill in page.skills %}
             <div class="row cv-item">
-                <p><b>{{ skill.name }}: </b></p>
-                <div class="only-print">
-                {% for item in skill.items %}
-                    <span class="label" style="opacity: 0.{{ item.knowledge }};"><e class="ok"> {{ item.name }} </e><e class="hover"> {{ item.knowledge }}% </e></span>
-                {% endfor %} 
-                </div>
-
-                {% for item in skill.items %}
-                    <div class="progress no-print">
-                        <div class="progress-bar" role="progressbar" data-percent="{{ item.knowledge }}%" style="width: {{ item.knowledge }}%;">
-                            <span class="sr-only">{{ item.knowledge }}% Complete</span>
-                        </div>
-                        <span class="progress-type">{{ item.name }}</span>
-                        <span class="progress-completed">{{ item.knowledge }}%</span>
+                <div class="col-sm-12">
+                    <p><b>{{ skill.name }}: </b></p>
+                    <div class="only-print">
+                    {% for item in skill.items %}
+                        <span class="label" style="opacity: 0.{{ item.knowledge }};"><e class="ok"> {{ item.name }} </e><e class="hover"> {{ item.knowledge }}% </e></span>
+                    {% endfor %} 
                     </div>
-                {% endfor %}
+
+                    {% for item in skill.items %}
+                        <div class="progress no-print">
+                            <div class="progress-bar" role="progressbar" data-percent="{{ item.knowledge }}%" style="width: {{ item.knowledge }}%;">
+                                <span class="sr-only">{{ item.knowledge }}% Complete</span>
+                            </div>
+                            <span class="progress-type">{{ item.name }}</span>
+                            <span class="progress-completed">{{ item.knowledge }}%</span>
+                        </div>
+                    {% endfor %}
+                </div>
             </div>
             {% endfor %}
 
