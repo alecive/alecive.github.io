@@ -1,7 +1,8 @@
 ---
 layout: post-cv
 title: Curriculum Vitae
-download-link: cv.pdf
+cv-download-link: cv.pdf
+resume-download-link: resume.pdf
 modal-id: 8
 category: cv
 description: I am a robotics engineer and a designer
@@ -27,7 +28,7 @@ skills:
       knowledge: 40
     - name: Python
       knowledge: 20
- - name: CM Skills
+ - name: Versioning Systems Skills
    items:
     - name: Git
       knowledge: 75
