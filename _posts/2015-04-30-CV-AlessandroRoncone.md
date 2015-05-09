@@ -1,8 +1,8 @@
 ---
 layout: post-cv
 title: Curriculum Vitae
-cv-download-link: cv.pdf
-resume-download-link: resume.pdf
+cv-download-link: ARoncone_cv.pdf
+resume-download-link: ARoncone_resume.pdf
 modal-id: 8
 category: cv
 description: I am a robotics engineer and a designer

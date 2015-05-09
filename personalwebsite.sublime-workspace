@@ -523,39 +523,71 @@
 			"file": "_config.yml",
 			"settings":
 			{
-				"buffer_size": 2962,
+				"buffer_size": 3155,
 				"line_ending": "Unix"
 			}
 		},
 		{
-			"file": "_includes/design.html",
+			"file": "robots.txt",
 			"settings":
 			{
-				"buffer_size": 1575,
+				"buffer_size": 58,
 				"line_ending": "Unix"
 			}
 		},
 		{
-			"file": "_includes/css/main.css",
+			"file": "_posts/2015-04-30-CV-AlessandroRoncone.md",
 			"settings":
 			{
-				"buffer_size": 17179,
+				"buffer_size": 12941,
 				"line_ending": "Unix"
 			}
 		},
 		{
-			"file": "_includes/post.html",
+			"file": "/home/alecive/Programmazione/git/funny-things/_site/authors.html",
 			"settings":
 			{
-				"buffer_size": 1049,
+				"buffer_size": 11820,
 				"line_ending": "Unix"
 			}
 		},
 		{
-			"file": "_includes/about-page.html",
+			"file": "_includes/head.html",
 			"settings":
 			{
-				"buffer_size": 878,
+				"buffer_size": 3348,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "_includes/head-cv.html",
+			"settings":
+			{
+				"buffer_size": 3266,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "_includes/header-cv.html",
+			"settings":
+			{
+				"buffer_size": 2348,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "_posts/2015-05-07-periPersonalSpace.md",
+			"settings":
+			{
+				"buffer_size": 3536,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "_posts/2014-11-08-iCub-icon.md",
+			"settings":
+			{
+				"buffer_size": 1170,
 				"line_ending": "Unix"
 			}
 		},
@@ -564,14 +596,6 @@
 			"settings":
 			{
 				"buffer_size": 409,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "/home/alecive/Programmazione/git/phd-thesis/phd-thesis.sublime-project",
-			"settings":
-			{
-				"buffer_size": 348,
 				"line_ending": "Unix"
 			}
 		}
@@ -708,6 +732,11 @@
 	],
 	"file_history":
 	[
+		"/home/alecive/Programmazione/git/phd-thesis/phd-thesis.sublime-project",
+		"/home/alecive/Programmazione/git/alecive.github.io/_includes/about-page.html",
+		"/home/alecive/Programmazione/git/alecive.github.io/_includes/post.html",
+		"/home/alecive/Programmazione/git/alecive.github.io/_includes/design.html",
+		"/home/alecive/Programmazione/git/alecive.github.io/_includes/css/main.css",
 		"/home/alecive/Programmazione/git/alecive.github.io/js/cbpAnimatedHeader.js",
 		"/home/alecive/Programmazione/git/alecive.github.io/js/freelancer.js",
 		"/home/alecive/Programmazione/git/alecive.github.io/_includes/js.html",
@@ -726,7 +755,6 @@
 		"/home/alecive/Programmazione/git/iCub/gaze-stabilization/modules/gazeStabilizer/gazeStabilizerThread.cpp",
 		"/home/alecive/Programmazione/git/iCub/gaze-stabilization/modules/gazeStabilizer/gazeStabilizerThread.h",
 		"/home/alecive/Programmazione/git/alecive.github.io/_posts/2015-01-22-gazeStabilization.md",
-		"/home/alecive/Programmazione/git/alecive.github.io/_includes/about-page.html",
 		"/home/alecive/.config/sublime-text-3/Packages/Glue/Glue.sublime-settings",
 		"/home/alecive/Programmazione/git/alecive.github.io/terminal.glue",
 		"/home/alecive/.config/sublime-text-3/Packages/Glue/keymaps/Default (Linux).sublime-keymap",
@@ -831,11 +859,7 @@
 		"/home/alecive/Programmazione/git/phd-thesis/gfx/DoubleTouch/proposed.tex",
 		"/home/alecive/Programmazione/git/phd-thesis/Chapters/00Template.tex",
 		"/home/alecive/Programmazione/git/phd-thesis/Chapters/Conclusions.tex",
-		"/home/alecive/Programmazione/git/phd-thesis/Chapters/DoubleTouch.tex",
-		"/home/alecive/Programmazione/git/phd-thesis/Chapters/Introduction.tex",
-		"/home/alecive/Programmazione/git/phd-thesis/Chapters/PPS/4-Conclusions.tex",
-		"/home/alecive/Programmazione/git/phd-thesis/main.tex",
-		"/home/alecive/Programmazione/git/phd-thesis/lablst.tex"
+		"/home/alecive/Programmazione/git/phd-thesis/Chapters/DoubleTouch.tex"
 	],
 	"find":
 	{
@@ -860,6 +884,11 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"href=\"/",
+			"’",
+			"”",
+			"“",
+			"–",
 			"cm",
 			"cv-item",
 			"article-img",
@@ -982,12 +1011,7 @@
 			"ref",
 			"href",
 			"url",
-			"{url",
-			"tabb-content5",
-			"blank",
-			"home",
-			"figure",
-			"scaling"
+			"{url"
 		],
 		"highlight": true,
 		"in_selection": false,
@@ -995,6 +1019,10 @@
 		"regex": false,
 		"replace_history":
 		[
+			"href=\"/img/fav/",
+			"'",
+			"\"",
+			"-",
 			"scholarship",
 			"border-left-width",
 			"<b>",
@@ -1118,11 +1146,7 @@
 			"\\bm{",
 			"Chapters/PPS/gfx/",
 			"}",
-			"\\textsl{",
-			"\\myfloatalign",
-			"\\subfloat[]{",
-			"\\bm{x}",
-			"\\bm"
+			"\\textsl{"
 		],
 		"reverse": false,
 		"show_context": true,
@@ -1133,7 +1157,7 @@
 	"groups":
 	[
 		{
-			"selected": 0,
+			"selected": 2,
 			"sheets":
 			[
 				{
@@ -1142,15 +1166,15 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 2962,
+						"buffer_size": 3155,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								2663,
-								2663
+								1709,
+								1709
 							]
 						],
 						"settings":
@@ -1160,27 +1184,85 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 322.0,
+						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 0,
+					"stack_index": 2,
 					"type": "text"
 				},
 				{
 					"buffer": 1,
-					"file": "_includes/design.html",
+					"file": "robots.txt",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 1575,
+						"buffer_size": 58,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								521,
-								521
+								57,
+								57
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Text/Plain text.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "_posts/2015-04-30-CV-AlessandroRoncone.md",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 12941,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								905,
+								905
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Markdown/Markdown.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 48.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "/home/alecive/Programmazione/git/funny-things/_site/authors.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 11820,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								620,
+								620
 							]
 						],
 						"settings":
@@ -1197,80 +1279,20 @@
 					"type": "text"
 				},
 				{
-					"buffer": 2,
-					"file": "_includes/css/main.css",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 17179,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								6486,
-								6486
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/CSS/CSS.tmLanguage",
-							"tab_size": 4,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 5110.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 1,
-					"type": "text"
-				},
-				{
-					"buffer": 3,
-					"file": "_includes/post.html",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 1049,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								306,
-								306
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/HTML/HTML.tmLanguage",
-							"tab_size": 4,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 2,
-					"type": "text"
-				},
-				{
 					"buffer": 4,
-					"file": "_includes/about-page.html",
+					"file": "_includes/head.html",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 878,
+						"buffer_size": 3348,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								828,
-								828
+								503,
+								503
 							]
 						],
 						"settings":
@@ -1288,6 +1310,122 @@
 				},
 				{
 					"buffer": 5,
+					"file": "_includes/head-cv.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 3266,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								555,
+								555
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 5,
+					"type": "text"
+				},
+				{
+					"buffer": 6,
+					"file": "_includes/header-cv.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 2348,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1343,
+								1343
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 6,
+					"type": "text"
+				},
+				{
+					"buffer": 7,
+					"file": "_posts/2015-05-07-periPersonalSpace.md",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 3536,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								2823,
+								2823
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Markdown/Markdown.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 8,
+					"type": "text"
+				},
+				{
+					"buffer": 8,
+					"file": "_posts/2014-11-08-iCub-icon.md",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1170,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								266,
+								266
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Markdown/Markdown.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 7,
+					"type": "text"
+				},
+				{
+					"buffer": 9,
 					"file": "personalwebsite.sublime-project",
 					"semi_transient": false,
 					"settings":
@@ -1313,35 +1451,7 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 6,
-					"type": "text"
-				},
-				{
-					"buffer": 6,
-					"file": "/home/alecive/Programmazione/git/phd-thesis/phd-thesis.sublime-project",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 348,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								0,
-								0
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/JavaScript/JSON.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 5,
+					"stack_index": 9,
 					"type": "text"
 				}
 			]
