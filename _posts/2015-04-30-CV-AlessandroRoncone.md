@@ -24,6 +24,8 @@ skills:
       knowledge: 60
     - name: OpenCV
       knowledge: 55
+    - name: CMake
+      knowledge: 50
     - name: R
       knowledge: 40
     - name: Python
