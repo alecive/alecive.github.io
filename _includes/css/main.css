@@ -444,7 +444,7 @@ section.success p {
 #article pre {
     font-family: Menlo, Monaco, "Courier New", monospace;
     background-color: #f9f9f9;
-    boder: none;
+    border: none;
 }
 
 #article code {
@@ -834,6 +834,18 @@ footer .footer-below {
 .scroll-top .btn:focus {
     outline: 0;
     background-color: #{{ site.color.secondary-dark }};
+}
+
+@media(max-width:767px) {    
+    #article .cv-item {
+        margin-left: 0px;
+        margin-right: 0px;
+    }
+
+    #article .cv-item h3 {
+        margin-top: 6px;
+        font-size: 0.8em;
+    }
 }
 
 @media(max-width:450px) {
