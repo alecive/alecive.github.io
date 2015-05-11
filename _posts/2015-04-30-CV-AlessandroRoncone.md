@@ -1,8 +1,8 @@
 ---
 layout: post-cv
 title: Curriculum Vitae
-cv-download-link: ARoncone_cv.pdf
-resume-download-link: ARoncone_resume.pdf
+cv-download-link: AlessandroRoncone_cv.pdf
+resume-download-link: AlessandroRoncone_resume.pdf
 modal-id: 8
 category: cv
 description: I am a robotics engineer and a designer
@@ -88,7 +88,7 @@ education:
    end: 2008
    location: ISICT (Istituto Superiore di Studi in Tecnologie dell'Informazione e della Comunicazione)
    location-link: http://www.isict.it/
-   description: "ISICT stands for <i>Institute of Advanced Studies in Information and Communication Technologies</i>. It is a consortium that integrates the courses provided by the University of Genoa with lessons held by industry leaders. The goal is to better prepare students for the labor market. To this end, I attended a number of additional courses ranging from <i>Marketing</i> to <i>Telecommunications</i> to <i>Aerospace Engineering</i>. I've been also selected for a scholarship, after a thorough examination (only three positions were available)."
+   description: "ISICT stands for <i>Institute for Advanced Studies in Information and Communication Technologies</i>. It is a consortium that integrates the courses provided by the University of Genoa with lessons held by industry leaders. The goal is to better prepare students for the labor market. To this end, I attended a number of additional courses ranging from <i>Marketing</i> to <i>Telecommunications</i> to <i>Aerospace Engineering</i>. I've been also selected for a scholarship, after a thorough examination (only three positions were available)."
 
 professional:
  - name: Post Doc
