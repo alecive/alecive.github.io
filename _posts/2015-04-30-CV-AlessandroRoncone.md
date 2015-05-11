@@ -74,7 +74,7 @@ education:
    end: 2011
    location: Università degli studi di Genova, IT
    location-link: http://www.unige.it
-   description: "I implemented a multisensory machine learning system in order to improve the detection and the identification of an object in the iCub robot's workspace. Specifically, I implemented an SVM-based system able to integrate between the visual system and the haptic information coming from the F/T sensor of the iCub robot. The system proved to be successful in improving the vision-based detection of a set of objects by means of the haptic exploration of the same objects."
+   description: "I implemented a multisensory machine learning system in order to improve the detection and the identification of objects in the iCub robot's workspace. Specifically, I implemented an SVM-based system able to integrate between the visual system and the haptic information coming from the F/T sensor of the iCub robot. The system proved to be successful in improving the vision-based detection of a set of objects by means of the haptic exploration of the same objects."
  - name: B.Sc. with honors in Biomedical Engineering
    title: Thesis title `Support Vector Machine Analysis applied to a Manipulator in a Non-Structured Environment`
    start: 2005
@@ -110,7 +110,7 @@ professional:
    end: Oct. 2013
    location: Coop la Lucerna
    location-link: http://cooplalucerna.it/
-   description: "<i>Coop la Lucerna</i> is a farm right in the middle of Pianura Padana, IT. During the process of restructuring their online offerings, they contacted me in order to implemented a set of icons for their website. The icons were basically a set of 20 vegetables, rendered in a flat and minimal look."
+   description: "<i>Coop la Lucerna</i> is a farm right in the middle of Pianura Padana, IT. During the process of restructuring their online offerings, they contacted me in order to implemented a set of icons for their website. The icons were a set of 20 vegetables, rendered in a flat and minimal look."
  - name: Icon Designer
    title: Icon Designer in outsourcing
    start: Oct.
@@ -181,6 +181,10 @@ misc:
 
 <h2 class="only-print">Personal Website: <a href="http://alecive.github.io"></a></h2>
 
+## Who am I
+
+Energetic and resourceful Robotics Engineer with more than four years research experience and a proven publication track record. Motivated by intellectually challenging projects as well as personal achievements, I like to work hard and to learn new things by addressing new challenges. I love to be part of a team with bright people working toward the implementation of ambitious ideas, and I am enthusiastic toward the design and the realization of highly innovative tasks.
+
 ## Me at a glance
 
  * _Robotics Engineer_ with _4 year full-time experience_ with one of the most advanced robots out there, i.e. the [iCub](http://www.icub.org).
@@ -191,10 +195,6 @@ misc:
  * Long-time Linux user, and active contributor to the Linux FOSS community.
  * Graphic Designer and freelancer in the spare time, with a number of successfull projects and employments.
  * Obsessed by two things: _pixel-perfect graphics_, and _bit-perfect code_.
-
-<!-- ## Who am I
-
-Work in progress-->
 
 ## Summary
 
