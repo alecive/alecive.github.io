@@ -20,5 +20,25 @@
                     </a>
                 </div> -->
             </div>
+            {% if site.categories.blog%}
+            <div class="row">
+                <div class="row">
+                    <div class="col-lg-12 text-center">
+                        <h2>Blog</h2>
+                        <hr class="star-secondary-on-white">
+                    </div>
+                </div>
+                {% for post in site.posts %}
+                    {% if post.categories contains 'blog' %}
+                        <div class="col-sm-4 col-lg-offset-1 portfolio-item">
+                            <a href="{{ post.url }}" class="portfolio-link-tertiary" data-toggle="modal">
+                                <h4>{{ post.title }}</h4>
+                                <p>{{ post.description }}</p>
+                            </a>
+                        </div>
+                    {% endif %}
+                {% endfor %}
+            </div>
+            {% endif %}
         </div>
     </section>
