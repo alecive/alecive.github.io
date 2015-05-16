@@ -24,7 +24,6 @@ a:active,
 a.active {
     outline: 0;
     color: #{{ site.color.tertiary }};
-    /*font-weight: 700;*/
 }
 
 h1,
