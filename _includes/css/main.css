@@ -634,6 +634,10 @@ span.label:hover e.ok {
     text-align: left;
 }
 
+#article .cv-item h2 {
+    margin-top: 20px;
+}
+
 .video-container,
 .pdf-container {
     position: relative;
@@ -1115,7 +1119,15 @@ pre code span:hover {
 }
 
 @media print
-{    
+{   
+    a {
+        color: #{{ site.color.tertiary }};
+    }
+
+    a[href]:after {
+        content: none !important;
+    }
+
     header .container {
         padding-top: 20px;
         padding-bottom: 0px;
@@ -1164,7 +1176,8 @@ pre code span:hover {
         margin-bottom: 6px;
         margin-left: 0px;
         margin-right: 0px;
-        padding-left: 4px;
+        padding-left: 0px;
+        border: none;
     }
 
     #article .cv-item h2 {
@@ -1184,5 +1197,13 @@ pre code span:hover {
 
     section h3 {
         font-size: 1.1em;
+    }
+
+    span.label {
+        border: none;
+    }
+
+    .inlineifprinted {
+        display: inline;
     }
 }

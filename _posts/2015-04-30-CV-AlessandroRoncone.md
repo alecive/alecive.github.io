@@ -15,7 +15,7 @@ skills:
     - name: C++
       knowledge: 85
     - name: Matlab
-      knowledge: 75
+      knowledge: 80
     - name: CSS3 & HTML5
       knowledge: 85
     - name: IPOPT
@@ -23,6 +23,8 @@ skills:
     - name: Bash
       knowledge: 60
     - name: OpenCV
+      knowledge: 55
+    - name: UX/UI
       knowledge: 55
     - name: CMake
       knowledge: 50
@@ -66,22 +68,21 @@ education:
    end: 2015
    location: Istituto Italiano di Tecnologia (IIT), Genova IT
    location-link: http://www.iit.it
-   description: "<i>Abstract:</i> The new generation of robotic devices will require machines able to adequately perform rich interactions with objects -- and eventually humans -- in their environment. This aspect will prove fundamental in the context of moving robots from the controlled domains typical of a factory environment toward our -- much less structured -- everyday life. To this end, robots need the ability to express some sort of awareness of their body and their surroundings: instead of focusing exclusively on the end-effector as the only part that interacts with the environment, the robotic field needs to move toward a more distributed, decentralized representation of the self and the nearby space. More importantly, albeit a consistently improving technology, robotic systems are equipped with inherently faulty systems characterized by calibration and systematic errors that need to be effectively coped with.
-   This thesis deals with the formalization and the development of a system able to let a humanoid robot learn a multisensory representation of the space around its body (or peripersonal space). The robot is equipped with a whole-body artificial skin and learns the consequences of its interaction with the self and the environment by means of a multisensory (tactile-motor and tactile-visual) representation. This results in the extension of the robot's tactile domain toward the nearby space, in such a way that it lets the robot to implicitly cope with modeling or calibration errors. Further, this representation is put under testing with a sensory-based guidance of the motor actions performed by the robot: that is, an avoidance and catching controller capable of using any body part in order to either prevent collision with or come into contact with incoming objects."
+   description: "I focused on improving the sensorimotor capabilities of the iCub humanoid, by implementing a bio-inspired system able to learn a multisensory representation of the space around the robot’s body (or <i>peripersonal space</i>). The robot is equipped with a whole-body artificial skin and learns the consequences of its interaction with the self and the environment by means of a multisensory (tactile-motor and tactile-visual) representation. This results in the extension of the robot's tactile domain toward the nearby space, in such a way that it implicitly copes with modeling or calibration errors. Finally, this representation is then exploited with a sensory-based guidance of the motor actions performed by the robot. That is, an avoidance and catching controller capable of using any body part in order to either prevent collision with or come into contact with incoming objects. "
  - name: M.Sc. with honors in NeuroEngineering
    title: Thesis title `Visuo-Haptic Integration for Object Characterization in an Unstructured Environment`
    start: 2008
    end: 2011
    location: Università degli studi di Genova, IT
    location-link: http://www.unige.it
-   description: "I implemented a multisensory machine learning system in order to improve the detection and the identification of objects in the iCub robot's workspace. Specifically, I implemented an SVM-based system able to integrate between the visual system and the haptic information coming from the F/T sensor of the iCub robot. The system proved to be successful in improving the vision-based detection of a set of objects by means of the haptic exploration of the same objects."
+   description: "I developed a multisensory machine learning system in order to improve the detection and the identification of objects in the iCub robot's workspace. Specifically, I implemented an SVM-based system able to integrate between the visual system and the haptic information coming from the F/T sensor of the iCub robot. The system proved to be successful in improving the vision-based detection of a set of objects by means of the haptic exploration of the same objects."
  - name: B.Sc. with honors in Biomedical Engineering
    title: Thesis title `Support Vector Machine Analysis applied to a Manipulator in a Non-Structured Environment`
    start: 2005
    end: 2009
    location: Università degli studi di Genova, IT
    location-link: http://www.unige.it
-   description: "I implemented a system able to control a PUMA robotic arm and develop a goalkeeper-like behavior in an air hockey setup. The robot was using a supervised learning technique in order to understand which of the puck trajectories he previously experienced was scoring a point. Based on this, it learned the ability to prevent such points by predicting the final outcome of a trajectory given some initial acquisitions. Its success rate was beyond 95%."
+   description: "I carried out a system able to control a PUMA robotic arm and develop a goalkeeper-like behavior in an air hockey setup. The robot used SVMs in order to understand which of the puck trajectories he previously experienced was scoring a point. Based on this, it learned the ability to prevent such points by predicting the final outcome of a trajectory given some initial samples. Its success rate was beyond 95%."
  - name: Student (with scholarship) at ISICT
    title: 
    start: 2005
@@ -97,13 +98,20 @@ professional:
    end: present
    location: Istituto Italiano di Tecnologia (IIT), Genova IT
    location-link: http://www.iit.it
- - name: Ph.D. Fellow
+   description: "I am currently continuing the work I started during my Ph.D. fellowship at the iCub Facility. Specifically, I am interested in the exploitation of the peripersonal space model I implemented during my Ph.D., by focusing toward two types of applications: i) better, richer body representations (in collaboration with CITEC @Bielefeld) ii) distributed motor control via whole-body awareness (partially collaborating with WYSIWYD project partners). Furthermore, I am extending the gaze stabilization framework I developed as a side project during my Ph.D. by integrating it with an existing gaze controller. I am also involved in a human-robot interaction project aimed at developing natural interaction(s) between the iCub humanoid robot and humans."
+ - name: Ph.D. Fellow @ iCub Facility
    title: Life and Humanoid Technologies
    start: 2012
    end: 2015
    location: Istituto Italiano di Tecnologia (IIT), Genova IT
    location-link: http://www.iit.it
-   description: Doctoral course in Robotics, Cognition and Interaction Technologies. See the <i>`Education`</i> section above for details about my Ph.D. thesis.
+   description: Doctoral course in Robotics, Cognition and Interaction Technologies. See the <i>`Education`</i> section above for details about my Ph.D. thesis. I have been involved in the Xperience FP7-ICT-270273 and WYSIWYD FP7-ICT-61239 projects, funded by the European Union Seventh Framework Program with a funding of €7,634,000 and €4,583,016 respectively.
+ - name: Research Fellow @ RBCS (Robotics, Brain and Cognitive Science)
+   start: 2010
+   end: 2011
+   location: Istituto Italiano di Tecnologia (IIT), Genova IT
+   location-link: http://www.iit.it
+   description: I have been partnering with the Italian Institute of Technology during my MSc thesis. See the <i>`Education`</i> section above for details about my master thesis.
  - name: Icon Designer
    title: Icon Designer in outsourcing
    start: Jul.
@@ -117,7 +125,7 @@ professional:
    end: Dec. 2011
    location: Magor Corp.
    location-link: http://www.magorcorp.com/
-   description: "I have been contacted in order to design a new set of icons for their tele-collaboration software (it is basically a Skype-like alternative oriented toward telepresence and teleconference). I designed a total of 30 icons."
+   description: "I have been contacted in order to design a new set of icons for their tele-collaboration software (a Skype-like alternative oriented toward telepresence and teleconference). I designed a total of 30 icons."
  - name: Icon Designer
    title: Icon Designer in outsourcing
    start: Feb.
@@ -164,22 +172,24 @@ misc:
  - title: "Modeling the development of body knowledge using humanoid robots"
    authors: "Matej Hoffmann, Alessandro Roncone, Giorgio Metta"
    year: 2014
-   venue: "The International conference on Infant Studies"
+   venue: "International conference on Infant Studies"
    where: Berlin, Germany, July 3-5, 2014
    description: "Oral presentation at the <i>International Conference on Infant Studies</i>."
  - title: "Modeling the development of human body representations"
    authors: "Matej Hoffmann, Alessandro Roncone, Giorgio Metta"
    year: 2013
-   venue: "SMLC '13 - Workshop on Synthetic Modeling of Life and Cognition: Open Questions"
+   venue: "SMLC - Workshop on Synthetic Modeling of Life and Cognition: Open Questions"
    where: Bergamo, Italy, September 12-14, 2013
    description: "Oral presentation at the workshop on <i>Synthetic Modeling of Life and Cognition</i>: Open Questions."
  - title: "Researcher of the week"
    year: 2013-2014
    venue: IIT (Istituto Italiano di Tecnologia)
-   description: "I've been researcher of the week for two times. Despite its name, this award is given very rarely to outstanding research performed in the iCub Facility at IIT."
+   where: iCub Facility
+   description: "I've been researcher of the week for two times. Despite its name, this award is given very rarely to outstanding research performed in the iCub Facility at IIT. In the past two years, only 6 of these awards have been given."
 ---
 
-<h2 class="only-print">Personal Website: <a href="http://alecive.github.io"></a></h2>
+<h2 class="only-print">Personal Website: <a href="http://alecive.github.io">http://alecive.github.io</a></h2>
+<h2 class="only-print">GitHub Page: <a href="http://github.com/alecive">http://github.com/alecive</a></h2>
 
 ## Who am I
 
