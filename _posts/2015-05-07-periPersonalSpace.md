@@ -12,18 +12,17 @@ article: yes
 
 ---
 
-<!-- #### Reference paper: _Gaze Stabilization for Humanoid Robots: a Comprehensive Framework_ -->
+#### Reference paper: _Learning peripersonal space representation through artificial skin for avoidance and reaching with whole body surface_ <a class="no-print" href="/papers/[Roncone et al. 2015] - Learning peripersonal space representation.pdf" target="_blank"> [PDF]</a>
 
-#### Authors: _Alessandro Roncone, Matej Hoffmann, Ugo Pattacini, Luciano Fadiga, and Giorgio Metta_
+**Authors:** _Alessandro Roncone, Matej Hoffmann, Ugo Pattacini, Luciano Fadiga, and Giorgio Metta_
 
-<!-- #### Submission: _2014 IEEE-RAS International Conference on Humanoid Robots, Madrid, Spain, November 18-20, 2014_ -->
+**Submission:** _2015 IEEE/RSJ International Conference on Intelligent Robots and Systems, Hamburg, Germany, September 28-October 2, 2015_
 
-<!-- ## Video
+## Video
 
 Here is a video that summarizes the behavior:
 
-{% include video.html url="//www.youtube.com/embed/NSGea-tCLZM" %}
- -->
+{% include video.html url="//www.youtube.com/embed/scaFDZZnIZs" %}
 
 ## Description
 

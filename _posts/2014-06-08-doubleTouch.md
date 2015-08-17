@@ -13,11 +13,11 @@ article: yes
 
 ---
 
-#### Reference paper: _Automatic kinematic chain calibration using artificial skin: self-touch in the iCub humanoid robot_
+#### Reference paper: _Automatic kinematic chain calibration using artificial skin: self-touch in the iCub humanoid robot_ <a class="no-print" href="/papers/[Roncone et al. 2014] - automatic kinematic chain calibration.pdf" target="_blank"> [PDF]</a>
 
-#### Authors: _Alessandro Roncone, Matej Hoffmann, Ugo Pattacini, and Giorgio Metta_
+**Authors:** _Alessandro Roncone, Matej Hoffmann, Ugo Pattacini, and Giorgio Metta_
 
-#### Submission: _IEEE International Conference on Robotics and Automation (ICRA2014), Hong Kong, China, May 31-June 7, 2014_
+**Submission:** _IEEE International Conference on Robotics and Automation (ICRA2014), Hong Kong, China, May 31-June 7, 2014_
 
 ## Video
 

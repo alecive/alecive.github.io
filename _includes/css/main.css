@@ -348,7 +348,7 @@ section.success p {
 
 #article em,
 #article strong {
-    color: #{{ site.color.primary }};
+    color: #{{ site.color.articletext }};
 }
 
 #article strong {

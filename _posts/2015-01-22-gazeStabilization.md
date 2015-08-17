@@ -13,11 +13,11 @@ article: yes
 
 ---
 
-#### Reference paper: _Gaze Stabilization for Humanoid Robots: a Comprehensive Framework_
+#### Reference paper: _Gaze Stabilization for Humanoid Robots: a Comprehensive Framework_ <a class="no-print" href="/papers/[Roncone et al. 2014] - Gaze stabilization for humanoid robots.pdf" target="_blank"> [PDF]</a>
 
-#### Authors: _Alessandro Roncone, Ugo Pattacini, Giorgio Metta, and Lorenzo Natale_
+**Authors:** _Alessandro Roncone, Ugo Pattacini, Giorgio Metta, and Lorenzo Natale_
 
-#### Submission: _2014 IEEE-RAS International Conference on Humanoid Robots, Madrid, Spain, November 18-20, 2014_
+**Submission:** _2014 IEEE-RAS International Conference on Humanoid Robots, Madrid, Spain, November 18-20, 2014_
 
 ## Video
 
@@ -40,7 +40,7 @@ As result, the Gaze Stabilizer is realized by the cascade of two main blocks: th
 
 {% include image.html url="portfolio/gazeStabilization-icubHeadKin.svg" width="width:75%;" description="<b><i>Figure 2</i></b>. Kinematics of the iCub’s torso and head. The upper body of the iCub is composed of a 3 DoF torso, a 3 DoF neck and a 3 DoF binocular system, for a total of 9 DoF. Each of these joints, depicted in red, are responsible for the motion of the fixation point. The Inertial Measurement Unit (IMU) is the green rectangle placed in the head; its motion is not affected by the eyes." %}
 
-To fulfil our requirements, we provide a mathematical formulation for the forward and differential kinematics of the fixation point of a generic stereo system, in order to compute the position of the fixation point and its Jacobian matrix.
+To fulfill our requirements, we provide a mathematical formulation for the forward and differential kinematics of the fixation point of a generic stereo system, in order to compute the position of the fixation point and its Jacobian matrix.
 
 ## Experiments
 
