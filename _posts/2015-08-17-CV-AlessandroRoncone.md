@@ -62,7 +62,7 @@ skills:
       knowledge: 70
 
 education:
- - name: Ph.D. in Life and Humanoid Technologies
+ - name: Ph.D. in Life and Humanoid Technologies <a class="no-print" href="/papers/[Alessandro Roncone] PhD Thesis.pdf" target="_blank"> [PDF]</a>
    title: Thesis title `Expanding sensorimotor capabilities of humanoid robots through multisensory integration. A study on the implementation of peripersonal space on the iCub.`
    start: 2012
    end: 2015
