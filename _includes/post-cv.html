@@ -19,7 +19,6 @@
                             {% if college.location-link %}<h2 class="inlineifprinted"><a href="{{college.location-link}}" target="_blank">{{college.location}}</a></h2>
                             {% else %}<h2 class="inlineifprinted">{{college.location}}</h2>
                             {% endif %}
-                            <!-- <p>2010 - 2012 Senior Graphic Designer <br> 2012 - 2014 Project Manager</p> -->
                         </div>
                     </div>
 
@@ -40,12 +39,11 @@
                             <h3 class="inlineifprinted">{{item.year}}</h3>
                             <h4 class="inlineifprinted">{{item.venue}}</h4>
                             <p>{{item.where}}</p>
-                            <!-- <p>2010 - 2012 Senior Graphic Designer <br> 2012 - 2014 Project Manager</p> -->
                         </div>
                     </div>
 
                     <div class="col-sm-8">
-                        <h2>{{item.title}}</h2>
+                        <h2>{{item.title}}{% if item.pdf %}<a href="papers/{{item.pdf}}" target="_blank"> [PDF]</a>{% endif %}</h2>
                         <p><i>{{item.authors}}</i><br>
                         {{item.description}}
                         </p>

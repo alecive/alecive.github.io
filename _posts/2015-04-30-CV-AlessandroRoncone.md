@@ -137,30 +137,40 @@ professional:
 graphics:
  - name: FlatWoken Icons
    start: 2013
-   end: present
+   end: 2014
  - name: AwOken Icons
    start: 2010
    end: 2013
 
 publications:
+ - title: "Learning peripersonal space representation through artificial skin for avoidance and reaching with whole body surface"
+   authors: Alessandro Roncone, Ugo Pattacini, Giorgio Metta, and Lorenzo Natale
+   year: 2015
+   venue: IEEE/RSJ International Conference on Intelligent Robots and Systems
+   where: Hamburg, Germany, September 28-October 2, 2015
+   pdf: "[Roncone et al. 2015] - Learning peripersonal space representation.pdf"
+   description:
  - title: "Gaze Stabilization for Humanoid Robots: A Comprehensive Framework"
    authors: Alessandro Roncone, Ugo Pattacini, Giorgio Metta, and Lorenzo Natale
    year: 2014
    venue: IEEE-RAS International Conference on Humanoid Robots
    where: Madrid, Spain, November 18-20, 2014
    description:
+   pdf: "[Roncone et al. 2014] - Gaze stabilization for humanoid robots.pdf"
  - title: "3D Stereo Estimation and Fully Automated Learning of Eye-Hand Coordination in Humanoid Robots"
    authors: S. R. Fanello, U. Pattacini, I. Gori, V. Tikhanoff, M. Randazzo, A. Roncone, F. Odone, and G. Metta
    year: 2014
    venue: IEEE-RAS International Conference on Humanoid Robots
    where: Madrid, Spain, November 18-20, 2014
    description:
+   pdf: "[Fanello et al. 2014] - 3D estimation of eye-hand coordination.pdf"
  - title: "Automatic kinematic chain calibration using artificial skin: self-touch in the iCub humanoid robot"
    authors: Alessandro Roncone, Matej Hoffmann, Ugo Pattacini, and Giorgio Metta
    year: 2014
    venue: IEEE International Conference on Robotics and Automation (ICRA)
    where: Hong Kong, China, May 31-June 7, 2014
    description: <a href="http://spectrum.ieee.org/automaton/robotics/robotics-software/video-friday-robot-racecar-kilobot-display-humanoid-skin" target="_blank">It was featured at the IEEE Spectrum Video Friday!</a>
+   pdf: "[Roncone et al. 2014] - automatic kinematic chain calibration.pdf"
 
 misc:
  - title: "Organizer of the <i>Development of body representations in humans and robots</i> workshop"
