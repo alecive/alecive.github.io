@@ -26,6 +26,8 @@ address:
 # Build settings
 markdown: kramdown
 permalink: pretty
+gems:
+  - jekyll-sitemap
 
 # Some more default colors
 # 
