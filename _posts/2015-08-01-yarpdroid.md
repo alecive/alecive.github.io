@@ -58,3 +58,9 @@ Videos are on their way! I'll update this section from time to time.
 In this video, I show what happens if you empower users with a natural human-robot interface. The user can see what the robot sees, and it can direct its gazing by simply clicking on points into the image. Pretty neat!
 
 {% include video.html url="//www.youtube.com/embed/1N0xf2_C6I0" %}
+
+#### Video #2
+
+In this super-lowres video, android speech recognition is integrated onto the iCub platform in order to provide a natural interface with the human user. Sorry for the quality!
+
+{% include video.html url="//www.youtube.com/embed/s_qNTg448HA" %}
