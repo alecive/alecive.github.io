@@ -5,7 +5,7 @@ link:
 link-alt: 
 date: 2015-05-07
 category: blog
-description: 
+description: Useful commands for my everyday GitHub life
 article: yes
 
 ---
