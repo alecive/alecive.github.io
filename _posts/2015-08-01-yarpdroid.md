@@ -4,8 +4,8 @@ title: Android integration onto the iCub platform
 link: https://github.com/alecive/yarpdroid
 link-alt: GitHub repository
 modal-id: 3
-img: yarpdroid2.png
-alt: yarpdroid
+img: yarpdroid.png
+alt: yarpdroid.png
 date: 2015-08-01
 category: research
 description: 
@@ -22,12 +22,17 @@ I'll update this post with more information
 
 ## Features
 
- * **Material Design** (because why not)
+### YARPdroid application
+
+ * Nice **Material Design** interface (because why not)
+ * **Google Glass** interface for a couple of amazing things I will talk about later on
+
+### JNI Interface
+
  * **Sending data** from the smartphone to the YARP network 
  * **Receiving data** from the smartphone to the YARP network 
  * **Sending images** from the smartphone to the YARP network 
  * **Receiving images** from the smartphone to the YARP network (**TODO**)
- * **Google Glass** interface for a couple of amazing things I will talk about later on
 
 ## Screenshots
 
@@ -43,4 +48,10 @@ I'll update this post with more information
 
 ## Videos
 
-Videos are on their way!
+Videos are on their way! I'll update this section from time to time.
+
+#### Video #1
+
+In this video, I show what happens if you empower users with a natural human-robot interface. The user can see what the robot sees, and it can direct its gazing by simply clicking on points into the image. Pretty neat!
+
+{% include video.html url="//www.youtube.com/embed/1N0xf2_C6I0" %}
