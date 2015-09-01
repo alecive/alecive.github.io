@@ -18,7 +18,7 @@ Over the past month, I've been tinkering with Android Studio and tried to seamle
 
 To this end, I worked (along with mainly Francesco Romano for some low-level Java support) on the cross-compilation of yarp on ARM-v7, and the implementation of a working JNI interface to switch back and forth from the Java layer and the C++ one. As a result, I developed an Android application (aptly named `yarpdroid`), which provides a template for some basic functionalities I worked on, as well as a couple of already available use-cases. The code is available at [https://github.com/alecive/yarpdroid](https://github.com/alecive/yarpdroid).
 
-I'll update this post with more information
+I'll update this post with more information when I will have time.
 
 ## Features
 
@@ -29,10 +29,13 @@ I'll update this post with more information
 
 ### JNI Interface
 
- * **Sending data** from the smartphone to the YARP network 
- * **Receiving data** from the smartphone to the YARP network 
- * **Sending images** from the smartphone to the YARP network 
- * **Receiving images** from the smartphone to the YARP network (**TODO**)
+The JNI interface has been a real mess. It required the cross-compilation of the YARP core libraries (for now, `YARP_OS`, `YARP_init`, and `YARP_sig`), which was no small feat. I'll upload any of the steps required to do this from scratch, but right now there are pre-compiled libraries in the GitHub repository in order to ease the process. What I managed to do was:
+
+ * **Sending data** (of any kind) from the smartphone to the YARP network 
+ * **Receiving data** (of any kind) from the smartphone to the YARP network 
+ * **Sending images** from the YARP network to the smartphone (e.g. iCub's cameras)
+
+The only thing that is missing in order to provide a complete template application is sending images from the smartphone to the YARP network. It is a not easy task, but we're working on it :
 
 ## Screenshots
 
