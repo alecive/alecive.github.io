@@ -13,7 +13,7 @@ article: yes
 
 ---
 
-#### Reference paper: _Automatic kinematic chain calibration using artificial skin: self-touch in the iCub humanoid robot_ <a class="no-print" href="/papers/[Roncone et al. 2014] - automatic kinematic chain calibration.pdf" target="_blank"> [PDF]</a>
+#### Reference paper: _Automatic kinematic chain calibration using artificial skin: self-touch in the iCub humanoid robot_ <a class="no-print" href="/papers/[Roncone et al. 2014] - Automatic Kinematic Chain Calibration using artificial skin: self-touch in the iCub humanoid robot.pdf" target="_blank"> [PDF]</a>
 
 **Authors:** _Alessandro Roncone, Matej Hoffmann, Ugo Pattacini, and Giorgio Metta_
 

@@ -43,7 +43,7 @@ skills:
  - name: Mobile Skills
    items:
     - name: Android Development
-      knowledge: 20
+      knowledge: 45
  - name: OS/Software Skills
    items: 
     - name: Linux
@@ -173,7 +173,12 @@ publications:
    pdf: "[Roncone et al. 2014] - automatic kinematic chain calibration.pdf"
 
 misc:
- - title: "Organizer of the <i>Development of body representations in humans and robots</i> workshop"
+ - title: "Teaching Assistant"
+   year: 2015
+   venue: "CBMM 2015 Summer School"
+   where: "Woods Hole, MA, August 13-September 3, 2015"
+   description: "I attended the Summer School as a teaching assistant: I gave a talk about my research on the iCub humanoid robot, but I mainly focused on tutoring some students during their projects. A notable achievement has been the integration of Google Glass onto the YARP framework, that has been later used in order to perform head/gaze teleoperation."
+ - title: "Co-organizer of the <i>Development of body representations in humans and robots</i> workshop"
    authors: "Matej Hoffmann, Alessandro Roncone, Lorenzo Jamone, and Beata Grzyb"
    year: 2014
    venue: "IEEE International Conference on Development and Learning and on Epigenetic Robotics"
@@ -184,7 +189,7 @@ misc:
    year: 2014
    venue: "International conference on Infant Studies"
    where: Berlin, Germany, July 3-5, 2014
-   description: "Oral presentation at the <i>International Conference on Infant Studies</i>."
+   description: "Oral presentation at the <i>International Conference on Infant Studies</i> on my work related to the double-touch (made by Matej)."
  - title: "Modeling the development of human body representations"
    authors: "Matej Hoffmann, Alessandro Roncone, Giorgio Metta"
    year: 2013

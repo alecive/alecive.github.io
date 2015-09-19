@@ -13,7 +13,7 @@ article: yes
 
 ---
 
-#### Reference paper: _Gaze Stabilization for Humanoid Robots: a Comprehensive Framework_ <a class="no-print" href="/papers/[Roncone et al. 2014] - Gaze stabilization for humanoid robots.pdf" target="_blank"> [PDF]</a>
+#### Reference paper: _Gaze Stabilization for Humanoid Robots: a Comprehensive Framework_ <a class="no-print" href="/papers/[Roncone et al. 2014] - Gaze stabilization for humanoid robots: a Comprehensive Framework.pdf" target="_blank"> [PDF]</a>
 
 **Authors:** _Alessandro Roncone, Ugo Pattacini, Giorgio Metta, and Lorenzo Natale_
 
