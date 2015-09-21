@@ -10,17 +10,22 @@ article: yes
 
 ---
 
-# YARP cross-compilation
+# Contents
+{:.no_toc}
 
-[toc]
+* This line will be replaced by the ToC, excluding the "Contents" header
+{:toc}
 
 ## 1 Commands used for ARMing `yarp`
 
-```bash
+First thing, we have to create a build folder specifically for cross-compiling `yarp`:
+
+{% highlight bash %}
 cd $YARP_ROOT
 mkdir build-arm
 cd build-arm
-```
+{% endhighlight %}
+
 At this point, I changed a bunch of files. They are listed below.
  
  1. `src/libYARP_OS/src/BottleImpl.cpp`
@@ -29,14 +34,14 @@ At this point, I changed a bunch of files. They are listed below.
 
 Further, I needed to add the `ifaddrs` libraries for reasons that I don't remember now. Please refer to the next section for the diffs.
 
-```bash
+{% highlight bash %}
 ccmake -DCMAKE_TOOLCHAIN_FILE=/home/alecive/Programmazione/android-cmake/android.toolchain.cmake -DANDROID_NDK=$ANDROID_NDK -DCMAKE_BUILD_TYPE=Release -DANDROID_ABI="armeabi-v7a with NEON" -DSKIP_ACE=ON -DCMAKE_DISABLE_FIND_PACKAGE_OpenCV=TRUE ../
-```
+{% endhighlight %}
 Put every flag to `OFF`. We don't need fancy stuff, just the minimal compilation to work (for the time being). Press `c` and then `t`. Put `gnustl_static` under the `ANDROID_STL` item that just appeared. Type `c`, then `c`, then `g`. Now compile just `YARP_OS`:
 
-```bash
+{% highlight bash %}
 make YARP_OS
-```
+{% endhighlight %}
 
 Everything should run smoothly. There should be a new library called `libYARP_OS.a` into `build-arm/lib`.
 
@@ -44,15 +49,15 @@ Everything should run smoothly. There should be a new library called `libYARP_OS
 
 First thing is to move the precompiled library `libYARP_OS.a` into your app (I have mine into `../../studioProjects/yarp-tts`):
 
-```bash
+{% highlight bash %}
 
-```
+{% endhighlight %}
 
 ## 3 Diffs for the files that are changed for ARMing `yarp`
 
 ### 3.1 `BottleImpl.cpp`
 
-```bash
+{% highlight diff %}
 [alecive@malakim]$ git diff ../src/libYARP_OS/src/BottleImpl.cpp
 diff --git a/src/libYARP_OS/src/BottleImpl.cpp b/src/libYARP_OS/src/BottleImpl.cpp
 index f34741f..5683710 100644
@@ -104,11 +109,11 @@ index f34741f..5683710 100644
      }
      x = ACE_OS::strtod(tmp.c_str(),NULL);
  }
-```
+{% endhighlight %}
 
 ### 3.2 `NameConfig.cpp`
 
-```bash
+{% highlight diff %}
 [alecive@malakim]$ git diff ../src/libYARP_OS/src/NameConfig.cpp
 diff --git a/src/libYARP_OS/src/NameConfig.cpp b/src/libYARP_OS/src/NameConfig.cpp
 index bceb5b7..defcdf3 100644
@@ -123,11 +128,11 @@ index bceb5b7..defcdf3 100644
  #endif
  
  #include <stdio.h>
-```
+{% endhighlight %}
 
 ### 3.3 `SystemInfo.cpp`
 
-```bash
+{% highlight diff %}
 [alecive@malakim]$ git diff ../src/libYARP_OS/src/SystemInfo.cpp
 diff --git a/src/libYARP_OS/src/SystemInfo.cpp b/src/libYARP_OS/src/SystemInfo.cpp
 index aa6fd06..87463b5 100644
@@ -177,13 +182,13 @@ index aa6fd06..87463b5 100644
          user.homeDir = pwd->pw_dir;
      }
  #endif
-```
+{% endhighlight %}
 
 ## 4 Addition of `ifaddrs`
 
 For adding the `ifaddrs` library, I had to change the `CMakeLists.txt`:
 
-```bash
+{% highlight diff %}
 [alecive@malakim]$ git diff ../src/libYARP_OS/CMakeLists.txt
 diff --git a/src/libYARP_OS/CMakeLists.txt b/src/libYARP_OS/CMakeLists.txt
 index 3f05d20..15e8152 100644
@@ -209,12 +214,14 @@ index 3f05d20..15e8152 100644
  
  
  if (NOT SKIP_ACE)
-```
+{% endhighlight %}
 
 ### 4.1 `ifaddrs.h`
 
-```bash
+{% highlight bash %}
 [alecive@malakim]$ cat ../src/libYARP_OS/include/yarp/os/impl/ifaddrs.h 
+{% endhighlight %}
+{% highlight C++ %}
 /*
  * Copyright (c) 1995, 1999
  *	Berkeley Software Design, Inc.  All rights reserved.
@@ -269,12 +276,14 @@ extern void freeifaddrs(struct ifaddrs *ifa);
 __END_DECLS
 
 #endif
-```
+{% endhighlight %}
 
 ### 4.2 `ifaddrs.c`
 
-```bash
+{% highlight bash %}
 [alecive@malakim]$ cat ../src/libYARP_OS/src/ifaddrs.c 
+{% endhighlight %}
+{% highlight C %}
 /*
 Copyright (c) 2013, Kenneth MacKay
 All rights reserved.
@@ -939,4 +948,4 @@ void freeifaddrs(struct ifaddrs *ifa)
     }
 }
 
-```
+{% endhighlight %}

@@ -10,6 +10,12 @@ article: yes
 
 ---
 
+# Contents
+{:.no_toc}
+
+* This line will be replaced by the ToC, excluding the "Contents" header
+{:toc}
+
 # Color Picker
 
 GitHub repo → [https://github.com/weslly/ColorPicker](https://github.com/weslly/ColorPicker)
