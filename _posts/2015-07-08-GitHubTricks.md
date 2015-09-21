@@ -3,7 +3,7 @@ layout: post
 title: GitHub Tricks
 link: 
 link-alt: 
-date: 2015-05-07
+date: 2015-07-08
 category: blog
 description: Useful commands for my everyday GitHub life
 article: yes

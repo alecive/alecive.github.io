@@ -3,7 +3,7 @@ layout: post
 title: Sublime Tricks
 link: https://github.com/alecive/periPersonalSpace
 link-alt: Sublime Website
-date: 2015-05-07
+date: 2015-07-07
 category: blog
 description: Tricks, packages and more stuff that I use on Sublime Text Editor
 article: yes
