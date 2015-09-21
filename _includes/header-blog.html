@@ -9,7 +9,7 @@
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                 </button>
-                <a class="navbar-brand" href="/">Home</a>
+                <a class="navbar-brand" href="#page-top">{{ site.title }}</a>
             </div>
 
             <!-- Collect the nav links, forms, and other content for toggling -->
@@ -35,7 +35,7 @@
     </nav>
 
     <!-- Header -->
-<!--     <header>
+    <header>
         <div class="container">
             <div class="row">
                 <div class="col-lg-12">
@@ -48,4 +48,9 @@
                 </div>
             </div>
         </div>
-    </header> -->
+    </header>
+<!--
+        {% for page in site.pages %}
+          {% if page.title %}<a class="page-link" href="{{ page.url | prepend: site.baseurl }}">{{ page.title }}</a>{% endif %}
+        {% endfor %}
+ -->
