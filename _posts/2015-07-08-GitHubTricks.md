@@ -233,3 +233,82 @@ This is the README file.
 ADD TO THE WORKING DIRECTORY VERSION OF README
 {% endhighlight %}
 
+# Switch to a different commit back in time
+
+## Temporarily switch
+In order to temporarily go back to a previous commit, fool around, then come back to the master, all you have to do is check out the desired commit:
+
+{% highlight bash %}
+git checkout 0d1d7fc32
+{% endhighlight %}
+
+This will detach your HEAD, that is, leave you with no branch checked out.
+
+## Branch out from that commit
+
+In order to make commits from that commit, a new branch is needed:
+
+{% highlight bash %}
+git checkout -b old-state 0d1d7fc32
+{% endhighlight %}
+
+# Hard delete commits
+
+To get rid of everything you've done since then, there are two possibilities. 
+
+## Hard delete unpublished commits
+
+If those commits have not been published yet, simply reset:
+
+{% highlight bash %}
+git reset --hard 0d1d7fc32
+{% endhighlight %}
+
+This will destroy any local modifications. *Don't do it if you have uncommitted work you want to keep.*
+
+Alternatively, if there's work to keep:
+
+{% highlight bash %}
+git stash
+git reset --hard 0d1d7fc32
+git stash pop
+{% endhighlight %}
+
+This saves the modifications, then reapplies that patch after resetting. You could get merge conflicts, if you've modified things which were changed since the commit you reset to. If you mess up, you've already thrown away your local changes, but you can at least get back to where you were before by resetting again.
+
+## Undo published commits with new commits
+
+On the other hand, if you've published the work, you probably don't want to reset the branch, since that's effectively rewriting history. In that case, you could indeed revert the commits. With `git`, revert has a very specific meaning: create a commit with the reverse patch to cancel it out. This way you don't rewrite any history.
+
+This will create three separate revert commits:
+
+{% highlight bash %}
+git revert a867b4af 25eee4ca 0766c053
+{% endhighlight %}
+
+It also takes ranges. This will revert the last two commits:
+
+{% highlight bash %}
+git revert HEAD~2..HEAD
+{% endhighlight %}
+
+Reverting a merge commit
+
+{% highlight bash %}
+git revert -m 1 <merge_commit_sha>
+{% endhighlight %}
+
+To get just one, you could use `rebase -i` to squash them afterwards. Or, you could do it manually (be sure to do this at top level of the repo) get your index and work tree into the desired state, without changing HEAD:
+
+{% highlight bash %}
+git checkout 0d1d7fc32 .
+{% endhighlight %}
+
+Then commit. Be sure and write a good message describing what you just did!
+
+{% highlight bash %}
+git commit
+{% endhighlight %}
+
+The [`git-revert` manpage](http://schacon.github.io/git/git-revert.html) actually covers a lot of this in its description. Another useful link is this [git-scm.com blog post](http://git-scm.com/blog/2010/03/02/undoing-merges.html) discussing `git-revert`.
+If you decide you didn't want to revert after all, you can revert the revert (as described here) or reset back to before the revert (see the previous section).
