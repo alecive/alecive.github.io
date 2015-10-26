@@ -113,12 +113,21 @@ git checkout master
 git rebase -i test
 {% endhighlight %}
 
-# Delete a branch both locally and remotely
+# Delete a remote/local branch or tag
 
+## Delete a branch
 Assuming that yours is a branch called `bugfix`, you have to do the following:
  
  * locally: `git branch -D bugfix`
  * remotely: `git push origin :bugfix`
+
+## Delete a tag
+
+If you want to delete a local tag then you would do `git tag -d <tag name>` (as you did with the branch). But if you want to delete remote tag, then the syntax is a little different
+{% highlight bash %}
+git push origin :refs/tags/<tag name>
+{% endhighlight %}
+This will delete the tag on the remote origin.
 
 # Change remote URL
 
