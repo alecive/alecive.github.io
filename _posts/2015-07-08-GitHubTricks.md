@@ -312,3 +312,70 @@ git commit
 
 The [`git-revert` manpage](http://schacon.github.io/git/git-revert.html) actually covers a lot of this in its description. Another useful link is this [git-scm.com blog post](http://git-scm.com/blog/2010/03/02/undoing-merges.html) discussing `git-revert`.
 If you decide you didn't want to revert after all, you can revert the revert (as described here) or reset back to before the revert (see the previous section).
+
+# Tagging
+
+Like most VCSs, Git has the ability to tag specific points in history as being important. Typically people use this functionality to mark release points (`v1.0`, and so on).
+Listing the available tags in Git is straightforward. Just type `git tag`:
+
+{% highlight bash %}
+$ git tag
+v0.1
+v1.3
+{% endhighlight %}
+
+This command lists the tags in alphabetical order; the order in which they appear has no real importance.
+
+## Creating annotated tags
+
+Creating an annotated tag in Git is simple. The easiest way is to specify `-a` when you run the tag command:
+
+{% highlight bash %}
+$ git tag -a v1.4 -m 'my version 1.4'
+$ git tag
+v0.1
+v1.3
+v1.4
+{% endhighlight %}
+
+The `-m` specifies a tagging message, which is stored with the tag. If you don't specify a message for an annotated tag, Git launches your editor so you can type it in. You can see the tag data along with the commit that was tagged by using the `git show` command:
+
+{% highlight bash %}
+$ git show v1.4
+tag v1.4
+Tagger: Ben Straub &lt;ben@straub.cc&gt;
+Date:   Sat May 3 20:19:12 2014 -0700
+
+my version 1.4
+
+commit ca82a6dff817ec66f44342007202690a93763949
+Author: Scott Chacon &lt;schacon@gee-mail.com&gt;
+Date:   Mon Mar 17 21:52:11 2008 -0700
+
+    changed the version number
+{% endhighlight %}
+
+That shows the tagger information, the date the commit was tagged, and the annotation message before showing the commit information.
+
+### Creating annotated tags for past commits
+
+{% highlight bash %}
+git tag -a v1.2 9fceb02 -m "Message here"
+{% endhighlight %}
+
+Where `9fceb02` is the beginning part of the commit id. You can then push them up using 
+
+## Pushing tags
+
+By default, the git push command doesn't transfer tags to remote servers. You will have to explicitly push tags to a shared server after you have created them. This process is just like sharing remote branches - you can run `git push origin [tagname]`:
+{% highlight bash %}
+git push origin v1.5
+{% endhighlight %}
+
+If you have a lot of tags that you want to push up at once, you can also use the --tags option to the git push command. This will transfer all of your tags to the remote server that are not already there.
+{% highlight bash %}
+git push --tags origin master
+{% endhighlight %}
+
+Now, when someone else clones or pulls from your repository, they will get all your tags as well. Here is [a good chapter on tagging](http://git-scm.com/book/en/v2/Git-Basics-Tagging).
+
