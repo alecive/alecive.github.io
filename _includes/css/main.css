@@ -344,9 +344,19 @@ section.success p {
 }
 
 #article li a,
-#article ol li {
+#article ol li,
+#article ul li {
     font-size: 0.85em;
 }
+
+#article ol li p,
+#article ul li p,
+#article ol li a,
+#article ul li a {
+    font-size: 1em;
+}
+
+
 
 #article a {
     text-decoration: none;
