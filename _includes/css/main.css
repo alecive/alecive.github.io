@@ -343,7 +343,8 @@ section.success p {
     color: #{{ site.color.articletext }};
 }
 
-#article li a {
+#article li a,
+#article ol li {
     font-size: 0.75em;
 }
 
