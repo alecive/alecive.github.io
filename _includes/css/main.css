@@ -332,12 +332,19 @@ section.success p {
     color: #{{ site.color.articletext }};
 }
 
-#article p,
 #article li {
+    font-size: 1em;
+}
+
+#article li p {
     margin-top: 10px;
     margin-bottom: 10px;
     font-size: 0.75em;
     color: #{{ site.color.articletext }};
+}
+
+#article li a {
+    font-size: 0.75em;
 }
 
 #article a {
