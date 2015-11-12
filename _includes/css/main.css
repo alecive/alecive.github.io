@@ -339,13 +339,13 @@ section.success p {
 #article li p {
     margin-top: 10px;
     margin-bottom: 10px;
-    font-size: 0.75em;
+    font-size: 0.85em;
     color: #{{ site.color.articletext }};
 }
 
 #article li a,
 #article ol li {
-    font-size: 0.75em;
+    font-size: 0.85em;
 }
 
 #article a {
