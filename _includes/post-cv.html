@@ -10,6 +10,28 @@
         <div id="article">
             {{ content }}
 
+            <h2>Professional Experience</h2>
+            {% for item in page.professional %}
+                <div class="row cv-item">  
+                    <div class="col-sm-4">
+                        <div class="cv-section-title">
+                            <h4 class="inlineifprinted">{{item.start}} - {{item.end}}</h4>
+                            {% if item.location-link %}<h3 class="inlineifprinted"><a href="{{item.location-link}}" target="_blank">{{item.location}}</a></h3>
+                            {% else %}<h3 class="inlineifprinted">{{item.location}}</h3>
+                            {% endif %}
+                            <!-- <p>2010 - 2012 Senior Graphic Designer <br> 2012 - 2014 Project Manager</p> -->
+                        </div>
+                    </div>
+
+                    <div class="col-sm-8">
+                        <h2>{{item.name}}</h2>
+                        <p>{% if item.title %}<i>{{item.title}}</i><br>{% endif %}
+                        {{item.description}}
+                        </p>
+                    </div>
+                </div>
+            {% endfor %}
+
             <h2>Education</h2>
             {% for college in page.education %}
                 <div class="row cv-item">  
@@ -66,28 +88,6 @@
                     <div class="col-sm-8">
                         <h2>{{item.title}}</h2>
                         <p><i>{{item.authors}}</i><br>
-                        {{item.description}}
-                        </p>
-                    </div>
-                </div>
-            {% endfor %}
-
-            <h2>Professional Experience</h2>
-            {% for item in page.professional %}
-                <div class="row cv-item">  
-                    <div class="col-sm-4">
-                        <div class="cv-section-title">
-                            <h4 class="inlineifprinted">{{item.start}} - {{item.end}}</h4>
-                            {% if item.location-link %}<h3 class="inlineifprinted"><a href="{{item.location-link}}" target="_blank">{{item.location}}</a></h3>
-                            {% else %}<h3 class="inlineifprinted">{{item.location}}</h3>
-                            {% endif %}
-                            <!-- <p>2010 - 2012 Senior Graphic Designer <br> 2012 - 2014 Project Manager</p> -->
-                        </div>
-                    </div>
-
-                    <div class="col-sm-8">
-                        <h2>{{item.name}}</h2>
-                        <p>{% if item.title %}<i>{{item.title}}</i><br>{% endif %}
                         {{item.description}}
                         </p>
                     </div>

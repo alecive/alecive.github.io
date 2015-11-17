@@ -17,7 +17,7 @@ skills:
     - name: Matlab
       knowledge: 80
     - name: CSS3 & HTML5
-      knowledge: 85
+      knowledge: 90
     - name: IPOPT
       knowledge: 65
     - name: Bash
@@ -47,7 +47,7 @@ skills:
  - name: OS/Software Skills
    items: 
     - name: Linux
-      knowledge: 90
+      knowledge: 85
     - name: Windows
       knowledge: 30
     - name: Gimp
@@ -60,6 +60,56 @@ skills:
       knowledge: 95
     - name: English
       knowledge: 70
+
+professional:
+ - name: Post Doc
+   title: Postdoctoral Associate @ Social Robotics Lab, Computer Science Department
+   start: Nov. 2015
+   end: present
+   location: Yale University, New Haven, CT (USA)
+   location-link: http://scazlab.yale.edu
+   description: ""
+ - name: Post Doc
+   title: Post Doc @ iCub Facility
+   start: Jan.
+   end: Oct. 2015
+   location: Istituto Italiano di Tecnologia (IIT), Genova IT
+   location-link: http://www.iit.it
+   description: "I continued the work I started during my Ph.D. fellowship at the iCub Facility. Specifically, I was interested in the exploitation of the peripersonal space model I implemented during my Ph.D., by focusing toward two types of applications: i) better, richer body representations (in collaboration with CITEC @Bielefeld) ii) distributed motor control via whole-body awareness (partially collaborating with WYSIWYD project partners). Furthermore, I extended the gaze stabilization framework I developed during my Ph.D. by integrating it with an existing gaze controller. I was also contributing to a human-robot interaction project aimed at developing natural interaction(s) between the iCub humanoid robot and humans."
+ - name: Ph.D. Fellow @ iCub Facility
+   title: Life and Humanoid Technologies
+   start: 2012
+   end: 2015
+   location: Istituto Italiano di Tecnologia (IIT), Genova IT
+   location-link: http://www.iit.it
+   description: Doctoral course in Robotics, Cognition and Interaction Technologies. See the <i>`Education`</i> section below for details about my Ph.D. project. I have been involved in the Xperience FP7-ICT-270273 and WYSIWYD FP7-ICT-61239 projects, funded by the European Union Seventh Framework Program with a funding of €7,634,000 and €4,583,016 respectively.
+ - name: Research Fellow @ RBCS (Robotics, Brain and Cognitive Science)
+   start: Oct.
+   end: Jul. 2011
+   location: Istituto Italiano di Tecnologia (IIT), Genova IT
+   location-link: http://www.iit.it
+   description: I have partnered with the Italian Institute of Technology during my MSc thesis. See the <i>`Education`</i> section below for details about my master thesis.
+ - name: Icon Designer
+   title: Icon Designer in outsourcing
+   start: Jul.
+   end: Oct. 2013
+   location: Coop la Lucerna
+   location-link: http://cooplalucerna.it/
+   description: "<i>Coop la Lucerna</i> is a farm right in the middle of Pianura Padana, IT. During the process of restructuring their online offerings, they contacted me in order to implemented a set of icons for their website. The icons were a set of 20 vegetables, rendered in a flat and minimal look."
+ - name: Icon Designer
+   title: Icon Designer in outsourcing
+   start: Oct.
+   end: Dec. 2011
+   location: Magor Corp.
+   location-link: http://www.magorcorp.com/
+   description: "I have been contacted in order to design a new set of icons for their tele-collaboration software (a Skype-like alternative oriented toward telepresence and teleconference). I designed a total of 30 icons."
+ - name: Icon Designer
+   title: Icon Designer in outsourcing
+   start: Feb.
+   end: Mar. 2010
+   location: The Castle Project
+   location-link: http://www.castleproject.org.uk/
+   description: "I implemented a set of icons for their website. It was a non-profit organization based in Edinburgh aimed toward taking care of drug- and alcohol- addicts, so I had some fun in designing some drug-related icons."
 
 education:
  - name: Ph.D. in Life and Humanoid Technologies <a class="no-print" href="/papers/[Alessandro Roncone] PhD Thesis.pdf" target="_blank"> [PDF]</a>
@@ -90,49 +140,6 @@ education:
    location: ISICT (Istituto Superiore di Studi in Tecnologie dell'Informazione e della Comunicazione)
    location-link: http://www.isict.it/
    description: "ISICT stands for <i>Institute for Advanced Studies in Information and Communication Technologies</i>. It is a consortium that integrates the courses provided by the University of Genoa with lessons held by industry leaders. The goal is to better prepare students for the labor market. To this end, I attended a number of additional courses ranging from <i>Marketing</i> to <i>Telecommunications</i> to <i>Aerospace Engineering</i>. I've been also selected for a scholarship, after a thorough examination (only three positions were available)."
-
-professional:
- - name: Post Doc
-   title: Post Doc @ iCub Facility
-   start: 2015
-   end: present
-   location: Istituto Italiano di Tecnologia (IIT), Genova IT
-   location-link: http://www.iit.it
-   description: "I am currently continuing the work I started during my Ph.D. fellowship at the iCub Facility. Specifically, I am interested in the exploitation of the peripersonal space model I implemented during my Ph.D., by focusing toward two types of applications: i) better, richer body representations (in collaboration with CITEC @Bielefeld) ii) distributed motor control via whole-body awareness (partially collaborating with WYSIWYD project partners). Furthermore, I am extending the gaze stabilization framework I developed as a side project during my Ph.D. by integrating it with an existing gaze controller. I am also involved in a human-robot interaction project aimed at developing natural interaction(s) between the iCub humanoid robot and humans."
- - name: Ph.D. Fellow @ iCub Facility
-   title: Life and Humanoid Technologies
-   start: 2012
-   end: 2015
-   location: Istituto Italiano di Tecnologia (IIT), Genova IT
-   location-link: http://www.iit.it
-   description: Doctoral course in Robotics, Cognition and Interaction Technologies. See the <i>`Education`</i> section above for details about my Ph.D. thesis. I have been involved in the Xperience FP7-ICT-270273 and WYSIWYD FP7-ICT-61239 projects, funded by the European Union Seventh Framework Program with a funding of €7,634,000 and €4,583,016 respectively.
- - name: Research Fellow @ RBCS (Robotics, Brain and Cognitive Science)
-   start: 2010
-   end: 2011
-   location: Istituto Italiano di Tecnologia (IIT), Genova IT
-   location-link: http://www.iit.it
-   description: I have been partnering with the Italian Institute of Technology during my MSc thesis. See the <i>`Education`</i> section above for details about my master thesis.
- - name: Icon Designer
-   title: Icon Designer in outsourcing
-   start: Jul.
-   end: Oct. 2013
-   location: Coop la Lucerna
-   location-link: http://cooplalucerna.it/
-   description: "<i>Coop la Lucerna</i> is a farm right in the middle of Pianura Padana, IT. During the process of restructuring their online offerings, they contacted me in order to implemented a set of icons for their website. The icons were a set of 20 vegetables, rendered in a flat and minimal look."
- - name: Icon Designer
-   title: Icon Designer in outsourcing
-   start: Oct.
-   end: Dec. 2011
-   location: Magor Corp.
-   location-link: http://www.magorcorp.com/
-   description: "I have been contacted in order to design a new set of icons for their tele-collaboration software (a Skype-like alternative oriented toward telepresence and teleconference). I designed a total of 30 icons."
- - name: Icon Designer
-   title: Icon Designer in outsourcing
-   start: Feb.
-   end: Mar. 2010
-   location: The Castle Project
-   location-link: http://www.castleproject.org.uk/
-   description: "I implemented a set of icons for their website. It was a non-profit organization based in Edinburgh aimed toward taking care of drug- and alcohol- addicts, so I had some fun in designing some drug-related icons."
 
 graphics:
  - name: FlatWoken Icons
@@ -174,6 +181,7 @@ publications:
 
 misc:
  - title: "Teaching Assistant"
+   authors: "Alessandro Roncone, Carlo Ciliberto, Giulia Pasquale and Raffaello Camoriano"
    year: 2015
    venue: "CBMM 2015 Summer School"
    where: "Woods Hole, MA, August 13-September 3, 2015"
