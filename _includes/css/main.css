@@ -1189,6 +1189,10 @@ pre code span:hover {
         font-size: 0.8em;
     }
 
+    #article .cv-item h4 {
+        font-size: 0.8em;
+    }
+
     section h2 {
         font-size: 1.8em;
     }

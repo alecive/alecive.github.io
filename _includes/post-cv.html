@@ -60,7 +60,7 @@
                         <div class="cv-section-title">
                             <h3 class="inlineifprinted">{{item.year}}</h3>
                             <h4 class="inlineifprinted">{{item.venue}}</h4>
-                            <p>{{item.where}}</p>
+                            <p  class="no-print">{{item.where}}</p>
                         </div>
                     </div>
 
@@ -140,7 +140,7 @@
             </div>
             {% endfor %}
 
-            <p class="only-print" style="border-left: 10px solid #{{ site.color.primary }}; padding-left: 10px;">This CV has been auto(<i>-magically</i>) generated from the correspondent page on my personal website. For this reason, there may be some formatting problems here and there. Compilation Date: <i>{{ page.date | date: '%B %d, %Y' }}</i></p>
+            <p class="only-print" style="border-left: 10px solid #{{ site.color.primary }}; padding-left: 10px; margin-top: 20px;">This CV has been auto(<i>-magically</i>) generated from the correspondent page on my personal website. For this reason, there may be some formatting problems here and there. Compilation Date: <i>{{ page.date | date: '%B %d, %Y' }}</i></p>
         </div>
     </div>
 </section>
