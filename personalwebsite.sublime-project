@@ -2,14 +2,10 @@
 	"folders":
 	[
 		{
-			"folder_exclude_patterns":
-			[
-				"_site"
-			],
-			"path": "/home/alecive/Programmazione/git/alecive.github.io"
+			"path": "/home/alecive/Desktop/gridster-jekyll-theme-master"
 		},
 		{
-			"path": "/home/alecive/Desktop/gridster-jekyll-theme-master"
+			"path": "."
 		}
 	],
 	"settings":
