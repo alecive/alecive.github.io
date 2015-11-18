@@ -211,8 +211,9 @@ misc:
    description: "I've been researcher of the week for two times. Despite its name, this award is given very rarely to outstanding research performed in the iCub Facility at IIT. In the past two years, only 6 of these awards have been given."
 ---
 
-<h2 class="only-print">Personal Website: <a href="http://alecive.github.io">http://alecive.github.io</a></h2>
-<h2 class="only-print">GitHub Page: <a href="http://github.com/alecive">http://github.com/alecive</a></h2>
+<div><p class="only-print">Personal Website: <a href="http://alecive.github.io">http://alecive.github.io</a></p></div>
+
+<div><p class="only-print">GitHub Page: <a href="http://github.com/alecive">http://github.com/alecive</a></p></div>
 
 ## Who am I
 

@@ -1134,6 +1134,10 @@ pre code span:hover {
 
 @media print
 {   
+    p {
+        font-size: 0.9em;
+    }
+
     a {
         color: #{{ site.color.tertiary }};
     }
