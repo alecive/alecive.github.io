@@ -13,7 +13,7 @@
                     {% if post.categories contains 'design' %}
                         <div class="col-sm-6 portfolio-item">
                             {% if post.article %}
-                                <a href="{{ post.url }}" class="portfolio-link-tertiary" data-toggle="modal">
+                                <a href="{{ post.url }}" class="with-shadow portfolio-link-tertiary" data-toggle="modal">
                             {% else %}
                                 <a href="#portfolioModal-{{ post.modal-id }}" class="portfolio-link-tertiary" data-toggle="modal">
                             {% endif %}
