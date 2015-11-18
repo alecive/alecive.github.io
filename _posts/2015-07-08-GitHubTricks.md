@@ -90,7 +90,7 @@ git commit -m 'merge test branch'
 git push
 {% endhighlight %}
 
-But in this way you will lose the changelogs in the test branch. Solution is, use `mebase` instead of `merge` (IF we have solved the branches conflicts). Please refer to http://git-scm.com/book/en/v2/Git-Branching-Rebasing for further info.
+But in this way you will lose the changelogs in the test branch. Solution is, use `rebase` instead of `merge` (IF we have solved the branches conflicts). Please refer to [http://git-scm.com/book/en/v2/Git-Branching-Rebasing](http://git-scm.com/book/en/v2/Git-Branching-Rebasing) for further info.
 
 {% highlight bash %}
 git checkout master
@@ -123,7 +123,7 @@ Assuming that yours is a branch called `bugfix`, you have to do the following:
 
 ## Delete a tag
 
-If you want to delete a local tag then you would do `git tag -d <tag name>` (as you did with the branch). But if you want to delete remote tag, then the syntax is a little different
+If you want to delete a local tag then you would do `git tag -d <tag name>` (as you did with the branch). But if you want to delete remote tag, then the syntax is a little different:
 {% highlight bash %}
 git push origin :refs/tags/<tag name>
 {% endhighlight %}

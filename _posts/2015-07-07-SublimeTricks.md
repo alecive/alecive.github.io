@@ -18,11 +18,11 @@ article: yes
 
 # Color Picker
 
-GitHub repo → [https://github.com/weslly/ColorPicker](https://github.com/weslly/ColorPicker)
+GitHub repo: [https://github.com/weslly/ColorPicker](https://github.com/weslly/ColorPicker)
 
-Gives you the ability to change colors with a color picker on the fly. To insert or change a selected color, use: `ctrl+shift+c`
+Gives you the ability to change colors with a color picker on the fly. To insert or change a selected color, use <kbd>ctrl+shift+c</kbd>
 
-By default, the hex color code is inserted using uppercase letters (`#ABCDEF`, for example). To use lowercase letters (`#abcdef`) instead, copy the contents of `Preferences → Package Settings → ColorPicker → Settings—Default` to the empty file created by selecting `Preferences → Package Settings → ColorPicker → Settings—User`, then change "color_upper_case" to false.
+By default, the hex color code is inserted using uppercase letters (`#ABCDEF`, for example). To use lowercase letters (`#abcdef`) instead, copy the contents of `Preferences``→``Package Settings``→``ColorPicker``→``Settings—Default` to the empty file created by selecting `Preferences``→``Package Settings``→``ColorPicker``→``Settings—User`, then change "color_upper_case" to false.
 
 # Doc Blockr
 
@@ -46,12 +46,12 @@ There are two commit commands the Sublime Text Git Plugin provides. The main dif
 
 My workflow when trying to push code to the server inside of Sublime Text looks like:
 
- * <kbd>ctrl + shift + p</kbd>
- * TYPE <kbd>add</kbd>
- * <kbd>ctrl + shift + p</kbd>
- * TYPE <kbd>quick</kbd> THEN <kbd>type message</kbd>
- * <kbd>ctrl + shift + p</kbd>
- * TYPE <kbd>push</kbd>
+ * `ctrl + shift + p`
+ * TYPE `add`
+ * `ctrl + shift + p`
+ * TYPE `quick` THEN `type message`
+ * `ctrl + shift + p`
+ * TYPE `push`
 
 
 ## Staging Files and Committing In One Step

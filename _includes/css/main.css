@@ -262,7 +262,7 @@ section p {
 }
 
 #post {
-    padding-top: 180px;
+    padding-top: 160px;
 }
 
 section h2 {
@@ -459,8 +459,10 @@ pre {
 }
 
 code {
-    padding: .25em .5em;
-    color: #bf616a;
+    padding: .2em .5em;
+    /*color: #bf616a; */
+    color: #7B8A8B;
+    font-size: .85em;
     border: none;
 }
 
@@ -746,7 +748,7 @@ span.label:hover e.ok {
 }
 
 .btn-outline {
-    margin-top: 15px;
+    margin-top: 4px;
     border: solid 2px #fff;
     font-size: 20px;
     color: #fff;
@@ -861,7 +863,7 @@ p code, li code {
     border-radius: 3px;
 }
 pre {
-    font-size: .94em;
+    font-size: .85em;
     line-height: 1.5;
     overflow-x: auto;
     background-color: #f7f7f7;
@@ -890,7 +892,7 @@ pre code span:hover {
 }
 
 .highlight {
-    margin-bottom: 1.5em;
+    margin: .5em 0em;
     line-height: 2.1667;
     color: #d0d0d0;
     background-color: #272822;
@@ -901,7 +903,7 @@ pre code span:hover {
 .highlight pre {
     position: relative;
     margin: 0;
-    padding: 1em;
+    padding: 0.8em 1em;
     background-color: #272822;
     border: none;
 }

@@ -21,8 +21,9 @@ social:
 
 # Postal address (add as many lines as necessary)
 address:
-  - line: New Haven, 06511
-  - line: CT, U.S.A.
+  - line: Yale University,
+  - line: Computer Science Department,
+  - line: New Haven, 06511, CT, U.S.A.
 
 # Build settings
 markdown: kramdown
