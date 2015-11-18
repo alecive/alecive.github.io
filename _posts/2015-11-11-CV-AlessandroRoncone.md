@@ -112,7 +112,7 @@ professional:
    description: "I implemented a set of icons for their website. It was a non-profit organization based in Edinburgh aimed toward taking care of drug- and alcohol- addicts, so I had some fun in designing some drug-related icons."
 
 education:
- - name: Ph.D. in Life and Humanoid Technologies <a class="no-print" href="/papers/[Roncone PhD Thesis 2015] Expanding Sensorimotor capabilities of Humanoid Robots through Multisensory Integration-a study on the implementation of Peripersonal Space on the iCub.pdf" target="_blank"> [PDF]</a>
+ - name: Ph.D. in Life and Humanoid Technologies <a class="no-print" href="/papers/[Roncone PhD Thesis 2015] Expanding Sensorimotor capabilities of Humanoid Robots through Multisensory Integration - a study on the implementation of Peripersonal Space on the iCub.pdf" target="_blank"> [PDF]</a>
    title: Thesis title `Expanding sensorimotor capabilities of humanoid robots through multisensory integration. A study on the implementation of peripersonal space on the iCub.`
    start: 2012
    end: 2015
