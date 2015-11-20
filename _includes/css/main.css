@@ -349,7 +349,8 @@ section.success p {
     color: #{{ site.color.articletext }};
 }
 
-#article a {
+#article a,
+#blog a h4 {
     text-decoration: none;
     color: #{{ site.color.secondary-dark }};
     font-weight: bold;
@@ -364,7 +365,8 @@ section.success p {
     font-weight: bold;
 }
 
-#article a:hover {
+#article a:hover,
+#blog a:hover h4 {
     color: #{{ site.color.tertiary }};
 }
 
@@ -474,7 +476,7 @@ pre {
     white-space: pre-wrap;
     word-break: break-all;
     word-wrap: break-word;
-/*    border-left: 20px solid #{{ site.color.primary }};*/
+    /* border-left: 20px solid #{{ site.color.primary }};*/
     border-left: none;
     border-right: none;
     border-top: none;
