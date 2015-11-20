@@ -646,6 +646,7 @@ span.label:hover e.ok {
 
 .video-container,
 .pdf-container {
+    margin: 14px 0px;
     position: relative;
     padding-bottom: 56.25%;
     padding-top: 30px; height: 0; overflow: hidden;
