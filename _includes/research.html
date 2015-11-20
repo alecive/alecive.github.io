@@ -16,12 +16,7 @@
                     {% else %}
                         <div class="col-sm-6 portfolio-item">
                     {% endif %}
-                        
-                            {% if post.article %}
-                                <a href="{{ post.url }}" class="with-shadow portfolio-link" data-toggle="modal">
-                            {% else %}
-                                <a href="#portfolioModal-{{ post.modal-id }}" class="portfolio-link" data-toggle="modal">
-                            {% endif %}
+                                <a href="{{ post.url }}" class="with-shadow portfolio-link">
                                     <div class="caption">
                                         <div class="caption-content">
                                             <i class="fa fa-plus fa-3x"></i>

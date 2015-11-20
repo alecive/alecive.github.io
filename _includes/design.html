@@ -12,11 +12,7 @@
                 {% for post in site.posts %}
                     {% if post.categories contains 'design' %}
                         <div class="col-sm-6 portfolio-item">
-                            {% if post.article %}
-                                <a href="{{ post.url }}" class="with-shadow portfolio-link-tertiary" data-toggle="modal">
-                            {% else %}
-                                <a href="#portfolioModal-{{ post.modal-id }}" class="portfolio-link-tertiary" data-toggle="modal">
-                            {% endif %}
+                                <a href="{{ post.url }}" class="with-shadow portfolio-link-tertiary">
                                     <div class="caption">
                                         <div class="caption-content">
                                             <i class="fa fa-plus fa-3x"></i>

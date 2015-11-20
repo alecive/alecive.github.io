@@ -3,7 +3,6 @@ layout: post-cv
 title: Curriculum Vitae
 cv-download-link: AlessandroRoncone_cv.pdf
 resume-download-link: AlessandroRoncone_resume.pdf
-modal-id: 8
 category: cv
 description: I am a robotics engineer and a designer
 article: yes

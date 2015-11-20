@@ -3,7 +3,6 @@ layout: post
 title: AwOken icons
 download-link: http://alecive.deviantart.com/art/AwOken-163570862
 download-alt:  AwOken icons on DeviantART
-modal-id: 4
 date: 2012-09-01
 img: awoken.png
 alt: awoken-icons

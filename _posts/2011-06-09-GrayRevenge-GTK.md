@@ -3,7 +3,6 @@ layout: post
 title: Gray Revenge
 download-link: http://alecive.deviantart.com/art/Gray-Revenge-1-7-194633730
 download-alt: GrayRevenge Suite on DeviantART
-modal-id: 7
 img: grayRevenge.png
 alt: grayrevenge-suite
 category: design

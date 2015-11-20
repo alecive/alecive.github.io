@@ -3,7 +3,6 @@ layout: post
 title: FlatWoken icons
 download-link: https://github.com/alecive/FlatWoken
 download-alt:  FlatWoken icons on GitHub
-modal-id: 2
 date: 2014-09-15
 img: flatwoken.jpg
 alt: flatwoken-icons

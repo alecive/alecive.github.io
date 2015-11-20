@@ -685,11 +685,11 @@ span.label:hover e.ok {
     position: relative;
     margin: 0 auto;
     max-width: 400px;
-    border: 6px solid #{{ site.color.secondary }};
+    /*border: 6px solid #{{ site.color.secondary }};*/
 }
 
 #portfolio .portfolio-item .portfolio-link-tertiary {
-    border: 6px solid #{{ site.color.tertiary }};
+    /*border: 6px solid #{{ site.color.tertiary }};*/
 }
 
 #portfolio .portfolio-item .portfolio-link .caption,

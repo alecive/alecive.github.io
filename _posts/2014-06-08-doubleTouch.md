@@ -3,7 +3,6 @@ layout: post
 title: Automatic kinematic calibration using artificial skin via double Touch
 link: https://github.com/alecive/periPersonalSpace
 link-alt: GitHub repository
-modal-id: 3
 img: doubleTouch.png
 alt: double-touch
 date: 2014-06-08

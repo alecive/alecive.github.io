@@ -15,7 +15,7 @@
                 {% for post in site.posts %}
                     {% if post.categories contains 'blog' %}
                         <div class="col-sm-6 portfolio-item">
-                            <a href="{{ post.url }}" class="no-border with-shadow portfolio-link-tertiary" data-toggle="modal">
+                            <a href="{{ post.url }}" class="no-border with-shadow portfolio-link">
                                 <h4>{{ post.title }}</h4>
                                 <p>{{ post.description }}</p>
                             </a>
