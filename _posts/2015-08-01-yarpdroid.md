@@ -61,6 +61,12 @@ In this video, I show what happens if you empower users with a natural human-rob
 
 #### Video #2
 
+This video showcases an interface between the iCub and the Google Glass through the `yarpdroid` application. The gyroscope on the Google Glass is used to remotely control the gaze of the iCub robot. The left camera of the robot is then sent onto the Google Glass. Albeit it's a quick and dirty implementation (the output of the gyroscope should greatly benefit from a Kalman filter), this video demonstrate how an user can seamlessly teleoperate the head of the robot with little to none additional machinery needed. I can also go faster than that, but unfortunately I do not have a video for that!
+{% include video.html url="//www.youtube.com/embed/Hw_Yw8LtZTE" %}
+This project has been carried out during MBL 2015 (Woods Hole, MA), during a collaboration between me and  Shue Ching Chia, from the Knowledge-Assisted Vision Lab in the A-Star Institute for Infocomm Research.
+
+#### Video #3
+
 In this super-lowres video, android speech recognition is integrated onto the iCub platform in order to provide a natural interface with the human user. Sorry for the quality!
 
 {% include video.html url="//www.youtube.com/embed/s_qNTg448HA" %}
