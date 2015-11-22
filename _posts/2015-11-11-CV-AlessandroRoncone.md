@@ -9,29 +9,39 @@ article: yes
 permalink: cv.html
 
 skills:
- - name: Programming Skills
+ - name: Programming
    items:
     - name: C++
-      knowledge: 85
-    - name: Matlab
-      knowledge: 80
-    - name: CSS3 & HTML5
       knowledge: 90
+    - name: Matlab
+      knowledge: 85
+    - name: CSS3 & HTML5
+      knowledge: 95
     - name: IPOPT
-      knowledge: 65
+      knowledge: 70
     - name: Bash
-      knowledge: 60
+      knowledge: 65
     - name: OpenCV
       knowledge: 55
     - name: UX/UI
-      knowledge: 55
+      knowledge: 70
     - name: CMake
-      knowledge: 50
+      knowledge: 55
     - name: R
       knowledge: 40
     - name: Python
+      knowledge: 25
+ - name: Robots & Platforms
+   items:
+    - name: iCub
+      knowledge: 95
+    - name: YARP
+      knowledge: 90
+    - name: ROS
+      knowledge: 25
+    - name: Baxter
       knowledge: 20
- - name: Versioning Systems Skills
+ - name: Versioning Systems
    items:
     - name: Git
       knowledge: 75
@@ -39,26 +49,26 @@ skills:
       knowledge: 60
     - name: cvs
       knowledge: 20
- - name: Mobile Skills
+ - name: Mobile
    items:
     - name: Android Development
       knowledge: 45
- - name: OS/Software Skills
+ - name: OS/Software
    items: 
     - name: Linux
-      knowledge: 85
+      knowledge: 90
     - name: Windows
       knowledge: 30
     - name: Gimp
-      knowledge: 70
+      knowledge: 75
     - name: Inkscape
       knowledge: 90
  - name: Languages
    items:
     - name: Italian
-      knowledge: 95
+      knowledge: 99
     - name: English
-      knowledge: 70
+      knowledge: 82
 
 professional:
  - name: Post Doc
