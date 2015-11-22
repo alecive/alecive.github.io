@@ -228,8 +228,9 @@ header .intro-text .skills-small {
     margin: auto;
 }
 
-@media(max-width:837px) {
+@media(max-width:767px) {
     .navbar-default .navbar-brand {
+        font-size: 2.1em;
         padding: 20px 15px;
     }
 }
@@ -304,6 +305,10 @@ section.success p {
 
     .navbar-default .navbar-toggle {
         border: none;
+        border-radius: 0;
+        margin-top: 13px;
+        margin-bottom: 13px;
+        padding-right: 2px;
         background-color: #{{ site.color.secondary-dark }};
     }
 
@@ -726,6 +731,8 @@ span.label:hover e.ok {
     margin-top: -12px;
     text-align: center;
     color: #fff;
+    padding-left:  10px;
+    padding-right: 10px;
 }
 
 #portfolio .portfolio-item .portfolio-link .caption .caption-content i,
@@ -802,14 +809,14 @@ footer h3 {
 }
 
 footer .footer-above {
-    padding-top: 30px;
-    padding-bottom: 30px;
+    padding-top: 24px;
+    padding-bottom: 24px;
     background-color: #{{ site.color.secondary }};
     /*background-image: url('/img/bg.png');*/
 }
 
 footer .footer-below {
-    padding: 20px 0;
+    padding: 14px 0;
     background-color: #{{ site.color.secondary-dark }};
     /*background-image: url('/img/bg.png');*/
 }
