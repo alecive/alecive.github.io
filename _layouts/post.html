@@ -5,14 +5,13 @@ article: true
 <!DOCTYPE html>
 <html>
 
-  {% include head.html %}
+  {% include head.html post="yes"%}
 
-    <body id="page-top" class="index">
+  <body id="page-top" class="index">
     {% include header-post.html %}
     {% include post.html %}
     {% include about.html post="yes"%}
     {% include footer.html %}
     {% include js.html %}
-
-    </body>
+  </body>
 </html>

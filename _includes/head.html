@@ -12,6 +12,19 @@
     <link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">
     <meta name="keywords" content="{{ site.keywords }}">
 
+    {% if include.post%}
+        {% if page.img %}
+            <meta name="thumbnail" content="/img/portfolio/{{ page.img }}" />
+        {% else %}
+            <meta name="thumbnail" content="/img/default_thumbnail.png" />
+        {% endif %}
+    {% elsif include.cv %}
+        <meta name="thumbnail" content="/img/cv.png" />
+    {% else %}
+        <meta name="thumbnail" content="/img/default_thumbnail.png" />
+    {% endif%}
+
+
     <!-- Custom CSS & Bootstrap Core CSS - Uses Bootswatch Flatly Theme: http://bootswatch.com/flatly/ -->
     <link rel="stylesheet" href="{{ "/style.css" | prepend: site.baseurl }}">
 
