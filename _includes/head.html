@@ -2,26 +2,36 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     {% if include.cv %}
-    <title>Curriculum Vitae - {{ site.skills }} - Ph.D.</title>
+        <title>Curriculum Vitae - {{ site.skills }} - Ph.D.</title>
+        <meta property="og:title" content="Curriculum Vitae - {{ site.skills }} - Ph.D." />
+    {% elsif page.title %}
+        <title>{{ page.title }} - {{ site.skills }} - personal website</title>
+        <meta property="og:title" content="{{ page.title }} - {{ site.skills }} - personal website" />
     {% else %}
-    <title>{% if page.title %}{{ page.title }} - {{ site.skills }} - personal website{% else %}{{ site.skills }} - personal website{% endif %}</title>
+        <title>{{ site.skills }} - personal website</title>
+        <meta property="og:title" content="{{ site.skills }} - personal website" />
     {% endif %}
     <meta name="viewport" content="width=device-width">
-    <meta name="description" content="{{ site.description }}">
+    <meta name="description"        content="{{ site.description }}">
+    <meta property="og:description" content="{{ site.description }}">
     <meta name="google-site-verification" content="1fM5KCFImdJuWeo8L_Qo7_-tuItbZ5hoIlGg8g14WkY" />
     <link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">
     <meta name="keywords" content="{{ site.keywords }}">
 
     {% if include.post%}
         {% if page.img %}
-            <meta name="thumbnail" content="/img/portfolio/{{ page.img }}" />
+            <meta name="thumbnail"    content="/img/portfolio/{{ page.img }}" />
+            <meta property="og:image" content="/img/portfolio/{{ page.img }}" />
         {% else %}
-            <meta name="thumbnail" content="/img/default_thumbnail.png" />
+            <meta name="thumbnail"    content="/img/default_thumbnail.png" />
+            <meta property="og:image" content="/img/default_thumbnail.png" />
         {% endif %}
     {% elsif include.cv %}
-        <meta name="thumbnail" content="/img/cv.png" />
+        <meta name="thumbnail"    content="/img/cv.png" />
+        <meta property="og:image" content="/img/cv.png" />
     {% else %}
-        <meta name="thumbnail" content="/img/default_thumbnail.png" />
+        <meta name="thumbnail"    content="/img/default_thumbnail.png" />
+        <meta property="og:image" content="/img/default_thumbnail.png" />
     {% endif%}
 
 
