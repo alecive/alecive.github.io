@@ -71,14 +71,14 @@ skills:
       knowledge: 82
 
 professional:
- - name: Post Doc
+ - name: Post-Doc
    title: Postdoctoral Associate @ Social Robotics Lab, Computer Science Department
    start: Nov. 2015
    end: present
    location: Yale University, New Haven, CT (USA)
    location-link: http://scazlab.yale.edu
-   description: ""
- - name: Post Doc
+   description: "I am currently focusing on the exploitation of bidirectional, natural communication between the robot and the human in the context of human-robot collaborative tasks. I will mainly work on the Baxter, <i>'the world's first dual arm collaborative robot for manufacturing'</i>. It is a ROS-based system."
+ - name: Post-Doc
    title: Post Doc @ iCub Facility
    start: Jan.
    end: Oct. 2015
@@ -141,7 +141,7 @@ education:
    end: 2009
    location: Università degli studi di Genova, IT
    location-link: http://www.unige.it
-   description: "I carried out a system able to control a PUMA robotic arm and develop a goalkeeper-like behavior in an air hockey setup. The robot used SVMs in order to understand which of the puck trajectories he previously experienced was scoring a point. Based on this, it learned the ability to prevent such points by predicting the final outcome of a trajectory given some initial samples. Its success rate was beyond 95%."
+   description: "I carried out a system able to control a PUMA robotic arm and develop a goalkeeper-like behavior in an air hockey setup. The robot used SVMs in order to understand which of the puck trajectories it previously experienced was scoring a point. Based on this, it learned the ability to prevent such points by predicting the final outcome of a trajectory given some initial samples. Its success rate was beyond 95%."
  - name: Student (with scholarship) at ISICT
    title: 
    start: 2005
@@ -194,7 +194,7 @@ misc:
    year: 2015
    venue: "CBMM 2015 Summer School"
    where: "Woods Hole, MA, August 13-September 3, 2015"
-   description: "I attended the Summer School as a teaching assistant: I gave a talk about my research on the iCub humanoid robot, but I mainly focused on tutoring some students during their projects. A notable achievement has been the integration of Google Glass onto the YARP framework, that has been later used in order to perform head/gaze teleoperation."
+   description: "Teaching assistant at the 2015 CBMM Summer School, organized by a number of MIT lab groups and affiliates. I focused on tutoring students during their projects with the iCub. A notable achievement has been the integration of Google Glass onto the YARP framework, that has been later used in order to perform head/gaze teleoperation on the iCub."
  - title: "Co-organizer of the <i>Development of body representations in humans and robots</i> workshop"
    authors: "Matej Hoffmann, Alessandro Roncone, Lorenzo Jamone, and Beata Grzyb"
    year: 2014
@@ -226,14 +226,14 @@ misc:
 
 ## Who am I
 
-Energetic and resourceful Robotics Engineer with more than four years research experience and a proven publication track record. Motivated by intellectually challenging projects as well as personal achievements, I like to work hard and to learn new things by addressing new challenges. I love to be part of a team with bright people working toward the implementation of ambitious ideas, and I am enthusiastic toward the design and the realization of highly innovative tasks.
+Energetic and resourceful Robotics Engineer with more than five years research experience and a proven publication track record. Motivated by intellectually challenging projects as well as personal achievements, I like to learn new things by stimulating myself with new goals. I am capable of pursuing individual research aimed at the development of novel applications, but I particularly love to be part of a team with bright people working toward ambitious ideas. I am enthusiastic toward the design and the realization of highly innovative tasks, and I love to work hard in pursuance of them.
 
 ## Me at a glance
 
  * _Robotics Engineer_ with _4 year full-time experience_ with one of the most advanced robots out there, i.e. the [iCub](http://www.icub.org).
  * Research interests: **robotics**, multisensory integration, calibration, kinematics, tactile sensing, machine learning, computer vision, sensor fusion.
- * Some experience with signal processing, optimization (e.g. [IPOPT](https://projects.coin-or.org/Ipopt), a software designed for large-scale nonlinear optimization problems), and control engineering.
- * _C++ developer_, with a fine knowledge of **YARP** and **iCub** software and libraries.
+ * Considerable background in employing optimization techniques in real-world robotic applications: knowledgeable in particular about [IPOPT](https://projects.coin-or.org/Ipopt), a software designed for large-scale nonlinear optimization problems. Some experience with control engineering and signal processing.
+ * _C++ developer_, with a fine knowledge of **YARP** and **iCub** software and libraries. Some experience with the ROS middleware.
  * Some of my work is available to download at my [GitHub page](http://github.com/alecive/), or in the [Robotology GitHub Organization](https://github.com/robotology).
  * Long-time Linux user, and active contributor to the Linux FOSS community.
  * Graphic Designer and freelancer in the spare time, with a number of successfull projects and employments.
@@ -241,5 +241,5 @@ Energetic and resourceful Robotics Engineer with more than four years research e
 
 ## Summary
 
-Alessandro Roncone was born in Genova (GE), Italy, 1987. He received his _Bachelor's Degree in Biomedical Engineering_ with the score of **110/110 with honors** at the "Università degli Studi di Genova" in February 2008. In July 2011 he completed his _Master Degree in NeuroEngineering_ (with the score of **110/110 with honors**) in the same university. In April 2015 he got a Ph.D. in _Robotics, Cognition and Interaction Technologies_ from the "Università degli studi di Genova" and "Istituto Italiano di Tecnologia". During his PhD he worked in the Cognitive Humanoids laboratory of the department of "Robotics, Brain and Cognitive Sciences" and the "iCub Facility" in IIT, Genova. The goal of his Ph.D. project is to exploit insights from neuroscience in order to implement a model of **Peripersonal Space (PPS)** on the iCub humanoid robot (see below for details on its Ph.D. project). 
-He is currently working as a Post Doc at the iCub Facility in IIT.
+Alessandro Roncone was born in Genova (GE), Italy, 1987. He received his BSc in Biomedical Engineering with the score of _110/110 summa cum laude_ at the [Università degli Studi di Genova](http://www.unige.it/) in February 2008. In July 2011 he completed his MSc in NeuroEngineering (with the score of _110/110 summa cum laude_) in the same university. In April 2015 he got a Ph.D. in _Robotics, Cognition and Interaction Technologies_ from the ["Università degli studi di Genova"](http://www.unige.it) and ["Istituto Italiano di Tecnologia"](http://www.iit.it). During his PhD he worked in the _Robotics, Brain and Cognitive Sciences_ department and the _iCub Facility_ in IIT, Genova, under the supervision of prof. [Giorgio Metta](http://pasa.lira.dist.unige.it/). The goal of his Ph.D. project was to exploit insights from neuroscience in order to implement a model of **Peripersonal Space (PPS)** on the iCub humanoid robot (see below for details on its Ph.D. project). 
+He is currently working as a Postdoctoral Associate at the [Social Robotics Lab](http://scazlab.yale.edu/) in Yale University.
