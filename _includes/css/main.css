@@ -1150,8 +1150,9 @@ pre code span:hover {
 
 @media print
 {   
-    p {
-        font-size: 0.9em;
+    p,
+    li {
+        font-size: 0.8em;
     }
 
     a {
