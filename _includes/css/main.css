@@ -146,8 +146,8 @@ header .intro-text .name-small {
     font-weight: 700;
 }
 
-header .intro-text .skills,
-header .intro-text .skills-small {
+header .intro-text .owner,
+header .intro-text .owner-small {
     background-color: transparent;
     font-size: 1.75em;
     font-weight: 300;
@@ -170,7 +170,7 @@ header .intro-text .skills-small {
         font-size: 4.1em;
     }
 
-    header .intro-text .skills {
+    header .intro-text .owner {
         font-size: 2.35em;
     }
 
