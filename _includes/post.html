@@ -9,11 +9,11 @@
                 </div>
             </div>
             <div id="article" itemprop="articleBody">
-                <div id="article-img" itemprop="image" itemscope itemtype="http://schema.org/ImageObject">
-                    {% if page.img %}
-                        <img src="/img/portfolio/{{ page.img }}" class="img-responsive img-centered" alt="{{ page.alt }}" itemprop="contentUrl">
-                    {% endif %}
-                </div>
+                {% if page.img %}
+                    <div id="article-img" itemprop="image" itemscope itemtype="http://schema.org/ImageObject">
+                        <img src="/img/portfolio/{{ page.img }}" class="img-responsive img-centered" alt="{{ page.alt }}" itemprop="url contentUrl">
+                    </div>
+                {% endif %}
 
                 {% if page.download-link%}
                     <h2>Download Link: <a href="{{ page.download-link }}" target="_blank">{{ page.download-alt }}</a></h2>
