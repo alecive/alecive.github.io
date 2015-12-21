@@ -8,6 +8,7 @@ alt: gaze-stabilization
 date: 2015-01-22
 category: research
 description: 
+tags: [research,robotics,icub,robot,humanoids,control,gaze stabilization,inertial sensor,imu,velocity control,whole body motion,walking,balancing,open source,github]
 article: yes
 
 ---

@@ -9,6 +9,7 @@ alt: flatwoken-icons
 project-date: September 2014
 category: design
 description: Flat, long shadow iconset
+tags: [design,icon pack,icon theme,icons,flat design,flat icons,long shadow,linux,gtk,kde,lxde,ubuntu,xfce,png,arch,fedora,desktop environment,gnome,open source,github]
 article: yes
 
 ---

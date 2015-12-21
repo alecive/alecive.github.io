@@ -8,6 +8,7 @@ alt: double-touch
 date: 2014-06-08
 category: research
 description: 
+tags: [research,robotics,icub,robot,humanoids,double touch,self touch,inverse kinematics,denavit-hartenberg,dh parameters,ipopt,optimization,cognitive robotics,body representations,icra,icra 2014,body schema,open source,github]
 article: yes
 
 ---

@@ -6,6 +6,7 @@ link-alt:
 date: 2015-07-08
 category: blog
 description: Useful commands for my everyday GitHub life
+tags: [blog,how to,tutorial,github,git,tips and tricks]
 article: yes
 
 ---

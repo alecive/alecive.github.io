@@ -10,6 +10,7 @@ category: research
 description: 
 article: yes
 double: yes
+tags: [research,middleware,yarp,android,yarpdroid,computer science,software development,ndk,android studio,robotics,icub,mobile development,google glass]
 
 ---
 

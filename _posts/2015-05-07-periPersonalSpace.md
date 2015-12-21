@@ -8,6 +8,7 @@ alt: peripersonal-space
 date: 2015-05-07
 category: research
 description: 
+tags: [research,robotics,icub,robot,humanoids,artificial skin,peripersonal space,visuo-tactile,multisensory integration,sensor fusion,parzen windows,cognitive robotics,body representations,iros,iros 2015,open source,github]
 article: yes
 
 ---

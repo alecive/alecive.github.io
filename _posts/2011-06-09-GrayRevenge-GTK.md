@@ -7,6 +7,7 @@ img: grayRevenge.png
 alt: grayrevenge-suite
 category: design
 description: 
+tags: [design,gtk,theme,gnome,linux,open source,lxde,xfce,a new start blood,gtk2,gtk3]
 article: yes
 
 ---

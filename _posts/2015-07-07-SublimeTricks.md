@@ -6,6 +6,7 @@ link-alt: Sublime Website
 date: 2015-07-07
 category: blog
 description: Tricks, packages and more stuff that I use on Sublime Text Editor
+tags: [blog,how to,tutorial,sublime text,tips and tricks]
 article: yes
 
 ---
