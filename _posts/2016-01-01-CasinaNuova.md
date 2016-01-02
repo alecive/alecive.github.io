@@ -18,9 +18,9 @@ article: yes
 
 # Sala
 
-## Divani/Poltrone
+## Divani
 
-### [Divano Brooke](http://www.maisonsdumonde.com/IT/it/produits/fiche/divano-grigio-chiaro-in-tessuto-3-posti-brooke-147298.htm) - *499€* - 202cm
+### [Brooke](http://www.maisonsdumonde.com/IT/it/produits/fiche/divano-grigio-chiaro-in-tessuto-3-posti-brooke-147298.htm) - *499€* - 202cm
 
 Un po' corto, ma molto bello!
 
@@ -33,7 +33,7 @@ Un po' corto, ma molto bello!
   </div>
 </div>
 
-### [Divano Nils](http://www.maisonsdumonde.com/IT/it/produits/fiche/divano-grigio-in-tessuto-3-4-posti-nils-140253.htm) - *699€* - 223cm
+### [Nils](http://www.maisonsdumonde.com/IT/it/produits/fiche/divano-grigio-in-tessuto-3-4-posti-nils-140253.htm) - *699€* - 223cm
 
 Lunghezza giusta
 
@@ -46,7 +46,7 @@ Lunghezza giusta
   </div>
 </div>
 
-### [Divano Broadway](http://www.maisonsdumonde.com/IT/it/produits/fiche/divano-trasformabile-verde-anice-in-tessuto-3-posti-broadway-147600.htm) - 299€ - 210cm
+### [Broadway](http://www.maisonsdumonde.com/IT/it/produits/fiche/divano-trasformabile-verde-anice-in-tessuto-3-posti-broadway-147600.htm) - 299€ - 210cm
 
 Tre posti, lo schienale si tira indietro per fare un divano letto. Colore carino (ma occhio a prenderne troppi di colori), e probabilmente è duro come una pigna!
 
@@ -59,7 +59,61 @@ Tre posti, lo schienale si tira indietro per fare un divano letto. Colore carino
   </div>
 </div>
 
-### [Poltrona Waves](http://www.maisonsdumonde.com/IT/it/produits/fiche/poltrona-vintage-giallo-chine-in-tessuto-waves-147340.htm) - *299€*
+### [Mad Men](http://www.maisonsdumonde.com/IT/it/produits/fiche/divanetto-verde-in-tessuto-3-posti-mad-men-125372.htm) - 699€ - 202cm
+
+C'è anche il 2 posti a 599 euro ed è lungo 168.
+
+<div class="row">
+  <div class="col-sm-6">
+    {% include image.html exturl="http://cdn.maisonsdumonde.com//images/cache//3/9/-39152708cea45c1eb58c6831282c4ac8_w500_h500.jpg" %}
+  </div>
+  <div class="col-sm-6">
+    {% include image.html exturl="http://cdn.maisonsdumonde.com//images/cache//0/6/-0608674573da918148770bc8e0560a19_w500_h500.jpg" %}
+  </div>
+</div>
+
+### [Urban](http://www.maisonsdumonde.com/IT/it/produits/fiche/divano-trasformabile-color-antracite-in-tessuto-3-posti-urban-147555.htm) - 649€ - 227cm
+
+E' un divano letto (lo schienale si abbassa come con il broadway), ma allora mi piace di più il broadway
+
+<div class="row">
+  <div class="col-sm-6">
+    {% include image.html exturl="http://cdn.maisonsdumonde.com//images/cache//f/f/-ffa2ac8249b27dc54a74bc67f0d998fb_w500_h500.jpg" %}
+  </div>
+  <div class="col-sm-6">
+    {% include image.html exturl="http://www.maisonsdumonde.com/images/cache//d/a/-da31fa8a06497d960bc7eaab76e0003c_w500_h500.jpg" %}
+  </div>
+</div>
+
+### [Victor](http://www.maisonsdumonde.com/IT/it/produits/fiche/divano-blu-notte-in-tessuto-2-3-posti-victor-147316.htm) - 399€ - 187cm
+
+C'è il blu notte che è molto carino, ma anche grigio non è male. Non mi piacciono per niente le gambe!
+
+<div class="row">
+  <div class="col-sm-6">
+    {% include image.html exturl="http://cdn.maisonsdumonde.com//images/cache//1/c/-1c607facedc1fb3305fcdc2a09ce687c_w500_h500.jpg" %}
+  </div>
+  <div class="col-sm-6">
+    {% include image.html exturl="http://www.maisonsdumonde.com/images/cache//8/7/-876ee7cd3136f3ea01e62788bdfa5999_w500_h500.jpg" %}
+  </div>
+</div>
+
+### [New York](http://www.maisonsdumonde.com/IT/it/produits/fiche/divano-color-avorio-in-cotone-3-4-posti-new-york-111166.htm) - 699€ - 220cm
+
+Divano letto, un po' massiccio per i miei gusti. C'è anche ad angolo 5 posti lungo 286 a 1099€.
+
+<div class="row">
+  <div class="col-sm-6">
+    {% include image.html exturl="http://www.maisonsdumonde.com/images/cache//3/2/-3288b480297613e6b9f6b3fd8cf36d84_w500_h500.jpg" %}
+  </div>
+  <div class="col-sm-6">
+    {% include image.html exturl="http://www.maisonsdumonde.com/images/cache//1/e/-1e3d8fb93230fffc79e8c01684d89de7_w500_h500.jpg" %}
+  </div>
+</div>
+
+## Poltrone
+
+### [Waves](http://www.maisonsdumonde.com/IT/it/produits/fiche/poltrona-vintage-giallo-chine-in-tessuto-waves-147340.htm) - *299€*
 
 Mi sa che la compriamo (per inciso, non ci piace ma c'è anche grigina)
 <div class="row">
@@ -71,7 +125,7 @@ Mi sa che la compriamo (per inciso, non ci piace ma c'è anche grigina)
   </div>
 </div>
 
-### [Poltrona Kelton](http://www.maisonsdumonde.com/IT/it/produits/fiche/poltrona-vintage-blu-petrolio-in-tessuto-kelton-147324.htm) - *299€*
+### [Kelton](http://www.maisonsdumonde.com/IT/it/produits/fiche/poltrona-vintage-blu-petrolio-in-tessuto-kelton-147324.htm) - *299€*
 
 Ci piace azzurrina ma c'è anche grigina scura
 <div class="row">
