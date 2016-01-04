@@ -16,9 +16,34 @@ article: yes
 * This line will be replaced by the ToC, excluding the "Contents" header
 {:toc}
 
+# Planimetria
+
+{% include image.html url="casinanuova/planimetria.jpg" %}
+
+
+
+# Cucina
+
+## Preventivo #1 - isola - €6850
+
+<div class="row">
+  <div class="col-sm-6">
+    {% include image.html url="casinanuova/cucina-bandiniarredamenti.jpg" %}
+  </div>
+  <div class="col-sm-6">
+    {% include image.html exturl="https://lh3.googleusercontent.com/-nZCxfuGhH_BE-l9GfvoojcGC4gQ6907HYTj47D2CdfWB3OL1WfUsxeveQ6DhdOLcoTIwjtsiI98llnVDMrB7rNn9Nxx2tLVc96niJsFvI05RRo7c14mk726KlIPQ0hAd4NSU8-lE8kBlj7HjKtQopVe_QH6u7ExMapqQtvY3MM4bX3h51g9ypGIfoMFSUjkS4Cs2k8IxxJj-6od2gdL4aALrkOgV0JMCft8D0keqs1VKb0gH5Sg57pDhSivC65y-mX6lNgtF-Ym-ji129oB7Mc-yPQUNro7q5WxFsp0CjkqwxvRKX_Ezzt8yd1vAGV15Rh96MM18UKEPtq7F2-9Qjxtzpt6M1v8ydM-Fcfuggesd1zTEXY9lCDdpbjk9h6uxhnNVnbBJm0N5EtFERPO2LuKPzhuOLdAj-DXoSEBTw9iN2eFxAjoft-pt1OBmcQoU_-fiJmcfYDMN2eW7-AG2bEIcmvrdkWtxoi6SfQyYSGaE1wOqHC1WDO06_PeX_Lcr5MWgWv6Z8GDRLNV4U7iGnpAjNt6FlZkNGPm1z0JrX5J5f7bAzOr8S5FVrPNVLakePyDXw=w1752-h985-no" description="Scelta colori: bottom legno color avorio, top lucido laccato color verde mare" %}
+  </div>
+</div>
+
 # Sala
 
 ## Divani
+
+### [Meldola Poltronesofà](http://www.poltronesofa.com/Sofa/SofaDett/tabid/486/ProdID/1186/Language/it-IT/CatID/38/MDD.aspx)
+
+Divano letto con 3 posti più seduta
+
+{% include image.html exturl="http://www.poltronesofa.com/Portals/0/Images/Configuratore/FotoModelli/MDD/s.jpg?1451899274664" %}
 
 ### [Brooke](http://www.maisonsdumonde.com/IT/it/produits/fiche/divano-grigio-chiaro-in-tessuto-3-posti-brooke-147298.htm) - *499€* - 202cm
 
