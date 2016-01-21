@@ -1,12 +1,12 @@
 <div id="article-img">
   {% if include.description%}
     <div class="video-container" style="margin-bottom: 0px;{% if include.width%}{{include.width}}{% endif%}">
-        <iframe width="{{include.width}}" height="{{include.height}}" class="img img-centered" src="{{ include.url }}?showinfo=0&amp;rel=0&amp;vq=hd720" frameborder="0" allowfullscreen style="margin-bottom: 0px;"></iframe>
+      <iframe width="{{include.width}}" height="{{include.height}}" class="img img-centered" src="{{ include.url }}?showinfo=0&amp;rel=0&amp;vq=hd720" frameborder="0" allowfullscreen style="margin-bottom: 0px;"></iframe>
     </div>
     <pre style="margin-bottom: 20px;{% if include.width%}{{include.width}}{% endif%}"><code>{{ include.description }}</code></pre>
   {% else %}
-<div class="video-container" style="margin-bottom: 20px;{% if include.width%}{{include.width}}{% endif%}">
-        <iframe width="{{include.width}}" height="{{include.height}}" class="img img-centered" src="{{ include.url }}?showinfo=0&amp;rel=0&amp;vq=hd720" frameborder="0" allowfullscreen style="margin-bottom: 0px;"></iframe>
+    <div class="video-container" style="margin-bottom: 20px;{% if include.width%}{{include.width}}{% endif%}">
+      <iframe width="{{include.width}}" height="{{include.height}}" class="img img-centered" src="{{ include.url }}?showinfo=0&amp;rel=0&amp;vq=hd720" frameborder="0" allowfullscreen style="margin-bottom: 0px;"></iframe>
     </div>
   {% endif %}
 </div>
