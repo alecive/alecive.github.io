@@ -455,7 +455,9 @@ section.success p {
     margin: auto;
 }
 
-#article-img img {
+#article-img img,
+#article-img .video-container,
+#article-img .pdf-container {
     max-width: 100%;
     margin: 30px auto;
     border: 5px solid #{{ site.color.primary }};
@@ -662,11 +664,9 @@ span.label:hover e.ok {
 
 .video-container,
 .pdf-container {
-    margin: 14px 0px;
     position: relative;
     padding-bottom: 56.25%;
     padding-top: 30px; height: 0; overflow: hidden;
-    border: 5px solid #{{ site.color.primary }};
 }
  
 .video-container iframe,

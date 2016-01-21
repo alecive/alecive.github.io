@@ -1,20 +1,20 @@
 <div id="article-img">
-    {% if include.description %}
-        {% if include.exturl %}
-            <img src="{{ include.exturl }}" class="img-responsive img-centered" alt="{{ include.description }}" style="margin-bottom: 0px;{% if include.width%}{{include.width}}{% endif%}" />
-        {% else %}
-            <a href="/img/{{ include.url }}" target="_blank">
-                <img src="/img/{{ include.url }}" class="img-responsive img-centered" alt="{{ include.description }}" style="margin-bottom: 0px;{% if include.width%}{{include.width}}{% endif%}" />
-            </a>
-        {% endif %}
-        <pre style="margin-bottom: 20px;{% if include.width%}{{include.width}}{% endif%}"><code>{{ include.description }}</code></pre>
-    {% else%}
-        {% if include.exturl %}
-            <img src="{{ include.exturl }}" class="img-responsive img-centered" alt="{{ include.url }}" style="margin-bottom: 20px;{% if include.width%}{{include.width}}{% endif%}" />
-        {% else %}
-            <a href="/img/{{ include.url }}" target="_blank">
-                <img src="/img/{{ include.url }}" class="img-responsive img-centered" alt="{{ include.url }}" style="margin-bottom: 20px;{% if include.width%}{{include.width}}{% endif%}" />
-            </a>
-        {% endif %}
-    {% endif%}
+  {% if include.description %}
+    {% if include.exturl %}
+      <img src="{{ include.exturl }}" class="img-responsive img-centered" alt="{{ include.description }}" style="margin-bottom: 0px;{% if include.width%}{{include.width}}{% endif%}" />
+    {% else %}
+      <a href="/img/{{ include.url }}" target="_blank">
+        <img src="/img/{{ include.url }}" class="img-responsive img-centered" alt="{{ include.description }}" style="margin-bottom: 0px;{% if include.width%}{{include.width}}{% endif%}" />
+      </a>
+    {% endif %}
+    <pre style="margin-bottom: 20px;{% if include.width%}{{include.width}}{% endif%}"><code>{{ include.description }}</code></pre>
+  {% else%}
+    {% if include.exturl %}
+      <img src="{{ include.exturl }}" class="img-responsive img-centered" alt="{{ include.url }}" style="margin-bottom: 20px;{% if include.width%}{{include.width}}{% endif%}" />
+    {% else %}
+      <a href="/img/{{ include.url }}" target="_blank">
+        <img src="/img/{{ include.url }}" class="img-responsive img-centered" alt="{{ include.url }}" style="margin-bottom: 20px;{% if include.width%}{{include.width}}{% endif%}" />
+      </a>
+    {% endif %}
+  {% endif%}
 </div>
