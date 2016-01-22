@@ -6,19 +6,17 @@
 
 body {
     overflow-x: hidden;
-    font-size: 17px;
+    font-size: 17.5px;
+    /*font-family: 'Vollkorn', serif;*/
 }
 
-p {
+p,
+blockquote {
     font-size: 1em;
 }
 
 p.small {
     font-size: .88em;
-}
-
-blockquote {
-    font-size: 1em;
 }
 
 a,
@@ -35,10 +33,19 @@ h2,
 h3,
 h4,
 h5,
-h6 {
+h6,
+.navbar,
+header .intro-text .name,
+header .intro-text .name-small,
+header .intro-text .owner,
+header .intro-text .owner-small {
     text-transform: uppercase;
     font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
-    font-weight: 700;
+    font-weight: 700; /* this is bold */
+}
+
+tt, code, kbd, samp, pre {
+    font-family: 'Hack', 'Meslo LG S for Powerline', 'Menlo', monospace !important;
 }
 
 hr.star-white-on-primary,
@@ -144,20 +151,13 @@ header .intro-text .name,
 header .intro-text .name-small {
     background-color: transparent;
     display: block;
-    text-transform: uppercase;
-    font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
     font-size: 2.35em;
-    font-weight: 700;
 }
 
 header .intro-text .owner,
 header .intro-text .owner-small {
     background-color: transparent;
     font-size: 1.75em;
-    font-weight: 300;
-    font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
-    text-transform: uppercase;
-    font-weight: 700;
 }
 
 @media(min-width:768px) {
@@ -199,12 +199,6 @@ header .intro-text .owner-small {
     .navbar-fixed-top.navbar-shrink .navbar-brand {
         font-size: 2.2em;
     }
-}
-
-.navbar {
-    text-transform: uppercase;
-    font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
-    font-weight: 700;
 }
 
 .navbar .navbar-nav {
@@ -367,7 +361,7 @@ section.success p {
 #blog a h4 {
     text-decoration: none;
     color: #{{ site.color.secondary-dark }};
-    font-weight: bold;
+    font-weight: 700; /* this is bold */
 }
 
 #article em,
@@ -376,7 +370,7 @@ section.success p {
 }
 
 #article strong {
-    font-weight: bold;
+    font-weight: 700; /* this is bold */
 }
 
 #article a:hover,
@@ -487,7 +481,6 @@ section.success p {
 
 code,
 pre {
-    font-family: Menlo, Monaco, "Courier New", monospace;
     background-color: #f9f9f9;
     border: none;
 }
@@ -541,7 +534,7 @@ pre code {
 }
 
 #article dt {
-    font-weight: bold;
+    font-weight: 700; /* this is bold */
 }
 
 #article dd {
@@ -561,7 +554,7 @@ span {
     border: none;
     border-radius: 0;
     text-transform: uppercase;
-    font-weight: 700;
+    font-weight: 700; /* this is bold */
     margin-right: 10px;
     background-color: #{{ site.color.secondary }};
 }
@@ -642,7 +635,7 @@ span.label:hover e.ok {
 #article .progress > .progress-completed {
     position: absolute;
     right: 0px;
-    font-weight: 800;
+    font-weight: 700; /* this is bold */
     padding: 0px 10px;
     font-size: 0.82em;
     background:transparent;
@@ -790,7 +783,7 @@ span.label:hover e.ok {
     background-color: #{{ site.color.secondary }};
     border-radius: 0;
     text-transform: uppercase;
-    font-weight: 700;
+    font-weight: 700; /* this is bold */
 }
 
 .btn-default:hover,
@@ -863,10 +856,6 @@ footer .footer-below {
     background-color: #{{ site.color.secondary-dark }};
 }
 
-tt, code, kbd, samp, pre {
-    font-family: monospace;
-}
-
 kbd {
     background-color: #272822;
 }
@@ -907,7 +896,7 @@ pre code span,
 pre code span:hover {
     text-transform: none;
     background-color: transparent;
-    font-weight: normal;
+    font-weight: 400; /* this is normal */
     margin-right: 0px;
 }
 
