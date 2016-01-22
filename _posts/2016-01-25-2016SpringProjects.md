@@ -77,6 +77,7 @@ By starting with as little information as possible, it is possible to compute a 
 ### TASK C2. Exploring Tool Use and object affordances
 
 I.e. if I am able to incorporate a new tool into my internal model, how can I exploit it in order to do new tasks?
+In summary: what the robot is capable or not capable of doing after "training" with a tool, w.r.t. the previous experience.
 See Hart and Scassellati [2011], Tikhanoff et al [2013].
 
 ### TASK C3. Online Kinematic self calibration
