@@ -14,9 +14,34 @@ article: yes
 * This line will be replaced by the ToC, excluding the "Contents" header
 {:toc}
 
+
+# Prerequisites
+
+All of these prerequisites are not mandatory but helpful: they can be learned on the fly, but a prior familiarity with the topics will surely kick off the projects faster.
+
+ * C++/Python development skills
+ * Git/versioning systems (not mandatory, they can be learned on the go)
+ * Basic knowledge of kinematics, computer vision, robotics, control, machine learning
+ * Linux knowledge would be helpful (all the Baxter code runs on Ubuntu 14.04)
+ * ROS
+
+# Expected results
+
+ 1. Things you will learn (in random order):
+   * ROS
+   * robotics perception
+   * robotics control
+   * standard computer science skills 
+   * machine learning (depending on project)
+   * optimization techniques (depending on project)
+ 2. If all goes well, a publication for the senior projects is more than reasonable.
+ 3. A cool demo is always something to be proud of :)
+
 # 6-month projects
 
 ## Project A: Improvements on the tictactoe demo
+
+{% include image.html url="blog/baxter_tictactoe.jpg" width="width:90%;"  description="Baxter playing tictactoe." %}
 
 **Robot**: *Baxter Research Robot* [[link]](http://www.rethinkrobotics.com/baxter-research-robot/)
 
@@ -37,11 +62,11 @@ article: yes
 
 ## Project B: SnapCircuit Task
 
+{% include image.html exturl="http://ecx.images-amazon.com/images/I/81sj9QjDChL._SL1500_.jpg" width="width:75%;"  description="SnapCircuit board with some parts." %}
+
 **Robot**: *Baxter Research Robot* [[link]](http://www.rethinkrobotics.com/baxter-research-robot/)
 
 **Supervisors**: *Alessandro Roncone, Olivier Mangin*
-
-{% include image.html exturl="http://ecx.images-amazon.com/images/I/81sj9QjDChL._SL1500_.jpg" width="width:65%;"  description="SnapCircuit board with some parts." %}
 
 ### Task B1. Perception
 
@@ -58,7 +83,7 @@ article: yes
 
 {% include video.html url="//www.youtube.com/embed/zegs0TSFF6A" description="State of the art in body representation and control"%}
 
-> To date, robot controllers largely concentrate on the end-point as the only part that enters in physical contact with the environment. The rest of the body is typically represented as a kinematic chain, the volume and surface of the body itself rarely taken into account. Sensing is dominated by “distal” sensors, like cameras, whereas the body surface is “numb”. As a consequence, reaching in cluttered, unstructured environments poses severe problems, as the robot is largely unaware of the full occupancy of its body, limiting the safety of the robot and the surrounding environment. **This is one of the bottlenecks that prevent robots from working alongside human partners.** [Roncone et al. 2015]
+> *To date, robot controllers largely concentrate on the end-point as the only part that enters in physical contact with the environment. The rest of the body is typically represented as a kinematic chain, the volume and surface of the body itself rarely taken into account. Sensing is dominated by “distal” sensors, like cameras, whereas the body surface is “numb”. As a consequence, reaching in cluttered, unstructured environments poses severe problems, as the robot is largely unaware of the full occupancy of its body, limiting the safety of the robot and the surrounding environment. **This is one of the bottlenecks that prevent robots from working alongside human partners.*** [Roncone et al. 2015]
 
 ## Project C: Better perception → _Self modeling_ 
 
@@ -68,7 +93,7 @@ article: yes
 
 > *...by 2-3 months, infants engage in exploration of their own body as it moves and acts in the environment. They babble and touch their own body, attracted and actively involved in investigating the rich intermodal redundancies, temporal contingencies, and spatial congruence of self-perception.* [Rochat, 1998]
 
-### TASK C1. Kinematic Learning
+### TASK C1. Learning the Kinematics
 
 By starting with as little information as possible, it is possible to compute a reliable enough kinematic model from self-observation and exploration of the consequences of the robot's actions.
 
@@ -107,16 +132,16 @@ There is evidence that, in adult humans, sensory systems are not fixed structure
 
 ### D1. PERCEPTION
 
-   * Development of a perception algorithm (kinect-based) able to detect obstacles close to the robot's arms
-     * Calibration of camera w.r.t. the robot
-     * Detection of the robot arms inside the camera frame
-     * Detection of robot - obstacle distances throughout the robot's body
+ * Development of a perception algorithm (kinect-based) able to detect obstacles close to the robot's arms
+   * Calibration of camera w.r.t. the robot
+   * Detection of the robot arms inside the camera frame
+   * Detection of robot - obstacle distances throughout the robot's body
 
 ### D2. CONTROL
 
-   * Development of a suitable avoidance strategy for the robot 
-     * Computation of avoidance vectors based on robot-obstacle distances (the one from [Flacco 2012] should suffice)
-   * Deployment of the control algorithm on the Baxter/ROS platform
+ * Development of a suitable avoidance strategy for the robot 
+   * Computation of avoidance vectors based on robot-obstacle distances (the one from [Flacco 2012] should suffice)
+ * Deployment of the control algorithm on the Baxter/ROS platform
 
 ### References
 
@@ -124,24 +149,28 @@ There is evidence that, in adult humans, sensory systems are not fixed structure
  * F. Flacco et al. [2012]. **A depth space approach to human-robot collision avoidance**, in *Robotics and Automation (ICRA), 2012 IEEE International Conference on*. May 2012, pp.
 338–345. [[PDF]](http://www-cs.stanford.edu/groups/manips/publications/pdfs/Flacco_2012_ICRA.pdf)
 
-# Prerequisites
+## Project E: Hands-free teleoperation
 
-All of these prerequisites are not mandatory but helpful: they can be learned on the fly, but a prior familiarity with the topics will surely kick off the projects faster.
+{% include video.html url="//www.youtube.com/embed/gtkrPhcYhyI" %}
 
- * C++/Python development skills
- * Git/versioning systems (not mandatory, they can be learned on the go)
- * Basic knowledge of kinematics, computer vision, robotics, control, machine learning
- * Linux knowledge would be helpful (all the Baxter code runs on Ubuntu 14.04)
- * ROS
+**Robot(s)**: *Baxter research robot* [[link]](http://www.rethinkrobotics.com/baxter-research-robot/) and *KUKA youBot arm* [[link]](http://www.youbot-store.com/)
 
-# Expected results
+**Supervisor**: *Alessandro Roncone*
 
- * Things you will learn (in random order):
-   * ROS
-   * robotics perception
-   * robotics control
-   * standard computer science skills 
-   * machine learning (depending on project)
-   * optimization techniques (depending on project)
- * If all goes well, a publication for the senior projects is more than reasonable.
- * A cool demo is always something to be proud of :)
+There are many previous works to take inspiration from (and many different techniques have been used). The basic principle is to be able to track the 6 degrees of freedom of the user's hand, and transfer them to the robot's end-effector (with a 6-DOF tracker the problem is fully determined).
+The goal would be to develop a robot-agnostic platform (i.e. able to work on both the Baxter and the KUKA).
+
+### Attack Plan
+
+ 1. Implement a ROS compatible, 6-DOF hand pose tracker.
+ 2. Implement (or use an existing) an Inverse Kinematic controller for both the robots.
+ 3. Interface the 6-DOF hand pose tracker with the IK controller.
+ 4. ...
+ 5. Profit!
+
+*Disclaimer: if you didn't get the joke, it means you never saw [this video](https://www.youtube.com/watch?v=EmoCuA4-y9E)!*
+
+### Stretch goals
+
+ * Implement a face tracking system able to detect the user's face orientation (3DoF). It can be purely vision based (e.g. the [CLM tracker](https://github.com/TadasBaltrusaitis/CLM-framework)), or use some more complex systems (e.g. see this [Google Glass head teleoperation on the iCub robot](https://www.youtube.com/watch?v=Hw_Yw8LtZTE)).
+ * Implement a head teleoperation system on the Baxter robot (2DoF, pan and tilt)
