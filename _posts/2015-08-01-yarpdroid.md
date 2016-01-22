@@ -18,7 +18,7 @@ Over the past month, I've been tinkering with Android Studio and tried to seamle
 
 To this end, I worked (along with mainly Francesco Romano for some low-level Java support) on the cross-compilation of yarp on ARM-v7, and the implementation of a working JNI interface to switch back and forth from the Java layer and the C++ one. As a result, I developed an Android application (aptly named `yarpdroid`), which provides a template for some basic functionalities I worked on, as well as a couple of already available use-cases. The code is available at [https://github.com/alecive/yarpdroid](https://github.com/alecive/yarpdroid).
 
-A quick tutorial on how to cross-compile YARP is provided here: (http://alecive.github.io/blog/2015/08/31/YARP-Cross-Compilation/)
+A quick tutorial on how to cross-compile YARP is provided [here](http://alecive.github.io/blog/2015/08/31/YARP-Cross-Compilation/).
 
 ## Features
 
