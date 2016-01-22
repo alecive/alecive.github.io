@@ -74,14 +74,17 @@ By starting with as little information as possible, it is possible to compute a 
 
 > *This process calibrates the robot's kinematic model to its vision model, producing a unified model that allows kinematic and visual information to be meaningfully combined. The presented model is demonstrated to predict end-effector position in the visual field. The robot further refines this combined kinematic-visual model by minimizing the distance between the predicted and observed positions of its end-effector in its visual field. The fact that the robot learns these properties based on first-hand observations of its body, through its sensors, allows the model to adapt to changes in the robot’s configuration on-line. This endows the robot with the ability to adapt its self-model for tool use.* [Hart and Scassellati, 2011]
 
-### TASK C2. Tool Use and object affordances
+### TASK C2. Exploring Tool Use and object affordances
 
-See Tikhanoff et al [2013], Hart and Scassellati [2011].
+I.e. if I am able to incorporate a new tool into my internal model, how can I exploit it in order to do new tasks?
+See Hart and Scassellati [2011], Tikhanoff et al [2013].
 
-### TASK C3. Kinematic self calibration
+### TASK C3. Online Kinematic self calibration
 
 By starting from a known kinematic model, it is possible to compensate for systematic errors by means of visuo-kinematic calibration. It improves reaching and visual servoing - see Fanello et al. [2014].
 Systematic errors include (i) mismatch between the robot model based on the mechanical design specifications (CAD model) and the actual physical robot; (ii) inaccuracies in joint sensor calibration and measurements; (iii) unobserved variables as for example backlash or mechanical elasticity; (iv) inaccuracies in taxel pose calibration; (v) errors in visual perception due to inaccurate camera calibration. The combination of these sources of error can amount to a total of several centimeters.
+
+There is evidence that, in adult humans, sensory systems are not fixed structures with immutable functions. It is of course widely appreciated that sensory systems can be significantly modified by the input they receive during development. For example, to achieve optimal motor behavior for reaching and grasping, visual and somatic senses must be continually adjusted as different body parts grow at different pace. One might expect such adjustments to proceed very slowly and to be largely restricted to immature organisms, but there is evidence of strong sensory plasticity that can be evoked within minutes in adults. [Volcic et al. 2013]
 
 ### References
 
@@ -91,6 +94,7 @@ Systematic errors include (i) mismatch between the robot model based on the mech
  * M. Hersch et al [2008]. **Online Learning of the body schema**. In *International Journal of Humanoid Robotics*. Vol. 5, No. 2, 2008. [[PDF]](http://infoscience.epfl.ch/record/117918/files/IJHR_0502_P161.pdf)
  * Tikhanoff et al. [2013]. **Exploring affordances and tool use on the iCub**. In *Proceedings of the 13th IEEE/RAS International Conference on Humanoid Robots (Humanoids 2013)*. [[PDF]](http://www.poeticon.eu/publications/1335_Tikhanoff_etal2013.pdf)
  * S. R. Fanello et al. [2014]. **3D Stereo Estimation and Fully Automated Learning of Eye-Hand Coordination in Humanoid Robots**. In *Proceedings of the 14th IEEE/RAS International Conference on Humanoid Robots (Humanoids 2014)*. [[PDF]](http://alecive.github.io/papers/%5BFanello%20et%20al.%202014%5D%20-%203D%20estimation%20and%20fully%20automated%20learning%20of%20eye-hand%20coordination%20in%20humanoid%20robots.pdf)
+ * R. Volcic et al. [2013]. **Visuomotor Adaptation Changes Stereoscopic Depth Perception and Tactile Discrimination**. In *The Journal of Neuroscience*, Oct 23, 2013.
 
 ## Project D: Better control → _Reaching in clutter_
 
@@ -98,7 +102,7 @@ Systematic errors include (i) mismatch between the robot model based on the mech
 
 **Supervisor**: *Alessandro Roncone*
 
-{% include video.html url="//www.youtube.com/embed/API96d56v3I" %}
+{% include video.html url="//www.youtube.com/embed/API96d56v3I" description="From [Flacco et al. 2012]" %}
 
 ### D1. PERCEPTION
 
@@ -121,10 +125,13 @@ Systematic errors include (i) mismatch between the robot model based on the mech
 
 # Prerequisites
 
+All of these prerequisites are not mandatory but helpful: they can be learned on the fly, but a prior familiarity with the topics will surely kick off the projects faster.
+
  * C++/Python development skills
  * Git/versioning systems (not mandatory, they can be learned on the go)
- * Basic knowledge of kinematics, computer vision, robotics
+ * Basic knowledge of kinematics, computer vision, robotics, control, machine learning
  * Linux knowledge would be helpful (all the Baxter code runs on Ubuntu 14.04)
+ * ROS
 
 # Expected results
 
