@@ -80,7 +80,7 @@ I.e. if I am able to incorporate a new tool into my internal model, how can I ex
 In summary: what the robot is capable or not capable of doing after "training" with a tool, w.r.t. the previous experience.
 See Hart and Scassellati [2011], Tikhanoff et al [2013].
 
-### TASK C3. Online Kinematic self calibration
+### TASK C3. Kinematic self calibration
 
 By starting from a known kinematic model, it is possible to compensate for systematic errors by means of visuo-kinematic calibration. It improves reaching and visual servoing - see Fanello et al. [2014].
 Systematic errors include (i) mismatch between the robot model based on the mechanical design specifications (CAD model) and the actual physical robot; (ii) inaccuracies in joint sensor calibration and measurements; (iii) unobserved variables as for example backlash or mechanical elasticity; (iv) inaccuracies in taxel pose calibration; (v) errors in visual perception due to inaccurate camera calibration. The combination of these sources of error can amount to a total of several centimeters.
