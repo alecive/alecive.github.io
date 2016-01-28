@@ -427,3 +427,19 @@ $ git merge experiment
 Now, the snapshot pointed to by `C4'` is exactly the same as the one that was pointed to by `C5` in the merge example. There is no difference in the end product of the integration, but **rebasing makes for a cleaner history**. If you examine the log of a rebased branch, it looks like a linear history: it appears that all the work happened in series, even when it originally happened in parallel.
 
 Often, you'll do this to make sure your commits apply cleanly on a remote branch – perhaps in a project to which you're trying to contribute but that you don't maintain. In this case, you'd do your work in a branch and then rebase your work onto origin/master when you were ready to submit your patches to the main project. That way, **the maintainer doesn't have to do any integration work – just a fast-forward or a clean apply**.
+
+## How to play with different branches
+
+Sometimes, it might just be not possible to either merge or rebase two branches. In this context, the commands listed below might come useful:
+
+{% highlight bash %}
+$ git diff --name-status master..experimental     # this lists the files that have diffs between the two branches
+$ git difftool master experimental -- filename    # this opens a difftool viewer (in my case, Meld), to analyze the diff between a file in two different branches 
+{% endhighlight %}
+
+To pick a file from the `master` branch and move it into the `experimental` branch:
+
+{% highlight bash %}
+$ git checkout experimental
+$ git checkout master -- modules/virtualContactGeneration/
+{% endhighlight %}
