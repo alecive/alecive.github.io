@@ -40,16 +40,16 @@ sudo apt-get update
 
 These tools are used to facilitate the download and management of ROS packages and their dependencies, among other things.
 
-{% highlight bash %}
+~~~bash
 sudo apt-get install python-rosdep python-rosinstall-generator python-wstool python-rosinstall build-essential
-{% endhighlight %}
+~~~
 
 ### Initializing `rosdep`
 
-{% highlight bash %}
+~~~bash
 sudo rosdep init
 rosdep update
-{% endhighlight %}
+~~~
 
 ## Building the `catkin` packages
 As far as I understood, `ros` devs have been moving away from `rosbuild` and started to used `catkin`. From [here](http://wiki.ros.org/catkin/conceptual_overview):
@@ -62,23 +62,23 @@ In summary: _welcome to the modern age!_
 ### Creating a catkin workspace
 
 All of my code is in an aptly-named `code` folder. I put the catkin workspace in there.
-{% highlight bash %}
+~~~bash
 cd ~/code/
 mkdir ros_catkin_ws
 cd ros_catkin_ws/
-{% endhighlight %}
+~~~
 
 I chose a _Desktop-Full Install_: this would install ROS, rqt, rviz, robot-generic libraries, 2D/3D simulators, navigation and 2D/3D perception packages. 
-{% highlight bash %}
+~~~bash
 rosinstall_generator desktop_full --rosdistro indigo --deps --wet-only --tar > indigo-desktop-full-wet.rosinstall
-{% endhighlight %}
+~~~
 
 ### Resolving dependencies
 Before you can build your catkin workspace, you need to make sure that you have all the required dependencies. They use the `rosdep` tool for this:
 
-{% highlight bash %}
+~~~bash
 rosdep install --from-paths src --ignore-src --rosdistro indigo -y
-{% endhighlight %}
+~~~
 
 This will look at all of the packages in the `src` directory and find all of the dependencies they have. Then it will recursively install the dependencies. 
 
@@ -88,9 +88,9 @@ Once it has completed downloading the packages and resolving the dependencies yo
 
 Invoke `catkin_make_isolated`:
 
-{% highlight bash %}
+~~~bash
 ./src/catkin/bin/catkin_make_isolated --install -DCMAKE_BUILD_TYPE=Release
-{% endhighlight %}
+~~~
 
 **WARNING:** this took me loong time. I don't really remember how long, but I'd say one hour for the desktop-full install.
 
@@ -104,12 +104,12 @@ Now everything should be set up correctly. It's time to [follow some tutorials](
 
 Reading here and there, I added this to my `~/.bashrc` file:
 
-{% highlight bash %}
+~~~bash
 # Ros stuff
 export ROS_ROOT="~/code/ros_catkin_ws/install_isolated"
 export PATH=$ROS_ROOT/bin:$PATH
 source $ROS_ROOT/setup.bash
-{% endhighlight %}
+~~~
 
 Otherwise, I would not have been able to do the steps below.
 
@@ -117,31 +117,31 @@ Otherwise, I would not have been able to do the steps below.
 
 Let's create a catkin workspace (as I said, I have everything in my `code` folder):
 
-{% highlight bash %}
+~~~bash
 cd code/
 mkdir -p catkin_ws/src
 cd catkin_ws/src
 catkin_init_workspace 
-{% endhighlight %}
+~~~
 
 Even though the workspace is empty (there are no packages in the `src` folder, just a single `CMakeLists.txt` link) you can still `build` the workspace:
-{% highlight bash %}
+~~~bash
 cd ../
 catkin_make
-{% endhighlight %}
+~~~
 
 The catkin_make command is a convenience tool for working with catkin workspaces. If you look in your current directory you should now have a `build` and `devel` folder. Inside the `devel` folder you can see that there are now several `setup.*sh` files. Sourcing any of these files will overlay this workspace on top of your environment:
 
-{% highlight bash %}
+~~~bash
 source devel/setup.bash
-{% endhighlight %}
+~~~
 
 To make sure your workspace is properly overlayed by the setup script, make sure `ROS_PACKAGE_PATH` environment variable includes the directory you're in.
 
-{% highlight bash %}
+~~~bash
 [alecive@malakim]$ echo $ROS_PACKAGE_PATH
 /home/alecive/code/catkin_ws/src:/home/alecive/code/ros_catkin_ws/install_isolated/share:/home/alecive/code/ros_catkin_ws/install_isolated/stacks
-{% endhighlight %}
+~~~
 
 # Navigating the ROS Filesystem
 
@@ -159,19 +159,19 @@ To make sure your workspace is properly overlayed by the setup script, make sure
 
 `rospack` allows you to get information about packages. In this tutorial, we are only going to cover the find option, which returns the path to package. 
 
-{% highlight bash %}
+~~~bash
 [alecive@malakim]$ rospack find roscpp
 /home/alecive/code/ros_catkin_ws/install_isolated/share/roscpp
-{% endhighlight %}
+~~~
 
 ### Using roscd
 
 `roscd` is part of the `rosbash` suite. It allows you to change directory to a package or a stack. Like other ROS tools, it will **only** find ROS packages that are within the directories listed in your `ROS_PACKAGE_PATH`.
 
-{% highlight bash %}
+~~~bash
 (~) () 
 [alecive@malakim]$ roscd roscpp
 
 (~/code/ros_catkin_ws/install_isolated/share/roscpp) () 
 [alecive@malakim]$ 
-{% endhighlight %}
+~~~
