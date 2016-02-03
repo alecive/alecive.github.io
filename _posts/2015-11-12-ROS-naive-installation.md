@@ -62,6 +62,7 @@ In summary: _welcome to the modern age!_
 ### Creating a catkin workspace
 
 All of my code is in an aptly-named `code` folder. I put the catkin workspace in there.
+
 ~~~bash
 cd ~/code/
 mkdir ros_catkin_ws
@@ -69,6 +70,7 @@ cd ros_catkin_ws/
 ~~~
 
 I chose a _Desktop-Full Install_: this would install ROS, rqt, rviz, robot-generic libraries, 2D/3D simulators, navigation and 2D/3D perception packages. 
+
 ~~~bash
 rosinstall_generator desktop_full --rosdistro indigo --deps --wet-only --tar > indigo-desktop-full-wet.rosinstall
 ~~~
