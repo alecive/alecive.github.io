@@ -27,9 +27,13 @@ address:
 
 # Build settings
 markdown: kramdown
+kramdown: 
+  syntax_highlighter: rouge
+  highlighter: rouge
 permalink: pretty
 gems:
   - jekyll-sitemap
+  - rouge
 
 # Some more default colors
 # 
