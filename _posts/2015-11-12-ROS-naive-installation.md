@@ -307,6 +307,32 @@ Message types use standard ROS naming conventions: `package_name/msg_file_name`.
 
 In addition to the message type, messages are versioned by an MD5 sum of the `.msg` file. Nodes can only communicate messages for which both the message type and MD5 sum match. 
 
+### Field types
+
+#### built-in types
+
+| **Primitive Type**  | **Serialization**                 | **C++**           | **Python**      |
+|     bool            | unsigned 8-bit int                | uint8_t           | bool            |
+|     int8,16,32,64   | signed 8,16,32,64-bit int         | int8,16,32,64_t   | int             |
+|    uint8,16,32,64   | unsigned 8,16,32,64-bit int       | uint8,16,32,64_t  | int             |
+|     float32         | 32-bit IEEE float                 | float             | float           |
+|     float64         | 64-bit IEEE float                 | double            | float           |
+|     string          | ascii string                      | std::string       | string          |
+|     time            | secs/nsecs unsigned 32-bit ints   | ros::Time         | rospy.Time      |
+|     duration        | secs/nsecs  signed 32-bit ints    | ros::Duration     | rospy.Duration  |
+  
+#### Array Handling
+
+|-------------------+-------------------------+-----------------------------------------------+-------------|
+| **Array Type**    | **Serialization**       | **C++**                                       | **Python**  |
+|:------------------|:-----------------------:|:---------------------------------------------:|:-----------:|
+| fixed-length      | no extra serialization  | 0.11+: boost::array, otherwise: std::vector   | tuple       |
+| variable-length   | uint32 length prefix    | std::vector                                   | tuple       |
+|-------------------+-------------------------+-----------------------------------------------+-------------|
+| uint8[]           | see above               | `std::vector<uint8_t>`                        | string      |
+| bool[]            | see above               | see above                                     | list(bool)  |
+|-------------------+-------------------------+-----------------------------------------------+-------------|
+
 ## `msg` and `srv`
 
 `msg` files are stringored in the `msg` directory of a package, and `srv` files are stored in the `srv` directory.
