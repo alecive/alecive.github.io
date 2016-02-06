@@ -73,6 +73,7 @@ I chose a _Desktop-Full Install_: this would install ROS, rqt, rviz, robot-gener
 
 ~~~bash
 rosinstall_generator desktop_full --rosdistro indigo --deps --wet-only --tar > indigo-desktop-full-wet.rosinstall
+wstool init -j8 src indigo-desktop-full-wet.rosinstall
 ~~~
 
 ### Resolving dependencies
