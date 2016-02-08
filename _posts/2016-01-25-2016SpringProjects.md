@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Projects for the 2016 Spring Semester
+title: 2016 Spring Projects
 link: 
 link-alt: 
 category: blog
