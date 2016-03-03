@@ -27,6 +27,8 @@ Why `ros indigo`? Because it is the same version that has been installed on the 
 
 I decided to install from sources. I am used to that when I was working on [yarp](https://github.com/robotology/yarp), and it is the way to go if you want to have access to the source files and get a better idea of the middleware. I went [here](http://wiki.ros.org/indigo/Installation/Source), and I followed the instructions. Here is a summary of what I did.
 
+**NOTE** [This page](http://sdk.rethinkrobotics.com/wiki/Workstation_Setup#Step_3:_Create_Baxter_Development_Workspace) provides a complete step-by-step guide on how to setup a workstation for the Baxter robot.
+
 ## Prerequisites
 
 ### Setup `sources.list`

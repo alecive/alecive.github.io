@@ -21,8 +21,6 @@ tags: [blog,how to,tutorial,ros,concepts,tools,command-line,indigo,ubuntu,14.04,
 
 This page is a summary about the main ROS concepts and some useful command-line tools. For [a tutorial on how to install ROS from a completely naive user's standpoint, go here]({% post_url 2015-11-12-ROS-naive-installation %}).
 
-[This page](http://sdk.rethinkrobotics.com/wiki/Workstation_Setup#Step_3:_Create_Baxter_Development_Workspace) provides a complete step-by-step guide on how to setup a workstation for the Baxter robot.
-
 # ROS concepts
 
 A summary of what is available [here](http://wiki.ros.org/ROS/Concepts). I will start from [here](http://wiki.ros.org/Nodes).
