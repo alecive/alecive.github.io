@@ -78,25 +78,25 @@ professional:
    end: present
    location: Yale University, New Haven, CT (USA)
    location-link: http://scazlab.yale.edu
-   description: "I am currently focusing on the exploitation of bidirectional, natural communication between the robot and the human in the context of human-robot collaborative tasks. I will mainly work on the Baxter, <i>'the world's first dual arm collaborative robot for manufacturing'</i>. It is a ROS-based system."
+   description: "I am currently focusing on the exploitation of bidirectional communication between the robot and the human in the context of human-robot collaborative tasks. I am working toward the implementation of a more natural and intuitive interaction, in order for it to be more efficient and effective, as well as less demanding for the human partner."
  - name: Post-Doc
    title: Post Doc @ iCub Facility
    start: Jan.
    end: Oct. 2015
-   location: Istituto Italiano di Tecnologia (IIT), Genova IT
+   location: Italian Institute of Technology (IIT), Genova IT
    location-link: http://www.iit.it
    description: "I continued the work I started during my Ph.D. fellowship at the iCub Facility. Specifically, I was interested in the exploitation of the peripersonal space model I implemented during my Ph.D., by focusing toward two types of applications: i) better, richer body representations (in collaboration with CITEC @Bielefeld) ii) distributed motor control via whole-body awareness (partially collaborating with WYSIWYD project partners). Furthermore, I extended the gaze stabilization framework I developed during my Ph.D. by integrating it with an existing gaze controller. I was also contributing to a human-robot interaction project aimed at developing natural interaction(s) between the iCub humanoid robot and humans."
  - name: Ph.D. Fellow @ iCub Facility
    title: Life and Humanoid Technologies
    start: 2012
-   end: 2015
-   location: Istituto Italiano di Tecnologia (IIT), Genova IT
+   end: 2014
+   location: Italian Institute of Technology (IIT), Genova IT
    location-link: http://www.iit.it
    description: Doctoral course in Robotics, Cognition and Interaction Technologies. See the <i>`Education`</i> section below for details about my Ph.D. project. I have been involved in the Xperience FP7-ICT-270273 and WYSIWYD FP7-ICT-61239 projects, funded by the European Union Seventh Framework Program with a funding of €7,634,000 and €4,583,016 respectively.
  - name: Research Fellow @ RBCS (Robotics, Brain and Cognitive Science)
-   start: Oct.
+   start: Oct. 2010
    end: Jul. 2011
-   location: Istituto Italiano di Tecnologia (IIT), Genova IT
+   location: Italian Institute of Technology (IIT), Genova IT
    location-link: http://www.iit.it
    description: I have partnered with the Italian Institute of Technology during my MSc thesis. See the <i>`Education`</i> section below for details about my master thesis.
  - name: Icon Designer
@@ -126,7 +126,7 @@ education:
    title: Thesis title `Expanding sensorimotor capabilities of humanoid robots through multisensory integration. A study on the implementation of peripersonal space on the iCub.`
    start: 2012
    end: 2015
-   location: Istituto Italiano di Tecnologia (IIT), Genova IT
+   location: Italian Institute of Technology (IIT), Genova IT
    location-link: http://www.iit.it
    description: "I focused on improving the sensorimotor capabilities of the iCub humanoid, by implementing a bio-inspired system able to learn a multisensory representation of the space around the robot’s body (or <i>peripersonal space</i>). The robot is equipped with a whole-body artificial skin and learns the consequences of its interaction with the self and the environment by means of a multisensory (tactile-motor and tactile-visual) representation. This results in the extension of the robot's tactile domain toward the nearby space, in such a way that it implicitly copes with modeling or calibration errors. Finally, this representation is then exploited with a sensory-based guidance of the motor actions performed by the robot. That is, an avoidance and catching controller capable of using any body part in order to either prevent collision with or come into contact with incoming objects. "
  - name: M.Sc. with honors in NeuroEngineering
@@ -147,7 +147,7 @@ education:
    title: 
    start: 2005
    end: 2008
-   location: ISICT (Istituto Superiore di Studi in Tecnologie dell'Informazione e della Comunicazione)
+   location: ISICT (Superior Institute of Studies in Information and Communication Technologies)
    location-link: http://www.isict.it/
    description: "ISICT stands for <i>Institute for Advanced Studies in Information and Communication Technologies</i>. It is a consortium that integrates the courses provided by the University of Genoa with lessons held by industry leaders. The goal is to better prepare students for the labor market. To this end, I attended a number of additional courses ranging from <i>Marketing</i> to <i>Telecommunications</i> to <i>Aerospace Engineering</i>. I've been also selected for a scholarship, after a thorough examination (only three positions were available)."
 
@@ -207,7 +207,7 @@ misc:
    year: 2014
    venue: "International conference on Infant Studies"
    where: Berlin, Germany, July 3-5, 2014
-   description: "Oral presentation at the <i>International Conference on Infant Studies</i> on my work related to the double-touch (made by Matej)."
+   description: "Oral presentation at the <i>International Conference on Infant Studies</i> on my work related to the double-touch (made by Matej Hoffmann)."
  - title: "Modeling the development of human body representations"
    authors: "Matej Hoffmann, Alessandro Roncone, Giorgio Metta"
    year: 2013
@@ -216,7 +216,7 @@ misc:
    description: "Oral presentation at the workshop on <i>Synthetic Modeling of Life and Cognition</i>: Open Questions."
  - title: "Researcher of the week"
    year: 2013-2014
-   venue: IIT (Istituto Italiano di Tecnologia)
+   venue: IIT (Italian Institute of Technology)
    where: iCub Facility
    description: "I've been researcher of the week for two times. Despite its name, this award is given very rarely to outstanding research performed in the iCub Facility at IIT. In the past two years, only 6 of these awards have been given."
 ---
@@ -242,5 +242,5 @@ Energetic and resourceful Robotics Engineer with more than five years research e
 
 ## Summary
 
-Alessandro Roncone was born in Genova (GE), Italy, 1987. He received his BSc in Biomedical Engineering with the score of _110/110 summa cum laude_ at the [Università degli Studi di Genova](http://www.unige.it/) in February 2008. In July 2011 he completed his MSc in NeuroEngineering (with the score of _110/110 summa cum laude_) in the same university. In April 2015 he got a Ph.D. in _Robotics, Cognition and Interaction Technologies_ from the ["Università degli studi di Genova"](http://www.unige.it) and ["Istituto Italiano di Tecnologia"](http://www.iit.it). During his PhD he worked in the _Robotics, Brain and Cognitive Sciences_ department and the _iCub Facility_ in IIT, Genova, under the supervision of prof. [Giorgio Metta](http://pasa.lira.dist.unige.it/). The goal of his Ph.D. project was to exploit insights from neuroscience in order to implement a model of **Peripersonal Space (PPS)** on the iCub humanoid robot (see below for details on its Ph.D. project). 
+Alessandro Roncone was born in Genova (GE), Italy, 1987. He received his BSc in Biomedical Engineering with the score of _110/110 summa cum laude_ at the [Università degli Studi di Genova](http://www.unige.it/) in February 2008. In July 2011 he completed his MSc in NeuroEngineering (with the score of _110/110 summa cum laude_) in the same university. In April 2015 he got a Ph.D. in _Robotics, Cognition and Interaction Technologies_ from the ["Università degli studi di Genova"](http://www.unige.it) and ["Italian Institute of Technology"](http://www.iit.it). During his PhD he worked in the _Robotics, Brain and Cognitive Sciences_ department and the _iCub Facility_ in IIT, Genova, under the supervision of prof. [Giorgio Metta](http://pasa.lira.dist.unige.it/). The goal of his Ph.D. project was to exploit insights from neuroscience in order to implement a model of **Peripersonal Space (PPS)** on the iCub humanoid robot (see below for details on its Ph.D. project). 
 He is currently working as a Postdoctoral Associate at the [Social Robotics Lab](http://scazlab.yale.edu/) in Yale University.
