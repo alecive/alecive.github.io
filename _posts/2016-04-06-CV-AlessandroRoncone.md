@@ -39,7 +39,7 @@ skills:
     - name: YARP
       knowledge: 90
     - name: ROS
-      knowledge: 25
+      knowledge: 30
     - name: Baxter
       knowledge: 20
  - name: Versioning Systems
@@ -234,7 +234,7 @@ Energetic and resourceful Robotics Engineer with more than five years research e
  * _Robotics Engineer_ with _4 year full-time experience_ with one of the most advanced robots out there, i.e. the [iCub](http://www.icub.org).
  * Research interests: **robotics**, multisensory integration, calibration, kinematics, tactile sensing, machine learning, computer vision, sensor fusion.
  * Considerable background in employing optimization techniques in real-world robotic applications: knowledgeable in particular about [IPOPT](https://projects.coin-or.org/Ipopt), a software designed for large-scale nonlinear optimization problems. Some experience with control engineering and signal processing.
- * _C++ developer_, with a fine knowledge of **YARP** and **iCub** software and libraries. Some experience with the ROS middleware.
+ * _C++ developer_, with a fine knowledge of **YARP** and **iCub** software and libraries. Some experience with the **ROS** middleware.
  * Some of my work is available to download at my [GitHub page](http://github.com/alecive/), or in the [Robotology GitHub Organization](https://github.com/robotology).
  * Long-time Linux user, and active contributor to the Linux FOSS community.
  * Graphic Designer and freelancer in the spare time, with a number of successfull projects and employments.
@@ -242,5 +242,5 @@ Energetic and resourceful Robotics Engineer with more than five years research e
 
 ## Summary
 
-Alessandro Roncone was born in Genova (GE), Italy, 1987. He received his BSc in Biomedical Engineering with the score of _110/110 summa cum laude_ at the [Università degli Studi di Genova](http://www.unige.it/) in February 2008. In July 2011 he completed his MSc in NeuroEngineering (with the score of _110/110 summa cum laude_) in the same university. In April 2015 he got a Ph.D. in _Robotics, Cognition and Interaction Technologies_ from the ["Università degli studi di Genova"](http://www.unige.it) and ["Italian Institute of Technology"](http://www.iit.it). During his PhD he worked in the _Robotics, Brain and Cognitive Sciences_ department and the _iCub Facility_ in IIT, Genova, under the supervision of prof. [Giorgio Metta](http://pasa.lira.dist.unige.it/). The goal of his Ph.D. project was to exploit insights from neuroscience in order to implement a model of **Peripersonal Space (PPS)** on the iCub humanoid robot (see below for details on its Ph.D. project). 
+Alessandro Roncone was born in Genova (GE), Italy, 1987. He received his BSc in Biomedical Engineering with the score of _110/110 summa cum laude_ at the [Università degli Studi di Genova](http://www.unige.it/) in February 2008. In July 2011 he completed his MSc in NeuroEngineering (with the score of _110/110 summa cum laude_) in the same university. In April 2015 he got a Ph.D. in _Robotics, Cognition and Interaction Technologies_ from [Università degli studi di Genova](http://www.unige.it) and [Italian Institute of Technology (IIT)](http://www.iit.it). During his PhD he worked in the _Robotics, Brain and Cognitive Sciences_ department and the _iCub Facility_ in IIT, Genova, under the supervision of prof. [Giorgio Metta](http://pasa.lira.dist.unige.it/). The goal of his Ph.D. project was to exploit insights from neuroscience in order to implement a model of **Peripersonal Space (PPS)** on the iCub humanoid robot (see below for details on its Ph.D. project). 
 He is currently working as a Postdoctoral Associate at the [Social Robotics Lab](http://scazlab.yale.edu/) in Yale University, with a focus on human robot collaboration and collaborative manufacturing.
