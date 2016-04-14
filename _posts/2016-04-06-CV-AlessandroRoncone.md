@@ -165,7 +165,7 @@ publications:
    year: 2015
    venue: IEEE/RSJ International Conference on Intelligent Robots and Systems
    where: Hamburg, Germany, September 28-October 2, 2015
-   pdf: "[Roncone et al. 2015] Learning peripersonal space representation through artificial skin for avoidance and reaching with whole body surface.pdf"
+   pdf: "[Roncone et al. 2015] - Learning peripersonal space representation through artificial skin for avoidance and reaching with whole body surface.pdf"
    description:
  - title: "Gaze Stabilization for Humanoid Robots: A Comprehensive Framework"
    authors: Alessandro Roncone, Ugo Pattacini, Giorgio Metta, and Lorenzo Natale
