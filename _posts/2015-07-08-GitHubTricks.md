@@ -126,36 +126,104 @@ Assuming that yours is a branch called `bugfix`, you have to do the following:
 
 If you want to delete a local tag then you would do `git tag -d <tag name>` (as you did with the branch). But if you want to delete remote tag, then the syntax is a little different:
 {% highlight bash %}
-git push origin :refs/tags/<tag name>
+$ git push origin :refs/tags/<tag name>
 {% endhighlight %}
 This will delete the tag on the remote origin.
 
-# Change remote URL
+# Remote URLs
 
-1) List your existing remotes in order to get the name of the remote you want to change.
+## List existing remote URL
 
-{% highlight bash %}
-git remote -v
-# origin  git@github.com:USERNAME/REPOSITORY.git (fetch)
-# origin  git@github.com:USERNAME/REPOSITORY.git (push)
-{% endhighlight %}
-
-2) Change your remote's URL from SSH to HTTPS with the remote set-url command.
-
-{% highlight bash %}
-git remote set-url origin git@github.com:USERNAME/OTHERREPOSITORY.git
-{% endhighlight %}
-
-3) Verify that the remote URL has changed.
+In order to get the name of the remote URL, you need to do the following:
 
 {% highlight bash %}
 $ git remote -v
-# Verify new remote URL
-# origin  git@github.com:USERNAME/OTHERREPOSITORY.git (fetch)
-# origin  git@github.com:USERNAME/OTHERREPOSITORY.git (push)
+origin  https://github.com/USERNAME/REPOSITORY.git (fetch)
+origin  https://github.com/USERNAME/REPOSITORY.git (push)
 {% endhighlight %}
 
-# `git stash` - Stashing your work
+## Change remote URL from HTTPS to SSH
+
+In order to go from `HTTPS` to `SSH`, you need to use the `remote set-url` command:
+
+{% highlight bash %}
+$ git remote set-url origin git@github.com:USERNAME/REPOSITORY.git
+{% endhighlight %}
+
+## Change remote URL 
+
+The same command is used to point your repository to another remote:
+
+{% highlight bash %}
+$ git remote set-url origin git@github.com:USERNAME/OTHERREPOSITORY.git
+{% endhighlight %}
+
+## Configuring a remote for a fork
+
+To sync changes you make in a fork with the original repository, you must configure a remote that points to the upstream repository in Git. To do so, you need to specify a new remote upstream repository that will be synced with the fork:
+
+{% highlight bash %}
+$ git remote add upstream https://github.com/ORIGINAL_OWNER/ORIGINAL_REPOSITORY.git
+{% endhighlight %}
+
+{% highlight bash %}
+$ git remote -v
+origin    git@github.com:USERNAME/REPOSITORY.git
+origin    git@github.com:USERNAME/REPOSITORY.git
+upstream  https://github.com/ORIGINAL_OWNER/ORIGINAL_REPOSITORY.git (fetch)
+upstream  https://github.com/ORIGINAL_OWNER/ORIGINAL_REPOSITORY.git (push)
+{% endhighlight %}
+
+# Forks
+
+## Syncing a fork
+
+Syncing a fork of a repository aims at keeping it up-to-date with the upstream repository. 
+Before you can sync your fork with an upstream repository, you must configure a remote that points to the upstream repository in Git.
+
+Then, you need to fetch the branches and their respective commits from the upstream repository. Commits to master will be stored in a local branch, `upstream/master`:
+
+{% highlight bash %}
+$ git fetch upstream
+remote: Counting objects: 75, done.
+remote: Compressing objects: 100% (53/53), done.
+remote: Total 62 (delta 27), reused 44 (delta 9)
+Unpacking objects: 100% (62/62), done.
+From https://github.com/ORIGINAL_OWNER/ORIGINAL_REPOSITORY
+ * [new branch]      master     -> upstream/master
+{% endhighlight %}
+
+Check out your fork's local master branch:
+
+{% highlight bash %}
+$ git checkout master
+Switched to branch 'master'
+{% endhighlight %}
+
+Merge the changes from upstream/master into your local master branch. This brings your fork's master branch into sync with the upstream repository, without losing your local changes.
+
+{% highlight bash %}
+$ git merge upstream/master
+Updating a422352..5fdff0f
+Fast-forward
+ README                    |    9 -------
+ README.md                 |    7 ++++++
+ 2 files changed, 7 insertions(+), 9 deletions(-)
+ delete mode 100644 README
+ create mode 100644 README.md
+{% endhighlight %}
+
+If your local branch didn't have any unique commits, Git will instead perform a "fast-forward":
+
+{% highlight bash %}
+$ git merge upstream/master
+Updating 34e91da..16c56ad
+Fast-forward
+ README.md                 |    5 +++--
+ 1 file changed, 3 insertions(+), 2 deletions(-)
+{% endhighlight %}
+
+# Stashing your work
 
 `git stash` does the following:
 
