@@ -17,9 +17,11 @@ article: yes
 * This line will be replaced by the ToC, excluding the "Contents" header
 {:toc}
 
-# Create a new branch
+# Branching
 
-## Create a new branch from scratch and push it to the remote repo
+## Create a new branch
+
+### Create a new branch from scratch and push it to the remote repo
 
 Before creating a new branch pull the changes from upstream, since your master needs to be up to date. Create the branch on your local machine and switch in this branch :
 
@@ -35,7 +37,7 @@ git push origin [name_of_your_new_branch]
 
 When you want to commit something in your branch, be sure to be in your branch. You can see all branches created by using `git branch`.
 
-## Create a new local branch and make it track the remote branch that was already there
+### Create a new local branch and make it track the remote branch that was already there
 
 `git branch -a` will list all of the remote branches that are available to pull from the repo, e.g.:
 
@@ -56,9 +58,9 @@ To create a new repo and make it track one of the listed branches, simply type:
 
 A `git pull` should not be necessary.
 
-# Merge a branch into master
+## Merge a branch into master
 
-## Unsafely (but it works 90% of the times)
+### Unsafely (but it works 90% of the times)
 This is one very practice question, but all before answers are not practical.
 
 {% highlight bash %}
@@ -73,7 +75,7 @@ Two issues arise:
  1. Not safe because we don't know if there are any conflicts between test branch and master branch
  2. it would "squeeze" all test commits into one merge commit on master: on master branch, we can't see the all the changelogs of test branch
 
-## Safely
+### Safely
 
 {% highlight bash %}
 git checkout test
@@ -105,7 +107,7 @@ git merge test
 
 The major benefit of rebasing is that you get a much cleaner project history.
 
-### IMPORTANT
+#### IMPORTANT
 
 The only thing you need to avoid is: **never use `rebase` on `master` branch!** I.e. never do this:
 
@@ -114,21 +116,30 @@ git checkout master
 git rebase -i test
 {% endhighlight %}
 
-# Delete a remote/local branch or tag
+## Delete a remote/local branch or tag
 
-## Delete a branch
+### Delete a branch
 Assuming that yours is a branch called `bugfix`, you have to do the following:
  
  * locally: `git branch -D bugfix`
  * remotely: `git push origin :bugfix`
 
-## Delete a tag
+### Delete a tag
 
 If you want to delete a local tag then you would do `git tag -d <tag name>` (as you did with the branch). But if you want to delete remote tag, then the syntax is a little different:
 {% highlight bash %}
 $ git push origin :refs/tags/<tag name>
 {% endhighlight %}
 This will delete the tag on the remote origin.
+
+## Copy files between branches
+
+To copy a file from one branch to another, e.g. from the `experiment` branch to the `master` branch,
+
+{% highlight bash %}
+git checkout master                 # get back to master
+git checkout experiment -- file.txt # copy the version of the file from "experiment"
+{% endhighlight %}
 
 # Remote URLs
 
