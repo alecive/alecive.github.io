@@ -1,8 +1,8 @@
 ---
 layout: post
 title: Sublime Tricks
-link: https://github.com/alecive/periPersonalSpace
-link-alt: Sublime Website
+link: 
+link-alt: 
 date: 2015-07-07
 category: blog
 description: Tips and tricks for Sublime Text Editor
