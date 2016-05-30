@@ -1,18 +1,15 @@
----
-layout: default-blog
----
+<!DOCTYPE html>
+<html>
 
-<!-- <div class="home">
+    {% include head.html %}
 
-  <h1>Posts</h1>
+    <body id="page-top" class="index">
 
-  <ul class="posts">
-    {% for post in site.posts %}
-      <li>
-        <span class="post-date">{{ post.date | date: "%b %-d, %Y" }}</span>
-        <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
-      </li>
-    {% endfor %}
-  </ul>
+    {% include header-blog.html %}
+    {% include blog.html %}
+    {% include about.html post="yes"%}
+    {% include footer.html %}
+    {% include js.html %}
 
-</div> -->
+    </body>
+</html>
