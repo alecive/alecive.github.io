@@ -160,6 +160,13 @@ graphics:
    end: 2013
 
 publications:
+ - title: "A Cartesian 6-DoF Gaze Controller for Humanoid Robots"
+   authors: Alessandro Roncone, Ugo Pattacini, Giorgio Metta, and Lorenzo Natale
+   year: 2016
+   venue: Proceedings of Robotics: Science and Systems
+   where: Ann Arbor, MI, U.S.A., June 18-22, 2016
+   pdf: "[Roncone et al. 2016] A Cartesian 6-DoF Gaze Controller for Humanoid Robots.pdf"
+   description:
  - title: "Learning peripersonal space representation through artificial skin for avoidance and reaching with whole body surface"
    authors: Alessandro Roncone, Ugo Pattacini, Giorgio Metta, and Lorenzo Natale
    year: 2015
