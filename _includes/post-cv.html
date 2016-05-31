@@ -80,14 +80,13 @@
                         <div class="cv-section-title">
                             <h3 class="inlineifprinted">{{item.year}}</h3>
                             <h4 class="inlineifprinted">{{item.venue}}</h4>
-                            <p>{{item.where}}</p>
-                            <!-- <p>2010 - 2012 Senior Graphic Designer <br> 2012 - 2014 Project Manager</p> -->
+                            <p  class="no-print">{{item.where}}</p>
                         </div>
                     </div>
 
                     <div class="col-sm-8">
                         <h2>{{item.title}}</h2>
-                        <p><i>{{item.authors}}</i><br>
+                        <p>{% if item.authors %}<i>{{item.authors}}</i><br>{% endif %}
                         {{item.description}}
                         </p>
                     </div>
@@ -103,7 +102,6 @@
                             {% if item.location-link %}<h3><a href="{{item.location-link}}" target="_blank">{{item.location}}</a></h3>
                             {% else %}<h3>{{item.location}}</h3>
                             {% endif %}
-                            <!-- <p>2010 - 2012 Senior Graphic Designer <br> 2012 - 2014 Project Manager</p> -->
                         </div>
                     </div>
 

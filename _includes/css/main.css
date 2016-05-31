@@ -668,6 +668,7 @@ span.label:hover e.ok {
 }
 
 #article .cv-item h2 {
+    font-size: 1.2em;
     margin-top: 20px;
 }
 
@@ -1069,6 +1070,11 @@ pre code span:hover {
         font-size: .9em;
     }
 
+    #article h3,
+    #article h4 {
+        text-transform: none;
+    }
+
     #article h2.only-print,
     #article h4.only-print {
         text-align: left;
@@ -1082,7 +1088,7 @@ pre code span:hover {
     }
 
     #article h2.only-print a {
-        text-transform: lowercase;
+        text-transform: none;
     }
 
     #article .cv-item {

@@ -161,7 +161,7 @@ publications:
  - title: "A Cartesian 6-DoF Gaze Controller for Humanoid Robots"
    authors: Alessandro Roncone, Ugo Pattacini, Giorgio Metta, and Lorenzo Natale
    year: 2016
-   venue: "Proceedings of Robotics: Science and Systems"
+   venue: "Robotics: Science and Systems Conference"
    where: Ann Arbor, MI, U.S.A., June 18-22, 2016
    pdf: "[Roncone et al. 2016] A Cartesian 6-DoF Gaze Controller for Humanoid Robots.pdf"
    description:
@@ -214,7 +214,7 @@ misc:
    where: Berlin, Germany, July 3-5, 2014
    description: "Oral presentation at the <i>International Conference on Infant Studies</i> on my work related to the double-touch (made by Matej Hoffmann)."
  - title: "Modeling the development of human body representations"
-   authors: "Matej Hoffmann, Alessandro Roncone, Giorgio Metta"
+   authors: "Matej Hoffmann, Alessandro Roncone"
    year: 2013
    venue: "SMLC - Workshop on Synthetic Modeling of Life and Cognition: Open Questions"
    where: Bergamo, Italy, September 12-14, 2013
@@ -236,7 +236,7 @@ Energetic and resourceful Robotics Engineer with more than five years research e
 
 ## Me at a glance
 
- * _Robotics Engineer_ with _4 year full-time experience_ with one of the most advanced robots out there, i.e. the [iCub](http://www.icub.org).
+ * _Robotics Engineer_ with _5 year full-time experience_ with one of the most advanced robots out there, i.e. the [iCub](http://www.icub.org).
  * Research interests: **robotics**, multisensory integration, calibration, kinematics, tactile sensing, machine learning, computer vision, sensor fusion.
  * Considerable background in employing optimization techniques in real-world robotic applications: knowledgeable in particular about [IPOPT](https://projects.coin-or.org/Ipopt), a software designed for large-scale nonlinear optimization problems. Some experience with control engineering and signal processing.
  * _C++ developer_, with a fine knowledge of **YARP** and **iCub** software and libraries. Some experience with the **ROS** middleware.
