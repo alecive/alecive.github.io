@@ -1,10 +1,10 @@
 ---
 layout: post
-title: 2016 Spring Projects
+title: 2016 Spring Projects at the Social Robotics Lab
 link: 
 link-alt: 
 category: blog
-description: Alessandro Roncone
+description: Spring project for students
 article: yes
 
 ---

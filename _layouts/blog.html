@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html>
+
+    {% include head.html %}
+
+    <body id="page-top" class="index">
+
+    {% include header-blog.html %}
+    {{ content }}
+    {% include about.html post="yes"%}
+    {% include footer.html %}
+    {% include js.html %}
+
+    </body>
+</html>

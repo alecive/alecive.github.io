@@ -358,7 +358,7 @@ section.success p {
 }
 
 #article a,
-#blog a h4 {
+#blog a h3 {
     text-decoration: none;
     color: #{{ site.color.secondary-dark }};
     font-weight: 700; /* this is bold */
@@ -374,7 +374,7 @@ section.success p {
 }
 
 #article a:hover,
-#blog a:hover h4 {
+#blog a:hover h3 {
     color: #{{ site.color.tertiary }};
 }
 
@@ -477,6 +477,12 @@ section.success p {
     #article-img {
         max-width: 70%;
     }
+}
+
+#blog .post-date {
+    text-align: right;
+    margin-bottom: -20px;
+    opacity: 0.6;
 }
 
 code,
@@ -682,7 +688,7 @@ span.label:hover e.ok {
 
 #portfolio .portfolio-item {
     right: 0;
-    margin: 0 0 15px;
+    margin-bottom: 30px;
 }
 
 #portfolio .portfolio-item .portfolio-link,
@@ -744,12 +750,6 @@ span.label:hover e.ok {
 
 #portfolio * {
     z-index: 2;
-}
-
-@media(min-width:767px) {
-    #portfolio .portfolio-item {
-        margin: 0 0 30px;
-    }
 }
 
 #research h2 {
