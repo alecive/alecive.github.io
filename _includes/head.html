@@ -1,15 +1,12 @@
 <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    {% if include.cv %}
-        <title>Curriculum Vitae - {{ site.owner }} - Ph.D.</title>
-        <meta property="og:title" content="Curriculum Vitae - {{ site.owner }} - Ph.D." />
-    {% elsif page.title %}
-        <title>{{ page.title }} - {{ site.owner }}</title>
-        <meta property="og:title" content="{{ page.title }} - {{ site.owner }}" />
+    {% if page.title %}
+    <title>{{ page.title }} - {{ site.owner }} - {{ site.owner-title}}</title>
+    <meta property="og:title" content="{{ page.title }} - {{ site.owner }} - {{ site.owner-title}}" />
     {% else %}
-        <title>{{ site.owner }}</title>
-        <meta property="og:title" content="{{ site.owner }}" />
+    <title>{{ site.owner }} - {{ site.owner-title}}</title>
+    <meta property="og:title" content="{{ site.owner }} - {{ site.owner-title}}" />
     {% endif %}
     <meta name="viewport" content="width=device-width">
     <meta name="description"        content="{% if page.description %}{{ page.description }} - {% endif %}{{ site.description }}">
