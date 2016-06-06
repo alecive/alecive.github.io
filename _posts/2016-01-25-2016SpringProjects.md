@@ -1,10 +1,10 @@
 ---
 layout: post
-title: 2016 Spring Projects at the Social Robotics Lab
+title: 2016 Spring Projects
 link: 
 link-alt: 
 category: blog
-description: Spring project for students
+description: Spring project for students at the Social Robotics Lab.
 article: yes
 
 ---

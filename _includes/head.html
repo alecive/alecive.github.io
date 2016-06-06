@@ -5,19 +5,18 @@
         <title>Curriculum Vitae - {{ site.owner }} - Ph.D.</title>
         <meta property="og:title" content="Curriculum Vitae - {{ site.owner }} - Ph.D." />
     {% elsif page.title %}
-        <title>{{ page.title }} - {{ site.owner }} - personal website</title>
-        <meta property="og:title" content="{{ page.title }} - {{ site.owner }} - personal website" />
+        <title>{{ page.title }} - {{ site.owner }}</title>
+        <meta property="og:title" content="{{ page.title }} - {{ site.owner }}" />
     {% else %}
-        <title>{{ site.owner }} - personal website</title>
-        <meta property="og:title" content="{{ site.owner }} - personal website" />
+        <title>{{ site.owner }}</title>
+        <meta property="og:title" content="{{ site.owner }}" />
     {% endif %}
     <meta name="viewport" content="width=device-width">
-    <meta name="description"        content="{{ site.description }}">
+    <meta name="description"        content="{% if page.description %}{{ page.description }} - {% endif %}{{ site.description }}">
     <meta property="og:description" content="{{ site.description }}">
     <meta name="google-site-verification" content="1fM5KCFImdJuWeo8L_Qo7_-tuItbZ5hoIlGg8g14WkY" />
     <link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">
     <meta property="og:url" content="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}" />
-    <meta name="keywords" content="{% if page.tags %}{{ page.tags | join: ', ' }}, {{ site.keywords | join: ', ' }}{% else %}{{ site.keywords | join: ', ' }}{% endif %}">
 
     {% if include.post%}
         {% if page.img %}
