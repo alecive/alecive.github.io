@@ -14,22 +14,22 @@ skills:
       knowledge: 90
     - name: Matlab
       knowledge: 85
-    - name: CSS3 & HTML5
-      knowledge: 95
     - name: IPOPT
       knowledge: 70
-    - name: Bash
-      knowledge: 65
     - name: OpenCV
-      knowledge: 55
-    - name: UX/UI
-      knowledge: 70
+      knowledge: 65
     - name: CMake
       knowledge: 55
+    - name: Bash
+      knowledge: 65
+    - name: CSS3 & HTML5
+      knowledge: 95
+    - name: UX/UI
+      knowledge: 70
     - name: R
       knowledge: 40
     - name: Python
-      knowledge: 25
+      knowledge: 30
  - name: Robots & Platforms
    items:
     - name: iCub
@@ -37,13 +37,13 @@ skills:
     - name: YARP
       knowledge: 90
     - name: ROS
-      knowledge: 30
+      knowledge: 50
     - name: Baxter
-      knowledge: 20
+      knowledge: 35
  - name: Versioning Systems
    items:
     - name: Git
-      knowledge: 75
+      knowledge: 80
     - name: Subversion
       knowledge: 60
     - name: cvs
@@ -153,44 +153,46 @@ graphics:
  - name: FlatWoken Icons
    start: 2013
    end: 2014
+   description: My second icon pack capitalized on the experience I gained while working on the AwOken project, and was a much more refined long-shadow set.
  - name: AwOken Icons
    start: 2010
    end: 2013
+   description: My most awarded and recognized graphics projects. It has been downloaded more than a million times in less than one year, and has been for a while the most downloaded icon set on Linux ever.
 
 publications:
  - title: "A Cartesian 6-DoF Gaze Controller for Humanoid Robots"
    authors: Alessandro Roncone, Ugo Pattacini, Giorgio Metta, and Lorenzo Natale
    year: 2016
    venue: "Robotics: Science and Systems Conference"
-   where: Ann Arbor, MI, U.S.A., June 18-22, 2016
+   where: Ann Arbor, MI, U.S.A., June 18-22
    pdf: "[Roncone et al. 2016] A Cartesian 6-DoF Gaze Controller for Humanoid Robots.pdf"
    description:
  - title: "Learning peripersonal space representation through artificial skin for avoidance and reaching with whole body surface"
    authors: Alessandro Roncone, Ugo Pattacini, Giorgio Metta, and Lorenzo Natale
    year: 2015
    venue: IEEE/RSJ International Conference on Intelligent Robots and Systems
-   where: Hamburg, Germany, September 28-October 2, 2015
+   where: Hamburg, Germany, September 28-October 2
    pdf: "[Roncone et al. 2015] - Learning peripersonal space representation through artificial skin for avoidance and reaching with whole body surface.pdf"
    description:
  - title: "Gaze Stabilization for Humanoid Robots: A Comprehensive Framework"
    authors: Alessandro Roncone, Ugo Pattacini, Giorgio Metta, and Lorenzo Natale
    year: 2014
    venue: IEEE-RAS International Conference on Humanoid Robots
-   where: Madrid, Spain, November 18-20, 2014
+   where: Madrid, Spain, November 18-20
    description:
    pdf: "[Roncone et al. 2014] - Gaze stabilization for humanoid robots: a Comprehensive Framework.pdf"
  - title: "3D Stereo Estimation and Fully Automated Learning of Eye-Hand Coordination in Humanoid Robots"
    authors: S. R. Fanello, U. Pattacini, I. Gori, V. Tikhanoff, M. Randazzo, A. Roncone, F. Odone, and G. Metta
    year: 2014
    venue: IEEE-RAS International Conference on Humanoid Robots
-   where: Madrid, Spain, November 18-20, 2014
+   where: Madrid, Spain, November 18-20
    description:
    pdf: "[Fanello et al. 2014] - 3D estimation and fully automated learning of eye-hand coordination in humanoid robots.pdf"
  - title: "Automatic kinematic chain calibration using artificial skin: self-touch in the iCub humanoid robot"
    authors: Alessandro Roncone, Matej Hoffmann, Ugo Pattacini, and Giorgio Metta
    year: 2014
    venue: IEEE International Conference on Robotics and Automation (ICRA)
-   where: Hong Kong, China, May 31-June 7, 2014
+   where: Hong Kong, China, May 31-June 7
    description: <a href="http://spectrum.ieee.org/automaton/robotics/robotics-software/video-friday-robot-racecar-kilobot-display-humanoid-skin" target="_blank">It was featured at the IEEE Spectrum Video Friday!</a>
    pdf: "[Roncone et al. 2014] - Automatic Kinematic Chain Calibration using artificial skin: self-touch in the iCub humanoid robot.pdf"
 
@@ -199,31 +201,31 @@ misc:
    authors: "Alessandro Roncone, Carlo Ciliberto, Giulia Pasquale and Raffaello Camoriano"
    year: 2015
    venue: "CBMM 2015 Summer School"
-   where: "Woods Hole, MA, August 13-September 3, 2015"
+   where: "Woods Hole, MA, August 13-September 3"
    description: "Teaching assistant at the 2015 CBMM Summer School, organized by a number of MIT lab groups and affiliates. I focused on tutoring students during their projects with the iCub. A notable achievement has been the integration of Google Glass onto the YARP framework, that has been later used in order to perform head/gaze teleoperation on the iCub."
  - title: "Co-organizer of the <i>Development of body representations in humans and robots</i> workshop"
    authors: "Matej Hoffmann, Alessandro Roncone, Lorenzo Jamone, and Beata Grzyb"
    year: 2014
    venue: "IEEE International Conference on Development and Learning and on Epigenetic Robotics"
-   where: Genoa, Italy, October 13-16, 2014
+   where: Genoa, Italy, October 13-16
    description: "Half-day workshop @ICDL-EPIROB 2014 Conference. The goal of the workshop was to <i>explore the possibility of robots developing models inspired by the mechanisms of human body representations</i>. In this way, they can on one hand become new modeling tools for empirical sciences - expanding the domain of computational modeling by anchoring it to the physical environment and a physical body. On the other hand, robot controllers endowed with multimodal whole-body awareness and plasticity typical of humans should give rise to - in robotics unprecedented - autonomy, robustness, and resilience."
  - title: "Modeling the development of body knowledge using humanoid robots"
    authors: "Matej Hoffmann, Alessandro Roncone, Giorgio Metta"
    year: 2014
    venue: "International conference on Infant Studies"
-   where: Berlin, Germany, July 3-5, 2014
+   where: Berlin, Germany, July 3-5
    description: "Oral presentation at the <i>International Conference on Infant Studies</i> on my work related to the double-touch (made by Matej Hoffmann)."
  - title: "Modeling the development of human body representations"
    authors: "Matej Hoffmann, Alessandro Roncone"
    year: 2013
-   venue: "SMLC - Workshop on Synthetic Modeling of Life and Cognition: Open Questions"
-   where: Bergamo, Italy, September 12-14, 2013
-   description: "Oral presentation at the workshop on <i>Synthetic Modeling of Life and Cognition</i>: Open Questions."
+   venue: "SMLC - Workshop on Synthetic Modeling of Life and Cognition"
+   where: Bergamo, Italy, September 12-14
+   description: "Invited to give an oral presentation at the workshop on <i>Synthetic Modeling of Life and Cognition</i>."
  - title: "Researcher of the week"
    year: 2013-2014
    venue: IIT (Italian Institute of Technology)
    where: iCub Facility
-   description: "I've been researcher of the week for two times. Despite its name, this award is given very rarely to outstanding research performed in the iCub Facility at IIT. In the past two years, only 6 of these awards have been given."
+   description: "I've been researcher of the week for two times. Despite its name, this award is given very rarely to outstanding research performed in the iCub Facility at IIT. In the past years, only 8 of these awards have been given."
 ---
 
 <div><p class="only-print">Personal Website: <a href="http://alecive.github.io">http://alecive.github.io</a></p></div>

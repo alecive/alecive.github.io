@@ -44,6 +44,10 @@ header .intro-text .owner-small {
     font-weight: 700; /* this is bold */
 }
 
+h4 {
+    text-transform: none;
+}
+
 tt, code, kbd, samp, pre {
     font-family: 'Hack', 'Meslo LG S for Powerline', 'Menlo', monospace !important;
 }
@@ -687,6 +691,10 @@ span.label:hover e.ok {
 
 .portfolio-item a {
     text-decoration: none;
+}
+
+.portfolio-item h4 {
+    text-transform: uppercase;
 }
 
 #portfolio .portfolio-item {

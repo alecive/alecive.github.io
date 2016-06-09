@@ -21,12 +21,18 @@
                     <li class="page-scroll">
                         <a href="/blog.html">Blog</a>
                     </li>
+                    {% if include.cv %}
                     <li class="page-scroll">
                         <a href="/{{ site.resume-download-link }}" target="_blank">Short resume (PDF)</a>
                     </li>
                     <li class="page-scroll">
                         <a href="/{{ site.cv-download-link }}" target="_blank">Full CV (PDF)</a>
                     </li>
+                    {% else %}
+                    <li class="page-scroll">
+                        <a href="/cv.html">CV</a>
+                    </li>
+                    {% endif %}
                 </ul>
             </div>
             <!-- /.navbar-collapse -->

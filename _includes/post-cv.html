@@ -138,7 +138,7 @@
             </div>
             {% endfor %}
 
-            <p class="only-print" style="border-left: 10px solid #{{ site.color.primary }}; padding-left: 10px; margin-top: 20px;">This CV has been auto(<i>-magically</i>) generated from the correspondent page on my personal website. For this reason, there may be some formatting problems here and there. Compilation Date: <i>{{ page.date | date: '%B %d, %Y' }}</i></p>
+            <p class="only-print" style="border-left: 10px solid #{{ site.color.primary }}; padding-left: 10px; margin-top: 20px;">This CV has been auto(<i>-magically</i>) generated from the correspondent page on my personal website. For this reason, there may be some formatting problems here and there. Compilation Date: <i>{{ site.time | date: '%B %d, %Y' }}</i></p>
         </div>
     </div>
 </section>
