@@ -10,12 +10,12 @@
     {% endif %}
     <meta name="viewport" content="width=device-width">
     <meta name="description"        content="{% if page.description %}{{ page.description }} - {% endif %}{{ site.description }}">
-    <meta property="og:description" content="{{ site.description }}">
+    <meta property="og:description" content="{% if page.description %}{{ page.description }} - {% endif %}{{ site.description }}">
     <meta name="google-site-verification" content="1fM5KCFImdJuWeo8L_Qo7_-tuItbZ5hoIlGg8g14WkY" />
     <link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">
     <meta property="og:url" content="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}" />
 
-    {% if include.post%}
+    {% if include.post %}
         {% if page.img %}
             <meta name="thumbnail"    content="/img/portfolio/{{ page.img }}" />
             <!-- <meta property="og:image" content="{{ /img/portfolio/{{ page.img }} | prepend: site.baseurl }}" /> -->
@@ -30,7 +30,6 @@
         <meta name="thumbnail"    content="/img/default_thumbnail.png" />
         <!-- <meta property="og:image" content="{{ /img/default_thumbnail.png | prepend: site.baseurl }}" /> -->
     {% endif%}
-
 
     <!-- Custom CSS & Bootstrap Core CSS - Uses Bootswatch Flatly Theme: http://bootswatch.com/flatly/ -->
     <link rel="stylesheet" href="{{ "/style.css" | prepend: site.baseurl }}">
