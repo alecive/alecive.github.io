@@ -593,11 +593,6 @@ span.label:hover e.ok {
 
 #article .progress {
     position: relative;
-    height: 25px;
-    margin-right: 20px;
-}
-
-#article .progress {
     overflow: hidden;
     height: 22px;
     margin-bottom: 20px;
