@@ -73,4 +73,8 @@
     <meta name="msapplication-TileImage" content="/img/fav/mstile-144x144.png">
 
     {% include json-ld/author-jsonld.html %}
+
+    {% if include.post %}
+    {% include json-ld/blogPosting-jsonld.html %}
+    {% endif %}
 </head>
