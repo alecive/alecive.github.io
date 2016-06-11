@@ -72,20 +72,5 @@
     <meta name="msapplication-TileColor" content="#{{ site.color.primary }}">
     <meta name="msapplication-TileImage" content="/img/fav/mstile-144x144.png">
 
-    <script type="application/ld+json">
-    {
-      "@context": "http://schema.org",
-      "@type": "Person",
-      "name": "{{ site.owner }}",
-      "honorificSuffix": "{{ site.owner-title }}",
-      "jobTitle": "{{ site.owner-job }}",
-      "image": "{{ site.cv-image }}",
-      "telephone": "{{ site.phone }}",
-      "email": "{{ site.email }}",
-      "url": "{{ site.url }}/cv.html",
-      "sameAs": [ {% for network in site.social %}
-      "{{ network.url }}"{% if forloop.last == false %},{% endif %}{% endfor %}
-      ]
-    }
-    </script>
+    {% include json-ld/author-jsonld.html %}
 </head>
