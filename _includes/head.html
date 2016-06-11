@@ -71,4 +71,22 @@
     <link rel="icon" type="image/png" href="/img/fav/favicon-16x16.png" sizes="16x16">
     <meta name="msapplication-TileColor" content="#{{ site.color.primary }}">
     <meta name="msapplication-TileImage" content="/img/fav/mstile-144x144.png">
+
+    <script type="application/ld+json">
+    {
+      "@context": "http://schema.org",
+      "@type": "Person",
+      "name": "{{ site.owner }}",
+      "honorificSuffix": "{{ site.owner-title }}",
+      "image": "{{ site.cv-image }}",
+      "telephone": "{{ site.phone }}",
+      "email": "{{ site.email }}",
+      "url": "{{ site.url }}",
+      "sameAs": [
+        {% for network in site.social %}
+        "{{ network.url }}",
+        {% endfor %}
+      ]
+    }
+    </script>
 </head>

@@ -2,7 +2,7 @@
 title: alecive
 email: alecive87@gmail.com
 url: http://alecive.github.io
-phone: +39 3392512112
+phone: +1 (682) 253-2483
 description: "Personal website of Alessandro Roncone, aka alecive (or alecive87 ), Ph.D. in robotic engineering and designer in his spare time."
 owner: Alessandro Roncone
 owner-title: Ph.D.
@@ -12,6 +12,7 @@ aboutB: "Alessandro has a 6-year research experience in robotics engineering. He
 # These should be put at the root of your website
 cv-download-link: AlessandroRoncone_cv.pdf
 resume-download-link: AlessandroRoncone_resume.pdf
+cv-image: /img/cv.png
 
 # Social networks usernames (many more available: google-plus, flickr, dribbble, pinterest, instagram, tumblr, linkedin, etc.)
 social:

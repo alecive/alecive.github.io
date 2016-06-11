@@ -1,11 +1,6 @@
 
-    <section id="post" itemscope="" itemtype="http://schema.org/BlogPosting">
-        <meta itemprop="keywords"      content="{{ page.tags | join: ',' }}" />
-        <meta itemprop="datePublished" datetime="{{ page.date | date: '%Y-%m-%d' }}"/>
-        <meta itemprop="author publisher" itemscope="" itemtype="http://schema.org/Person">
-            <link itemprop="name"> {{ site.owner }}</link>
-        </meta>
-        <div class="container" id="portfolio" >
+    <section id="post">
+        <div class="container" id="portfolio" itemscope itemtype="http://schema.org/BlogPosting">
             <div class="row">
                 <div class="col-lg-12 text-center">
                     <h2 itemprop="name headline">{{ page.title }}</h2>
