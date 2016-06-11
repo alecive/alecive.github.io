@@ -81,11 +81,9 @@
       "image": "{{ site.cv-image }}",
       "telephone": "{{ site.phone }}",
       "email": "{{ site.email }}",
-      "url": "{{ site.url }}",
-      "sameAs": [
-        {% for network in site.social %}
-        "{{ network.url }}",
-        {% endfor %}
+      "url": "{{ site.url }}/cv.html",
+      "sameAs": [ {% for network in site.social %}
+      "{{ network.url }}",{% endfor %}
       ]
     }
     </script>
