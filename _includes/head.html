@@ -78,12 +78,13 @@
       "@type": "Person",
       "name": "{{ site.owner }}",
       "honorificSuffix": "{{ site.owner-title }}",
+      "jobTitle": "{{ site.owner-job }}",
       "image": "{{ site.cv-image }}",
       "telephone": "{{ site.phone }}",
       "email": "{{ site.email }}",
       "url": "{{ site.url }}/cv.html",
       "sameAs": [ {% for network in site.social %}
-      "{{ network.url }}",{% endfor %}
+      "{{ network.url }}"{% if forloop.last == false %},{% endif %}{% endfor %}
       ]
     }
     </script>
