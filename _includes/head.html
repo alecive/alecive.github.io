@@ -72,9 +72,9 @@
     <meta name="msapplication-TileColor" content="#{{ site.color.primary }}">
     <meta name="msapplication-TileImage" content="/img/fav/mstile-144x144.png">
 
-    {% include json-ld/author-jsonld.html %}
+    {% include json-ld/author.json %}
 
     {% if include.post %}
-    {% include json-ld/blogPosting-jsonld.html %}
+    {% include json-ld/blogPosting.json %}
     {% endif %}
 </head>
