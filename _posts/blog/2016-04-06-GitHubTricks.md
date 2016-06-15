@@ -522,3 +522,45 @@ To pick a file from the `master` branch and move it into the `experimental` bran
 $ git checkout experimental
 $ git checkout master -- modules/virtualContactGeneration/
 {% endhighlight %}
+
+# Ignore tracked files
+
+In most projects/repositories, there are some files whose default version is important to track, but that change very often and whose change is machine dependent (e.g. configuration files) or is a consequence of automatic change while building the code. Usually, you don't want to un-track them, you just don't want them to appear as modified and you don't want them to be staged when you `git add`. The command is the following:
+
+{% highlight bash %}
+git update-index --assume-unchanged [<file> ...]
+{% endhighlight %}
+
+Git will fail (gracefully) in case it needs to modify this file in the index e.g. when merging in a commit; thus, in case the assumed-untracked file is changed upstream, you will need to handle the situation manually.
+
+Importantly, in order to undo the previous command and start tracking again, use:
+
+{% highlight bash %}
+git update-index --no-assume-unchanged [<file> ...]
+{% endhighlight %}
+
+## What if I forgot what files were untracked?
+
+You can use `git ls-files -v`. If the character printed is lower-case, the file is marked assume-unchanged.
+
+To print just the files that are unchanged use:
+
+{% highlight bash %}
+git ls-files -v | grep '^[[:lower:]]'
+{% endhighlight %}
+
+To embrace your lazy programmer, turn this into a git alias. Edit your `.gitconfig` file to add this snippet:
+
+{% highlight bash %}
+[alias]
+    ignored = !git ls-files -v | grep "^[[:lower:]]"
+{% endhighlight %}
+
+Now typing `git ignored` will give you output like this:
+
+{% highlight %}
+h path/to/ignored.file
+h another/ignored.file
+{% endhighlight %}
+
+
