@@ -558,7 +558,7 @@ To embrace your lazy programmer, turn this into a git alias. Edit your `.gitconf
 
 Now typing `git ignored` will give you output like this:
 
-{% highlight %}
+{% highlight bash %}
 h path/to/ignored.file
 h another/ignored.file
 {% endhighlight %}
