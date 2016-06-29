@@ -3,8 +3,8 @@ layout: post
 title: Android integration onto the iCub platform
 link: https://github.com/alecive/yarpdroid
 link-alt: GitHub repository
-img: yarpdroid.png
-alt: yarpdroid.png
+img: yarpdroid.jpg
+alt: yarpdroid
 date: 2015-08-01
 category: research
 description: 
