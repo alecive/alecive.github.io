@@ -14,7 +14,7 @@ article: yes
 
 Minimal, fresh and relaxing, ANewStart is a complete suite for Linux desktops. Nearly *100000 downloads* make it one of the most downloaded themes ever.
 
-{% include image.html url="screenshots/anewstart.jpg" description="Poster image on deviantART" %}
+{% include image.html url="screenshots/anewstart.png" description="Poster image on deviantART" %}
 
 ## Description
 
