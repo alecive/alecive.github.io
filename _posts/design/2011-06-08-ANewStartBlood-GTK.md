@@ -3,7 +3,7 @@ layout: post
 title: A New Start Blood
 download-link: http://alecive.deviantart.com/art/ANewStartBLOOD-1-0-273905913
 download-alt: A New Start Blood Suite on DeviantART
-img: aNewStartBlood.png
+img: aNewStartBlood.jpg
 alt: anewstartblood-suite
 category: design
 description: 
