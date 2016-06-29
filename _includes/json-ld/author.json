@@ -5,7 +5,7 @@
       "name": "{{ site.owner }}",
       "honorificSuffix": "{{ site.owner-title }}",
       "jobTitle": "{{ site.owner-job }}",
-      "image": "{{ site.cv-image }}",
+      "image": "{{ site.cv-image | prepend: site.url }}",
       "telephone": "{{ site.phone }}",
       "email": "{{ site.email }}",
       "url": "{{ site.url }}/cv.html",

@@ -17,11 +17,11 @@
       "datePublished": "{{ page.date  | date: '%B %d, %Y' }}",
       "dateModified": "{{ page.date  | date: '%B %d, %Y' }}",
       "description": "{{ page.description }}",
-      "url": "{{ page.url }}",
+      "url": "{{ page.url | prepend: site.url }}"{% if page.img %},
       "image": {
         "@type": "ImageObject",
-        "url": "/img/portfolio/{{ page.img }}",
-        "contentUrl": "/img/portfolio/{{ page.img }}"
-      }
+        "url": "{{ site.url }}/img/portfolio/{{ page.img }}",
+        "contentUrl": "{{ site.url }}/img/portfolio/{{ page.img }}"
+      }{% endif %}
     }
     </script>
