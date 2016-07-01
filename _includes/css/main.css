@@ -7,7 +7,7 @@
 body {
     overflow-x: hidden;
     font-size: 17.5px;
-    /*font-family: 'Vollkorn', serif;*/
+    font-family: 'Assistant', sans-serif;
 }
 
 p,
@@ -25,7 +25,7 @@ a:focus,
 a:active,
 a.active {
     outline: 0;
-    color: #{{ site.color.tertiary }};
+    color: #{{ site.color.secondary-dark }};
 }
 
 h1,
@@ -41,7 +41,7 @@ header .intro-text .owner,
 header .intro-text .owner-small {
     text-transform: uppercase;
     font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
-    font-weight: 700; /* this is bold */
+    font-weight: 700;
 }
 
 h4 {
@@ -59,10 +59,11 @@ hr.star-secondary-on-white,
 hr.star-tertiary-on-white {
     margin: 25px auto 50px;
     padding: 0;
-    max-width: 250px;
+    /*max-width: 250px;*/
     border: 0;
-    border-top: solid 5px;
+    /*border-top: solid 5px;*/
     text-align: center;
+    border-top: 1px solid #{{ site.color.articletext }};
 }
 
 hr.star-white-on-primary:after,
@@ -77,6 +78,7 @@ hr.star-tertiary-on-white:after  {
     padding: 0 .25em;
     font-family: FontAwesome;
     font-size: 2.35em;
+    display: none;
 }
 
 hr.star-white-on-primary:after,
@@ -90,32 +92,20 @@ hr.star-tertiary-on-white:after  {
     background-color: #fff;
 }
 
-hr.star-white-on-primary {
-    border-color: #fff;
-}
-
-hr.star-white-on-primary:after {
-    color: #fff;
-}
-
+hr.star-white-on-primary,
 hr.star-secondary-on-primary,
-hr.star-secondary-on-white {
+hr.star-tertiary-on-primary,
+hr.star-secondary-on-white,
+hr.star-tertiary-on-white {
     border-color: #{{ site.color.secondary }};
 }
 
+hr.star-white-on-primary:after,
 hr.star-secondary-on-primary:after,
-hr.star-secondary-on-white:after {
-    color: #{{ site.color.secondary }};
-}
-
-hr.star-tertiary-on-primary,
-hr.star-tertiary-on-white {
-    border-color: #{{ site.color.tertiary }};
-}
-
 hr.star-tertiary-on-primary:after,
+hr.star-secondary-on-white:after,
 hr.star-tertiary-on-white:after {
-    color: #{{ site.color.tertiary }};
+    color: #{{ site.color.secondary }};
 }
 
 ul {
@@ -128,7 +118,7 @@ ul {
 
 header {
     text-align: center;
-    color: #fff;
+    /*color: #fff;*/
     background: #{{ site.color.primary }};
 }
 
@@ -148,7 +138,7 @@ header img {
 }
 
 header img:hover {
-    background-color: #{{ site.color.tertiary }};
+    background-color: #{{ site.color.secondary-dark }};
 }
 
 header .intro-text .name,
@@ -241,7 +231,7 @@ header .intro-text .owner-small {
 .navbar-default .navbar-brand:focus,
 .navbar-default .navbar-nav > li > a:hover,
 .navbar-default .navbar-nav > li > a:focus {
-    color: #{{ site.color.tertiary }};
+    color: #{{ site.color.secondary-dark }};
     -webkit-transition: all ease .5s;
     -moz-transition: all ease .5s;
     transition: all ease .5s;
@@ -250,7 +240,7 @@ header .intro-text .owner-small {
 .navbar-default .navbar-nav > .active > a,
 .navbar-default .navbar-nav > .active > a:hover,
 .navbar-default .navbar-nav > .active > a:focus {
-    background-color: #{{ site.color.tertiary }};
+    background-color: #{{ site.color.secondary-dark }};
     -webkit-transition: all ease 1.5s;
     -moz-transition: all ease 1.5s;
     transition: all ease 1.5s;
@@ -276,16 +266,17 @@ section p {
 section h2 {
     margin: 0;
     font-size: 2.8em;
+    text-align: left;
 }
 
 section.success {
-    color: #fff;
+    /*color: #fff;*/
     background-color: #{{ site.color.primary }};
     /*background-image: url('/img/bg.png');*/
 }
 
 section.success p {
-    color: #fff;
+    /*color: #fff;*/
 }
 
 @media(max-width:767px) {
@@ -317,7 +308,7 @@ section.success p {
     .navbar-default .navbar-toggle:hover,
     .navbar-default .navbar-toggle:focus {
         border: none;
-        background-color: #{{ site.color.tertiary }};
+        background-color: #{{ site.color.secondary-dark }};
     }
 }
 
@@ -379,7 +370,7 @@ section.success p {
 
 #article a:hover,
 #blog a:hover h3 {
-    color: #{{ site.color.tertiary }};
+    color: #{{ site.color.secondary-dark }};
 }
 
 #article h1,
@@ -563,7 +554,7 @@ pre code {
 }
 
 span {
-    color: #fff;
+    /*color: #fff;*/
     border: none;
     border-radius: 0;
     text-transform: uppercase;
@@ -575,7 +566,7 @@ span {
 span:hover,
 span:focus,
 span:active {
-    color: #fff;
+    /*color: #fff;*/
     background-color: #{{ site.color.secondary-dark }};
 }
 
@@ -615,7 +606,7 @@ span.label:hover e.ok {
     height: 100%;
     font-size: 0.82em;
     line-height: 22px;
-    color: #FFF;
+    /*color: #FFF;*/
     text-align: center;
     margin-right: 20px;
     background-color: #{{ site.color.secondary }};
@@ -623,7 +614,7 @@ span.label:hover e.ok {
 }
 
 #article .progress:hover .progress-bar {
-    background-color: #{{ site.color.tertiary }};
+    background-color: #{{ site.color.secondary-dark }};
 }
 
 #article .progress > .progress-type {
@@ -637,7 +628,7 @@ span.label:hover e.ok {
 }
 
 #article .progress:hover > .progress-type {
-    background-color: #{{ site.color.secondary }};
+    background-color: #{{ site.color.secondary-dark }};
 }
 
 #article .progress > .progress-completed {
@@ -648,7 +639,7 @@ span.label:hover e.ok {
     font-size: 0.82em;
     background:transparent;
     margin: 0px;
-    color: #{{ site.color.tertiary }};
+    color: #{{ site.color.secondary-dark }};
 }
 
 #article .cv-item {
@@ -662,7 +653,7 @@ span.label:hover e.ok {
 }
 
 #article .cv-item:hover {
-    border-left-color: #{{ site.color.tertiary }};
+    border-left-color: #{{ site.color.secondary-dark }};
 }
 
 #article .cv-item h1,
@@ -758,12 +749,9 @@ span.label:hover e.ok {
     z-index: 2;
 }
 
-#research h2 {
-    color: #{{ site.color.secondary }};
-}
-
+#research h2,
 #design h2 {
-    color: #{{ site.color.tertiary }};
+    color: #{{ site.color.secondary }};
 }
 
 .btn-outline {
@@ -781,7 +769,7 @@ span.label:hover e.ok {
 .btn-outline.active {
     border: solid 2px #fff;
     background: #fff;
-    color: #{{ site.color.tertiary }};
+    color: #{{ site.color.secondary-dark }};
 }
 
 .btn-default {
@@ -1142,11 +1130,11 @@ footer .footer-above,
 .navbar,
 header
 {
-    box-shadow: #333 0px 1px 4px 0px;
+    /*box-shadow: #333 0px 1px 4px 0px;*/
 }
 
 .with-shadow,
 .with-shadow-on-hover:hover {
-    box-shadow: 0px 2px 5px rgba(0,0,0,0.4);
+    /*box-shadow: 0px 2px 5px rgba(0,0,0,0.4);*/
 }
 
