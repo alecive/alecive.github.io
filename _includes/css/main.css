@@ -83,8 +83,12 @@ header img:hover,
     transition: all ease 1s;
 }
 
+.cv-img:hover,
 .btn-social:hover {
     border-color: #{{ site.color.accent }};
+    -webkit-transition: all ease 1s;
+    -moz-transition: all ease 1s;
+    transition: all ease 1s;
 }
 
 #article .cv-item:hover {
@@ -217,6 +221,10 @@ header img {
     margin: 0 auto 20px;
     border-radius: 100%;
     background-color: #{{ site.color.secondary }};
+}
+
+.cv-img {
+    border: 8px solid #{{ site.color.secondary }};
 }
 
 header .intro-text .name,
@@ -567,6 +575,11 @@ section.success p {
     text-align: right;
     margin-bottom: -20px;
     opacity: 0.5;
+}
+
+#blog .post-date,
+#blog .post-description {
+    font-weight: normal;
 }
 
 code,

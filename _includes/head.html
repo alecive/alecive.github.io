@@ -31,8 +31,8 @@
     <!-- <meta property="og:image" content="/img/default_thumbnail.png" /> -->
     {% endif %}
     {% elsif include.cv %}
-    <meta name="thumbnail"    content="/img/cv.png" />
-    <!-- <meta property="og:image" content="/img/cv.png" /> -->
+    <meta name="thumbnail"    content="{{ site.cv-image }}" />
+    <!-- <meta property="og:image" content="{{ site.cv-image }}" /> -->
     {% else %}
     <meta name="thumbnail"    content="/img/default_thumbnail.png" />
     <!-- <meta property="og:image" content="{{ /img/default_thumbnail.png | prepend: site.baseurl }}" /> -->
