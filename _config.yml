@@ -70,7 +70,6 @@ color:
   # secondary: f4676d                       # This is reddish
   # secondary-dark: f24e55                  # This is reddish
 # ALTERNATIVE 4 - B and W
-  tertiary: edeeef                        # This is gray
   primary:  edeeef                         # This is the gray color with a blue tint
   secondary: 3c3c3c                       # This is dark gray
   secondary-dark: 282828                  # This is darker gray

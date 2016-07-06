@@ -1076,10 +1076,6 @@ pre code span:hover {
         font-size: 0.8em;
     }
 
-    a {
-        color: #{{ site.color.tertiary }};
-    }
-
     a[href]:after {
         content: none !important;
     }
