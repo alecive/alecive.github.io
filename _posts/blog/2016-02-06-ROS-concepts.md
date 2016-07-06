@@ -68,7 +68,7 @@ In addition to the message type, messages are versioned by an MD5 sum of the `.m
 
 ### Field types
 
-#### built-in types
+#### Built-in types
 
 |---------------------+-----------------------------------+-------------------+-----------------|
 | **Primitive Type**  | **Serialization**                 | **C++**           | **Python**      |
