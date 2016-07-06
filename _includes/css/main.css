@@ -141,11 +141,7 @@ tt, code, kbd, samp, pre {
     font-family: 'Hack', 'Meslo LG S for Powerline', 'Menlo', monospace !important;
 }
 
-hr.star-white-on-primary,
-hr.star-secondary-on-primary,
-hr.star-tertiary-on-primary,
-hr.star-secondary-on-white,
-hr.star-tertiary-on-white {
+hr.separating-line {
     margin: 25px auto 50px;
     padding: 0;
     /*max-width: 250px;*/
@@ -155,46 +151,8 @@ hr.star-tertiary-on-white {
     border-top: 1px solid #{{ site.color.articletext }};
 }
 
-hr.star-white-on-primary:after,
-hr.star-secondary-on-primary:after,
-hr.star-tertiary-on-primary:after,
-hr.star-secondary-on-white:after,
-hr.star-tertiary-on-white:after  {
-    content: "\f005";
-    display: inline-block;
-    position: relative;
-    top: -.8em;
-    padding: 0 .25em;
-    font-family: FontAwesome;
-    font-size: 2.35em;
-    display: none;
-}
-
-hr.star-white-on-primary:after,
-hr.star-secondary-on-primary:after,
-hr.star-tertiary-on-primary:after {
-    background-color: #{{ site.color.primary }};
-}
-
-hr.star-secondary-on-white:after,
-hr.star-tertiary-on-white:after  {
-    background-color: #fff;
-}
-
-hr.star-white-on-primary,
-hr.star-secondary-on-primary,
-hr.star-tertiary-on-primary,
-hr.star-secondary-on-white,
-hr.star-tertiary-on-white {
+hr.separating-line {
     border-color: #{{ site.color.secondary }};
-}
-
-hr.star-white-on-primary:after,
-hr.star-secondary-on-primary:after,
-hr.star-tertiary-on-primary:after,
-hr.star-secondary-on-white:after,
-hr.star-tertiary-on-white:after {
-    color: #{{ site.color.secondary }};
 }
 
 ul {
@@ -242,7 +200,7 @@ header .intro-text .owner-small {
 
 @media(min-width:768px) {
     header .container {
-        padding-top: 200px;
+        padding-top: 180px;
         padding-bottom: 100px;
     }
 
@@ -1222,8 +1180,8 @@ header
     /*box-shadow: #333 0px 1px 4px 0px;*/
 }
 
-/*.with-shadow,*/
+/*.with-shadow,
 .with-shadow-on-hover:hover {
     box-shadow: 0px 2px 5px rgba(0,0,0,0.4);
-}
+}*/
 
