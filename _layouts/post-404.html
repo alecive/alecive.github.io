@@ -8,9 +8,9 @@ article: true
   {% include head.html post="yes"%}
 
   <body id="page-top" class="index">
-    {% include header-404.html %}
+    {% include header.html 404="yes" post="yes" %}
     {% include post.html %}
-    {% include about.html post="yes"%}
+    {% include about.html post="yes" post="yes" %}
     {% include footer.html %}
     {% include js.html %}
   </body>
