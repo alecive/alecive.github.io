@@ -70,8 +70,8 @@ color:
   # secondary: f4676d                       # This is reddish
   # secondary-dark: f24e55                  # This is reddish
 # ALTERNATIVE 4 - B and W
-  tertiary: e6e6e6                        # This is gray
-  primary: e6e6e6                         # This is the gray color with a blue tint
+  tertiary: edeeef                        # This is gray
+  primary:  edeeef                         # This is the gray color with a blue tint
   secondary: 3c3c3c                       # This is dark gray
   secondary-dark: 282828                  # This is darker gray
   secondary-alpha: rgba(40,40,40,.7)      # This is the same as the secondary color but with an alpha value
