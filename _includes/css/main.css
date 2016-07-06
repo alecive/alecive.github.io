@@ -315,8 +315,8 @@ header .intro-text .owner-small {
 }
 
 .navbar-shrink .navbar-brand img {
-    width: 60px;
-    height: 60px;
+    width: 61px;
+    height: 61px;
 }
 
 .navbar-collapse {
@@ -811,6 +811,10 @@ span.label:hover e.ok {
 #portfolio .portfolio-item .portfolio-link .caption .caption-content h3,
 #portfolio .portfolio-item .portfolio-link .caption .caption-content h4 {
     margin: 0;
+}
+
+#portfolio .portfolio-item .portfolio-link .caption .caption-content h4 {
+    line-height: 1.6em;
 }
 
 #portfolio * {
