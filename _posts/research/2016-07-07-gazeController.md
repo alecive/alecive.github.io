@@ -22,7 +22,7 @@ tags: [research,middleware,yarp,android,yarpdroid,computer science,software deve
 
 ## Video
 
-{% include video.html url="//www.youtube.com/embed/" %}
+{% include video.html url="//www.youtube.com/embed/I4ZKfAvs1y0" %}
 
 ## Slides
 
