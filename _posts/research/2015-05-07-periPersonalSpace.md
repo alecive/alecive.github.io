@@ -21,8 +21,6 @@ article: yes
 
 ## Video
 
-Here is a video that summarizes the behavior:
-
 {% include video.html url="//www.youtube.com/embed/scaFDZZnIZs" %}
 
 ## Description
