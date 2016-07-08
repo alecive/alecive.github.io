@@ -16,9 +16,9 @@
                 {% endif %}
 
                 {% if page.download-link%}
-                    <h2>Download Link: <a href="{{ page.download-link }}" target="_blank">{{ page.download-alt }}</a></h2>
+                    <h3>Download Link: <a href="{{ page.download-link }}" target="_blank">{{ page.download-alt }}</a></h3>
                 {% elsif page.link%}
-                    <h2>Link: <a href="{{ page.link }}" target="_blank">{{ page.link-alt }}</a></h2>
+                    <h3>Link: <a href="{{ page.link }}" target="_blank">{{ page.link-alt }}</a></h3>
                 {% endif%}
 
                 {{ content }}
