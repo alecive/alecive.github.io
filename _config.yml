@@ -14,13 +14,13 @@ aboutB: "Alessandro has a 6-year research experience in Robotics Engineering. He
 # These should be put at the root of your website
 cv-download-link: AlessandroRoncone_cv.pdf
 resume-download-link: AlessandroRoncone_resume.pdf
-cv-image: /img/cv.png
+cv-image: /img/cv.jpg
 
 # Social networks usernames (many more available: google-plus, flickr, dribbble, pinterest, instagram, tumblr, linkedin, etc.)
 social:
   - title: google-plus
     url: https://plus.google.com/+AlessandroRoncone
-  - title: github
+  - title: github-alt
     url: http://github.com/alecive
   - title: linkedin
     url: https://www.linkedin.com/in/alessandroroncone
@@ -50,7 +50,7 @@ color:
 # I've put different combinations to test
 # 
 # ALTERNATIVE 0
-  articletext: 4e4e4e                     # This is the text color
+  articletext: 3c3c3c                     # This is the text color
   primary: b5c0c7                         # This is the gray color with a blue tint
   secondary: 0892d0                       # This is the blue color
   secondary-dark: 055c83                  # This is the blue color
@@ -70,7 +70,8 @@ color:
   # secondary: f4676d                       # This is reddish
   # secondary-dark: f24e55                  # This is reddish
 # ALTERNATIVE 4 - B and W
-  # tertiary: edeeef                        # This is greenish
-  # primary: edeeef                         # This is the gray color with a blue tint
-  # secondary: 3c3c3c                       # This is reddish
-  # secondary-dark: 3c3c3c                  # This is reddish
+  primary:  edeeef                         # This is the gray color with a blue tint
+  secondary: 3c3c3c                       # This is dark gray
+  secondary-dark: 282828                  # This is darker gray
+  secondary-alpha: rgba(40,40,40,.7)      # This is the same as the secondary color but with an alpha value
+  accent: 3399db

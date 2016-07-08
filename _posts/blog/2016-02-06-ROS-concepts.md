@@ -68,9 +68,11 @@ In addition to the message type, messages are versioned by an MD5 sum of the `.m
 
 ### Field types
 
-#### built-in types
+#### Built-in types
 
+|---------------------+-----------------------------------+-------------------+-----------------|
 | **Primitive Type**  | **Serialization**                 | **C++**           | **Python**      |
+|:--------------------|:---------------------------------:|:-----------------:|:----------------|
 |     bool            | unsigned 8-bit int                | uint8_t           | bool            |
 |     int8,16,32,64   | signed 8,16,32,64-bit int         | int8,16,32,64_t   | int             |
 |    uint8,16,32,64   | unsigned 8,16,32,64-bit int       | uint8,16,32,64_t  | int             |
@@ -79,6 +81,7 @@ In addition to the message type, messages are versioned by an MD5 sum of the `.m
 |     string          | ascii string                      | std::string       | string          |
 |     time            | secs/nsecs unsigned 32-bit ints   | ros::Time         | rospy.Time      |
 |     duration        | secs/nsecs  signed 32-bit ints    | ros::Duration     | rospy.Duration  |
+{: class="table"}
   
 #### Array Handling
 
@@ -90,6 +93,7 @@ In addition to the message type, messages are versioned by an MD5 sum of the `.m
 | uint8[]           | see above               | `std::vector<uint8_t>`                            | string      |
 | bool[]            | see above               | see above                                         | list(bool)  |
 |-------------------+-------------------------+---------------------------------------------------+-------------|
+{: class="table"}
 
 ## Bags
 
