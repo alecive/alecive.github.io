@@ -335,7 +335,7 @@ header .intro-text .owner-small {
     }
 
     .navbar-shrink {
-        margin-top: -51px;
+        margin-top: -48px;
         -webkit-transition: all ease .3s;
         -moz-transition: all ease .3s;
         transition: all ease .3s;

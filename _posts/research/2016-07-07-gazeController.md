@@ -32,10 +32,5 @@ Here are the slides I used during the presentation at RSS2016:
 
 ## Description
 
-
-
-## Experiments
-
-
-## Results
+This page is under construction. I will upload a new version as soon as I find the time to finish it.
 
