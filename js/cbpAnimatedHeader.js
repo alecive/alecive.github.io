@@ -15,24 +15,32 @@ var cbpAnimatedHeader = (function() {
 		didScroll = false,
 		changeHeaderOn = 300;
 
+	var lsy = scrollY();
+
 	function init() {
 		window.addEventListener( 'scroll', function( event ) {
 			if( !didScroll ) {
 				didScroll = true;
-				setTimeout( scrollPage, 250 );
+				setTimeout( scrollPage, 200 );
 			}
 		}, false );
 	}
 
 	function scrollPage() {
 		var sy = scrollY();
-		if ( sy >= changeHeaderOn ) {
+
+		// console.log("I'm in scrollpage");
+		// console.log(sy);
+		// console.log(lsy);
+
+		if ( sy > lsy ) {
 			classie.add( header, 'navbar-shrink' );
 		}
 		else {
 			classie.remove( header, 'navbar-shrink' );
 		}
 		didScroll = false;
+		lsy = scrollY();
 	}
 
 	function scrollY() {

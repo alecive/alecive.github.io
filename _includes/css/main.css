@@ -110,7 +110,8 @@ header .intro-text .name,
 header .intro-text .name-small,
 header .intro-text .owner,
 header .intro-text .owner-small,
-#article .progress > .progress-type {
+#article .progress > .progress-type,
+#article thead tr th strong {
     text-transform: uppercase;
     /*font-family: 'Proxima Nova', sans-serif;*/
     font-family: 'Montserrat', Helvetica, sans-serif !important;
@@ -125,6 +126,7 @@ h6,
     font-weight: 300;
 }
 
+#article thead tr th strong
 section h3,
 footer h3,
 header .intro-text .owner,
@@ -132,6 +134,7 @@ header .intro-text .owner-small {
     font-weight: 100;
 }
 
+#article thead tr th strong,
 h4 {
     text-transform: none;
 }
@@ -297,6 +300,9 @@ header .intro-text .owner-small {
 .navbar-default,
 .navbar-inverse {
     border: 0;
+    -webkit-transition: all ease .3s;
+    -moz-transition: all ease .3s;
+    transition: all ease .3s;
 }
 
 .navbar-default .navbar-brand {
@@ -326,6 +332,13 @@ header .intro-text .owner-small {
     .navbar-nav > li > a {
         padding-top: 10px;
         padding-bottom: 10px;
+    }
+
+    .navbar-shrink {
+        margin-top: -51px;
+        -webkit-transition: all ease .3s;
+        -moz-transition: all ease .3s;
+        transition: all ease .3s;
     }
 }
 
@@ -649,8 +662,17 @@ pre code {
 
 #article td,
 #article th {
-    padding: .25rem .5rem;
-    border: 1px solid #e5e5e5;
+    padding: .6rem;
+    /*border: 1px solid #e5e5e5;*/
+}
+
+#article thead tr th {
+    color: #fff;
+    background-color: #{{ site.color.secondary }};
+}
+
+#article thead tr th strong {
+    color: #fff;
 }
 
 #article tbody tr:nth-child(odd) td,
