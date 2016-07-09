@@ -21,7 +21,7 @@ var cbpAnimatedHeader = (function() {
 		window.addEventListener( 'scroll', function( event ) {
 			if( !didScroll ) {
 				didScroll = true;
-				setTimeout( scrollPage, 200 );
+				setTimeout( scrollPage, 150 );
 			}
 		}, false );
 	}
