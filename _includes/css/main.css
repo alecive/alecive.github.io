@@ -4,19 +4,19 @@
  * For details, see http://www.apache.org/licenses/LICENSE-2.0.
  */
 
-
+/*
 @font-face {
     font-family: 'Montserrat';
     src: url("{{ site.baseurl }}/fonts/Montserrat-SemiBold.otf") format("opentype");
     font-weight: 600;
-}
+}*/
 
-@font-face {
+/*@font-face {
     font-family: 'Montserrat';
     src: url("{{ site.baseurl }}/fonts/Montserrat-Regular.otf") format("opentype");
     font-weight: 400;
 }
-
+*/
 @font-face {
     font-family: 'Montserrat';
     src: url("{{ site.baseurl }}/fonts/Montserrat-Light.otf") format("opentype");
@@ -105,6 +105,7 @@ h4,
 h5,
 h6,
 .navbar,
+.navbar a,
 header .intro-text .name,
 header .intro-text .name-small,
 header .intro-text .owner,
@@ -113,11 +114,7 @@ header .intro-text .owner-small,
     text-transform: uppercase;
     /*font-family: 'Proxima Nova', sans-serif;*/
     font-family: 'Montserrat', Helvetica, sans-serif !important;
-    font-weight: 400;
-}
-
-.navbar {
-    font-weight: 600;
+    font-weight: 300;
 }
 
 h3,
@@ -423,6 +420,12 @@ section.success p {
     font-weight: 700; /* this is bold */
 }
 
+#blog a h3 {
+    font-size: 1.75em;
+    font-weight: 300;
+    margin-top: 30px;
+}
+
 #article em,
 #article strong {
     color: #{{ site.color.articletext }};
@@ -449,14 +452,14 @@ section.success p {
     margin-bottom: 20px;
     padding-left: 14px;
     font-size: 1.8em;
-    border-left-width: 40px;
+    border-left-width: 30px;
 }
 
 #article h2 {
     margin-top: 25px;
     margin-bottom: 15px;
     padding-left: 10px;
-    font-size: 1.4em;
+    font-size: 1.5em;
     border-left-width: 20px;
 }
 
