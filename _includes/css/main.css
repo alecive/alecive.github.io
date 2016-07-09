@@ -266,11 +266,11 @@ header .intro-text .owner-small {
 
 .navbar-nav > li > a {
     margin-top: 6px;
-    padding-top:    10px;
-    padding-bottom: 10px;
-    -webkit-transition: margin .3s;
-    -moz-transition: margin .3s;
-    transition: margin .3s;
+    padding-top:    20px;
+    padding-bottom: 20px;
+    -webkit-transition: all .3s;
+    -moz-transition: all .3s;
+    transition: all .3s;
 }
 
 .navbar-default .navbar-nav > li > a:hover,
@@ -285,6 +285,8 @@ header .intro-text .owner-small {
 
 .navbar-fixed-top.navbar-shrink .navbar-nav > li > a {
     margin-top: 0px;
+    padding-top: 10px;
+    padding-bottom: 10px;
 }
 
 .navbar .navbar-nav li a:focus {
@@ -307,8 +309,8 @@ header .intro-text .owner-small {
 .navbar-default .navbar-brand img {
     margin-left: 10px;
     margin-right: 10px;
-    width: 70px;
-    height: 70px;
+    width: 90px;
+    height: 90px;
     -webkit-transition: all ease .3s;
     -moz-transition: all ease .3s;
     transition: all ease .3s;
@@ -376,8 +378,8 @@ section.success p {
     .navbar-default .navbar-toggle {
         border: none;
         border-radius: 0;
-        margin-top: 18px;
-        margin-bottom: 18px;
+        margin-top: 28px;
+        margin-bottom: 28px;
         padding-right: 2px;
         background-color: #{{ site.color.secondary }};
         -webkit-transition: margin .3s;
