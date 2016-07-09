@@ -4,6 +4,7 @@ title: Gray Revenge
 download-link: http://alecive.deviantart.com/art/Gray-Revenge-1-7-194633730
 download-alt: GrayRevenge Suite on DeviantART
 img: grayRevenge.jpg
+img-thumb: grayRevenge_thumb.jpg
 alt: grayrevenge-suite
 category: design
 description: 

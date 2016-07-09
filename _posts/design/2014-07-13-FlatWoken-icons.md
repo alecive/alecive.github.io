@@ -5,6 +5,7 @@ download-link: https://github.com/alecive/FlatWoken
 download-alt:  FlatWoken icons on GitHub
 date: 2014-09-15
 img: flatwoken.jpg
+img-thumb: flatwoken_thumb.jpg
 alt: flatwoken-icons
 project-date: September 2014
 category: design

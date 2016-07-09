@@ -4,6 +4,7 @@ title: gaze Stabilization for humanoid robots
 link: https://github.com/alecive/gaze-stabilization
 link-alt: GitHub repository
 img: gazeStabilization.jpg
+img-thumb: gazeStabilization_thumb.jpg
 alt: gaze-stabilization
 date: 2015-01-22
 category: research

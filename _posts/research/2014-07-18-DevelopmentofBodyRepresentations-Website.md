@@ -5,6 +5,7 @@ link:  http://www.icub.org/other/icdl-epirob-2014/dbr_workshop.html
 link-alt:   Website on iCub.org
 date: 2014-09-01
 img: developmentofbodyrepresentations.jpg
+img-thumb: developmentofbodyrepresentations_thumb.jpg
 alt: development-of-body-representations-website
 category: research
 description: 

@@ -4,6 +4,7 @@ title: Visuo-tactile integration and margin of safety around the body
 link: https://github.com/alecive/periPersonalSpace
 link-alt: GitHub repository
 img: periPersonalSpace.jpg
+img-thumb: periPersonalSpace_thumb.jpg
 alt: peripersonal-space
 date: 2015-05-07
 category: research

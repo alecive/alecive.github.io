@@ -4,6 +4,7 @@ title: A New Start Blood
 download-link: http://alecive.deviantart.com/art/ANewStartBLOOD-1-0-273905913
 download-alt: A New Start Blood Suite on DeviantART
 img: aNewStartBlood.jpg
+img-thumb: aNewStartBlood_thumb.jpg
 alt: anewstartblood-suite
 category: design
 description: 
