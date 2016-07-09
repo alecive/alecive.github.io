@@ -322,9 +322,66 @@ This is the README file.
 ADD TO THE WORKING DIRECTORY VERSION OF README
 {% endhighlight %}
 
-# Switch to a different commit back in time
+# Commit-related tricks
 
-## Temporarily switch
+## Interactive rebasing
+
+Rebasing interactively means that you have a chance to edit the commits which are rebased. You can reorder the commits, and you can remove them (weeding out bad or otherwise unwanted patches).
+Start it with the last commit you want to retain as-is:
+
+{% highlight bash %}
+git rebase -i <after-this-commit>
+{% endhighlight %}
+
+For example, let's assume that you want to reorder the last 5 commits, such that what was HEAD~4 becomes the new HEAD. To achieve that, you would call `git rebase` like this:
+
+{% highlight bash %}
+git rebase -i HEAD~5
+{% endhighlight %}
+
+An editor will be fired up with all the commits in your current branch (ignoring merge commits), which come after the given commit. You can reorder the commits in this list to your heart’s content, and you can remove them. The list looks more or less like this:
+
+{% highlight bash %}
+pick deadbee The oneline of this commit
+pick fa1afe1 The oneline of the next commit
+...
+{% endhighlight %}
+
+The oneline descriptions are purely for your pleasure; `git rebase` will not look at them but at the commit names ("deadbee" and "fa1afe1" in this example), so do not delete or edit the names. **NOTE:** remember to close the application you use to edit this file in order for the rebase to continue its work. If you close only the tab, **you will get stuck in the edit mode**.
+
+By replacing the command "pick" with the command "edit", you can tell `git rebase` to stop after applying that commit, so that you can edit the files and/or the commit message, amend the commit, and continue rebasing.
+
+If you just want to edit the commit message for a commit, replace the command "pick" with the command "reword".
+
+To drop a commit, replace the command "pick" with "drop", or just delete the matching line.
+
+If you want to fold two or more commits into one, replace the command "pick" for the second and subsequent commits with "squash" or "fixup". If the commits had different authors, the folded commit will be attributed to the author of the first commit. The suggested commit message for the folded commit is the concatenation of the commit messages of the first commit and of those with the "squash" command, but omits the commit messages of commits with the "fixup" command.
+
+`git rebase` will stop when "pick" has been replaced with "edit" or when a command fails due to merge errors. When you are done editing and/or resolving conflicts you can continue with `git rebase --continue`.
+
+### Splitting Commits
+
+In interactive mode, you can mark commits with the action "edit". However, this does not necessarily mean that git rebase expects the result of this edit to be exactly one commit. Indeed, you can undo the commit, or you can add other commits. This can be used to split a commit into two:
+
+ 1. Start an interactive rebase with `git rebase -i <commit>^`, where `<commit>` is the commit you want to split. In fact, any commit range will do, as long as it contains that commit.
+
+ 2. Mark the commit you want to split with the action "edit".
+
+ 3. When it comes to editing that commit, execute `git reset HEAD^`. The effect is that the `HEAD` is rewound by one, and the index follows suit. However, the working tree stays the same.
+
+ 4. Now add the changes to the index that you want to have in the first commit. You can use `git add` (possibly interactively) or `git gui` (or both) to do that.
+
+ 5. Commit the now-current index with whatever commit message is appropriate now.
+
+ 6. Repeat the last two steps until your working tree is clean.
+
+ 7. Continue the rebase with `git rebase --continue`.
+
+If you are not absolutely sure that the intermediate revisions are consistent (they compile, pass the testsuite, etc.) you should use git stash to stash away the not-yet-committed changes after each commit, test, and amend the commit if fixes are necessary.
+
+## Switch to a different commit back in time
+
+### Temporarily switch
 In order to temporarily go back to a previous commit, fool around, then come back to the master, all you have to do is check out the desired commit:
 
 {% highlight bash %}
@@ -333,7 +390,7 @@ git checkout 0d1d7fc32
 
 This will detach your HEAD, that is, leave you with no branch checked out.
 
-## Branch out from that commit
+### Branch out from that commit
 
 In order to make commits from that commit, a new branch is needed:
 
@@ -341,11 +398,11 @@ In order to make commits from that commit, a new branch is needed:
 git checkout -b old-state 0d1d7fc32
 {% endhighlight %}
 
-# Hard delete commits
+## Hard delete commits
 
 To get rid of everything you've done since then, there are two possibilities. 
 
-## Hard delete unpublished commits
+### Hard delete unpublished commits
 
 If those commits have not been published yet, simply reset:
 
@@ -365,7 +422,7 @@ git stash pop
 
 This saves the modifications, then reapplies that patch after resetting. You could get merge conflicts, if you've modified things which were changed since the commit you reset to. If you mess up, you've already thrown away your local changes, but you can at least get back to where you were before by resetting again.
 
-## Undo published commits with new commits
+### Undo published commits with new commits
 
 On the other hand, if you've published the work, you probably don't want to reset the branch, since that's effectively rewriting history. In that case, you could indeed revert the commits. With `git`, revert has a very specific meaning: create a commit with the reverse patch to cancel it out. This way you don't rewrite any history.
 
@@ -456,12 +513,13 @@ Where `9fceb02` is the beginning part of the commit id. You can then push them u
 
 ## Pushing tags
 
-By default, the git push command doesn't transfer tags to remote servers. You will have to explicitly push tags to a shared server after you have created them. This process is just like sharing remote branches - you can run `git push origin [tagname]`:
+By default, the `git push` command doesn't transfer tags to remote servers. You will have to explicitly push tags to a shared server after you have created them. This process is just like sharing remote branches - you can run `git push origin [tagname]`:
 {% highlight bash %}
 git push origin v1.5
 {% endhighlight %}
 
-If you have a lot of tags that you want to push up at once, you can also use the --tags option to the git push command. This will transfer all of your tags to the remote server that are not already there.
+If you have a lot of tags that you want to push up at once, you can also use the `--tags` option to the `git push` command. This will transfer all of your tags to the remote server that are not already there.
+
 {% highlight bash %}
 git push --tags origin master
 {% endhighlight %}
@@ -480,7 +538,6 @@ The easiest way to integrate the branches is the `merge` command. It performs a 
 {% include image.html exturl="https://git-scm.com/book/en/v2/book/03-git-branching/images/basic-rebase-2.png" description="Merging to integrate diverged work history" %}
 
 However, you can also `rebase`: you can take the patch of the change that was introduced in `C4` and reapply it on top of `C3`. With the `rebase` command, **you can take all the changes that were committed on one branch and replay them on another one**.
-
 In this example, you'd run the following:
 
 {% highlight bash %}
