@@ -181,6 +181,11 @@ header img {
     background-color: #{{ site.color.secondary }};
 }
 
+.logo-img {
+    padding: 35px;
+    max-width: 256px;
+}
+
 .cv-img {
     border: 8px solid #{{ site.color.secondary }};
 }
