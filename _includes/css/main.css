@@ -173,7 +173,7 @@ header {
 }
 
 header .container {
-    padding-top: 100px;
+    padding-top: 120px;
     padding-bottom: 50px;
 }
 
@@ -317,13 +317,26 @@ header .intro-text .owner-small {
     transition: all ease .3s;
 }
 
+@media(max-width:767px) {
+    .navbar-default .navbar-brand img {
+        width: 70px;
+        height: 70px;
+    }
+
+    .navbar-nav > li > a {
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+}
+
 .navbar-shrink .navbar-brand img {
     width: 61px;
     height: 61px;
 }
 
-.navbar-collapse {
+.navbar-fixed-top .navbar-collapse {
     box-shadow: none;
+    max-height: 360px;
 }
 
 section {
@@ -379,8 +392,8 @@ section.success p {
     .navbar-default .navbar-toggle {
         border: none;
         border-radius: 0;
-        margin-top: 28px;
-        margin-bottom: 28px;
+        margin-top: 18px;
+        margin-bottom: 18px;
         padding-right: 2px;
         background-color: #{{ site.color.secondary }};
         -webkit-transition: margin .3s;
