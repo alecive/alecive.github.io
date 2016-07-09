@@ -63,16 +63,17 @@ color:
   # secondary-dark: b9493b                  # This is reddish
   # tertiary: 8ca08d                        # This is greenish
 # ALTERNATIVE 2
-  secondary: 589ee4                       # This is blueish
-  secondary-dark: 368ade                  # This is blueish
-  tertiary: ed6152                        # This is reddish
+  # secondary: 589ee4                       # This is blueish
+  # secondary-dark: 368ade                  # This is blueish
+  # tertiary: ed6152                        # This is reddish
 # ALTERNATIVE 3
   # tertiary: 53c3cb                        # This is greenish
   # secondary: f4676d                       # This is reddish
   # secondary-dark: f24e55                  # This is reddish
 # ALTERNATIVE 4 - B and W
-  primary:  edeeef                         # This is the gray color with a blue tint
+  articletext: 3c3c3c                     # This is the text color
+  primary:  edeeef                        # This is the background of the logo, light gray
   secondary: 3c3c3c                       # This is dark gray
   secondary-dark: 282828                  # This is darker gray
   secondary-alpha: rgba(40,40,40,.7)      # This is the same as the secondary color but with an alpha value
-  accent: 3399db
+  accent: 4982a7

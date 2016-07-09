@@ -364,25 +364,25 @@ section.success p {
 
 @media (min-width:768px) {
     .container {
-        width:700px
+        width:700px;
     }
 }
 
 @media (min-width:992px) {
     .container {
-        width:900px
+        width:900px;
     }
 }
 
 @media (min-width:1200px) {
     .container {
-        width:1000px
+        width:1000px;
     }
 }
 
 @media (min-width:1500px) {
     .container {
-        width:1200px
+        width:1200px;
     }
 }
 
