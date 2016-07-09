@@ -126,6 +126,7 @@ h6,
 }
 
 section h3,
+footer h3,
 header .intro-text .owner,
 header .intro-text .owner-small {
     font-weight: 100;
@@ -528,8 +529,16 @@ section.success p {
         padding-left: 0px;
     }   
 
-    ul {
+    ul,
+    ol {
         padding-left: 20px;
+    }
+}
+
+@media(max-width: 768px) {
+    ul,
+    ol {
+        padding-left: 30px;
     }
 }
 
