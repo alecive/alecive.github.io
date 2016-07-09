@@ -4,7 +4,7 @@ title: 2016 Spring Projects
 link: 
 link-alt: 
 category: blog
-description: Spring project for students at the Social Robotics Lab.
+description: Spring projects for students at the Social Robotics Lab
 article: yes
 
 ---

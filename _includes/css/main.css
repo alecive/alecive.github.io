@@ -125,6 +125,7 @@ h6,
     font-weight: 300;
 }
 
+section h3,
 header .intro-text .owner,
 header .intro-text .owner-small {
     font-weight: 100;
@@ -192,13 +193,26 @@ header .intro-text .name,
 header .intro-text .name-small {
     background-color: transparent;
     display: block;
-    font-size: 3.5em;
+    font-size: 4em;
 }
 
 header .intro-text .owner,
 header .intro-text .owner-small {
     background-color: transparent;
     font-size: 1.75em;
+}
+
+@media(max-width:550px) {
+    header .intro-text .name,
+    header .intro-text .name-small {
+        font-size: 3em;
+        word-wrap: break-word;
+    }  
+
+    header .intro-text .owner,
+    header .intro-text .owner-small {
+        font-size: 1.5em;
+    }
 }
 
 @media(min-width:768px) {
@@ -340,7 +354,7 @@ section.success p {
 
 @media(max-width:767px) {
     #post {
-        padding-top: 80px;
+        padding-top: 120px;
     }
 
     #post-cv {
@@ -375,19 +389,19 @@ section.success p {
 
 @media (min-width:768px) {
     .container {
-        width:740px;
+        width:95%;
     }
 }
 
 @media (min-width:992px) {
     .container {
-        width:940px;
+        width:85%;
     }
 }
 
 @media (min-width:1200px) {
     .container {
-        width:1000px;
+        width:80%;
     }
 }
 
@@ -421,9 +435,9 @@ section.success p {
 }
 
 #blog a h3 {
-    font-size: 1.75em;
+    font-size: 1.85em;
     font-weight: 300;
-    margin-top: 30px;
+    margin-top: 20px;
 }
 
 #article em,
@@ -1068,7 +1082,15 @@ pre code span:hover {
 @media(max-width:450px) {
     section h2 {
         margin: 0;
-        font-size: 1.88em;
+        font-size: 2.2em;
+    }
+
+    section h3 {
+        font-size: 1.4em;
+    }
+
+    #post hr.separating-line {
+        margin-bottom: 5px;
     }
 
     footer .footer-below {
