@@ -72,7 +72,7 @@ color:
   # secondary-dark: f24e55                  # This is reddish
 # ALTERNATIVE 4 - B and W
   articletext: 3c3c3c                     # This is the text color
-  primary:  edeeef                        # This is the background of the logo, light gray
+  primary:  f9fafb                        # This is the background of the logo, light gray
   secondary: 3c3c3c                       # This is dark gray
   secondary-dark: 323232                  # This is darker gray
   secondary-alpha: rgba(40,40,40,.7)      # This is the same as the secondary color but with an alpha value
