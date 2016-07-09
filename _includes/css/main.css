@@ -153,6 +153,10 @@ header hr.separating-line {
     margin: 15px auto 30px;
 }
 
+#post hr.separating-line {
+    margin-bottom: 10px;
+}
+
 ul {
     list-style-type: square;
 }
@@ -1090,7 +1094,7 @@ pre code span:hover {
     }
 
     #post hr.separating-line {
-        margin-bottom: 5px;
+        margin-bottom: 0px;
     }
 
     footer .footer-below {
