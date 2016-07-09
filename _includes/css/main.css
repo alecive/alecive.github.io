@@ -527,7 +527,7 @@ section.success p {
     }   
 
     ul {
-        padding-left: 10px;
+        padding-left: 20px;
     }
 }
 
@@ -1091,6 +1091,10 @@ pre code span:hover {
 
     section h3 {
         font-size: 1.4em;
+    }
+
+    hr.separating-line {
+        margin-bottom: 40px;
     }
 
     #post hr.separating-line {
