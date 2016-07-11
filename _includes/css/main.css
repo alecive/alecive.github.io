@@ -653,7 +653,6 @@ pre code {
     background-color: transparent;
 }
 
-
 #article table {
     margin-top: 10px;
     border-collapse: collapse;
@@ -694,6 +693,20 @@ pre code {
     border: 0;
     border-top: 1px solid #eee;
     border-bottom: 1px solid #fff;
+}
+
+#article pre table {
+    margin-top: 0px;
+}
+
+#article table tbody tr td {
+    padding: 0px;
+}
+
+#article table tbody tr td pre {
+    padding-top: 0px;
+    padding-bottom: 0px;
+    font-size: inherit;
 }
 
 span {

@@ -115,7 +115,7 @@ A variation based on Base16 Eighties Dark color scheme.
   "spacegray_sidebar_font_small": true,
   "spacegray_tabs_font_normal"  : true,
   "spacegray_tabs_xlarge"       : true,
-  "spacegray_tabs_auto_width"   : true,
+  "spacegray_tabs_auto_width"   : true
 }
 {% endhighlight %}
  
