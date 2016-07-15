@@ -653,41 +653,41 @@ pre code {
     background-color: transparent;
 }
 
-#article table {
+#article table.table {
     margin-top: 10px;
     border-collapse: collapse;
     border: 0px;
 }
 
-#article td,
-#article th {
+#article table.table td,
+#article table.table th {
     padding: .6rem;
     /*border: 1px solid #e5e5e5;*/
 }
 
-#article thead tr th {
+#article table.table thead tr th {
     color: #fff;
     background-color: #{{ site.color.secondary }};
 }
 
-#article thead tr th strong {
+#article table.table thead tr th strong {
     color: #fff;
 }
 
-#article tbody tr:nth-child(odd) td,
-#article tbody tr:nth-child(odd) th {
+#article table.table tbody tr:nth-child(odd) td,
+#article table.table tbody tr:nth-child(odd) th {
     background-color: #f9f9f9;
 }
 
-#article dt {
+#article table.table dt {
     font-weight: 700; /* this is bold */
 }
 
-#article dd {
+#article table.table dd {
     margin-left: 8px;
 }
 
-#article hr {
+#article table.table hr {
     position: relative;
     margin: 1.5rem 0;
     border: 0;
