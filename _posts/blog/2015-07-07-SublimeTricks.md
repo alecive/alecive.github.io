@@ -25,6 +25,30 @@ Gives you the ability to change colors with a color picker on the fly. To insert
 
 By default, the hex color code is inserted using uppercase letters (`#ABCDEF`, for example). To use lowercase letters (`#abcdef`) instead, copy the contents of `Preferences``→``Package Settings``→``ColorPicker``→``Settings—Default` to the empty file created by selecting `Preferences``→``Package Settings``→``ColorPicker``→``Settings—User`, then change "color_upper_case" to false.
 
+# Terminal
+
+Package link: [https://packagecontrol.io/packages/Terminal](https://packagecontrol.io/packages/Terminal)
+
+Adds shortcuts and menu entries for opening a terminal at the current file, or the current root project folder in Sublime Text. I really love this feature!
+
+## Features
+
+ * To open a terminal in the folder containing the currently edited file, press `ctrl+shift+t` on Windows and Linux, or `cmd+shift+t` on OS X
+ * To open a terminal in the project folder containing the currently edited file, press `ctrl+alt+shift+t` on Windows and Linux, or `cmd+alt+shift+t` on OS X
+
+In addition to the key bindings, terminals can also be opened via the editor context menu and the sidebar context menus.
+
+The only problem is that the `ctrl+shift+t` key binding is already associated with the "Reopen closed file" feature that I use a lot. In order to avoid overlapping, I decided to move these key bindings to `ctrl+alt+t` and `ctrl+alt+shift+t`. Custom key bindings such as this would be added to the file opened when accessing the `Preferences > Key Bindings – User` menu entry (the file name varies by operating system).
+
+~~~json
+[
+    { "keys": ["ctrl+shift+7"],      "command": "toggle_comment",   "args": { "block": false } },
+    { "keys": ["alt+m"],             "command": "markdown_preview", "args": {"target": "browser", "parser":"markdown"} },
+    { "keys": ["ctrl+alt+t"],        "command": "open_terminal" },
+    { "keys": ["ctrl+alt+shift+t"],  "command": "open_terminal_project_folder" }
+]
+~~~
+
 # Doc Blockr
 
 A really great way to easily create doc blocks for many languages including JavaScript, PHP, and CoffeeScript. Just type in `/**` above your function and press `tab`. Watch the magic as DocBlockr takes the function name and variables and creates your doc block.
