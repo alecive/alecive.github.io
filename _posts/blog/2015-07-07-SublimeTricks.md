@@ -49,6 +49,45 @@ The only problem is that the `ctrl+shift+t` key binding is already associated wi
 ]
 ~~~
 
+# Enable auto quotes for grave accents
+
+For standard single and double quotes, sublime text allows you to select text and hit a quote key to wrap the selected text in the quote. For example, `hello world` becomes `"hello world"`.
+However, there is no default way to perform the same action with grave accents (`).
+I found the solution [here](http://stackoverflow.com/a/16346444/3333040): the auto pairing is simply a few specialized key bindings. These custom key bindings (see above on how to set them) should do the trick:
+
+~~~json
+[
+{ "keys": ["`"], "command": "insert_snippet", "args": {"contents": "`$0`"}, "context":
+    [
+        { "key": "setting.auto_match_enabled", "operator": "equal", "operand": true },
+        { "key": "selection_empty", "operator": "equal", "operand": true, "match_all": true },
+        { "key": "following_text", "operator": "regex_contains", "operand": "^(?:\t| |\\)|]|;|\\}|$)", "match_all": true }
+    ]
+},
+{ "keys": ["`"], "command": "insert_snippet", "args": {"contents": "`${0:$SELECTION}`"}, "context":
+    [
+        { "key": "setting.auto_match_enabled", "operator": "equal", "operand": true },
+        { "key": "selection_empty", "operator": "equal", "operand": false, "match_all": true }
+    ]
+},
+{ "keys": ["`"], "command": "move", "args": {"by": "characters", "forward": true}, "context":
+    [
+        { "key": "setting.auto_match_enabled", "operator": "equal", "operand": true },
+        { "key": "selection_empty", "operator": "equal", "operand": true, "match_all": true },
+        { "key": "following_text", "operator": "regex_contains", "operand": "^`", "match_all": true }
+    ]
+},
+{ "keys": ["backspace"], "command": "run_macro_file", "args": {"file": "Packages/Default/Delete Left Right.sublime-macro"}, "context":
+    [
+        { "key": "setting.auto_match_enabled", "operator": "equal", "operand": true },
+        { "key": "selection_empty", "operator": "equal", "operand": true, "match_all": true },
+        { "key": "preceding_text", "operator": "regex_contains", "operand": "`$", "match_all": true },
+        { "key": "following_text", "operator": "regex_contains", "operand": "^`", "match_all": true }
+    ]
+}
+]
+~~~
+
 # Doc Blockr
 
 A really great way to easily create doc blocks for many languages including JavaScript, PHP, and CoffeeScript. Just type in `/**` above your function and press `tab`. Watch the magic as DocBlockr takes the function name and variables and creates your doc block.
