@@ -21,7 +21,7 @@ article: yes
 
 GitHub repo: [https://github.com/weslly/ColorPicker](https://github.com/weslly/ColorPicker)
 
-Gives you the ability to change colors with a color picker on the fly. To insert or change a selected color, use <kbd>ctrl+shift+c</kbd>
+Gives you the ability to change colors with a color picker on the fly. To insert or change a selected color, use `ctrl+shift+c`
 
 By default, the hex color code is inserted using uppercase letters (`#ABCDEF`, for example). To use lowercase letters (`#abcdef`) instead, copy the contents of `Preferences``→``Package Settings``→``ColorPicker``→``Settings—Default` to the empty file created by selecting `Preferences``→``Package Settings``→``ColorPicker``→``Settings—User`, then change "color_upper_case" to false.
 
@@ -132,7 +132,7 @@ It's the best one, available in three options:
 
 ## How to Activate
 
-Activate the UI theme and color scheme by modifying your user preferences file, which you can find using the menu item `Sublime Text -> Preferences -> Settings - User` (<kbd>⌘</kbd><kbd>,</kbd> on Mac).
+Activate the UI theme and color scheme by modifying your user preferences file, which you can find using the menu item `Sublime Text -> Preferences -> Settings - User` (`⌘` `,` on Mac).
 
 You can choose whichever flavor you like, but don't forget to change *both* color scheme and UI theme so they match.
 
