@@ -961,6 +961,7 @@ footer .footer-above {
 }
 
 footer .footer-below {
+    font-size: 0.85em;
     padding: 14px 0;
     background-color: #{{ site.color.secondary-dark }};
     /*background-image: url('/img/bg.png');*/
