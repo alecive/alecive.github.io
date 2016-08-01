@@ -1,8 +1,12 @@
-/*!
- * Start Bootstrap - Freelancer Bootstrap Theme (http://startbootstrap.com)
- * Code licensed under the Apache License v2.0.
- * For details, see http://www.apache.org/licenses/LICENSE-2.0.
- */
+/*While Bootstrap uses ems or rems for defining most sizes, pxs are used for grid breakpoints and container widths.
+This is because the viewport width is in pixels and does not change with the font size.
+
+See how aspects of the Bootstrap grid system work across multiple devices with a handy table.
+                    Extra small     Small       Medium      Large       Extra Large
+                    <544px          ≥544px      ≥768px      ≥992px      ≥1200px
+Container width     None (auto)     576px       720px       940px       1140px
+Class prefix        .col-xs-        .col-sm-    .col-md-    .col-lg-    .col-xl-
+*/
 
 /*
 @font-face {
