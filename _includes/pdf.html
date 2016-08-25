@@ -1,8 +1,8 @@
-<div id="article-img">
+<div id="article-img" class="no-print">
   <div class="pdf-container" style="{% if include.description %}margin-bottom: 0px;{% else %}margin-bottom: 20px;{% endif %} {% if include.width%}{{include.width}}{% endif%}">
     <embed src="/img/{{ include.url }}" width="100%">
   </div>
   {% if include.description%}
-  <pre style="margin-bottom: 20px;{% if include.width%}{{include.width}}{% endif%}"><code>{{ include.description }} NOTE: Flash Player required - it most likely won't work on mobile devices)</code></pre>
+  <p class="img-caption" style="margin-bottom: 20px;">{{ include.description }} NOTE: Flash Player required - it most likely won't work on mobile devices)</p>
   {% endif %}
 </div>
