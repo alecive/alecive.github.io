@@ -143,7 +143,7 @@ h4 {
     text-transform: none;
 }
 
-tt, code, kbd, samp, pre {
+tt, code, kbd, samp, pre, .img-caption {
     font-family: 'Hack', 'Meslo LG S for Powerline', 'Menlo', monospace !important;
 }
 
@@ -219,7 +219,7 @@ header .intro-text .owner-small {
     header .intro-text .name-small {
         font-size: 3em;
         word-wrap: break-word;
-    }  
+    }
 
     header .intro-text .owner,
     header .intro-text .owner-small {
@@ -557,7 +557,7 @@ section.success p {
     #article h4 {
         border-left:  none;
         padding-left: 0px;
-    }   
+    }
 
     ul,
     ol {
@@ -575,6 +575,7 @@ section.success p {
 #article-img {
     max-width: 100%;
     margin: auto;
+    text-align: center;
 }
 
 .img-container,
@@ -587,6 +588,26 @@ section.success p {
     position: relative;
 }
 
+.img-caption {
+    word-break: break-all;
+    word-wrap: break-word;
+    box-sizing: border-box;
+}
+
+.img-container {
+    display: table;
+}
+
+.img-container img {
+    vertical-align: top;
+    width: 100%;
+}
+
+.img-container .img-caption {
+    display: table-caption;
+    caption-side: bottom;
+}
+
 .video-container,
 .pdf-container {
     padding-bottom: 56.25%;
@@ -594,7 +615,7 @@ section.success p {
     height: 0;
     overflow: hidden;
 }
- 
+
 .video-container iframe,
 .pdf-container embed {
     position: absolute;
@@ -610,6 +631,12 @@ section.success p {
     }
 }
 
+@media(max-width: 767px) {
+    #article-img {
+        max-width: 100% !important;
+    }
+}
+
 #blog .post-date {
     text-align: right;
     margin-bottom: -20px;
@@ -622,17 +649,23 @@ section.success p {
 }
 
 code,
-pre {
+pre,
+.img-caption {
     background-color: #f9f9f9;
     border: none;
 }
 
-code {
+code,
+.img-caption {
     padding: .2em .5em;
     /*color: #bf616a; */
     color: #7B8A8B;
     font-size: .85em;
     border: none;
+}
+
+.img-caption {
+    padding-top: .6em;
 }
 
 pre {
@@ -1135,7 +1168,7 @@ pre code span:hover {
 .highlight .gd { color: #f92672; } /* Generic.Deleted & Diff Deleted */
 .highlight .gi { color: #a6e22e; } /* Generic.Inserted & Diff Inserted */
 
-@media(max-width:767px) {    
+@media(max-width:767px) {
     #article .cv-item {
         margin-left: 0px;
         margin-right: 0px;
@@ -1186,9 +1219,21 @@ pre code span:hover {
 }
 
 @media print
-{   
+{
     p,
-    li {
+    ul li,
+    ol li,
+    pre code,
+    td, th,
+    .img-caption {
+        font-size: 0.8em;
+    }
+
+    #markdown-toc li {
+        font-size: 1em;
+    }
+
+    #markdown-toc li a {
         font-size: 0.8em;
     }
 
@@ -1214,12 +1259,28 @@ pre code span:hover {
         display: none !important;
     }
 
+    #post {
+        padding-top: 60px;
+    }
+
+    #post-cv {
+        padding-top: 80px;
+    }
+
+    #article h1 {
+        font-size: 1.4em;
+    }
+
     #article h2 {
-        font-size: 1em;
+        font-size: 1.1em;
         text-align: left;
     }
 
     #article h3 {
+        font-size: 1em;
+    }
+
+    #article h4 {
         font-size: .9em;
     }
 
@@ -1242,6 +1303,11 @@ pre code span:hover {
 
     #article h2.only-print a {
         text-transform: none;
+    }
+
+    .col-print-6 {
+        width: 50%;
+        float: left;
     }
 
     #article .cv-item {
