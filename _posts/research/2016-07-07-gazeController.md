@@ -8,7 +8,7 @@ img-thumb: gazeController_thumb.jpg
 alt: gaze-controller
 date: 2016-07-07
 category: research
-description: 
+description:
 article: yes
 tags: [research,middleware,yarp,android,yarpdroid,computer science,software development,ndk,android studio,robotics,icub,mobile development,google glass]
 
