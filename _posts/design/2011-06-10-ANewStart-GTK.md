@@ -7,7 +7,7 @@ img: aNewStart.jpg
 img-thumb: aNewStart_thumb.jpg
 alt: anewstart-suite
 category: design
-description: 
+description:
 tags: [design,gtk,theme,gnome,linux,open source,lxde,xfce,a new start blood,gtk2,gtk3]
 article: yes
 
@@ -15,7 +15,7 @@ article: yes
 
 Minimal, fresh and relaxing, ANewStart is a complete suite for Linux desktops. Nearly *100000 downloads* make it one of the most downloaded themes ever.
 
-{% include image.html url="screenshots/anewstart.png" description="Poster image on deviantART" %}
+{% include image.html url="screenshots/anewstart.png" description="Poster image on deviantART" max-width="50%" %}
 
 ## Description
 
@@ -30,7 +30,7 @@ Miscellanea:
   * IDEA: [pure](http://www.deviantart.com/deviation/161401583/) by [Folter-x](http://folter-x.deviantart.com/)
   * KDE PORTING: [ANewStart_KDE](http://lgsalvati.deviantart.com/art/AnewStart-Kde-1-0-303043841) by [luigisalvati](http://lgsalvati.deviantart.com/) (if you have time, take a look to his gallery, is simply amazing!)
 
-#### Dependencies
+### Dependencies
 
   * *GTK3* -> Unico GTK3 engine version 1.0.1 or later (only if you're using Gnome 3 or GTK3 applications).
   * *GTK2* -> Murrine GTK2 engine 0.98.1.1 or later
