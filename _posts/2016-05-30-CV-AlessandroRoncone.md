@@ -53,7 +53,7 @@ skills:
     - name: Android Development
       knowledge: 45
  - name: OS/Software
-   items: 
+   items:
     - name: Linux
       knowledge: 90
     - name: Windows
@@ -97,22 +97,19 @@ professional:
    location: Italian Institute of Technology (IIT), Genova IT
    location-link: http://www.iit.it
    description: I have partnered with the Italian Institute of Technology during my MSc thesis. See the <i>`Education`</i> section below for details about my master thesis.
- - name: Icon Designer
-   title: Icon Designer in outsourcing
+ - name: Icon Designer in Outsourcing
    start: Jul.
    end: Oct. 2013
    location: Coop la Lucerna
    location-link: http://cooplalucerna.it/
    description: "<i>Coop la Lucerna</i> is a farm right in the middle of Pianura Padana, IT. During the process of restructuring their online offerings, they contacted me in order to implemented a set of icons for their website. The icons were a set of 20 vegetables, rendered in a flat and minimal look."
- - name: Icon Designer
-   title: Icon Designer in outsourcing
+ - name: Icon Designer in Outsourcing
    start: Oct.
    end: Dec. 2011
    location: Magor Corp.
    location-link: http://www.magorcorp.com/
    description: "I have been contacted in order to design a new set of icons for their tele-collaboration software (a Skype-like alternative oriented toward telepresence and teleconference). I designed a total of 30 icons."
- - name: Icon Designer
-   title: Icon Designer in outsourcing
+ - name: Icon Designer in Outsourcing
    start: Feb.
    end: Mar. 2010
    location: The Castle Project
@@ -142,7 +139,7 @@ education:
    location-link: http://www.unige.it
    description: "I carried out a system able to control a PUMA robotic arm and develop a goalkeeper-like behavior in an air hockey setup. The robot used SVMs in order to understand which of the puck trajectories it previously experienced was scoring a point. Based on this, it learned the ability to prevent such points by predicting the final outcome of a trajectory given some initial samples. Its success rate was beyond 95%."
  - name: Student (with scholarship) at ISICT
-   title: 
+   title:
    start: 2005
    end: 2008
    location: ISICT (Superior Institute of Studies in Information and Communication Technologies)
@@ -225,7 +222,7 @@ misc:
    year: 2013-2014
    venue: IIT (Italian Institute of Technology)
    where: iCub Facility
-   description: "I've been researcher of the week for two times. Despite its name, this award is given very rarely to outstanding research performed in the iCub Facility at IIT. In the past years, only 8 of these awards have been given."
+   description: "I've been researcher of the week for two times. Despite its name, this award is given very rarely to outstanding research performed in the iCub Facility at IIT. In the past years, only 8 of these awards have been awarded."
 ---
 
 <div><p class="only-print">Personal Website: <a href="http://alecive.github.io">http://alecive.github.io</a></p></div>
@@ -249,5 +246,5 @@ Energetic and resourceful Robotics Engineer with more than five years research e
 
 ## Summary
 
-Alessandro Roncone was born in Genova (GE), Italy, 1987. He received his BSc in Biomedical Engineering with the score of _110/110 summa cum laude_ at the [Università degli Studi di Genova](http://www.unige.it/) in February 2008. In July 2011 he completed his MSc in NeuroEngineering (with the score of _110/110 summa cum laude_) in the same university. In April 2015 he got a Ph.D. in _Robotics, Cognition and Interaction Technologies_ from [Università degli studi di Genova](http://www.unige.it) and [Italian Institute of Technology (IIT)](http://www.iit.it). During his PhD he worked in the _Robotics, Brain and Cognitive Sciences_ department and the _iCub Facility_ in IIT, Genova, under the supervision of prof. [Giorgio Metta](http://pasa.lira.dist.unige.it/). The goal of his Ph.D. project was to exploit insights from neuroscience in order to implement a model of **Peripersonal Space (PPS)** on the iCub humanoid robot (see below for details on its Ph.D. project). 
+Alessandro Roncone was born in Genova (GE), Italy, 1987. He received his BSc in Biomedical Engineering with the score of _110/110 summa cum laude_ at the [Università degli Studi di Genova](http://www.unige.it/) in February 2008. In July 2011 he completed his MSc in NeuroEngineering (with the score of _110/110 summa cum laude_) in the same university. In April 2015 he got a Ph.D. in _Robotics, Cognition and Interaction Technologies_ from [Università degli studi di Genova](http://www.unige.it) and [Italian Institute of Technology (IIT)](http://www.iit.it). During his PhD he worked in the _Robotics, Brain and Cognitive Sciences_ department and the _iCub Facility_ in IIT, Genova, under the supervision of prof. [Giorgio Metta](http://pasa.lira.dist.unige.it/). The goal of his Ph.D. project was to exploit insights from neuroscience in order to implement a model of **Peripersonal Space (PPS)** on the iCub humanoid robot (see below for details on its Ph.D. project).
 He is currently working as a Postdoctoral Associate at the [Social Robotics Lab](http://scazlab.yale.edu/) in Yale University, with a focus on human robot collaboration and collaborative manufacturing.
