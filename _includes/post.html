@@ -10,7 +10,7 @@
             </div>
             <div id="article" itemprop="articleBody">
                 {% if page.img %}
-                    <div id="article-img" itemprop="image" itemscope itemtype="http://schema.org/ImageObject">
+                    <div id="article-img" itemprop="image" itemscope itemtype="http://schema.org/ImageObject" class="no-print">
                         <img src="/img/portfolio/{{ page.img }}" class="img-fluid img-centered img-container" style="margin-bottom: 60px;" alt="{{ page.alt }}" itemprop="url contentUrl">
                     </div>
                 {% endif %}
