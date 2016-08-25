@@ -1,8 +1,8 @@
 ---
 layout: post
 title: 2016 Spring Projects
-link: 
-link-alt: 
+link:
+link-alt:
 category: blog
 description: Spring projects for students at the Social Robotics Lab
 article: yes
@@ -31,7 +31,7 @@ All of these prerequisites are not mandatory but helpful: they can be learned on
    * ROS
    * robotics perception
    * robotics control
-   * standard computer science skills 
+   * standard computer science skills
    * machine learning (depending on project)
    * optimization techniques (depending on project)
  2. If all goes well, a publication for the senior projects is more than reasonable.
@@ -41,7 +41,7 @@ All of these prerequisites are not mandatory but helpful: they can be learned on
 
 ## Project A: Improvements on the tictactoe demo
 
-{% include image.html url="blog/baxter_tictactoe.jpg" width="width:90%;"  description="Baxter playing tictactoe." %}
+{% include image.html url="blog/baxter_tictactoe.jpg" max-width="85%" description="Baxter playing tictactoe." %}
 
 **Robot**: *Baxter Research Robot* [[link]](http://www.rethinkrobotics.com/baxter-research-robot/)
 
@@ -49,8 +49,8 @@ All of these prerequisites are not mandatory but helpful: they can be learned on
 
 ### Task A1. Perception
 
- * Code refactoring 
- * Automatic calibration of the board 
+ * Code refactoring
+ * Automatic calibration of the board
  * Automatic calibration of the HSV segmentation of the tiles
 
 ### Task A2. Action
@@ -58,11 +58,11 @@ All of these prerequisites are not mandatory but helpful: they can be learned on
  * Inverse Kinematics instead of recorded (predefined) actions (see [IKFast](https://goo.gl/MwyTXX) or [the SDK Wiki](http://sdk.rethinkrobotics.com/wiki/API_Reference#Inverse_Kinematics_Solver_Service))
  * Automatic calibration of the demo w.r.t. different table heights
  * Improvements on the vacuum gripper part
- * Better speech synthesizer 
+ * Better speech synthesizer
 
 ## Project B: SnapCircuit Task
 
-{% include image.html exturl="http://ecx.images-amazon.com/images/I/81sj9QjDChL._SL1500_.jpg" width="width:75%;"  description="SnapCircuit board with some parts." %}
+{% include image.html exturl="http://ecx.images-amazon.com/images/I/81sj9QjDChL._SL1500_.jpg" max-width="75%" description="SnapCircuit board with some parts." %}
 
 **Robot**: *Baxter Research Robot* [[link]](http://www.rethinkrobotics.com/baxter-research-robot/)
 
@@ -85,7 +85,7 @@ All of these prerequisites are not mandatory but helpful: they can be learned on
 
 > *To date, robot controllers largely concentrate on the end-point as the only part that enters in physical contact with the environment. The rest of the body is typically represented as a kinematic chain, the volume and surface of the body itself rarely taken into account. Sensing is dominated by “distal” sensors, like cameras, whereas the body surface is “numb”. As a consequence, reaching in cluttered, unstructured environments poses severe problems, as the robot is largely unaware of the full occupancy of its body, limiting the safety of the robot and the surrounding environment. **This is one of the bottlenecks that prevent robots from working alongside human partners.*** [Roncone et al. 2015]
 
-## Project C: Better perception → _Self modeling_ 
+## Project C: Better perception → _Self modeling_
 
 **Robot**: *Baxter Research Robot* [[link]](http://www.rethinkrobotics.com/baxter-research-robot/)
 
@@ -139,7 +139,7 @@ There is evidence that, in adult humans, sensory systems are not fixed structure
 
 ### D2. CONTROL
 
- * Development of a suitable avoidance strategy for the robot 
+ * Development of a suitable avoidance strategy for the robot
    * Computation of avoidance vectors based on robot-obstacle distances (the one from [Flacco 2012] should suffice)
  * Deployment of the control algorithm on the Baxter/ROS platform
 
