@@ -1,6 +1,6 @@
 
 <section id="post-cv">
-    <div class="container" id="portfolio" style="margin-top:0px; margin-bottom:0px;">
+    <div class="container" style="margin-top:0px; margin-bottom:0px;">
         <div class="row only-print">
             <div class="col-lg-12 text-center">
                 <h2>{{ site.owner }}</h2>
@@ -12,7 +12,7 @@
 
             <h2>Professional Experience</h2>
             {% for item in page.professional %}
-                <div class="row cv-item">  
+                <div class="row cv-item">
                     <div class="col-sm-4">
                         <div class="cv-section-title">
                             <h3 class="inlineifprinted">{{item.start}} - {{item.end}}</h3>
@@ -34,7 +34,7 @@
 
             <h2>Education</h2>
             {% for college in page.education %}
-                <div class="row cv-item">  
+                <div class="row cv-item">
                     <div class="col-sm-4">
                         <div class="cv-section-title">
                             <h3 class="inlineifprinted">{{college.start}} - {{college.end}}</h3>
@@ -55,7 +55,7 @@
 
             <h2>Publications</h2>
             {% for item in page.publications %}
-                <div class="row cv-item">  
+                <div class="row cv-item">
                     <div class="col-sm-4">
                         <div class="cv-section-title">
                             <h3 class="inlineifprinted">{{item.year}}</h3>
@@ -75,7 +75,7 @@
 
             <h2>Misc</h2>
             {% for item in page.misc %}
-                <div class="row cv-item">  
+                <div class="row cv-item">
                     <div class="col-sm-4">
                         <div class="cv-section-title">
                             <h3 class="inlineifprinted">{{item.year}}</h3>
@@ -86,7 +86,7 @@
 
                     <div class="col-sm-8">
                         <h2>{{item.title}}</h2>
-                        <p>{% if item.authors %}<i>{{item.authors}}</i><br>{% endif %}
+                        <p>{% if item.authors %}<i class="no-print">{{item.authors}}</i><br class="no-print">{% endif %}
                         {{item.description}}
                         </p>
                     </div>
@@ -95,7 +95,7 @@
 
             <h2>Graphic Design</h2>
             {% for item in page.graphics %}
-                <div class="row cv-item">  
+                <div class="row cv-item">
                     <div class="col-sm-4">
                         <div class="cv-section-title">
                             <h3>{{item.start}} - {{item.end}}</h3>
@@ -114,7 +114,7 @@
                 </div>
             {% endfor %}
 
-            <h2>Skills and Technical Expertise</h2>  
+            <h2>Skills and Technical Expertise</h2>
             {% for skill in page.skills %}
             <div class="row cv-item">
                 <div class="col-sm-12">
@@ -122,7 +122,7 @@
                     <div class="only-print">
                     {% for item in skill.items %}
                         <span class="label" style="opacity: 0.{{ item.knowledge }};"><e class="ok"> {{ item.name }} </e><e class="hover"> {{ item.knowledge }}% </e></span>
-                    {% endfor %} 
+                    {% endfor %}
                     </div>
 
                     {% for item in skill.items %}
