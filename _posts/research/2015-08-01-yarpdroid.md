@@ -8,7 +8,7 @@ img-thumb: yarpdroid_thumb.jpg
 alt: yarpdroid
 date: 2015-08-01
 category: research
-description: 
+description:
 article: yes
 tags: [research,middleware,yarp,android,yarpdroid,computer science,software development,ndk,android studio,robotics,icub,mobile development,google glass]
 
@@ -31,8 +31,8 @@ A quick tutorial on how to cross-compile YARP is provided [here](http://alecive.
 
 The JNI interface has been a real mess. It required the cross-compilation of the YARP core libraries (for now, `YARP_OS`, `YARP_init`, and `YARP_sig`), which was no small feat. I'll upload any of the steps required to do this from scratch, but right now there are pre-compiled libraries in the GitHub repository in order to ease the process. What I managed to do was:
 
- * **Sending data** (of any kind) from the smartphone to the YARP network 
- * **Receiving data** (of any kind) from the smartphone to the YARP network 
+ * **Sending data** (of any kind) from the smartphone to the YARP network
+ * **Receiving data** (of any kind) from the smartphone to the YARP network
  * **Sending images** from the YARP network to the smartphone (e.g. iCub's cameras)
 
 The only thing that is missing in order to provide a complete template application is sending images from the smartphone to the YARP network. It is a not easy task, but we're working on it :
@@ -40,10 +40,10 @@ The only thing that is missing in order to provide a complete template applicati
 ## Screenshots
 
 <div class="row">
-  <div class="col-sm-6">
+  <div class="col-sm-6 col-print-6">
     {% include image.html url="portfolio/yarpdroid_speechtotext.png" description="<b><i>Speech-to-text</i></b> interaction running on the application. This can be sent onto the YARP network to perform a variety of tasks (e.g. verbal interaction with the robot)." %}
   </div>
-  <div class="col-sm-6">
+  <div class="col-sm-6 col-print-6">
     {% include image.html url="portfolio/yarpdroid_view.png" description="<b><i>Camera Viewers</i></b> from the robot: it is possible to send image data from the YARP network onto the smartphone in order to <i>'see with iCub's eyes'</i>" %}
   </div>
 </div>
