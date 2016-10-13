@@ -168,8 +168,8 @@ publications:
    authors: Alessandro Roncone, Matej Hoffmann, Ugo Pattacini, Luciano Fadiga, and Giorgio Metta
    year: 2016
    venue: PLOS ONE
-   where: Open access journal
-   pdf:
+   where: Open Access Journal
+   pdf: "[Roncone et al. 2016] Peripersonal Space and Margin of Safety around the Body: Learning Visuo-tactile Associations in a Humanoid Robot with Artificial Skin.pdf"
    description:
  - title: "A Cartesian 6-DoF Gaze Controller for Humanoid Robots"
    authors: Alessandro Roncone, Ugo Pattacini, Giorgio Metta, and Lorenzo Natale

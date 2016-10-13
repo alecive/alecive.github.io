@@ -65,7 +65,7 @@
                     </div>
 
                     <div class="col-sm-8">
-                        <h2>{{item.title}}{% if item.pdf %}<a class="no-print" href="papers/{{item.pdf}}" target="_blank"> [PDF]</a>{% endif %}</h2>
+                        <h2>{{item.title}}{% if item.pdf %}<a class="no-print" href="{{ site.url }}/papers/{{ item.pdf }}" target="_blank"> [PDF]</a>{% endif %}</h2>
                         <p><i>{{item.authors}}</i><br>
                         {{item.description}}
                         </p>
