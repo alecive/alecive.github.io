@@ -157,6 +157,20 @@ graphics:
    description: My most awarded and recognized graphics projects. It has been downloaded more than a million times in less than one year, and has been for a while the most downloaded icon set on Linux ever.
 
 publications:
+ - title: "Physiologically Inspired Blinking Behavior for a Humanoid Robot"
+   authors: Hagen Lehmann, Alessandro Roncone, Ugo Pattacini, and Giorgio Metta
+   year: 2016
+   venue: International Conference on Social Robotics (ICSR)
+   where: Kansas City, MO, U.S.A., November 1-3
+   pdf:
+   description:
+ - title: "Peripersonal Space and Margin of Safety around the Body: Learning Visuo-tactile Associations in a Humanoid Robot with Artificial Skin"
+   authors: Alessandro Roncone, Matej Hoffmann, Ugo Pattacini, Luciano Fadiga, and Giorgio Metta
+   year: 2016
+   venue: PLOS ONE
+   where: Open access journal
+   pdf:
+   description:
  - title: "A Cartesian 6-DoF Gaze Controller for Humanoid Robots"
    authors: Alessandro Roncone, Ugo Pattacini, Giorgio Metta, and Lorenzo Natale
    year: 2016
