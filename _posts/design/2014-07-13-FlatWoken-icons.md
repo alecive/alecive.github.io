@@ -1,8 +1,8 @@
 ---
 layout: post
 title: FlatWoken icons
-download-link: https://github.com/alecive/FlatWoken
-download-alt:  FlatWoken icons on GitHub
+link: https://github.com/alecive/FlatWoken
+link-alt:  FlatWoken icons on GitHub
 date: 2014-09-15
 img: flatwoken.jpg
 img-thumb: flatwoken_thumb.jpg
@@ -27,7 +27,7 @@ For any icon request and/or bug, please use github.
 
 # Design Guidelines
 
-*FlatWoken* project is derived from the popular *AwOken* icon theme. It's freely inspired by its minimalist approach, even though it is basically a revision with an eye toward flat design. 
+*FlatWoken* project is derived from the popular *AwOken* icon theme. It's freely inspired by its minimalist approach, even though it is basically a revision with an eye toward flat design.
 
 *FlatWoken* icons are currently divided in two different icon sets:
 
@@ -72,7 +72,7 @@ Firstly, a git installation should be up and running on your machine (and you sh
 - choose the iconset (either `FlatWoken` or `FlatWokenMin`) with your favourite theme-tweaker of choice (`gnome-tweak-tool`,`ubuntu-tweak`,`unity-tweak-tool` or even `dconf` or the `terminal` for the most nerdish out there)
 
 <!-- ~~~
-ciao 
+ciao
 asdfoijafd
 ca
 sd
@@ -95,6 +95,6 @@ If you're a designer on your own you can directly create your own icon, and ask 
 If you're skilled enough and you're into the project so much that I don't even need to validate your icons before submitting them, I will be pleased to directly add you as a contributor of the main project!
 
 ## Contributors
- 
+
 - [José Morales](https://plus.google.com/+Jos%C3%A9Morales87) made an extension pack composed by 35 icons, that has been already integrated in the iconset
 - [Iohannes Quon Fabrum](https://plus.google.com/109260276583018639821) created 24 more icons for KDE, that have been integrated in the main repository as well

@@ -1,8 +1,8 @@
 ---
 layout: post
 title: AwOken icons
-download-link: http://alecive.deviantart.com/art/AwOken-163570862
-download-alt:  AwOken icons on DeviantART
+link: http://alecive.deviantart.com/art/AwOken-163570862
+link-alt:  AwOken icons on DeviantART
 date: 2012-09-01
 img: awoken.jpg
 img-thumb: awoken_thumb.jpg
