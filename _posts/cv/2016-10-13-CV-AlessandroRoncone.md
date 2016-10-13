@@ -162,7 +162,7 @@ publications:
    year: 2016
    venue: International Conference on Social Robotics (ICSR)
    where: Kansas City, MO, U.S.A., November 1-3
-   pdf:
+   pdf: "[Lehmann et al. 2016] Physiologically Inspired Blinking Behavior for a Humanoid Robot.pdf"
    description:
  - title: "Peripersonal Space and Margin of Safety around the Body: Learning Visuo-tactile Associations in a Humanoid Robot with Artificial Skin"
    authors: Alessandro Roncone, Matej Hoffmann, Ugo Pattacini, Luciano Fadiga, and Giorgio Metta
