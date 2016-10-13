@@ -204,7 +204,7 @@ publications:
    year: 2014
    venue: IEEE International Conference on Robotics and Automation (ICRA)
    where: Hong Kong, China, May 31-June 7
-   description: <a href="http://spectrum.ieee.org/automaton/robotics/robotics-software/video-friday-robot-racecar-kilobot-display-humanoid-skin" target="_blank">It was featured at the IEEE Spectrum Video Friday!</a>
+   description: <a href="http://spectrum.ieee.org/automaton/robotics/robotics-software/video-friday-robot-racecar-kilobot-display-humanoid-skin" target="_blank">It was featured in the IEEE Spectrum Video Friday!</a>
    pdf: "[Roncone et al. 2014] - Automatic Kinematic Chain Calibration using artificial skin: self-touch in the iCub humanoid robot.pdf"
 
 misc:
