@@ -37,9 +37,9 @@ skills:
     - name: YARP
       knowledge: 90
     - name: ROS
-      knowledge: 50
+      knowledge: 65
     - name: Baxter
-      knowledge: 35
+      knowledge: 60
  - name: Versioning Systems
    items:
     - name: Git
