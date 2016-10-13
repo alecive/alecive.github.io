@@ -16,8 +16,20 @@
                 {% endif %}
 
                 {% if page.link %}
-                    <h3>Link: <a href="{{ page.link }}" target="_blank">{{ page.link-alt }}</a></h3>
-                {% endif%}
+                    <h3>{{ page.link-alt }}: <a href="{{ page.link }}" target="_blank">link</a></h3>
+                {% endif %}
+
+                {% if page.paper_pdf %}
+                    <h3 class="no-print">Reference paper: <em>{{ page.paper_title }}</em> <a class="no-print" href="{{ site.url }}/{{ page.paper_pdf }}" target="_blank"> [PDF]</a></h3>
+                {% endif %}
+
+                {% if page.authors %}
+                    <p><strong>Authors:</strong> <em>{{ page.authors }}</em></p>
+                {% endif %}
+
+                {% if page.submission %}
+                    <p><strong>Submission:</strong> <em>{{ page.submission }}</em></p>
+                {% endif %}
 
                 {{ content }}
             </div>
