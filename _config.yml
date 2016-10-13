@@ -4,11 +4,11 @@ email: alecive87@gmail.com
 url: http://alecive.github.io
 phone: +1 (682) 253-2483
 google-analytics-id: UA-80094809-1
-description: "Personal website of Alessandro Roncone, aka alecive (or alecive87), Ph.D. in Robotics Engineering, designer and runner in his spare time."
+description: "Personal website of Alessandro Roncone, aka alecive (or alecive87), Ph.D. in Robotics Engineering, designer, father and runner in his spare time."
 owner: Alessandro Roncone
 owner-title: Ph.D.
 owner-job: Robotics Engineer
-aboutA: "Creator of AwOken and FlatWoken icon sets, many themes for GNOME2 and GNOME3, and more. He works at the Social Robotics Lab, Yale University, New Haven, CT."
+aboutA: "He is currently working as a Postdoctoral Associate at the Social Robotics Lab, Yale University, New Haven, CT."
 aboutB: "Alessandro has a 6-year research experience in Robotics Engineering. He worked full time with the iCub, one of the most advanced humanoid robots out there, on machine perception and artificial intelligence. His deep knowledge of C++ and the YARP/ROS software architecture has been mainly used for kinematics, calibration, computer vision, tactile perception and control. Head over the research section for more information on his work."
 
 # These should be put at the root of your website
@@ -33,7 +33,7 @@ address:
 
 # Build settings
 markdown: kramdown
-kramdown: 
+kramdown:
   syntax_highlighter: rouge
   highlighter: rouge
   toc_levels: "1,2,3"
@@ -45,11 +45,11 @@ gems:
   #- jekyll-mentions
 
 # Some more default colors
-# 
+#
 color:
 # Color settings (hex-codes without the leading hash-tag)
 # I've put different combinations to test
-# 
+#
 # ALTERNATIVE 0
   articletext: 3c3c3c                     # This is the text color
   primary: b5c0c7                         # This is the gray color with a blue tint
