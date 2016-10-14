@@ -1,4 +1,4 @@
- <!-- jQuery Version 1.11.0 -->
+    <!-- jQuery Version 1.11.0 -->
     <script src="{{ "/js/jquery-1.11.0.js" | prepend: site.baseurl }}"></script>
 
     <!-- Bootstrap Core JavaScript -->
@@ -7,7 +7,55 @@
     <!-- Plugin JavaScript -->
     <script src="{{ "/js/jquery.easing.min.js" | prepend: site.baseurl }}"></script>
     <script src="{{ "/js/classie.js" | prepend: site.baseurl }}"></script>
-    <script src="{{ "/js/cbpAnimatedHeader.js" | prepend: site.baseurl }}"></script>
+
+    <script>
+      /**
+       * cbpAnimatedHeader.js v1.0.0
+       *
+       * Licensed under the MIT license.
+       * http://www.opensource.org/licenses/mit-license.php
+       *
+       * Copyright 2013, Codrops http://www.codrops.com
+       */
+      var cbpAnimatedHeader = (function() {
+
+        var docElem = document.documentElement,
+          header = document.querySelector( '.navbar-fixed-top' ),
+          didScroll = false,
+          changeHeaderOn = 300;
+
+        var lsy = scrollY();
+
+        function init() {
+          window.addEventListener( 'scroll', function( event ) {
+            if( !didScroll ) {
+              didScroll = true;
+              setTimeout( scrollPage, 150 );
+            }
+          }, false );
+        }
+
+        function scrollPage() {
+          var sy = scrollY();
+
+          if ( sy > lsy ) {
+            classie.add( header, 'navbar-shrink' );
+          }
+          else {
+            classie.remove( header, 'navbar-shrink' );
+          }
+          didScroll = false;
+          lsy = scrollY();
+        }
+
+        function scrollY() {
+          return window.pageYOffset || docElem.scrollTop;
+        }
+
+        init();
+
+      })();
+    </script>
 
     <script>
       /*!
