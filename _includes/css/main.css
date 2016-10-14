@@ -161,6 +161,10 @@ header hr.separating-line {
     margin: 15px auto 30px;
 }
 
+hr.separating-line.research {
+    margin-bottom: 20px;
+}
+
 #post hr.separating-line {
     margin-bottom: 10px;
 }
@@ -1216,6 +1220,11 @@ pre code span:hover {
 #portfolio .portfolio-item .no-border
 {
     padding: 14px;
+}
+
+#portfolio .portfolio-item .no-border:hover
+{
+    background-color: #{{ site.color.primary }};
 }
 
 @media print

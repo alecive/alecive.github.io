@@ -8,10 +8,15 @@
             <div class="row">
                 <div class="col-lg-12 text-center">
                     <h2>{{ include.type }}</h2>
-                    <hr class="separating-line">
+                    <hr class="separating-line {{ include.type }}">
                 </div>
             </div>
             <div class="row">
+                {% if include.type == "research" %}
+                    <div class="col-lg-12" id="article" style="margin-top: 0px; margin-bottom: 40px;">
+                        <p>The following is a non comprehensive list of my <strong>published</strong> work (i.e. projects that ended up in a conference proceeding or journal issue), or work that will not be published - namely, the yarpdroid project. If you are interested in understanding more about my <em>ongoing</em> projects, please <a href="mailto:{{ site.email }}">contact me</a> (or <a href="{% for network in site.social %}{% if network.title == "github-alt" %}{{ network.url }}{% endif %}{% endfor %}" target="_blank">stalk me on GitHub</a>).</p>
+                    </div>
+                {% endif %}
                 {% for post in site.posts %}
                 {% if post.categories contains include.type %}
                 {% if post.double %}
