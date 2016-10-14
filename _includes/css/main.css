@@ -161,8 +161,10 @@ header hr.separating-line {
     margin: 15px auto 30px;
 }
 
-hr.separating-line.research {
-    margin-bottom: 20px;
+@media(min-width:768px) {
+    hr.separating-line.research {
+        margin-bottom: 20px;
+    }
 }
 
 #post hr.separating-line {
