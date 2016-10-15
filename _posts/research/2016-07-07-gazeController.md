@@ -18,9 +18,13 @@ paper_title: A Cartesian 6-DoF Gaze Controller for Humanoid Robots
 
 ---
 
-## Description (excerpt from my RSS talk)
+We have developed a 6 degrees of freedom (DoFs) gaze controller. Our goal is the control of the head of the iCub Humanoid robot, which is equipped with a 3-DoFs neck and a 3-DoFs binocular system capable of version and vergence behaviors. Potential applications range from the more standard tracking and attentive systems to image stabilization capabilities during whole body motions such as walking and balancing.
 
-We have developed a 6 degrees of freedom (DoFs) gaze controller. Our goal is the control of the head of the iCub Humanoid robot, which is equipped with a three degrees of freedom neck and a three degrees of freedom binocular system capable of version and vergence behaviors. Potential applications range from the more standard tracking and attentive systems to image stabilization capabilities during whole body motions such as walking and balancing.
+## Video
+
+{% include video.html url="//www.youtube.com/embed/I4ZKfAvs1y0" %}
+
+## Description (from my RSS talk)
 
 The current state of the art in gaze control is composed of systems characterized by exponential velocity profiles, with fast onset and slower decay toward the target. Our goal has been to improve these types of trajectories and implement smooth, minimum jerk, bell shaped velocity profiles that have been found to be typical of a human movement.
 
@@ -37,11 +41,25 @@ The control architecture depicted in Figure 1 has been implemented and released 
 
 Particular attention has been given to the design of the software interface that is exposed to the user. For example, the desired target can be sent to the controller in different formats (e.g. either the 3D cartesian point to look at or a triangulation of the target coordinates in both the left and the right image frames). A configuration interface allows the user to tune the internal parameters of the Gaze Controller for a finer control of the software (e.g. enabling/disabling saccadic movements, triggering the neck stabilization on and off, tuning the execution time for the neck and eyes controllers, and so on).
 
-Our experiments (see video below) demonstrate the capabilities of the system in handling different types of tasks. The Gaze Controller presented in this paper is able to successfully execute smooth pursuit behaviors and tracking of 3D points in space. Importantly, the additional capabilities added to the system proved to be advantageous under various circumstances. The saccadic behavior is able to quickly move the eyes toward the target when large gaze shifts are requested, whereas the vestibulo-ocular reflex uses the gyroscope readouts in order to compensate the neck movements, effectively maintaining the fixation point on target. Finally, the gaze stabilization system utilizes the feedback from the inertial measurement unit in order to reduce image blur both when the robot is subject to external disturbances, and during active gaze control.
+Our experiments (see video above) demonstrate the capabilities of the system in handling different types of tasks. The Gaze Controller presented in this paper is able to successfully execute smooth pursuit behaviors and tracking of 3D points in space. Importantly, the additional capabilities added to the system proved to be advantageous under various circumstances. The saccadic behavior is able to quickly move the eyes toward the target when large gaze shifts are requested, whereas the vestibulo-ocular reflex uses the gyroscope readouts in order to compensate the neck movements, effectively maintaining the fixation point on target. Finally, the gaze stabilization system utilizes the feedback from the inertial measurement unit in order to reduce image blur both when the robot is subject to external disturbances, and during active gaze control.
 
-## Video
+## F.A.Q.
 
-{% include video.html url="//www.youtube.com/embed/I4ZKfAvs1y0" %}
+During the poster session subsequent to my RSS presentation, I got a number of questions that I thought would be worth adding to this page. They are listed below.
+
+#### 1. If the control is decoupled, how do you choose if to move the neck or the eyes first?
+
+In short, you don't: they both start at the same time (as humans do). The neck and the eyes are two completely independent subsystems that do not need to be synchronized or to communicate one another. As a matter of fact, this allows for gaze profiles similar to humans. The faster dynamics of the eyes let the subject rapidly catch the target; after a while, the neck starts moving toward the fixation target, while the VOR reflex occurring at the eyes maintain the fixation point on the target by compensating the neck movements (cf. Figure 2).
+
+{% include image.html url="portfolio/gazeController_gazeshifts.svg" description="<b><i>Figure 2</i></b>. Qualitative comparison between a gaze shift performed by the Gaze Controller on the iCub (left), and a typical gaze shift in healthy human subjects (right). In both graphs, angular displacements of neck, eyes, and gaze are shown with respect to time." %}
+
+This effectively helps in the context of human-robot interaction. The head and eye movements are a highly communicative part of the human body, and endowing a robotic system with similar behaviors equips the robot with higher predictability and better integration with the human partner. The effectiveness of the proposed control framework in signaling non-verbal cues during human-robot interaction has been analyzed in related work [[Boucher 2012]](https://www.ncbi.nlm.nih.gov/pubmed/22563315). They demonstrated how naive human subjects are sensitive to gaze in the context of cooperative tasks, effectively improving their performance if a meaningful gazing information from the robot is provided.
+
+#### 2. How do you control the robot without planning?
+
+#### 3. Why do you need such a complex machinery when you can use a much simpler hardware?
+
+
 
 ## Slides
 
