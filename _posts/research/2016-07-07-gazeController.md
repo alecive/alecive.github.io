@@ -18,13 +18,13 @@ paper_title: A Cartesian 6-DoF Gaze Controller for Humanoid Robots
 
 ---
 
-We have developed a 6 degrees of freedom (DoFs) gaze controller. Our goal is the control of the head of the iCub Humanoid robot, which is equipped with a 3-DoFs neck and a 3-DoFs binocular system capable of version and vergence behaviors. Potential applications range from the more standard tracking and attentive systems to image stabilization capabilities during whole body motions such as walking and balancing.
+We have developed a 6 degrees of freedom (DoFs) gaze controller for humanoid robots. Our goal is the control of the head of the iCub robot, which is equipped with a 3-DoFs neck and a 3-DoFs binocular system capable of version and vergence behaviors. Potential applications range from the more standard tracking and attentive systems to image stabilization capabilities during whole body motions such as walking and balancing.
 
 ## Video
 
 {% include video.html url="//www.youtube.com/embed/I4ZKfAvs1y0" %}
 
-## Description (from my RSS talk)
+## Description
 
 The current state of the art in gaze control is composed of systems characterized by exponential velocity profiles, with fast onset and slower decay toward the target. Our goal has been to improve these types of trajectories and implement smooth, minimum jerk, bell shaped velocity profiles that have been found to be typical of a human movement.
 
@@ -47,19 +47,25 @@ Our experiments (see video above) demonstrate the capabilities of the system in 
 
 During the poster session subsequent to my RSS presentation, I got a number of questions that I thought would be worth adding to this page. They are listed below.
 
-#### 1. If the control is decoupled, how do you choose if to move the neck or the eyes first?
+#### If the control is decoupled, how do you choose if to move the neck or the eyes first?
 
 In short, you don't: they both start at the same time (as humans do). The neck and the eyes are two completely independent subsystems that do not need to be synchronized or to communicate one another. As a matter of fact, this allows for gaze profiles similar to humans. The faster dynamics of the eyes let the subject rapidly catch the target; after a while, the neck starts moving toward the fixation target, while the VOR reflex occurring at the eyes maintain the fixation point on the target by compensating the neck movements (cf. Figure 2).
 
-{% include image.html url="portfolio/gazeController_gazeshifts.svg" description="<b><i>Figure 2</i></b>. Qualitative comparison between a gaze shift performed by the Gaze Controller on the iCub (left), and a typical gaze shift in healthy human subjects (right). In both graphs, angular displacements of neck, eyes, and gaze are shown with respect to time." %}
+{% include image.html url="portfolio/gazeController_gazeshifts.svg" description="<b><i>Figure 2</i></b>. Qualitative comparison between the Gaze Controller on the iCub (<i>left</i>), and typical gaze shifts in healthy human subjects (<i>right</i>). In both graphs, angular displacements of neck, eyes, and gaze (sum of neck and eyes) are shown with respect to time." %}
 
 This effectively helps in the context of human-robot interaction. The head and eye movements are a highly communicative part of the human body, and endowing a robotic system with similar behaviors equips the robot with higher predictability and better integration with the human partner. The effectiveness of the proposed control framework in signaling non-verbal cues during human-robot interaction has been analyzed in related work [[Boucher 2012]](https://www.ncbi.nlm.nih.gov/pubmed/22563315). They demonstrated how naive human subjects are sensitive to gaze in the context of cooperative tasks, effectively improving their performance if a meaningful gazing information from the robot is provided.
 
-#### 2. How do you control the robot without planning?
+#### How do you control the robot without planning?
 
-#### 3. Why do you need such a complex machinery when you can use a much simpler hardware?
+The answer to this question deserves a whole post on its own. It's the long diatribe between the _planning_ and the _control_ communities. Researchers from these communities often say that either one or the other are useless (depending on where they stand). My personal stance in this regard is that they are two different things with distinct pros and cons, and they should be used in different contexts. To further elaborate on this, it is worth noting that they are not mutually exclusive, and they can happily live side by side in the same software. In this regard, an upcoming work on reactive control will demonstrate how it is possible to leverage both in order to implement a framework able to integrate long-term planning capabilities with the short-term reactive skills of a standard controller.
 
+#### Why don't you use simpler hardware?
 
+This question was originally more elaborate (that is, I was asked why to develop a human-like head where there are great animals to take inspiration from that use much simpler hardware). Nonetheless, this equally applies to the question of controlling such a complex machinery versus using heads with less DoFs. The reasons are multiple:
+
+ 1. A human-like head with human-like movements helps in the context of human-robot interaction (see above).
+ 2. Six is the minimum amount of DoFs to completely and exhaustively control any head—being it robotic or not. You can cope with less, but your capabilities will be hampered by this (e.g. the difference between the capabilities of the human head versus the 1-DoF head most fishes are equipped with is obvious).
+ 3. Controlling a 6 DoFs head is undoubtedly challenging (hence fun). Furthermore, this approach can be proficiently scaled back to any head with a lower number of degrees of freedom.
 
 ## Slides
 
