@@ -54,6 +54,16 @@ a {
     font-weight: bold;
 }
 
+#article *::selection {
+  background:  #{{ site.color.accent }};
+  color: white;
+}
+
+#article *::-moz-selection {
+  background:  #{{ site.color.accent }};
+  color: white;
+}
+
 a:hover,
 a:focus,
 a:active,
