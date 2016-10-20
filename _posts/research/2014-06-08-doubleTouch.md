@@ -8,7 +8,7 @@ img-thumb: doubleTouch_thumb.jpg
 alt: double-touch
 date: 2014-06-08
 category: research
-description: 
+description:
 tags: [research,robotics,icub,robot,humanoids,double touch,self touch,inverse kinematics,denavit-hartenberg,dh parameters,ipopt,optimization,cognitive robotics,body representations,icra,icra 2014,body schema,open source,github]
 article: yes
 
@@ -21,6 +21,7 @@ article: yes
 **Submission:** _IEEE International Conference on Robotics and Automation (ICRA2014), Hong Kong, China, May 31-June 7, 2014_
 
 ## Video
+{: class="no-print"}
 
 {% include video.html url="//www.youtube.com/embed/pfse424t5mQ"%}
 
@@ -28,13 +29,15 @@ article: yes
 
 This project deals with the task of solving the problem of _self-(or double-)touch_. It is defined as the robot being able to touch itself on a specific region of the skin, and it represents an unprecedented opportunity for a humanoid robot to achieve the simultaneous activation of multiple skin parts (in the video above, patches belonging to the right hand and the left forearm). This high amount of information was then used later on for exploiting a completely autonomous calibration of the body model (i.e. kinematic calibration or tactile calibration). In the reference paper cited above, this competence has been used to perform a kinematic calibration of both the right and the left arms.
 
-The _self-touch_ or _double-touch_ scenario has been further developed and used for collecting tactile and proprioceptive data that serve kinematic calibration. In robotics, this constitutes a novel solution to the self-calibration problem, in which no external metrology (like cameras or other tracking apparatus) is necessary. The kinematic chain is closed through touching its own body: the correspondence between the predicted contact point from existing forward kinematics and the actual position on the robot's "skin" provides sample data that allows simultaneous learning of the kinematic representation as well as the position of individual tactile sensors (taxels). The existing iCub kinematic model (DH parameters) and initial calibration of the tactile array served as a starting point and we have successfully improved on these. The data collection procedure is automated - self-touch is autonomously executed by the robot - and can be repeated at any time, providing a compact self-calibration system. 
+The _self-touch_ or _double-touch_ scenario has been further developed and used for collecting tactile and proprioceptive data that serve kinematic calibration. In robotics, this constitutes a novel solution to the self-calibration problem, in which no external metrology (like cameras or other tracking apparatus) is necessary. The kinematic chain is closed through touching its own body: the correspondence between the predicted contact point from existing forward kinematics and the actual position on the robot's "skin" provides sample data that allows simultaneous learning of the kinematic representation as well as the position of individual tactile sensors (taxels). The existing iCub kinematic model (DH parameters) and initial calibration of the tactile array served as a starting point and we have successfully improved on these. The data collection procedure is automated - self-touch is autonomously executed by the robot - and can be repeated at any time, providing a compact self-calibration system.
 
 At present, the visual modality is being added, employing modules that already exist for the iCub (object tracking, gaze controller, stereo vision). This will allow for automatic calibration of additional components of the system: head and eye kinematics, the stereo pair, and camera projective maps. Furthermore, in collaboration with Bielefeld University, we are improving the autonomy and robustness of the double-touch behavior by using visual and tactile servoing.
 
 ## Slides
+{: class="no-print"}
 
 Here are the slides I used during the presentation at ICRA2014:
+{: class="no-print"}
 
 {% include pdf.html url="portfolio/doubleTouch.pdf" description="Slides used at ICRA2014" %}
 

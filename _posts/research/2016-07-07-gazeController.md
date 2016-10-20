@@ -21,6 +21,7 @@ paper_title: A Cartesian 6-DoF Gaze Controller for Humanoid Robots
 We have developed a 6 degrees of freedom (DoFs) gaze controller for humanoid robots. Our goal is the control of the head of the iCub robot, which is equipped with a 3-DoFs neck and a 3-DoFs binocular system capable of version and vergence behaviors. Potential applications range from the more standard tracking and attentive systems to image stabilization capabilities during whole body motions such as walking and balancing.
 
 ## Video
+{: class="no-print"}
 
 {% include video.html url="//www.youtube.com/embed/I4ZKfAvs1y0" %}
 
@@ -68,8 +69,10 @@ This question was originally more elaborate (that is, I was asked why to develop
  3. Controlling a 6 DoFs head is undoubtedly challenging (hence fun). Furthermore, this approach can be proficiently scaled back to any head with a lower number of degrees of freedom.
 
 ## Slides
+{: class="no-print"}
 
 Here are the slides I used during the presentation at RSS2016:
+{: class="no-print"}
 
 {% include pdf.html url="portfolio/gazeController.pdf" description="Slides used at RSS2016" %}
 
