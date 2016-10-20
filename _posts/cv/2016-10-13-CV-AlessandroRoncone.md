@@ -160,7 +160,7 @@ publications:
  - title: "Physiologically Inspired Blinking Behavior for a Humanoid Robot"
    authors: Hagen Lehmann, Alessandro Roncone, Ugo Pattacini, and Giorgio Metta
    year: 2016
-   venue: International Conference on Social Robotics (ICSR)
+   venue: International Conference on Social Robotics (ICSR16)
    where: Kansas City, MO, U.S.A., November 1-3
    pdf: "[Lehmann et al. 2016] Physiologically Inspired Blinking Behavior for a Humanoid Robot.pdf"
    description:
