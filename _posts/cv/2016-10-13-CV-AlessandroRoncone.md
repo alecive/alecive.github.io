@@ -97,24 +97,6 @@ professional:
    location: Italian Institute of Technology (IIT), Genova IT
    location-link: http://www.iit.it
    description: I have partnered with the Italian Institute of Technology during my MSc thesis. See the <i>`Education`</i> section below for details about my master thesis.
- - name: Icon Designer in Outsourcing
-   start: Jul.
-   end: Oct. 2013
-   location: Coop la Lucerna
-   location-link: http://cooplalucerna.it/
-   description: "<i>Coop la Lucerna</i> is a farm right in the middle of Pianura Padana, IT. During the process of restructuring their online offerings, they contacted me in order to implemented a set of icons for their website. The icons were a set of 20 vegetables, rendered in a flat and minimal look."
- - name: Icon Designer in Outsourcing
-   start: Oct.
-   end: Dec. 2011
-   location: Magor Corp.
-   location-link: http://www.magorcorp.com/
-   description: "I have been contacted in order to design a new set of icons for their tele-collaboration software (a Skype-like alternative oriented toward telepresence and teleconference). I designed a total of 30 icons."
- - name: Icon Designer in Outsourcing
-   start: Feb.
-   end: Mar. 2010
-   location: The Castle Project
-   location-link: http://www.castleproject.org.uk/
-   description: "I implemented a set of icons for their website. It was a non-profit organization based in Edinburgh aimed toward taking care of drug- and alcohol- addicts, so I had some fun in designing some drug-related icons."
 
 education:
  - name: Ph.D. in Life and Humanoid Technologies <a class="no-print" href="/papers/[Roncone PhD Thesis 2015] Expanding Sensorimotor capabilities of Humanoid Robots through Multisensory Integration - a study on the implementation of Peripersonal Space on the iCub.pdf" target="_blank"> [PDF]</a>
@@ -155,6 +137,24 @@ graphics:
    start: 2010
    end: 2013
    description: My most awarded and recognized graphics projects. It has been downloaded more than a million times in less than one year, and has been for a while the most downloaded icon set on Linux ever.
+ - name: Icon Designer in Outsourcing
+   start: Jul.
+   end: Oct. 2013
+   location: Coop la Lucerna
+   location-link: http://cooplalucerna.it/
+   description: "<i>Coop la Lucerna</i> is a farm right in the middle of Pianura Padana, IT. During the process of restructuring their online offerings, they contacted me in order to implemented a set of icons for their website. The icons were a set of 20 vegetables, rendered in a flat and minimal look."
+ - name: Icon Designer in Outsourcing
+   start: Oct.
+   end: Dec. 2011
+   location: Magor Corp.
+   location-link: http://www.magorcorp.com/
+   description: "I have been contacted in order to design a new set of icons for their tele-collaboration software (a Skype-like alternative oriented toward telepresence and teleconference). I designed a total of 30 icons."
+ - name: Icon Designer in Outsourcing
+   start: Feb.
+   end: Mar. 2010
+   location: The Castle Project
+   location-link: http://www.castleproject.org.uk/
+   description: "I implemented a set of icons for their website. It was a non-profit organization based in Edinburgh aimed toward taking care of drug- and alcohol- addicts, so I had some fun in designing some drug-related icons."
 
 publications:
  - title: "Physiologically Inspired Blinking Behavior for a Humanoid Robot"
