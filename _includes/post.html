@@ -10,17 +10,17 @@
             </div>
             <div id="article" itemprop="articleBody">
                 {% if page.img %}
-                    <div id="article-img" itemprop="image" itemscope itemtype="http://schema.org/ImageObject" class="no-print">
+                    <div id="article-img" itemprop="image" itemscope itemtype="http://schema.org/ImageObject">
                         <img src="/img/portfolio/{{ page.img }}" class="img-fluid img-centered img-container" style="margin-bottom: 60px;" alt="{{ page.alt }}" itemprop="url contentUrl">
                     </div>
                 {% endif %}
 
                 {% if page.link %}
-                    <h3>{{ page.link-alt }}: <a href="{{ page.link }}" target="_blank">link</a></h3>
+                    <h3 class="no-print">{{ page.link-alt }}: <a href="{{ page.link }}" target="_blank">link</a></h3>
                 {% endif %}
 
                 {% if page.paper_pdf %}
-                    <h3 class="no-print">Reference paper: <em>{{ page.paper_title }}</em> <a class="no-print" href="{{ site.url }}/{{ page.paper_pdf }}" target="_blank"> [PDF]</a></h3>
+                    <h3>Reference paper: <em>{{ page.paper_title }}</em> <a class="no-print" href="{{ site.url }}/{{ page.paper_pdf }}" target="_blank"> [PDF]</a></h3>
                 {% endif %}
 
                 {% if page.authors %}
