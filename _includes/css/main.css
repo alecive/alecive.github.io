@@ -54,12 +54,12 @@ a {
     font-weight: bold;
 }
 
-#article *::selection {
+*::selection {
   background:  #{{ site.color.accent }};
   color: white;
 }
 
-#article *::-moz-selection {
+*::-moz-selection {
   background:  #{{ site.color.accent }};
   color: white;
 }
