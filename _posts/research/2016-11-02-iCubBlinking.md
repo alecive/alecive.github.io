@@ -13,7 +13,7 @@ tags: [research,robotics,icub,robot,humanoids,blinking,open source,github]
 article: yes
 double: yes
 authors: Hagen Lehmann, Alessandro Roncone, Ugo Pattacini, and Giorgio Metta
-submission: 2016 International Conference on Social Robotics (ICSR16)
+submission: 2016 International Conference on Social Robotics (ICSR16), Kansas City, MO, U.S.A., November 1-3
 paper_pdf: "/papers/[Lehmann et al. 2016] Physiologically Inspired Blinking Behavior for a Humanoid Robot.pdf"
 paper_title: "Physiologically Inspired Blinking Behavior for a Humanoid Robot"
 
