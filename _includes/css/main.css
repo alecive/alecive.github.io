@@ -162,6 +162,7 @@ header hr.separating-line {
 }
 
 @media(min-width:768px) {
+    hr.separating-line.design,
     hr.separating-line.research {
         margin-bottom: 20px;
     }
