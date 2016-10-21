@@ -36,10 +36,10 @@ skills:
       knowledge: 95
     - name: YARP
       knowledge: 90
+    - name: Baxter
+      knowledge: 75
     - name: ROS
       knowledge: 65
-    - name: Baxter
-      knowledge: 60
  - name: Versioning Systems
    items:
     - name: Git
@@ -55,11 +55,11 @@ skills:
  - name: OS/Software
    items:
     - name: Linux
-      knowledge: 90
+      knowledge: 95
     - name: Windows
       knowledge: 30
     - name: Gimp
-      knowledge: 75
+      knowledge: 80
     - name: Inkscape
       knowledge: 90
  - name: Languages
@@ -67,7 +67,7 @@ skills:
     - name: Italian
       knowledge: 99
     - name: English
-      knowledge: 82
+      knowledge: 87
 
 professional:
  - name: Post-Doc
