@@ -5,31 +5,9 @@ category: cv
 description: I am a robotics engineer and a designer
 article: yes
 permalink: cv.html
-tags: [cv,personal,resume,curriculum,online,pdf,research,design,iit,istituto italiando di tecnologia,phd,yale,university,postdoc]
+tags: [robotics,artificial intelligence,advanced manufacturing,humanoid robotics,cv,personal,resume,curriculum,online,research,design,iit,istituto italiando di tecnologia,phd,yale,university,postdoc]
 
 skills:
- - name: Programming
-   items:
-    - name: C++
-      knowledge: 90
-    - name: Matlab
-      knowledge: 85
-    - name: IPOPT
-      knowledge: 70
-    - name: OpenCV
-      knowledge: 65
-    - name: CMake
-      knowledge: 55
-    - name: Bash
-      knowledge: 65
-    - name: CSS3 & HTML5
-      knowledge: 95
-    - name: UX/UI
-      knowledge: 70
-    - name: R
-      knowledge: 40
-    - name: Python
-      knowledge: 30
  - name: Robots & Platforms
    items:
     - name: iCub
@@ -37,13 +15,51 @@ skills:
     - name: YARP
       knowledge: 90
     - name: Baxter
-      knowledge: 75
+      knowledge: 80
     - name: ROS
+      knowledge: 70
+ - name: Robotics & Artificial Intelligence
+   items:
+    - name: Kinematics
+      knowledge: 90
+    - name: 2D/3D Computer Vision
+      knowledge: 75
+    - name: Calibration
+      knowledge: 75
+    - name: Control
       knowledge: 65
+    - name: Machine Learning
+      knowledge: 60
+    - name: Tactile Sensing
+      knowledge: 65
+    - name: Sensor Fusion
+      knowledge: 55
+    - name: Filtering
+      knowledge: 60
+ - name: Programming
+   items:
+    - name: C++
+      knowledge: 95
+    - name: Matlab
+      knowledge: 85
+    - name: CMake
+      knowledge: 75
+    - name: IPOPT
+      knowledge: 70
+    - name: Bash
+      knowledge: 65
+    - name: CSS3 & HTML5
+      knowledge: 90
+    - name: UX/UI
+      knowledge: 70
+    - name: R
+      knowledge: 25
+    - name: Python
+      knowledge: 20
  - name: Versioning Systems
    items:
     - name: Git
-      knowledge: 80
+      knowledge: 90
     - name: Subversion
       knowledge: 60
     - name: cvs
@@ -70,15 +86,14 @@ skills:
       knowledge: 87
 
 professional:
- - name: Post-Doc
-   title: Postdoctoral Associate @ Social Robotics Lab, Computer Science Department
+ - name: Post-Doc @ Yale University
+   title: Social Robotics Lab, Computer Science Department, Yale University
    start: Nov. 2015
    end: present
    location: Yale University, New Haven, CT (USA)
    location-link: http://scazlab.yale.edu
    description: "I am currently focusing on the exploitation of bidirectional communication between the robot and the human in the context of human-robot collaborative tasks. I am working toward the implementation of a more natural and intuitive interaction, in order for it to be more efficient and effective, as well as less demanding for the human partner."
- - name: Post-Doc
-   title: Post Doc @ iCub Facility
+ - name: Post-Doc @ iCub Facility
    start: Jan.
    end: Oct. 2015
    location: Italian Institute of Technology (IIT), Genova IT
@@ -99,7 +114,7 @@ professional:
    description: I have partnered with the Italian Institute of Technology during my MSc thesis. See the <i>`Education`</i> section below for details about my master thesis.
 
 education:
- - name: Ph.D. in Life and Humanoid Technologies <a class="no-print" href="/papers/[Roncone PhD Thesis 2015] Expanding Sensorimotor capabilities of Humanoid Robots through Multisensory Integration - a study on the implementation of Peripersonal Space on the iCub.pdf" target="_blank"> [PDF]</a>
+ - name: Ph.D. in Life and Humanoid Technologies <a class="no-print" href="/papers/[Roncone PhD Thesis 2015] Expanding Sensorimotor capabilities of Humanoid Robots through Multisensory Integration - a study on the implementation of Peripersonal Space on the iCub.pdf" target="_blank"> [Thesis PDF]</a>
    title: Thesis title `Expanding sensorimotor capabilities of humanoid robots through multisensory integration. A study on the implementation of peripersonal space on the iCub.`
    start: 2012
    end: 2015
@@ -158,49 +173,43 @@ graphics:
 
 publications:
  - title: "Physiologically Inspired Blinking Behavior for a Humanoid Robot"
-   authors: Hagen Lehmann, Alessandro Roncone, Ugo Pattacini, and Giorgio Metta
+   authors: Hagen Lehmann, <b>Alessandro Roncone</b>, Ugo Pattacini, and Giorgio Metta
    year: 2016
    venue: International Conference on Social Robotics (ICSR16)
    where: Kansas City, MO, U.S.A., November 1-3
    pdf: "[Lehmann et al. 2016] Physiologically Inspired Blinking Behavior for a Humanoid Robot.pdf"
-   description:
  - title: "Peripersonal Space and Margin of Safety around the Body: Learning Visuo-tactile Associations in a Humanoid Robot with Artificial Skin"
-   authors: Alessandro Roncone, Matej Hoffmann, Ugo Pattacini, Luciano Fadiga, and Giorgio Metta
+   authors: <b>Alessandro Roncone</b>, Matej Hoffmann, Ugo Pattacini, Luciano Fadiga, and Giorgio Metta
    year: 2016
    venue: PLOS ONE
    where: Open Access Journal
    pdf: "[Roncone et al. 2016] Peripersonal Space and Margin of Safety around the Body: Learning Visuo-tactile Associations in a Humanoid Robot with Artificial Skin.pdf"
-   description:
  - title: "A Cartesian 6-DoF Gaze Controller for Humanoid Robots"
-   authors: Alessandro Roncone, Ugo Pattacini, Giorgio Metta, and Lorenzo Natale
+   authors: <b>Alessandro Roncone</b>, Ugo Pattacini, Giorgio Metta, and Lorenzo Natale
    year: 2016
    venue: "Robotics: Science and Systems"
    where: Ann Arbor, MI, U.S.A., June 18-22
    pdf: "[Roncone et al. 2016] A Cartesian 6-DoF Gaze Controller for Humanoid Robots.pdf"
-   description:
  - title: "Learning peripersonal space representation through artificial skin for avoidance and reaching with whole body surface"
-   authors: Alessandro Roncone, Matej Hoffmann, Ugo Pattacini, and Giorgio Metta
+   authors: <b>Alessandro Roncone</b>, Matej Hoffmann, Ugo Pattacini, and Giorgio Metta
    year: 2015
    venue: IEEE/RSJ International Conference on Intelligent Robots and Systems
    where: Hamburg, Germany, September 28-October 2
    pdf: "[Roncone et al. 2015] - Learning peripersonal space representation through artificial skin for avoidance and reaching with whole body surface.pdf"
-   description:
  - title: "Gaze Stabilization for Humanoid Robots: A Comprehensive Framework"
-   authors: Alessandro Roncone, Ugo Pattacini, Giorgio Metta, and Lorenzo Natale
+   authors: <b>Alessandro Roncone</b>, Ugo Pattacini, Giorgio Metta, and Lorenzo Natale
    year: 2014
    venue: IEEE-RAS International Conference on Humanoid Robots
    where: Madrid, Spain, November 18-20
-   description:
    pdf: "[Roncone et al. 2014] - Gaze stabilization for humanoid robots: a Comprehensive Framework.pdf"
  - title: "3D Stereo Estimation and Fully Automated Learning of Eye-Hand Coordination in Humanoid Robots"
-   authors: S. R. Fanello, U. Pattacini, I. Gori, V. Tikhanoff, M. Randazzo, A. Roncone, F. Odone, and G. Metta
+   authors: Sean Ryan Fanello, Ugo Pattacini, Ilaria Gori, Vadim Tikhanoff, Marco Randazzo, <b>Alessandro Roncone</b>, Francesca Odone, and Giorgio Metta
    year: 2014
    venue: IEEE-RAS International Conference on Humanoid Robots
    where: Madrid, Spain, November 18-20
-   description:
    pdf: "[Fanello et al. 2014] - 3D estimation and fully automated learning of eye-hand coordination in humanoid robots.pdf"
  - title: "Automatic kinematic chain calibration using artificial skin: self-touch in the iCub humanoid robot"
-   authors: Alessandro Roncone, Matej Hoffmann, Ugo Pattacini, and Giorgio Metta
+   authors: <b>Alessandro Roncone</b>, Matej Hoffmann, Ugo Pattacini, and Giorgio Metta
    year: 2014
    venue: IEEE International Conference on Robotics and Automation (ICRA)
    where: Hong Kong, China, May 31-June 7
@@ -208,26 +217,31 @@ publications:
    pdf: "[Roncone et al. 2014] - Automatic Kinematic Chain Calibration using artificial skin: self-touch in the iCub humanoid robot.pdf"
 
 misc:
- - title: "Teaching Assistant"
-   authors: "Alessandro Roncone, Carlo Ciliberto, Giulia Pasquale and Raffaello Camoriano"
+ - title: Guest Lecturer at Yale University
+   year: 2015-2016
+   venue: Intelligent Robotics - CPSC 472
+   where: New Haven, CT
+   description: During my stay at Yale University, I did two guest lectures at the Intelligent Robotics course held by Prof. Brian Scassellati. Both my lectures were meant to introduce students to the iCub platform and the research we perform at the Italian Institute of Technology. The title of my talk was <i>iCub - a shared platform for research in Robotics and AI</i> <a class="no-print" href="/slides/[Roncone 2016] iCub - a shared platform for research in Robotics and AI.pdf" target="_blank"> [PDF]</a>.
+ - title: Teaching Assistant at the BMM - MIT Summer School
+   authors: <b>Alessandro Roncone</b>, Carlo Ciliberto, Giulia Pasquale and Raffaello Camoriano
    year: 2015
-   venue: "CBMM 2015 Summer School"
-   where: "Woods Hole, MA, August 13-September 3"
-   description: "Teaching assistant at the 2015 CBMM Summer School, organized by a number of MIT lab groups and affiliates. I focused on tutoring students during their projects with the iCub. A notable achievement has been the integration of Google Glass onto the YARP framework, that has been later used in order to perform head/gaze teleoperation on the iCub."
- - title: "Co-organizer of the <i>Development of body representations in humans and robots</i> workshop"
-   authors: "Matej Hoffmann, Alessandro Roncone, Lorenzo Jamone, and Beata Grzyb"
+   venue: CBMM 2015 Summer School
+   where: Woods Hole, MA, August 13-September 3
+   description: Teaching assistant at the 2015 CBMM Summer School, organized by a number of MIT lab groups and affiliates. I focused on tutoring students during their projects with the iCub. A notable achievement has been the integration of Google Glass onto the YARP framework, that has been later used in order to perform head/gaze teleoperation on the iCub.
+ - title: Co-organizer of the <i>Development of body representations in humans and robots</i> workshop
+   authors: Matej Hoffmann, <b>Alessandro Roncone</b>, Lorenzo Jamone, and Beata Grzyb
    year: 2014
-   venue: "IEEE International Conference on Development and Learning and on Epigenetic Robotics"
+   venue: IEEE International Conference on Development and Learning and on Epigenetic Robotics
    where: Genoa, Italy, October 13-16
-   description: "Half-day workshop @ICDL-EPIROB 2014 Conference. The goal of the workshop was to <i>explore the possibility of robots developing models inspired by the mechanisms of human body representations</i>. In this way, they can on one hand become new modeling tools for empirical sciences - expanding the domain of computational modeling by anchoring it to the physical environment and a physical body. On the other hand, robot controllers endowed with multimodal whole-body awareness and plasticity typical of humans should give rise to - in robotics unprecedented - autonomy, robustness, and resilience."
+   description: Half-day workshop @ICDL-EPIROB 2014 Conference. The goal of the workshop was to <i>explore the possibility of robots developing models inspired by the mechanisms of human body representations</i>. In this way, they can on one hand become new modeling tools for empirical sciences - expanding the domain of computational modeling by anchoring it to the physical environment and a physical body. On the other hand, robot controllers endowed with multimodal whole-body awareness and plasticity typical of humans should give rise to - in robotics unprecedented - autonomy, robustness, and resilience.
  - title: "Modeling the development of body knowledge using humanoid robots"
-   authors: "Matej Hoffmann, Alessandro Roncone, Giorgio Metta"
+   authors: "Matej Hoffmann, <b>Alessandro Roncone</b>, Giorgio Metta"
    year: 2014
    venue: "International conference on Infant Studies"
    where: Berlin, Germany, July 3-5
    description: "Oral presentation at the <i>International Conference on Infant Studies</i> on my work related to the double-touch (made by Matej Hoffmann)."
  - title: "Modeling the development of human body representations"
-   authors: "Matej Hoffmann, Alessandro Roncone"
+   authors: "Matej Hoffmann, <b>Alessandro Roncone</b>"
    year: 2013
    venue: "SMLC - Workshop on Synthetic Modeling of Life and Cognition"
    where: Bergamo, Italy, September 12-14
@@ -261,4 +275,4 @@ Energetic and resourceful Robotics Engineer with more than five years research e
 ## Summary
 
 Alessandro Roncone was born in Genova (GE), Italy, 1987. He received his BSc in Biomedical Engineering with the score of _110/110 summa cum laude_ at the [Università degli Studi di Genova](http://www.unige.it/) in February 2008. In July 2011 he completed his MSc in NeuroEngineering (with the score of _110/110 summa cum laude_) in the same university. In April 2015 he got a Ph.D. in _Robotics, Cognition and Interaction Technologies_ from [Università degli studi di Genova](http://www.unige.it) and [Italian Institute of Technology (IIT)](http://www.iit.it). During his PhD he worked in the _Robotics, Brain and Cognitive Sciences_ department and the _iCub Facility_ in IIT, Genova, under the supervision of prof. [Giorgio Metta](http://pasa.lira.dist.unige.it/). The goal of his Ph.D. project was to exploit insights from neuroscience in order to implement a model of **Peripersonal Space (PPS)** on the iCub humanoid robot (see below for details on its Ph.D. project).
-He is currently working as a Postdoctoral Associate at the [Social Robotics Lab](http://scazlab.yale.edu/) in Yale University, with a focus on human robot collaboration and collaborative manufacturing.
+He is currently working as a Postdoctoral Associate at the [Social Robotics Lab](http://scazlab.yale.edu/) in Yale University, under the supervision of prof. [Brian Scassellati (aka Scaz)](http://www.cs.yale.edu/homes/scaz/). He focuses on human robot collaboration and advanced manufacturing.
