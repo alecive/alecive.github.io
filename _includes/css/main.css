@@ -559,6 +559,13 @@ section.success p {
     margin-top: 4px;
 }
 
+@media(max-width: 768px) {
+    ul,
+    ol {
+        padding-left: 30px;
+    }
+}
+
 @media(max-width:450px) {
     #article h1 {
         border-left-width: 14px;
@@ -578,14 +585,7 @@ section.success p {
 
     ul,
     ol {
-        padding-left: 20px;
-    }
-}
-
-@media(max-width: 768px) {
-    ul,
-    ol {
-        padding-left: 30px;
+        padding-left: 16px;
     }
 }
 
@@ -1219,6 +1219,27 @@ pre code span:hover {
         display: none;
     }
 
+    #article .cv-item {
+        border-left: 0px;
+    }
+
+    #article .cv-item div {
+        padding-left: 5px;
+        padding-right: 5px;
+    }
+
+    #article .cv-item h2 {
+        margin-top: 10px;
+        margin-bottom: 7px;
+    }
+
+    #article .cv-item h4 {
+        margin-top: 7px;
+    }
+
+    .inlineifprinted {
+        display: inline;
+    }
 }
 
 .only-print, .only-print * {

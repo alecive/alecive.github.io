@@ -14,13 +14,10 @@
             {% for item in page.professional %}
                 <div class="row cv-item">
                     <div class="col-sm-3">
-                        <div class="cv-section-title">
-                            <h3 class="inlineifprinted">{{item.start}} - {{item.end}}</h3>
-                            {% if item.location-link %}<h4 class="inlineifprinted"><a href="{{item.location-link}}" target="_blank">{{item.location}}</a></h4>
-                            {% else %}<h4 class="inlineifprinted">{{item.location}}</h4>
-                            {% endif %}
-                            <!-- <p>2010 - 2012 Senior Graphic Designer <br> 2012 - 2014 Project Manager</p> -->
-                        </div>
+                        <h3 class="inlineifprinted">{{item.start}} - {{item.end}}</h3>
+                        {% if item.location-link %}<h4 class="inlineifprinted"><a href="{{item.location-link}}" target="_blank">{{item.location}}</a></h4>
+                        {% else %}<h4 class="inlineifprinted">{{item.location}}</h4>
+                        {% endif %}
                     </div>
 
                     <div class="col-sm-9">
@@ -36,12 +33,10 @@
             {% for college in page.education %}
                 <div class="row cv-item">
                     <div class="col-sm-3">
-                        <div class="cv-section-title">
-                            <h3 class="inlineifprinted">{{college.start}} - {{college.end}}</h3>
-                            {% if college.location-link %}<h4 class="inlineifprinted"><a href="{{college.location-link}}" target="_blank">{{college.location}}</a></h4>
-                            {% else %}<h4 class="inlineifprinted">{{college.location}}</h4>
-                            {% endif %}
-                        </div>
+                        <h3 class="inlineifprinted">{{college.start}} - {{college.end}}</h3>
+                        {% if college.location-link %}<h4 class="inlineifprinted"><a href="{{college.location-link}}" target="_blank">{{college.location}}</a></h4>
+                        {% else %}<h4 class="inlineifprinted">{{college.location}}</h4>
+                        {% endif %}
                     </div>
 
                     <div class="col-sm-9">
@@ -57,11 +52,9 @@
             {% for item in page.publications %}
                 <div class="row cv-item">
                     <div class="col-sm-4">
-                        <div class="cv-section-title">
-                            <h3 class="inlineifprinted">{{item.year}}</h3>
-                            <h4 class="inlineifprinted">{{item.venue}}</h4>
-                            <p  class="no-print hidden-xs">{{item.where}}</p>
-                        </div>
+                        <h3 class="inlineifprinted">{{item.year}}</h3>
+                        <h4 class="inlineifprinted">{{item.venue}}</h4>
+                        <p  class="no-print hidden-xs">{{item.where}}</p>
                     </div>
 
                     <div class="col-sm-8">
@@ -77,11 +70,9 @@
             {% for item in page.misc %}
                 <div class="row cv-item">
                     <div class="col-sm-4">
-                        <div class="cv-section-title">
-                            <h3 class="inlineifprinted">{{item.year}}</h3>
-                            <h4 class="inlineifprinted">{{item.venue}}</h4>
-                            <p  class="no-print">{{item.where}}</p>
-                        </div>
+                        <h3 class="inlineifprinted">{{item.year}}</h3>
+                        <h4 class="inlineifprinted">{{item.venue}}</h4>
+                        <p  class="no-print">{{item.where}}</p>
                     </div>
 
                     <div class="col-sm-8">
@@ -97,12 +88,10 @@
             {% for item in page.graphics %}
                 <div class="row cv-item">
                     <div class="col-sm-3">
-                        <div class="cv-section-title">
-                            <h3>{{item.start}} - {{item.end}}</h3>
-                            {% if item.location-link %}<h4><a href="{{item.location-link}}" target="_blank">{{item.location}}</a></h4>
-                            {% else %}<h4>{{item.location}}</h4>
-                            {% endif %}
-                        </div>
+                        <h3>{{item.start}} - {{item.end}}</h3>
+                        {% if item.location-link %}<h4><a href="{{item.location-link}}" target="_blank">{{item.location}}</a></h4>
+                        {% else %}<h4>{{item.location}}</h4>
+                        {% endif %}
                     </div>
 
                     <div class="col-sm-9">
