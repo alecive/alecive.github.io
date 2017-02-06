@@ -1,8 +1,8 @@
 ---
 layout: post
 title: How to install ROS indigo
-link: 
-link-alt: 
+link:
+link-alt:
 date: 2015-11-12
 category: blog
 description: From a completely naive user's standpoint
@@ -19,7 +19,7 @@ tags: [blog,how to,tutorial,ros,installation,indigo,ubuntu,14.04,robotics,baxter
 
 **Disclaimer:** although I've been doing robotics for years, I have **never** used ROS. These are the very first step I made in order to having a working `ros` environment on my laptop. As such, they should be taken as-they-are. They are mainly notes for myself in order to track down what I did and avoid doing the same errors.
 
-This page is going to be about ROS installation. For [a summary about the main ROS concepts and some useful command-line tools, go here]({% post_url 2016-02-06-ROS-concepts %}).
+This page is going to be about ROS installation. For [a summary about the main ROS concepts and some useful command-line tools, go here]({% post_url 2016-02-08-ROS-concepts %}).
 
 # Installing ROS indigo from sources
 
@@ -73,7 +73,7 @@ mkdir ros_catkin_ws
 cd ros_catkin_ws/
 ~~~
 
-I chose a _Desktop-Full Install_: this would install ROS, rqt, rviz, robot-generic libraries, 2D/3D simulators, navigation and 2D/3D perception packages. 
+I chose a _Desktop-Full Install_: this would install ROS, rqt, rviz, robot-generic libraries, 2D/3D simulators, navigation and 2D/3D perception packages.
 
 ~~~bash
 rosinstall_generator desktop_full --rosdistro indigo --deps --wet-only --tar > indigo-desktop-full-wet.rosinstall
@@ -87,7 +87,7 @@ Before you can build your catkin workspace, you need to make sure that you have 
 rosdep install --from-paths src --ignore-src --rosdistro indigo -y
 ~~~
 
-This will look at all of the packages in the `src` directory and find all of the dependencies they have. Then it will recursively install the dependencies. 
+This will look at all of the packages in the `src` directory and find all of the dependencies they have. Then it will recursively install the dependencies.
 
 ### Building the catkin Workspace
 
@@ -128,7 +128,7 @@ Let's create a catkin workspace (as I said, I have everything in my `code` folde
 cd code/
 mkdir -p catkin_ws/src
 cd catkin_ws/src
-catkin_init_workspace 
+catkin_init_workspace
 ~~~
 
 Even though the workspace is empty (there are no packages in the `src` folder, just a single `CMakeLists.txt` link) you can still `build` the workspace:
