@@ -19,7 +19,7 @@ tags: [blog,how to,tutorial,ros,installation,indigo,ubuntu,14.04,robotics,baxter
 
 **Disclaimer:** although I've been doing robotics for years, I have **never** used ROS. These are the very first step I made in order to having a working `ros` environment on my laptop. As such, they should be taken as-they-are. They are mainly notes for myself in order to track down what I did and avoid doing the same errors.
 
-This page is going to be about ROS installation. For [a summary about the main ROS concepts and some useful command-line tools, go here]({% post_url 2016-02-08-ROS-concepts %}).
+This page is going to be about ROS installation. For [a summary about the main ROS concepts and some useful command-line tools, go here]({% post_url blog/2016-02-08-ROS-concepts %}).
 
 # Installing ROS indigo from sources
 

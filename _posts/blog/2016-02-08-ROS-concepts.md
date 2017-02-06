@@ -1,8 +1,8 @@
 ---
 layout: post
 title: ROS tips and tricks
-link: 
-link-alt: 
+link:
+link-alt:
 date: 2016-02-08
 category: blog
 description: Summary about some ROS concepts and tools
@@ -19,7 +19,7 @@ tags: [blog,how to,tutorial,ros,concepts,tools,command-line,indigo,ubuntu,14.04,
 
 **Disclaimer:** although I've been doing robotics for years, I have **never** used ROS. These are some notes I think are going to be useful (to me) in the future. As such, they should be taken as-they-are.
 
-This page is a summary about the main ROS concepts and some useful command-line tools. For [a tutorial on how to install ROS from a completely naive user's standpoint, go here]({% post_url 2015-11-12-ROS-naive-installation %}).
+This page is a summary about the main ROS concepts and some useful command-line tools. For [a tutorial on how to install ROS from a completely naive user's standpoint, go here]({% post_url blog/2015-11-12-ROS-naive-installation %}).
 
 # ROS concepts
 
@@ -31,7 +31,7 @@ The ROS Master provides naming and registration services to the rest of the node
 
 The Master also provides the Parameter Server.
 
-The Master is most commonly run using the `roscore` command, which loads the ROS Master along with other essential components. 
+The Master is most commonly run using the `roscore` command, which loads the ROS Master along with other essential components.
 
 ## Nodes
 
@@ -39,15 +39,15 @@ A node is a process that performs computation. Nodes are combined together into 
 
 All running nodes have a graph resource name that uniquely identifies them to the rest of the system - e.g. `/hokuyo_node`. Nodes also have a node type, that simplifies the process of referring to a node executable on the fileystem. These node types are package resource names with the name of the node's package and the name of the node executable file. In order to resolve a node type, ROS searches for all executables in the package with the specified name and chooses the first that it finds. As such, you need to be careful and not produce different executables with the same name in the same package.
 
-A ROS node is written with the use of a ROS client library, such as `roscpp` or `rospy`. 
+A ROS node is written with the use of a ROS client library, such as `roscpp` or `rospy`.
 
 ## Topics
 
 Topics are named buses over which nodes exchange messages. Topics have anonymous publish/subscribe semantics, which decouples the production of information from its consumption. In general, nodes are not aware of who they are communicating with. Instead, nodes that are interested in data subscribe to the relevant topic; nodes that generate data publish to the relevant topic. There can be multiple publishers and subscribers to a topic.
 
-Topics are intended for unidirectional, streaming communication. Nodes that need to perform remote procedure calls, i.e. receive a response to a request, should use services instead. There is also the Parameter Server for maintaining small amounts of state. 
+Topics are intended for unidirectional, streaming communication. Nodes that need to perform remote procedure calls, i.e. receive a response to a request, should use services instead. There is also the Parameter Server for maintaining small amounts of state.
 
-Each topic is strongly typed by the ROS message type used to publish to it and nodes can only receive messages with a matching type. The Master does not enforce type consistency among the publishers, but subscribers will not establish message transport unless the types match. Furthermore, all ROS clients check to make sure that an MD5 computed from the msg files match. This check ensures that the ROS Nodes were compiled from consistent code bases. 
+Each topic is strongly typed by the ROS message type used to publish to it and nodes can only receive messages with a matching type. The Master does not enforce type consistency among the publishers, but subscribers will not establish message transport unless the types match. Furthermore, all ROS clients check to make sure that an MD5 computed from the msg files match. This check ensures that the ROS Nodes were compiled from consistent code bases.
 
 ## Services
 
@@ -55,16 +55,16 @@ The publish/subscribe model is a very flexible communication paradigm, but its m
 
 Services are defined using `srv` files, which are compiled into source code by a ROS client library.
 
-A client can make a persistent connection to a service, which enables higher performance at the cost of less robustness to service provider changes. 
+A client can make a persistent connection to a service, which enables higher performance at the cost of less robustness to service provider changes.
 
 ## Messages
 
 Nodes communicate with each other by publishing messages to topics. A message is a simple data structure, comprising typed fields. Standard primitive types (integer, floating point, boolean, etc.) are supported, as are arrays of primitive types. Messages can include arbitrarily nested structures and arrays (much like C structs).
-Nodes can also exchange a request and response message as part of a ROS service call. These request and response messages are defined in `srv` files. 
+Nodes can also exchange a request and response message as part of a ROS service call. These request and response messages are defined in `srv` files.
 
 Message types use standard ROS naming conventions: `package_name/msg_file_name`. For example, `std_msgs/msg/String.msg` has the message type `std_msgs/String`.
 
-In addition to the message type, messages are versioned by an MD5 sum of the `.msg` file. Nodes can only communicate messages for which both the message type and MD5 sum match. 
+In addition to the message type, messages are versioned by an MD5 sum of the `.msg` file. Nodes can only communicate messages for which both the message type and MD5 sum match.
 
 ### Field types
 
@@ -82,7 +82,7 @@ In addition to the message type, messages are versioned by an MD5 sum of the `.m
 |     time            | secs/nsecs unsigned 32-bit ints   | ros::Time         | rospy.Time      |
 |     duration        | secs/nsecs  signed 32-bit ints    | ros::Duration     | rospy.Duration  |
 {: class="table"}
-  
+
 #### Array Handling
 
 |-------------------+-------------------------+---------------------------------------------------+-------------|
@@ -142,7 +142,7 @@ The Parameter Server uses XMLRPC data types for parameter values, which include:
  * doubles
  * iso8601 dates
  * lists
- * base64-encoded binary data 
+ * base64-encoded binary data
 
 You can also store dictionaries (i.e. structs) on the Parameter Server, though they have special meaning. The Parameter Server represents ROS namespaces as dictionaries. For example, imagine you set the following parameters:
 
@@ -184,7 +184,7 @@ rosrun rospy_tutorials talker _param:=1.0
 
 ## Using `rospack`
 
-`rospack` allows you to get information about packages. In this tutorial, we are only going to cover the find option, which returns the path to package. 
+`rospack` allows you to get information about packages. In this tutorial, we are only going to cover the find option, which returns the path to package.
 
 ~~~bash
 [alecive@malakim]$ rospack find roscpp
@@ -196,11 +196,11 @@ rosrun rospy_tutorials talker _param:=1.0
 `roscd` is part of the `rosbash` suite. It allows you to change directory to a package or a stack. Like other ROS tools, it will **only** find ROS packages that are within the directories listed in your `ROS_PACKAGE_PATH`.
 
 ~~~bash
-(~) () 
+(~) ()
 [alecive@malakim]$ roscd roscpp
 
-(~/code/ros_catkin_ws/install_isolated/share/roscpp) () 
-[alecive@malakim]$ 
+(~/code/ros_catkin_ws/install_isolated/share/roscpp) ()
+[alecive@malakim]$
 ~~~
 
 ### What to do if your package is not listed in `roscd`
@@ -228,7 +228,7 @@ You will see:
 In the previous example, the message type consists of two parts:
 
  * beginner_tutorials -- the package where the message is defined
- * Num -- The name of the msg Num. 
+ * Num -- The name of the msg Num.
 
 If you can't remember which Package a msg is in, you can leave out the package name. Try:
 
@@ -288,7 +288,7 @@ int64 sum
  * string
  * time, duration
  * other msg files
- * variable-length array[] and fixed-length array[C] 
+ * variable-length array[] and fixed-length array[C]
 
 There is also a special type in ROS: the **header**, which contains a timestamp and coordinate frame information that are commonly used in ROS.
 Here is an example of a msg that uses a Header, a string primitive, and two other msgs :
@@ -325,7 +325,7 @@ We need to make sure that the msg files are turned into source code for C++, Pyt
 ~~~
 
  * Add the `message_generation` dependency to the `find_package` call which already exists in your `CMakeLists.txt` so that you can generate messages:
-    
+
 ~~~
 find_package(catkin REQUIRED COMPONENTS
    roscpp
@@ -334,9 +334,9 @@ find_package(catkin REQUIRED COMPONENTS
    message_generation
 )
 ~~~
-    
+
  * Make sure you export the message runtime dependency:
-    
+
 ~~~
 catkin_package(
   ...
