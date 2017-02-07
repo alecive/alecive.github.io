@@ -23,13 +23,19 @@ Class prefix        .col-xs-        .col-sm-    .col-md-    .col-lg-    .col-xl-
 */
 @font-face {
     font-family: 'Montserrat';
+    src: url("{{ site.baseurl }}/fonts/Montserrat-Regular.otf") format("opentype");
+    font-weight: 700;
+}
+
+@font-face {
+    font-family: 'Montserrat';
     src: url("{{ site.baseurl }}/fonts/Montserrat-Light.otf") format("opentype");
     font-weight: 300;
 }
 
 @font-face {
     font-family: 'Montserrat';
-    src: url("{{ site.baseurl }}/fonts/Montserrat-UltraLight.otf") format("opentype");
+    src: url("{{ site.baseurl }}/fonts/Montserrat-ExtraLight.otf") format("opentype");
     font-weight: 100;
 }
 
