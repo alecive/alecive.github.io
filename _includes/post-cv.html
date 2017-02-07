@@ -10,7 +10,7 @@
         <div id="article">
             {{ content }}
 
-            <h2>Professional Experience</h2>
+            <h1>Professional Experience</h1>
             {% for item in page.professional %}
                 <div class="row cv-item">
                     <div class="col-sm-3">
@@ -29,7 +29,7 @@
                 </div>
             {% endfor %}
 
-            <h2>Education</h2>
+            <h1>Education</h1>
             {% for college in page.education %}
                 <div class="row cv-item">
                     <div class="col-sm-3">
@@ -48,7 +48,7 @@
                 </div>
             {% endfor %}
 
-            <h2>Publications</h2>
+            <h1>Publications</h1>
             {% for item in page.publications %}
                 <div class="row cv-item">
                     <div class="col-sm-4">
@@ -66,13 +66,13 @@
                 </div>
             {% endfor %}
 
-            <h2>Misc</h2>
+            <h1>Misc</h1>
             {% for item in page.misc %}
                 <div class="row cv-item">
                     <div class="col-sm-4">
                         <h3 class="inlineifprinted">{{item.year}}</h3>
                         <h4 class="inlineifprinted">{{item.venue}}</h4>
-                        <p  class="no-print">{{item.where}}</p>
+                        <p  class="no-print hidden-xs">{{item.where}}</p>
                     </div>
 
                     <div class="col-sm-8">
@@ -84,13 +84,13 @@
                 </div>
             {% endfor %}
 
-            <h2>Graphic Design</h2>
+            <h1>Graphic Design</h1>
             {% for item in page.graphics %}
                 <div class="row cv-item">
                     <div class="col-sm-3">
-                        <h3>{{item.start}} - {{item.end}}</h3>
-                        {% if item.location-link %}<h4><a href="{{item.location-link}}" target="_blank">{{item.location}}</a></h4>
-                        {% else %}<h4>{{item.location}}</h4>
+                        <h3 class="inlineifprinted">{{item.start}} - {{item.end}}</h3>
+                        {% if item.location-link %}<h4 class="inlineifprinted"><a href="{{item.location-link}}" target="_blank">{{item.location}}</a></h4>
+                        {% else %}<h4 class="inlineifprinted">{{item.location}}</h4>
                         {% endif %}
                     </div>
 
@@ -103,7 +103,7 @@
                 </div>
             {% endfor %}
 
-            <h2>Skills and Technical Expertise</h2>
+            <h1>Skills and Technical Expertise</h1>
             <p class="no-print">The following is a list of my so-called <i>skills</i>, i.e. a set of progress bars that have little meaning and are totally subjective. They fall short in depicting who I really am, but they are a fair rundown of my practical talents nonetheless.</p>
             {% for skill in page.skills %}
             <div class="row cv-item">
