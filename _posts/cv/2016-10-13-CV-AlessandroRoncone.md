@@ -101,8 +101,8 @@ professional:
    description: "I continued the work I started during my Ph.D. fellowship at the iCub Facility. Specifically, I was interested in the exploitation of the peripersonal space model I implemented during my Ph.D., by focusing toward two types of applications: i) better, richer body representations (in collaboration with CITEC @Bielefeld) ii) distributed motor control via whole-body awareness (partially collaborating with WYSIWYD project partners). Furthermore, I extended the gaze stabilization framework I developed during my Ph.D. by integrating it with an existing gaze controller. I was also contributing to a human-robot interaction project aimed at developing natural interaction(s) between the iCub humanoid robot and humans."
  - name: Ph.D. Fellow @ iCub Facility
    title: Life and Humanoid Technologies
-   start: 2012
-   end: 2014
+   start: Nov. 2011
+   end: Dec. 2014
    location: Italian Institute of Technology (IIT), Genova IT
    location-link: http://www.iit.it
    description: Doctoral course in Robotics, Cognition and Interaction Technologies. See the <i>`Education`</i> section below for details about my Ph.D. project. I have been involved in the Xperience FP7-ICT-270273 and WYSIWYD FP7-ICT-61239 projects, funded by the European Union Seventh Framework Program with a funding of €7,634,000 and €4,583,016 respectively.
@@ -141,7 +141,7 @@ education:
    end: 2008
    location: ISICT (Superior Institute of Studies in Information and Communication Technologies)
    location-link: http://www.isict.it/
-   description: "ISICT stands for <i>Institute for Advanced Studies in Information and Communication Technologies</i>. It is a consortium that integrates the courses provided by the University of Genoa with lessons held by industry leaders. The goal is to better prepare students for the labor market. To this end, I attended a number of additional courses ranging from <i>Marketing</i> to <i>Telecommunications</i> to <i>Aerospace Engineering</i>. I've been also selected for a scholarship, after a thorough examination (only three positions were available)."
+   description: "ISICT stands for <i>Institute for Advanced Studies in Information and Communication Technologies</i>. It is a consortium that integrates the courses provided by the University of Genoa with lessons held by industry leaders. The goal is to better prepare students for industry jobs. To this end, I attended a number of additional courses ranging from <i>Marketing</i> to <i>Telecommunications</i> to <i>Aerospace Engineering</i>. I've been also selected for a scholarship, after a thorough examination (only three positions were available among hundreds of candidates)."
 
 graphics:
  - name: FlatWoken Icons
@@ -253,11 +253,11 @@ misc:
    description: "I've been researcher of the week for two times. Despite its name, this award is given very rarely to outstanding research performed in the iCub Facility at IIT. In the past years, only 8 of these awards have been awarded."
 ---
 
-<div><p class="only-print">Personal Website: <a href="http://alecive.github.io">http://alecive.github.io</a></p></div>
+<div><p class="only-print">Personal Website: <a href="https://alecive.github.io">https://alecive.github.io</a></p></div>
 
 <div><p class="only-print">GitHub Page: <a href="http://github.com/alecive">http://github.com/alecive</a></p></div>
 
-## Who am I
+# Who am I
 
 {% assign yearDiffInt =    site.time | date: '%Y' | minus: 2010 %}
 {% if    yearDiffInt ==  0 %}{% assign yearDiffStr =     "zero" %}
@@ -278,20 +278,20 @@ misc:
 {% elsif yearDiffInt == 15 %}{% assign yearDiffStr =  "fifteen" %}
 {% endif %}
 
-Energetic and resourceful Robotics Engineer with more than {{ yearDiffStr }} years' research experience and a proven publication track record. Motivated by intellectually challenging projects as well as personal achievements, I like to learn new things by stimulating myself with new goals. I am capable of pursuing individual research aimed at the development of novel applications, but I particularly love to be part of a team with bright people working toward ambitious ideas. I am enthusiastic toward the design and the realization of highly innovative tasks, and I love to work hard in pursuance of them.
+Energetic and resourceful Robotics Engineer with more than {{ yearDiffStr }} years' research experience and a proven publication track record. Motivated by intellectually challenging projects as well as personal achievements, I pride myself on possessing a very diverse set of skills. I am capable of pursuing individual research aimed at the development of novel applications, but I particularly love to be part of a team with bright people working toward ambitious ideas. I am enthusiastic toward the design and the realization of innovative applications, and I love to work hard in pursuance of them.
 
-## Me at a glance
+---
+{: class="no-print"}
 
- * _Robotics Engineer_ with _5 year full-time experience_ with one of the most advanced robots out there, i.e. the [iCub](http://www.icub.org).
- * Research interests: **robotics**, multisensory integration, calibration, kinematics, tactile sensing, machine learning, computer vision, sensor fusion.
- * Considerable background in employing optimization techniques in real-world robotic applications: knowledgeable in particular about [IPOPT](https://projects.coin-or.org/Ipopt), a software designed for large-scale nonlinear optimization problems. Some experience with control engineering and signal processing.
- * _C++ developer_, with a fine knowledge of **YARP** and **iCub** software and libraries. Some experience with the **ROS** middleware.
- * Some of my work is available to download at my [GitHub page](http://github.com/alecive/), or in the [Robotology GitHub Organization](https://github.com/robotology).
- * Long-time Linux user, and active contributor to the Linux FOSS community.
- * Graphic Designer and freelancer in the spare time, with a number of successfull projects and employments.
- * Obsessed by two things: _pixel-perfect graphics_, and _bit-perfect code_.
+ * Research Engineer with extensive background in a number of different fields, from Humanoid Robotics to Human-Robot Interaction.
+ * Research interests: robotics, kinematics, computer vision, tactile sensing, calibration, machine learning, sensor fusion, multisensory integration.
+ * Substantial background in applying optimization techniques to real-world robotic applications: knowledgeable in particular about [IPOPT](https://projects.coin-or.org/Ipopt), a software designed for large-scale nonlinear optimization problems. Experience with control engineering and signal processing.
+ * _C++ developer_, with a deep knowledge of the _YARP_ and _iCub_ software libraries. Growing experience with the _ROS_ middleware and the _Baxter_ robot.
+ * Obsessed by two things: _pixel-perfect graphics_, and _bit-perfect code_. This website is intended to showcase the former; for the latter, stalk me on [GitHub](http://github.com/alecive/), or take a look at some of the GitHub organizations I belong to: [Robotology](https://github.com/robotology) and [ScazLab](https://github.com/scazlab).
+ * Long-time Linux user, and active contributor to the Linux FOSS community. Past experience in Graphic Design, with a number of success stories and employments.
 
-## Summary
+# Summary
 
-Alessandro Roncone received his B.Sc. in Biomedical Engineering with the score of _110/110 summa cum laude_ at the [Università degli Studi di Genova](http://www.unige.it/) in February 2008. In July 2011 he completed his M.Sc. in NeuroEngineering (with the score of _110/110 summa cum laude_) in the same university. In April 2015 he got a Ph.D. in _Robotics, Cognition and Interaction Technologies_ from [Università degli studi di Genova](http://www.unige.it) and [Italian Institute of Technology (IIT)](http://www.iit.it). During his PhD he worked in the _Robotics, Brain and Cognitive Sciences_ department and the _iCub Facility_, under the supervision of prof. [Giorgio Metta](http://pasa.lira.dist.unige.it/). The goal of his Ph.D. project was to exploit insights from the neurosciences in order to improve the sensorimotor capabilities of the iCub humanoid robot (see below for details on its Ph.D. project).
+Alessandro Roncone received his B.Sc. _summa cum laude_ in Biomedical Engineering in February 2008, and his M.Sc. _summa cum laude_ in NeuroEngineering in July 2011 from the [Università degli Studi di Genova](http://www.unige.it/), Italy.
+In April 2015 he completed his Ph.D. in _Robotics, Cognition and Interaction Technologies_ from [Università degli studi di Genova](http://www.unige.it) and [Italian Institute of Technology (IIT)](http://www.iit.it), working in the _Robotics, Brain and Cognitive Sciences_ and the _iCub Facility_ departments under the supervision of prof. [Giorgio Metta](http://pasa.lira.dist.unige.it/). The goal of his Ph.D. project was to exploit insights from the neurosciences in order to improve the sensorimotor capabilities of the [iCub](http://www.icub.org) humanoid robot.
 He is currently working as a Postdoctoral Associate at the [Social Robotics Lab](http://scazlab.yale.edu/) in Yale University, under the supervision of prof. [Brian Scassellati (a.k.a. Scaz)](http://www.cs.yale.edu/homes/scaz/). He focuses on human robot collaboration and advanced manufacturing.
