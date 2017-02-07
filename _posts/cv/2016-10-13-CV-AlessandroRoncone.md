@@ -23,7 +23,7 @@ skills:
     - name: Kinematics
       knowledge: 90
     - name: 2D/3D Computer Vision
-      knowledge: 75
+      knowledge: 80
     - name: Calibration
       knowledge: 75
     - name: Control
@@ -31,9 +31,11 @@ skills:
     - name: Machine Learning
       knowledge: 60
     - name: Tactile Sensing
-      knowledge: 65
+      knowledge: 80
     - name: Sensor Fusion
       knowledge: 55
+    - name: Non-Linear Optimization
+      knowledge: 75
     - name: Filtering
       knowledge: 60
  - name: Programming
@@ -44,8 +46,6 @@ skills:
       knowledge: 85
     - name: CMake
       knowledge: 75
-    - name: IPOPT
-      knowledge: 70
     - name: Bash
       knowledge: 65
     - name: CSS3 & HTML5
@@ -259,7 +259,26 @@ misc:
 
 ## Who am I
 
-Energetic and resourceful Robotics Engineer with more than five years research experience and a proven publication track record. Motivated by intellectually challenging projects as well as personal achievements, I like to learn new things by stimulating myself with new goals. I am capable of pursuing individual research aimed at the development of novel applications, but I particularly love to be part of a team with bright people working toward ambitious ideas. I am enthusiastic toward the design and the realization of highly innovative tasks, and I love to work hard in pursuance of them.
+{% assign yearDiffInt =    site.time | date: '%Y' | minus: 2010 %}
+{% if    yearDiffInt ==  0 %}{% assign yearDiffStr =     "zero" %}
+{% elsif yearDiffInt ==  1 %}{% assign yearDiffStr =      "one" %}
+{% elsif yearDiffInt ==  2 %}{% assign yearDiffStr =      "two" %}
+{% elsif yearDiffInt ==  3 %}{% assign yearDiffStr =    "three" %}
+{% elsif yearDiffInt ==  4 %}{% assign yearDiffStr =     "four" %}
+{% elsif yearDiffInt ==  5 %}{% assign yearDiffStr =     "five" %}
+{% elsif yearDiffInt ==  6 %}{% assign yearDiffStr =      "six" %}
+{% elsif yearDiffInt ==  7 %}{% assign yearDiffStr =    "seven" %}
+{% elsif yearDiffInt ==  8 %}{% assign yearDiffStr =    "eight" %}
+{% elsif yearDiffInt ==  9 %}{% assign yearDiffStr =     "nine" %}
+{% elsif yearDiffInt == 10 %}{% assign yearDiffStr =      "ten" %}
+{% elsif yearDiffInt == 11 %}{% assign yearDiffStr =   "eleven" %}
+{% elsif yearDiffInt == 12 %}{% assign yearDiffStr =   "twelve" %}
+{% elsif yearDiffInt == 13 %}{% assign yearDiffStr = "thirteen" %}
+{% elsif yearDiffInt == 14 %}{% assign yearDiffStr = "fourteen" %}
+{% elsif yearDiffInt == 15 %}{% assign yearDiffStr =  "fifteen" %}
+{% endif %}
+
+Energetic and resourceful Robotics Engineer with more than {{ yearDiffStr }} years' research experience and a proven publication track record. Motivated by intellectually challenging projects as well as personal achievements, I like to learn new things by stimulating myself with new goals. I am capable of pursuing individual research aimed at the development of novel applications, but I particularly love to be part of a team with bright people working toward ambitious ideas. I am enthusiastic toward the design and the realization of highly innovative tasks, and I love to work hard in pursuance of them.
 
 ## Me at a glance
 
@@ -274,5 +293,5 @@ Energetic and resourceful Robotics Engineer with more than five years research e
 
 ## Summary
 
-Alessandro Roncone was born in Genova (GE), Italy, 1987. He received his BSc in Biomedical Engineering with the score of _110/110 summa cum laude_ at the [Università degli Studi di Genova](http://www.unige.it/) in February 2008. In July 2011 he completed his MSc in NeuroEngineering (with the score of _110/110 summa cum laude_) in the same university. In April 2015 he got a Ph.D. in _Robotics, Cognition and Interaction Technologies_ from [Università degli studi di Genova](http://www.unige.it) and [Italian Institute of Technology (IIT)](http://www.iit.it). During his PhD he worked in the _Robotics, Brain and Cognitive Sciences_ department and the _iCub Facility_ in IIT, Genova, under the supervision of prof. [Giorgio Metta](http://pasa.lira.dist.unige.it/). The goal of his Ph.D. project was to exploit insights from neuroscience in order to implement a model of **Peripersonal Space (PPS)** on the iCub humanoid robot (see below for details on its Ph.D. project).
-He is currently working as a Postdoctoral Associate at the [Social Robotics Lab](http://scazlab.yale.edu/) in Yale University, under the supervision of prof. [Brian Scassellati (aka Scaz)](http://www.cs.yale.edu/homes/scaz/). He focuses on human robot collaboration and advanced manufacturing.
+Alessandro Roncone received his B.Sc. in Biomedical Engineering with the score of _110/110 summa cum laude_ at the [Università degli Studi di Genova](http://www.unige.it/) in February 2008. In July 2011 he completed his M.Sc. in NeuroEngineering (with the score of _110/110 summa cum laude_) in the same university. In April 2015 he got a Ph.D. in _Robotics, Cognition and Interaction Technologies_ from [Università degli studi di Genova](http://www.unige.it) and [Italian Institute of Technology (IIT)](http://www.iit.it). During his PhD he worked in the _Robotics, Brain and Cognitive Sciences_ department and the _iCub Facility_, under the supervision of prof. [Giorgio Metta](http://pasa.lira.dist.unige.it/). The goal of his Ph.D. project was to exploit insights from the neurosciences in order to improve the sensorimotor capabilities of the iCub humanoid robot (see below for details on its Ph.D. project).
+He is currently working as a Postdoctoral Associate at the [Social Robotics Lab](http://scazlab.yale.edu/) in Yale University, under the supervision of prof. [Brian Scassellati (a.k.a. Scaz)](http://www.cs.yale.edu/homes/scaz/). He focuses on human robot collaboration and advanced manufacturing.
