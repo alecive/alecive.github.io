@@ -163,6 +163,10 @@ tt, code, kbd, samp, pre, .img-caption {
     font-family: 'Hack', 'Meslo LG S for Powerline', 'Menlo', monospace !important;
 }
 
+hr {
+    border-top: 1px solid #{{ site.color.articletext }};
+}
+
 hr.separating-line {
     margin: 15px auto 60px;
     padding: 0;
@@ -851,7 +855,7 @@ span.label:hover e.ok {
 }
 
 #article .cv-item {
-    margin-left: 14px;
+    margin-left: 0px;
     margin-top: 10px;
     margin-bottom: 20px;
     padding-bottom: 0px;
@@ -1317,7 +1321,9 @@ pre code span:hover {
     }
 
     #article h1 {
-        font-size: 1.4em;
+        font-size: 1.1em;
+        border-left-width: 20px;
+        padding-left: 10px;
     }
 
     #article h2 {
