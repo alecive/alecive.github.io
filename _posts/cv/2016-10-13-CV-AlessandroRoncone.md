@@ -18,7 +18,7 @@ skills:
       knowledge: 80
     - name: ROS
       knowledge: 70
- - name: Robotics & Artificial Intelligence
+ - name: Robotics & AI
    items:
     - name: Kinematics
       knowledge: 90
