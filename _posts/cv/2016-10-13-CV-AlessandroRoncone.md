@@ -259,26 +259,27 @@ misc:
 
 # Who am I
 
-{% assign yearDiffInt =    site.time | date: '%Y' | minus: 2010 %}
-{% if    yearDiffInt ==  0 %}{% assign yearDiffStr =     "zero" %}
-{% elsif yearDiffInt ==  1 %}{% assign yearDiffStr =      "one" %}
-{% elsif yearDiffInt ==  2 %}{% assign yearDiffStr =      "two" %}
-{% elsif yearDiffInt ==  3 %}{% assign yearDiffStr =    "three" %}
-{% elsif yearDiffInt ==  4 %}{% assign yearDiffStr =     "four" %}
-{% elsif yearDiffInt ==  5 %}{% assign yearDiffStr =     "five" %}
-{% elsif yearDiffInt ==  6 %}{% assign yearDiffStr =      "six" %}
-{% elsif yearDiffInt ==  7 %}{% assign yearDiffStr =    "seven" %}
-{% elsif yearDiffInt ==  8 %}{% assign yearDiffStr =    "eight" %}
-{% elsif yearDiffInt ==  9 %}{% assign yearDiffStr =     "nine" %}
-{% elsif yearDiffInt == 10 %}{% assign yearDiffStr =      "ten" %}
-{% elsif yearDiffInt == 11 %}{% assign yearDiffStr =   "eleven" %}
-{% elsif yearDiffInt == 12 %}{% assign yearDiffStr =   "twelve" %}
-{% elsif yearDiffInt == 13 %}{% assign yearDiffStr = "thirteen" %}
-{% elsif yearDiffInt == 14 %}{% assign yearDiffStr = "fourteen" %}
-{% elsif yearDiffInt == 15 %}{% assign yearDiffStr =  "fifteen" %}
-{% endif %}
+{% assign yearDiffInt = site.time | date: '%Y' | minus: 2010 %}
+{% capture yearDiffStr %}{% case yearDiffInt %}
+  {% when  0 %}     zero
+  {% when  1 %}      one
+  {% when  2 %}      two
+  {% when  3 %}    three
+  {% when  4 %}     four
+  {% when  5 %}     five
+  {% when  6 %}      six
+  {% when  7 %}    seven
+  {% when  8 %}    eight
+  {% when  9 %}     nine
+  {% when 10 %}      ten
+  {% when 11 %}   eleven
+  {% when 12 %}   twelve
+  {% when 13 %} thirteen
+  {% when 14 %} fourteen
+  {% when 15 %}  fifteen
+{% endcase %}{% endcapture %}
 
-Energetic and resourceful Robotics Engineer with more than {{ yearDiffStr }} years' research experience and a proven publication track record. Motivated by intellectually challenging projects as well as personal achievements, I pride myself on possessing a very diverse set of skills. I am capable of pursuing individual research aimed at the development of novel applications, but I particularly love to be part of a team with bright people working toward ambitious ideas. I am enthusiastic toward the design and the realization of innovative applications, and I love to work hard in pursuance of them.
+Energetic and resourceful Robotics Engineer with more than {{ yearDiffStr | strip_newlines }} years' research experience and a proven publication track record. Motivated by intellectually challenging projects as well as personal achievements, I pride myself on possessing a very diverse set of skills. I am capable of pursuing individual research aimed at the development of novel applications, but I particularly love to be part of a team with bright people working toward ambitious ideas. I am enthusiastic toward the design and the realization of innovative applications, and I love to work hard in pursuance of them.
 
 ---
 {: class="no-print"}
