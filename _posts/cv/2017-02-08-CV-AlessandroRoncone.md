@@ -284,7 +284,7 @@ Energetic and resourceful Robotics Engineer with more than {{ yearDiffStr | stri
 ---
 {: class="no-print"}
 
- * Research Engineer with extensive background in a number of different fields, from Humanoid Robotics to Human-Robot Interaction and Advanced Manufacturing.
+ * Research Engineer with extensive background in a number of different fields, from Humanoid Robotics to Human-Robot Interaction.
  * Research interests: robotics, kinematics, computer vision, tactile sensing, calibration, machine learning, sensor fusion, multisensory integration.
  * _C++ developer_, with a deep knowledge of the _YARP_ and _iCub_ software libraries. Growing experience with the _ROS_ middleware and the _Baxter_ robot.
  * Proven ability to manage multiple projects and supervise multiple people while meeting challenging deadlines.
