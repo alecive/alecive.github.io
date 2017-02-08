@@ -14,26 +14,7 @@ tags: [robotics,artificial intelligence,advanced manufacturing,humanoid robotics
 
 # Who am I
 
-{% assign yearDiffInt = site.time | date: '%Y' | minus: 2010 %}
-{% capture yearDiffStr %}{% case yearDiffInt %}
-  {% when  0 %}     zero
-  {% when  1 %}      one
-  {% when  2 %}      two
-  {% when  3 %}    three
-  {% when  4 %}     four
-  {% when  5 %}     five
-  {% when  6 %}      six
-  {% when  7 %}    seven
-  {% when  8 %}    eight
-  {% when  9 %}     nine
-  {% when 10 %}      ten
-  {% when 11 %}   eleven
-  {% when 12 %}   twelve
-  {% when 13 %} thirteen
-  {% when 14 %} fourteen
-  {% when 15 %}  fifteen
-{% endcase %}{% endcapture %}
-
+{% include years_elap.html from="2010" %}
 Energetic and resourceful Robotics Engineer with more than {{ yearDiffStr | strip_newlines }} years' research experience and a proven publication track record. Motivated by intellectually challenging projects as well as personal achievements, I pride myself on possessing a very diverse set of skills. I am capable of pursuing individual research aimed at the development of novel technologies, but I particularly love to be part of a team with bright people working toward ambitious ideas. I make robots work, and I hold a deep commitment to doing so while implementing scalable, robust, and elegant code.
 
 ---

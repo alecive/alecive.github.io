@@ -1,4 +1,4 @@
-{% assign yearDiffInt = site.time | date: '%Y' | minus: include.minus %}
+{% assign yearDiffInt = site.time | date: '%Y' | minus: include.from %}
 {% capture yearDiffStr %}{% case yearDiffInt %}
   {% when  0 %}     zero
   {% when  1 %}      one
