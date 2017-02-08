@@ -516,12 +516,10 @@ section.success p {
 #article h1,
 #article h2,
 #article h3,
-#article h4 {
+#article h4,
+#article .cv-disclaimer {
     text-align: left;
-    border: 10px solid #{{ site.color.secondary }};
-    border-right: none;
-    border-top: none;
-    border-bottom: none;
+    border-left: 10px solid #{{ site.color.secondary }};
     border-radius: 0;
 }
 
@@ -1318,6 +1316,11 @@ pre code span:hover {
 
     #post-cv {
         padding-top: 80px;
+    }
+
+    #article .cv-disclaimer {
+        padding-left: 10px;
+        margin-top: 20px;
     }
 
     #article h1 {
