@@ -11,7 +11,7 @@
             {{ content }}
 
             <h1>Professional Experience</h1>
-            {% for item in page.professional %}
+            {% for item in site.data.cv-professional %}
                 <div class="row cv-item">
                     <div class="col-sm-3">
                         <h3 class="inlineifprinted">{{item.start}} - {{item.end}}</h3>
@@ -30,7 +30,7 @@
             {% endfor %}
 
             <h1>Education</h1>
-            {% for college in page.education %}
+            {% for college in site.data.cv-education %}
                 <div class="row cv-item">
                     <div class="col-sm-3">
                         <h3 class="inlineifprinted">{{college.start}} - {{college.end}}</h3>
@@ -49,7 +49,7 @@
             {% endfor %}
 
             <h1>Publications</h1>
-            {% for item in page.publications %}
+            {% for item in site.data.cv-publications %}
                 <div class="row cv-item">
                     <div class="col-sm-4">
                         <h3 class="inlineifprinted">{{item.year}}</h3>
@@ -67,7 +67,7 @@
             {% endfor %}
 
             <h1>Misc</h1>
-            {% for item in page.misc %}
+            {% for item in site.data.cv-misc %}
                 <div class="row cv-item">
                     <div class="col-sm-4">
                         <h3 class="inlineifprinted">{{item.year}}</h3>
@@ -85,7 +85,7 @@
             {% endfor %}
 
             <h1>Graphic Design</h1>
-            {% for item in page.graphics %}
+            {% for item in site.data.cv-graphics %}
                 <div class="row cv-item">
                     <div class="col-sm-3">
                         <h3 class="inlineifprinted">{{item.start}} - {{item.end}}</h3>
@@ -105,7 +105,7 @@
 
             <h1>Skills and Technical Expertise</h1>
             <p class="no-print">The following is a list of my so-called <i>skills</i>, i.e. a set of progress bars that have little meaning and are totally subjective. They fall short in depicting who I really am, but they are a fair rundown of my practical talents nonetheless.</p>
-            {% for skill in page.skills %}
+            {% for skill in site.data.cv-skills %}
             <div class="row cv-item">
                 <div class="col-sm-12">
                     <p><b>{{ skill.name }}: </b></p>

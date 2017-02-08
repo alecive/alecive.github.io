@@ -1,0 +1,34 @@
+ - title: Guest Lecturer at Yale University
+   year: 2015-2016
+   venue: Intelligent Robotics - CPSC 472
+   where: New Haven, CT
+   description: During my stay at Yale University, I did two guest lectures at the Intelligent Robotics course held by Prof. Brian Scassellati. Both my lectures were meant to introduce students to the iCub platform and the research we perform at the Italian Institute of Technology. The title of my talk was <i>iCub - a shared platform for research in Robotics and AI</i> <a href="/slides/[Roncone 2016] iCub - a shared platform for research in Robotics and AI.pdf" target="_blank">[PDF]</a>.
+ - title: Teaching Assistant at the BMM - MIT Summer School
+   authors: <b>Alessandro Roncone</b>, Carlo Ciliberto, Giulia Pasquale and Raffaello Camoriano
+   year: 2015
+   venue: CBMM 2015 Summer School
+   where: Woods Hole, MA, August 13-September 3
+   description: Teaching assistant at the 2015 CBMM Summer School, organized by a number of MIT lab groups and affiliates. I focused on tutoring students during their projects with the iCub. A notable achievement has been the integration of Google Glass onto the YARP framework, that has been later used in order to perform head/gaze teleoperation on the iCub.
+ - title: Co-organizer of the <i>Development of body representations in humans and robots</i> workshop
+   authors: Matej Hoffmann, <b>Alessandro Roncone</b>, Lorenzo Jamone, and Beata Grzyb
+   year: 2014
+   venue: IEEE International Conference on Development and Learning and on Epigenetic Robotics
+   where: Genoa, Italy, October 13-16
+   description: Half-day workshop @ICDL-EPIROB 2014 Conference. The goal of the workshop was to <i>explore the possibility of robots developing models inspired by the mechanisms of human body representations</i>. In this way, they can on one hand become new modeling tools for empirical sciences - expanding the domain of computational modeling by anchoring it to the physical environment and a physical body. On the other hand, robot controllers endowed with multimodal whole-body awareness and plasticity typical of humans should give rise to - in robotics unprecedented - autonomy, robustness, and resilience.
+ - title: "Modeling the development of body knowledge using humanoid robots"
+   authors: "Matej Hoffmann, <b>Alessandro Roncone</b>, Giorgio Metta"
+   year: 2014
+   venue: "International conference on Infant Studies"
+   where: Berlin, Germany, July 3-5
+   description: "Oral presentation at the <i>International Conference on Infant Studies</i> on my work related to the double-touch (made by Matej Hoffmann)."
+ - title: "Modeling the development of human body representations"
+   authors: "Matej Hoffmann, <b>Alessandro Roncone</b>"
+   year: 2013
+   venue: "SMLC - Workshop on Synthetic Modeling of Life and Cognition"
+   where: Bergamo, Italy, September 12-14
+   description: "Invited to give an oral presentation at the workshop on <i>Synthetic Modeling of Life and Cognition</i>."
+ - title: "Researcher of the week"
+   year: 2013-2014
+   venue: IIT (Italian Institute of Technology)
+   where: iCub Facility
+   description: "I've been researcher of the week for two times. Despite its name, this award is given very rarely to outstanding research performed in the iCub Facility at IIT. In the past years, only 8 of these awards have been awarded."
