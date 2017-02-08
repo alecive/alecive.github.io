@@ -221,7 +221,7 @@ misc:
    year: 2015-2016
    venue: Intelligent Robotics - CPSC 472
    where: New Haven, CT
-   description: During my stay at Yale University, I did two guest lectures at the Intelligent Robotics course held by Prof. Brian Scassellati. Both my lectures were meant to introduce students to the iCub platform and the research we perform at the Italian Institute of Technology. The title of my talk was <i>iCub - a shared platform for research in Robotics and AI</i> <a class="no-print" href="/slides/[Roncone 2016] iCub - a shared platform for research in Robotics and AI.pdf" target="_blank"> [PDF]</a>.
+   description: During my stay at Yale University, I did two guest lectures at the Intelligent Robotics course held by Prof. Brian Scassellati. Both my lectures were meant to introduce students to the iCub platform and the research we perform at the Italian Institute of Technology. The title of my talk was <i>iCub - a shared platform for research in Robotics and AI</i> <a href="/slides/[Roncone 2016] iCub - a shared platform for research in Robotics and AI.pdf" target="_blank">[PDF]</a>.
  - title: Teaching Assistant at the BMM - MIT Summer School
    authors: <b>Alessandro Roncone</b>, Carlo Ciliberto, Giulia Pasquale and Raffaello Camoriano
    year: 2015
@@ -279,17 +279,19 @@ misc:
   {% when 15 %}  fifteen
 {% endcase %}{% endcapture %}
 
-Energetic and resourceful Robotics Engineer with more than {{ yearDiffStr | strip_newlines }} years' research experience and a proven publication track record. Motivated by intellectually challenging projects as well as personal achievements, I pride myself on possessing a very diverse set of skills. I am capable of pursuing individual research aimed at the development of novel applications, but I particularly love to be part of a team with bright people working toward ambitious ideas. I am enthusiastic toward the design and the realization of innovative applications, and I love to work hard in pursuance of them.
+Energetic and resourceful Robotics Engineer with more than {{ yearDiffStr | strip_newlines }} years' research experience and a proven publication track record. Motivated by intellectually challenging projects as well as personal achievements, I pride myself on possessing a very diverse set of skills. I am capable of pursuing individual research aimed at the development of novel technologies, but I particularly love to be part of a team with bright people working toward ambitious ideas. I make robots work, and I do so by implementing scalable, robust, and elegant code.
 
 ---
 {: class="no-print"}
 
- * Research Engineer with extensive background in a number of different fields, from Humanoid Robotics to Human-Robot Interaction.
+ * Research Engineer with extensive background in a number of different fields, from Humanoid Robotics to Human-Robot Interaction and Advanced Manufacturing.
  * Research interests: robotics, kinematics, computer vision, tactile sensing, calibration, machine learning, sensor fusion, multisensory integration.
- * Substantial background in applying optimization techniques to real-world robotic applications: knowledgeable in particular about [IPOPT](https://projects.coin-or.org/Ipopt), a software designed for large-scale nonlinear optimization problems. Experience with control engineering and signal processing.
  * _C++ developer_, with a deep knowledge of the _YARP_ and _iCub_ software libraries. Growing experience with the _ROS_ middleware and the _Baxter_ robot.
+ * Proven ability to manage multiple projects and supervise multiple people while meeting challenging deadlines.
+ * Substantial background in applying optimization techniques to real-world robotic applications. Experience with control engineering and signal processing.
  * Obsessed by two things: _pixel-perfect graphics_, and _bit-perfect code_. This website is intended to showcase the former; for the latter, stalk me on [GitHub](http://github.com/alecive/), or take a look at some of the GitHub organizations I belong to: [Robotology](https://github.com/robotology) and [ScazLab](https://github.com/scazlab).
- * Long-time Linux user, and active contributor to the Linux FOSS community. Past experience in Graphic Design, with a number of success stories and employments.
+ * Strong presentation/communication skills thanks to experience in giving both technical and non-technical talks to both small and big groups, tailoring to the audience. Presented to major international robotics conferences, as well as several outreach events, ranging from exhibitions and fairs, to live TV shows and various interviews.
+ * Confident in writing technical reports as well as scientific papers. Authored and co-authored numerous international peer-reviewed scientific articles and journals. Some experience with research grant writing.
 
 # Summary
 
