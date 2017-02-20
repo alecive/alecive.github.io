@@ -5,7 +5,7 @@ category: cv
 description: I am a robotics engineer and a designer
 article: yes
 permalink: cv.html
-tags: [robotics,artificial intelligence,advanced manufacturing,humanoid robotics,cv,personal,resume,curriculum,online,research,design,iit,istituto italiando di tecnologia,phd,yale,university,postdoc]
+tags: [robotics,artificial intelligence,advanced manufacturing,humanoid robotics,cognitive robotics,human robto interaction,cv,personal,resume,curriculum,online,research,design,iit,istituto italiando di tecnologia,phd,yale,university,postdoc,assistant professor,candidate]
 ---
 
 <div><p class="only-print">Personal Website: <a href="https://alecive.github.io">https://alecive.github.io</a></p></div>
@@ -20,7 +20,7 @@ Energetic and resourceful Robotics Engineer with more than {{ yearDiffStr | stri
 ---
 {: class="no-print"}
 
- * Research Engineer with extensive background in a number of different fields, from Humanoid Robotics to Human-Robot Interaction.
+ * Research Engineer with extensive background in a number of different fields, from Humanoid and Cognitive Robotics to Human-Robot Interaction.
  * Research interests: robotics, kinematics, computer vision, tactile sensing, calibration, machine learning, sensor fusion, multisensory integration.
  * _C++ developer_, with a deep knowledge of the _YARP_ and _iCub_ software libraries. Growing experience with the _ROS_ middleware and the _Baxter_ robot.
  * Proven ability to manage multiple projects and supervise multiple people while meeting challenging deadlines.
