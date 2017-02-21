@@ -11,14 +11,12 @@ category: research
 description:
 tags: [research,robotics,icub,robot,humanoids,double touch,self touch,inverse kinematics,denavit-hartenberg,dh parameters,ipopt,optimization,cognitive robotics,body representations,icra,icra 2014,body schema,open source,github]
 article: yes
+authors: Alessandro Roncone, Matej Hoffmann, Ugo Pattacini, and Giorgio Metta
+submission: IEEE International Conference on Robotics and Automation (ICRA2014), Hong Kong, China, May 31-June 7, 2014
+paper_pdf: "[Roncone et al. 2014] - Automatic Kinematic Chain Calibration using artificial skin: self-touch in the iCub humanoid robot"
+paper_title: "Automatic kinematic chain calibration using artificial skin: self-touch in the iCub humanoid robot"
 
 ---
-
-### Reference paper: _Automatic kinematic chain calibration using artificial skin: self-touch in the iCub humanoid robot_ <a class="no-print" href="/papers/[Roncone et al. 2014] - Automatic Kinematic Chain Calibration using artificial skin: self-touch in the iCub humanoid robot.pdf" target="_blank"> [PDF]</a>
-
-**Authors:** _Alessandro Roncone, Matej Hoffmann, Ugo Pattacini, and Giorgio Metta_
-
-**Submission:** _IEEE International Conference on Robotics and Automation (ICRA2014), Hong Kong, China, May 31-June 7, 2014_
 
 ## Video
 {: class="no-print"}
