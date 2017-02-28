@@ -42,8 +42,8 @@
 \definecolor{error}{RGB}{217,83,79}
 
 \colorlet{mylinkcolor}{BrickRed}
-\colorlet{mycitecolor}{ForestGreen}
-\colorlet{myurlcolor}{MidnightBlue}
+\colorlet{mycitecolor}{Green}
+\colorlet{myurlcolor}{NavyBlue}
 
 \hypersetup{
   linkcolor  = mylinkcolor,
