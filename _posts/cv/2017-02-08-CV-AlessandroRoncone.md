@@ -15,7 +15,10 @@ tags: [robotics,artificial intelligence,advanced manufacturing,humanoid robotics
 # Who am I
 
 {% include years_elap.html from="2010" %}
-Energetic and resourceful Robotics Engineer with more than {{ yearDiffStr | strip_newlines }} years' research experience and a proven publication track record. Motivated by intellectually challenging projects as well as personal achievements, I pride myself on possessing a very diverse set of skills. I am capable of pursuing individual research aimed at the development of novel technologies, but I particularly love to be part of a team with bright people working toward ambitious ideas. I make robots work, and I hold a deep commitment to doing so while implementing scalable, robust, and elegant code.
+Energetic and resourceful Robotics Engineer with more than <b>{{ yearDiffStr | strip_newlines }} years'</b> research experience and a proven publication track record.
+Motivated by intellectually challenging projects that push the limits of current technologies, I pride myself on possessing a broad range of skills, matured from my unique career trajectory.
+I am capable of pursuing individual research aimed at the development of innovative applications, but I particularly love to be part of a team of bright people working toward ambitious ideas.
+I **make robots work**, and I hold a deep commitment to doing so while implementing **scalable**, **robust**, and **elegant** code.
 
 ---
 {: class="no-print"}

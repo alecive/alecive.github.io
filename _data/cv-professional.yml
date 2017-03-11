@@ -4,13 +4,13 @@
    end: present
    location: Yale University, New Haven, CT (USA)
    location-link: http://scazlab.yale.edu
-   description: "I am currently focusing on the exploitation of bidirectional communication between the robot and the human in the context of human-robot collaborative tasks. I am working toward the implementation of a more natural and intuitive interaction, in order for it to be more efficient and effective, as well as less demanding for the human partner."
+   description: "I am focusing on the exploitation of bidirectional, natural communication between the robot and the human in the context of human-robot collaborative tasks. I am generally working on the implementation of intuitive interactions, in order for them to be more efficient and effective, as well as less demanding for the human partner."
  - name: Post-Doc @ iCub Facility
    start: Jan.
    end: Oct. 2015
    location: Italian Institute of Technology (IIT), Genova IT
    location-link: http://www.iit.it
-   description: "I continued the work I started during my Ph.D. fellowship at the iCub Facility. Specifically, I was interested in the exploitation of the peripersonal space model I implemented during my Ph.D., by focusing toward two types of applications: i) better, richer body representations (in collaboration with CITEC @Bielefeld) ii) distributed motor control via whole-body awareness (partially collaborating with WYSIWYD project partners). Furthermore, I extended the gaze stabilization framework I developed during my Ph.D. by integrating it with an existing gaze controller. I was also contributing to a human-robot interaction project aimed at developing natural interaction(s) between the iCub humanoid robot and humans."
+   description: "I continued the work I started during my Ph.D. fellowship at the iCub Facility. Specifically, I was interested in the exploitation of the peripersonal space model I implemented during my Ph.D., by focusing toward two types of applications: i) better, richer body representations (in collaboration with CITEC @Bielefeld) ii) distributed motor control via whole-body awareness (partially collaborating with WYSIWYD project partners). Furthermore, I extended the gaze stabilization framework I developed during my Ph.D. by integrating it with an existing gaze controller. I was also contributing to an HRI project aimed at developing natural interactions between the iCub humanoid robot and humans during verbal communication."
  - name: Ph.D. Fellow @ iCub Facility
    title: Life and Humanoid Technologies
    start: Nov. 2011
