@@ -24,7 +24,7 @@ I **make robots work**, and I hold a deep commitment to doing so while implement
 {: class="no-print"}
 
  * Research Engineer with extensive background in a number of different fields, from Humanoid and Cognitive Robotics to Human-Robot Interaction.
- * Research interests: robotics, kinematics, computer vision, tactile sensing, calibration, machine learning, sensor fusion, multisensory integration.
+ * Research interests: _kinematics, computer vision, tactile sensing, calibration, machine learning, sensor fusion, multisensory integration_.
  * _C++ developer_, with a deep knowledge of the _YARP_ and _iCub_ software libraries. Growing experience with the _ROS_ middleware and the _Baxter_ robot.
  * Proven ability to manage multiple projects and supervise multiple people while meeting challenging deadlines.
  * Substantial background in applying optimization techniques to real-world robotic applications. Experience with control engineering and signal processing.
