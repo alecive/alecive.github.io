@@ -5,13 +5,19 @@
     - name: YARP
       knowledge: 90
     - name: Baxter
-      knowledge: 80
+      knowledge: 86
     - name: ROS
-      knowledge: 70
+      knowledge: 74
  - name: Robotics & AI
    items:
     - name: Kinematics
       knowledge: 90
+    - name: Non-Linear Optimization
+      knowledge: 85
+    - name: Decision Making
+      knowledge: 75
+    - name: Planning under uncertainty
+      knowledge: 70
     - name: 2D/3D Computer Vision
       knowledge: 80
     - name: Calibration
@@ -21,13 +27,13 @@
     - name: Machine Learning
       knowledge: 60
     - name: Tactile Sensing
-      knowledge: 80
+      knowledge: 85
     - name: Sensor Fusion
       knowledge: 55
-    - name: Non-Linear Optimization
-      knowledge: 75
     - name: Filtering
       knowledge: 60
+    - name: IMU Processing
+      knowledge: 85
  - name: Programming
    items:
     - name: C++

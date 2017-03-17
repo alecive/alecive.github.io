@@ -23,11 +23,11 @@ I **make robots work**, and I hold a deep commitment to doing so while implement
 ---
 {: class="no-print"}
 
- * Research Engineer with extensive background in a number of different fields, from Humanoid and Cognitive Robotics to Human-Robot Interaction.
- * Research interests: _kinematics, computer vision, tactile sensing, calibration, machine learning, sensor fusion, multisensory integration_.
- * _C++ developer_, with a deep knowledge of the _YARP_ and _iCub_ software libraries. Growing experience with the _ROS_ middleware and the _Baxter_ robot.
- * Proven ability to manage multiple projects and supervise multiple people while meeting challenging deadlines.
- * Substantial background in applying optimization techniques to real-world robotic applications. Experience with control engineering and signal processing.
+ * Extensive background in **Humanoid Robotics**, **Cognitive Robotics**, and **Human-Robot Interaction**.
+ * Research interests: **kinematics, optimization, robot control, decision making, planning under uncertainty, calibration, tactile sensing, machine learning, 2d and 3d computer vision, IMU processing**.
+ * **C++** developer, with a deep knowledge of the _YARP_ and _iCub_ software libraries. Growing experience with the _ROS_ middleware and the _Baxter_ robot.
+ * Proven ability to manage multiple projects and supervise multiple people while meeting challenging deadlines. Mentored
+and trained technicians, Ph.D. students, and post-docs, adapting to various scientific levels and backgrounds.
  * Obsessed by two things: _pixel-perfect graphics_, and _bit-perfect code_. This website is intended to showcase the former; for the latter, stalk me on [GitHub](http://github.com/alecive/), or take a look at some of the GitHub organizations I belong to: [Robotology](https://github.com/robotology) and [ScazLab](https://github.com/scazlab).
  * Strong presentation/communication skills thanks to experience in giving both technical and non-technical talks to both small and big groups, tailoring to the audience. Presented to major international robotics conferences, as well as several outreach events, ranging from exhibitions and fairs, to live TV shows and various interviews.
  * Confident in writing technical reports as well as scientific papers. Authored and co-authored numerous international peer-reviewed scientific articles and journals. Some experience with research grant writing.
