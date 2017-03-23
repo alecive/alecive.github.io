@@ -1,13 +1,13 @@
  - name: Robots & Platforms
    items:
     - name: iCub
-      knowledge: 95
+      knowledge: 97
     - name: YARP
-      knowledge: 90
+      knowledge: 92
     - name: Baxter
-      knowledge: 86
+      knowledge: 88
     - name: ROS
-      knowledge: 74
+      knowledge: 84
  - name: Robotics & AI
    items:
     - name: Kinematics
@@ -34,7 +34,7 @@
       knowledge: 60
     - name: IMU Processing
       knowledge: 85
- - name: Programming
+ - name: Programming Langages
    items:
     - name: C++
       knowledge: 95
@@ -46,30 +46,30 @@
       knowledge: 65
     - name: CSS3 & HTML5
       knowledge: 90
-    - name: UX/UI
-      knowledge: 70
     - name: R
       knowledge: 25
     - name: Python
-      knowledge: 20
- - name: Versioning Systems
-   items:
-    - name: Git
-      knowledge: 90
-    - name: Subversion
-      knowledge: 60
-    - name: cvs
-      knowledge: 20
- - name: Mobile
-   items:
-    - name: Android Development
+      knowledge: 30
+    - name: Android/Java
       knowledge: 45
  - name: OS/Software
    items:
     - name: Linux
       knowledge: 95
     - name: Windows
-      knowledge: 30
+      knowledge: 40
+    - name: git
+      knowledge: 94
+    - name: svn
+      knowledge: 70
+    - name: cvs
+      knowledge: 40
+    - name: Travis
+      knowledge: 72
+    - name: GDB
+      knowledge: 78
+    - name: UX/UI
+      knowledge: 88
     - name: Gimp
       knowledge: 80
     - name: Inkscape
@@ -79,4 +79,4 @@
     - name: Italian
       knowledge: 99
     - name: English
-      knowledge: 87
+      knowledge: 93
