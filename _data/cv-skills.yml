@@ -34,7 +34,7 @@
       knowledge: 60
     - name: IMU Processing
       knowledge: 85
- - name: Programming Langages
+ - name: Programming
    items:
     - name: C++
       knowledge: 95
@@ -47,9 +47,9 @@
     - name: CSS3 & HTML5
       knowledge: 90
     - name: R
-      knowledge: 25
-    - name: Python
       knowledge: 30
+    - name: Python
+      knowledge: 35
     - name: Android/Java
       knowledge: 45
  - name: OS/Software
@@ -64,9 +64,11 @@
       knowledge: 70
     - name: cvs
       knowledge: 40
-    - name: Travis
-      knowledge: 72
-    - name: GDB
+    - name: Continous Integration
+      knowledge: 82
+    - name: Unit Testing
+      knowledge: 78
+    - name: Debugging
       knowledge: 78
     - name: UX/UI
       knowledge: 88
