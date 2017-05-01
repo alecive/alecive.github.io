@@ -1,13 +1,14 @@
 ---
 layout: post
 title: GitHub Tricks
-link: 
-link-alt: 
+link:
+link-alt:
 date: 2015-07-08
 category: blog
 description: Useful commands for my everyday GitHub life
 tags: [blog,how to,tutorial,github,git,tips and tricks]
 article: yes
+permalink: github_tricks.html
 
 ---
 
@@ -79,7 +80,7 @@ Two issues arise:
 
 {% highlight bash %}
 git checkout test
-git pull 
+git pull
 git checkout master
 git pull
 git merge --no-ff --no-commit test
@@ -120,7 +121,7 @@ git rebase -i test
 
 ### Delete a branch
 Assuming that yours is a branch called `bugfix`, you have to do the following:
- 
+
  * locally: `git branch -D bugfix`
  * remotely: `git push origin :bugfix`
 
@@ -161,7 +162,7 @@ In order to go from `HTTPS` to `SSH`, you need to use the `remote set-url` comma
 $ git remote set-url origin git@github.com:USERNAME/REPOSITORY.git
 {% endhighlight %}
 
-## Change remote URL 
+## Change remote URL
 
 The same command is used to point your repository to another remote:
 
@@ -189,7 +190,7 @@ upstream  https://github.com/ORIGINAL_OWNER/ORIGINAL_REPOSITORY.git (push)
 
 ## Syncing a fork
 
-Syncing a fork of a repository aims at keeping it up-to-date with the upstream repository. 
+Syncing a fork of a repository aims at keeping it up-to-date with the upstream repository.
 Before you can sync your fork with an upstream repository, you must configure a remote that points to the upstream repository in Git.
 
 Then, you need to fetch the branches and their respective commits from the upstream repository. Commits to master will be stored in a local branch, `upstream/master`:
@@ -400,7 +401,7 @@ git checkout -b old-state 0d1d7fc32
 
 ## Hard delete commits
 
-To get rid of everything you've done since then, there are two possibilities. 
+To get rid of everything you've done since then, there are two possibilities.
 
 ### Hard delete unpublished commits
 
@@ -509,7 +510,7 @@ That shows the tagger information, the date the commit was tagged, and the annot
 git tag -a v1.2 9fceb02 -m "Message here"
 {% endhighlight %}
 
-Where `9fceb02` is the beginning part of the commit id. You can then push them up using 
+Where `9fceb02` is the beginning part of the commit id. You can then push them up using
 
 ## Pushing tags
 
@@ -570,7 +571,7 @@ Sometimes, it might just be not possible to either merge or rebase two branches.
 
 {% highlight bash %}
 $ git diff --name-status master..experimental     # this lists the files that have diffs between the two branches
-$ git difftool master experimental -- filename    # this opens a difftool viewer (in my case, Meld), to analyze the diff between a file in two different branches 
+$ git difftool master experimental -- filename    # this opens a difftool viewer (in my case, Meld), to analyze the diff between a file in two different branches
 {% endhighlight %}
 
 To pick a file from the `master` branch and move it into the `experimental` branch:
