@@ -21,7 +21,7 @@ permalink: github_tricks.html
 
 ## Create a new branch
 
-### Create a new branch from scratch and push it to the remote repo
+### Create a new branch from scratch
 
 Before creating a new branch pull the changes from upstream, since your master needs to be up to date. Then :
 
@@ -53,64 +53,6 @@ To create a new repo and make it track one of the listed branches, simply type:
 
 A `git pull` should not be necessary.
 
-## Merge a branch into master
-
-### Unsafely (but it works 90% of the times)
-This is one very practice question, but all before answers are not practical.
-
-~~~bash
-$ git checkout master
-$ git pull origin master
-$ git merge test
-$ git push origin master
-~~~
-
-Two issues arise:
-
- 1. Not safe because we don't know if there are any conflicts between test branch and master branch
- 2. it would "squeeze" all test commits into one merge commit on master: on master branch, we can't see the all the changelogs of test branch
-
-### Safely
-
-~~~bash
-$ git checkout test
-$ git pull
-$ git checkout master
-$ git pull
-$ git merge --no-ff --no-commit test
-~~~
-
-The latest command tests the merge merge before committing, and avoids a fast-forward commit by `--no-ff`; if conflicts appear, we can run `git status` to check details about the conflicts and try to solve them.
-Once we solve the conflicts, or there are no conflicts at all, we can commit and push them:
-
-~~~bash
-$ git commit -m 'merge test branch'
-$ git push
-~~~
-
-But in this way you will lose the changelogs in the test branch. Solution is, use `rebase` instead of `merge` (IF we have solved the branches conflicts). Please refer to [http://git-scm.com/book/en/v2/Git-Branching-Rebasing](http://git-scm.com/book/en/v2/Git-Branching-Rebasing) for further info.
-
-~~~bash
-$ git checkout master
-$ git pull
-$ git checkout test
-$ git pull
-$ git rebase -i master
-$ git checkout master
-$ git merge test
-~~~
-
-The major benefit of rebasing is that you get a much cleaner project history.
-
-#### IMPORTANT
-
-The only thing you need to avoid is: **never use `rebase` on `master` branch!** I.e. never do this:
-
-~~~bash
-$ git checkout master
-$ git rebase -i test
-~~~
-
 ## Delete a remote/local branch or tag
 
 ### Delete a branch
@@ -138,6 +80,124 @@ To copy a file from one branch to another, e.g. from the `experiment` branch to 
 $ git checkout master                 # get back to master
 $ git checkout experiment -- file.txt # copy the version of the file from "experiment"
 ~~~
+
+# Merging and Rebasing
+
+In Git, there are two main ways to integrate changes from one branch into another: the `merge` and the `rebase`.
+Let us assume that we have this setup, in which `experiment` branch has diverged from `master`:
+
+{% include image.html max-width="50%" exturl="https://git-scm.com/book/en/v2/book/03-git-branching/images/basic-rebase-1.png" description="Simple divergent history" %}
+
+The easiest way to integrate the branches is the `merge` command. It performs a three-way merge between the two latest branch snapshots (`C3` and `C4`) and the most recent common ancestor of the two (`C2`), creating a new snapshot (and commit).
+
+{% include image.html max-width="50%" exturl="https://git-scm.com/book/en/v2/book/03-git-branching/images/basic-rebase-2.png" description="Merging to integrate diverged work history" %}
+
+However, you can also `rebase`: you can take the patch of the change that was introduced in `C4` and reapply it on top of `C3`. With the `rebase` command, **you can take all the changes that were committed on one branch and replay them on another one**.
+In this example, you'd run the following:
+
+~~~bash
+$ git checkout experiment
+$ git rebase master
+First, rewinding head to replay your work on top of it...
+Applying: added staged command
+~~~
+
+It works by going to the common ancestor of the two branches (the one you're on and the one you're rebasing onto), getting the diff introduced by each commit of the branch you're on, saving those diffs to temporary files, resetting the current branch to the same commit as the branch you are rebasing onto, and finally applying each change in turn.
+
+{% include image.html max-width="50%" exturl="https://git-scm.com/book/en/v2/book/03-git-branching/images/basic-rebase-3.png" description="Rebasing the change introduced in C4 onto C3." %}
+
+At this point, you can go back to the master branch and do a fast-forward merge.
+
+~~~bash
+$ git checkout master
+$ git merge experiment
+~~~
+
+{% include image.html max-width="50%" exturl="https://git-scm.com/book/en/v2/book/03-git-branching/images/basic-rebase-4.png" description="Fast-forwarding the master branch." %}
+
+Now, the snapshot pointed to by `C4'` is exactly the same as the one that was pointed to by `C5` in the merge example. There is no difference in the end product of the integration, but **rebasing makes for a cleaner history**. If you examine the log of a rebased branch, it looks like a linear history: it appears that all the work happened in series, even when it originally happened in parallel.
+
+Often, you'll do this to make sure your commits apply cleanly on a remote branch – perhaps in a project to which you're trying to contribute but that you don't maintain. In this case, you'd do your work in a branch and then rebase your work onto origin/master when you were ready to submit your patches to the main project. That way, **the maintainer doesn't have to do any integration work – just a fast-forward or a clean apply**.
+
+## How to play with different branches
+
+Sometimes, it might just be not possible to either merge or rebase two branches. In this context, the commands listed below might come useful:
+
+~~~bash
+$ git diff --name-status master..experimental     # this lists the files that have diffs between the two branches
+$ git difftool master experimental -- filename    # this opens a difftool viewer (in my case, Meld), to analyze the diff between a file in two different branches
+~~~
+
+To pick a file from the `master` branch and move it into the `experimental` branch:
+
+~~~bash
+$ git checkout experimental
+$ git checkout master -- modules/virtualContactGeneration/
+~~~
+
+
+## Merge a branch into master
+
+### Unsafely
+This is one very practice question, but all before answers are not practical.
+
+~~~bash
+$ git checkout master
+$ git pull origin master
+$ git merge test
+$ git push origin master
+~~~
+
+Two issues arise:
+
+ 1. Not safe because we don't know if there are any conflicts between test branch and master branch
+ 2. it would "squeeze" all test commits into one merge commit on master: on master branch, we can't see the all the changelogs of test branch
+
+### Safely
+
+~~~bash
+$ git checkout test
+$ git pull
+$ git checkout master
+$ git pull
+$ git merge --no-ff --no-commit test
+~~~
+
+The latest command tests the merge before committing, and avoids a fast-forward commit by `--no-ff`; if conflicts appear, we can run `git status` to check details about the conflicts and try to solve them.
+Once we solve the conflicts, or there are no conflicts at all, we can commit and push them:
+
+~~~bash
+$ git commit -m 'merge test branch'
+$ git push
+~~~
+
+But in this way you will lose the changelogs in the test branch. Solution is, use `rebase` instead of `merge` (IF we have solved the branches conflicts). Please refer to [http://git-scm.com/book/en/v2/Git-Branching-Rebasing](http://git-scm.com/book/en/v2/Git-Branching-Rebasing) for further info.
+
+~~~bash
+$ git checkout master
+$ git pull
+$ git checkout test
+$ git pull
+$ git rebase -i master
+$ git checkout master
+$ git merge test
+~~~
+
+The major benefit of rebasing is that you get a much cleaner project history. But there are some risks (see below).
+
+#### IMPORTANT
+
+The only thing you need to avoid is: **never rebase a branch on `master`!**. The rebase moves all of the commits in `master` onto the tip of `test`. The problem is that this only happened in your repository. All of the other developers are still working with the original `master`. Since rebasing rewrites history, `git` will think that your master branch’s history has diverged from everybody else's.
+
+The only way to synchronize the two `master` branches is to merge them back together, resulting in an extra merge commit and two sets of commits that contain the same changes (the original ones, and the ones from your rebased branch). Needless to say, this is a very confusing situation.
+
+If you try to push the rebased master branch back to a remote repository, `git` will prevent you from doing so because it conflicts with the remote master branch. But, you can force the push to go through by passing the `--force` flag:
+
+~~~bash
+git push --force # Be very careful with this command!
+~~~
+
+This overwrites the remote `master` branch to match the rebased one from your repository and makes things very confusing for the rest of the team.
 
 # Remote URLs
 
@@ -241,7 +301,7 @@ Fast-forward
 
 You can then work on other branches, make commits, etc. and when you're ready to get back to where you were, you type git stash pop and you're back, working at full speed.
 
-## Example: Working Normally
+## Example: working normally
 
 Before you start git stashing, make sure any new files added to the working directory have been added to the index: git stash will not stash (save) files in the working directory unless the files are being tracked (some version of the file has been added to the index).
 
@@ -294,7 +354,7 @@ This is the README file.
 
 By doing so, the changes we had made to the working directory, are squirreled away somewhere to somewhere safe. Further, the working directory is set back to its state before the modifications were made. In particular: `file2` was removed, and the `README` no longer has the second line.
 
-### Work On Another Branch or Two
+### Work on another branch or two
 
 Now we can do anything we want, such as git checkout other-branch, make modifications, fix bugs, and commit the fix to that branch. When we're ready to continue where we left off, we simply type `git stash pop` and our "stashed" working directory is back where it was when we had typed `git stash`:
 
@@ -524,61 +584,6 @@ $ git push --tags origin master
 ~~~
 
 Now, when someone else clones or pulls from your repository, they will get all your tags as well. Here is [a good chapter on tagging](http://git-scm.com/book/en/v2/Git-Basics-Tagging).
-
-# Merging and Rebasing
-
-In Git, there are two main ways to integrate changes from one branch into another: the `merge` and the `rebase`.
-Let us assume that we have this setup, in which `experiment` branch has diverged from `master`:
-
-{% include image.html max-width="50%" exturl="https://git-scm.com/book/en/v2/book/03-git-branching/images/basic-rebase-1.png" description="Simple divergent history" %}
-
-The easiest way to integrate the branches is the `merge` command. It performs a three-way merge between the two latest branch snapshots (`C3` and `C4`) and the most recent common ancestor of the two (`C2`), creating a new snapshot (and commit).
-
-{% include image.html max-width="50%" exturl="https://git-scm.com/book/en/v2/book/03-git-branching/images/basic-rebase-2.png" description="Merging to integrate diverged work history" %}
-
-However, you can also `rebase`: you can take the patch of the change that was introduced in `C4` and reapply it on top of `C3`. With the `rebase` command, **you can take all the changes that were committed on one branch and replay them on another one**.
-In this example, you'd run the following:
-
-~~~bash
-$ git checkout experiment
-$ git rebase master
-First, rewinding head to replay your work on top of it...
-Applying: added staged command
-~~~
-
-It works by going to the common ancestor of the two branches (the one you're on and the one you're rebasing onto), getting the diff introduced by each commit of the branch you're on, saving those diffs to temporary files, resetting the current branch to the same commit as the branch you are rebasing onto, and finally applying each change in turn.
-
-{% include image.html max-width="50%" exturl="https://git-scm.com/book/en/v2/book/03-git-branching/images/basic-rebase-3.png" description="Rebasing the change introduced in C4 onto C3." %}
-
-At this point, you can go back to the master branch and do a fast-forward merge.
-
-~~~bash
-$ git checkout master
-$ git merge experiment
-~~~
-
-{% include image.html max-width="50%" exturl="https://git-scm.com/book/en/v2/book/03-git-branching/images/basic-rebase-4.png" description="Fast-forwarding the master branch." %}
-
-Now, the snapshot pointed to by `C4'` is exactly the same as the one that was pointed to by `C5` in the merge example. There is no difference in the end product of the integration, but **rebasing makes for a cleaner history**. If you examine the log of a rebased branch, it looks like a linear history: it appears that all the work happened in series, even when it originally happened in parallel.
-
-Often, you'll do this to make sure your commits apply cleanly on a remote branch – perhaps in a project to which you're trying to contribute but that you don't maintain. In this case, you'd do your work in a branch and then rebase your work onto origin/master when you were ready to submit your patches to the main project. That way, **the maintainer doesn't have to do any integration work – just a fast-forward or a clean apply**.
-
-## How to play with different branches
-
-Sometimes, it might just be not possible to either merge or rebase two branches. In this context, the commands listed below might come useful:
-
-~~~bash
-$ git diff --name-status master..experimental     # this lists the files that have diffs between the two branches
-$ git difftool master experimental -- filename    # this opens a difftool viewer (in my case, Meld), to analyze the diff between a file in two different branches
-~~~
-
-To pick a file from the `master` branch and move it into the `experimental` branch:
-
-~~~bash
-$ git checkout experimental
-$ git checkout master -- modules/virtualContactGeneration/
-~~~
-
 # Ignore tracked files
 
 In most projects/repositories, there are some files whose default version is important to track, but that change very often and whose change is machine dependent (e.g. configuration files) or is a consequence of automatic change while building the code. Usually, you don't want to un-track them, you just don't want them to appear as modified and you don't want them to be staged when you `git add`. The command is the following:
