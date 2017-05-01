@@ -3,7 +3,6 @@ layout: post
 title: GitHub Tricks
 link:
 link-alt:
-date: 2015-07-08
 category: blog
 description: Useful commands for my everyday GitHub life
 tags: [blog,how to,tutorial,github,git,tips and tricks]
@@ -532,11 +531,11 @@ Now, when someone else clones or pulls from your repository, they will get all y
 In Git, there are two main ways to integrate changes from one branch into another: the `merge` and the `rebase`.
 Let us assume that we have this setup, in which `experiment` branch has diverged from `master`:
 
-{% include image.html exturl="https://git-scm.com/book/en/v2/book/03-git-branching/images/basic-rebase-1.png" description="Simple divergent history" %}
+{% include image.html max-width="50%" exturl="https://git-scm.com/book/en/v2/book/03-git-branching/images/basic-rebase-1.png" description="Simple divergent history" %}
 
 The easiest way to integrate the branches is the `merge` command. It performs a three-way merge between the two latest branch snapshots (`C3` and `C4`) and the most recent common ancestor of the two (`C2`), creating a new snapshot (and commit).
 
-{% include image.html exturl="https://git-scm.com/book/en/v2/book/03-git-branching/images/basic-rebase-2.png" description="Merging to integrate diverged work history" %}
+{% include image.html max-width="50%" exturl="https://git-scm.com/book/en/v2/book/03-git-branching/images/basic-rebase-2.png" description="Merging to integrate diverged work history" %}
 
 However, you can also `rebase`: you can take the patch of the change that was introduced in `C4` and reapply it on top of `C3`. With the `rebase` command, **you can take all the changes that were committed on one branch and replay them on another one**.
 In this example, you'd run the following:
@@ -550,7 +549,7 @@ Applying: added staged command
 
 It works by going to the common ancestor of the two branches (the one you're on and the one you're rebasing onto), getting the diff introduced by each commit of the branch you're on, saving those diffs to temporary files, resetting the current branch to the same commit as the branch you are rebasing onto, and finally applying each change in turn.
 
-{% include image.html exturl="https://git-scm.com/book/en/v2/book/03-git-branching/images/basic-rebase-3.png" description="Rebasing the change introduced in C4 onto C3." %}
+{% include image.html max-width="50%" exturl="https://git-scm.com/book/en/v2/book/03-git-branching/images/basic-rebase-3.png" description="Rebasing the change introduced in C4 onto C3." %}
 
 At this point, you can go back to the master branch and do a fast-forward merge.
 
@@ -559,7 +558,7 @@ $ git checkout master
 $ git merge experiment
 {% endhighlight %}
 
-{% include image.html exturl="https://git-scm.com/book/en/v2/book/03-git-branching/images/basic-rebase-4.png" description="Fast-forwarding the master branch." %}
+{% include image.html max-width="50%" exturl="https://git-scm.com/book/en/v2/book/03-git-branching/images/basic-rebase-4.png" description="Fast-forwarding the master branch." %}
 
 Now, the snapshot pointed to by `C4'` is exactly the same as the one that was pointed to by `C5` in the merge example. There is no difference in the end product of the integration, but **rebasing makes for a cleaner history**. If you examine the log of a rebased branch, it looks like a linear history: it appears that all the work happened in series, even when it originally happened in parallel.
 
