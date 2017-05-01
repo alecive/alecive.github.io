@@ -23,16 +23,11 @@ permalink: github_tricks.html
 
 ### Create a new branch from scratch and push it to the remote repo
 
-Before creating a new branch pull the changes from upstream, since your master needs to be up to date. Create the branch on your local machine and switch in this branch :
+Before creating a new branch pull the changes from upstream, since your master needs to be up to date. Then :
 
 ~~~bash
-git checkout -b [name_of_your_new_branch]
-~~~
-
-Push the branch on github :
-
-~~~bash
-git push origin [name_of_your_new_branch]
+$ git checkout -b [name_of_your_new_branch] # Create the branch on your local machine and switch in this branch
+$ git push origin [name_of_your_new_branch] # Push the branch on github
 ~~~
 
 When you want to commit something in your branch, be sure to be in your branch. You can see all branches created by using `git branch`.
@@ -42,7 +37,7 @@ When you want to commit something in your branch, be sure to be in your branch. 
 `git branch -a` will list all of the remote branches that are available to pull from the repo, e.g.:
 
 ~~~bash
-[alecive@malakim]$ git branch -a
+$ git branch -a
 * master
   remotes/origin/HEAD -> origin/master
   remotes/origin/features/redball-shanghai
@@ -64,10 +59,10 @@ A `git pull` should not be necessary.
 This is one very practice question, but all before answers are not practical.
 
 ~~~bash
-git checkout master
-git pull origin master
-git merge test
-git push origin master
+$ git checkout master
+$ git pull origin master
+$ git merge test
+$ git push origin master
 ~~~
 
 Two issues arise:
@@ -78,31 +73,31 @@ Two issues arise:
 ### Safely
 
 ~~~bash
-git checkout test
-git pull
-git checkout master
-git pull
-git merge --no-ff --no-commit test
+$ git checkout test
+$ git pull
+$ git checkout master
+$ git pull
+$ git merge --no-ff --no-commit test
 ~~~
 
 The latest command tests the merge merge before committing, and avoids a fast-forward commit by `--no-ff`; if conflicts appear, we can run `git status` to check details about the conflicts and try to solve them.
 Once we solve the conflicts, or there are no conflicts at all, we can commit and push them:
 
 ~~~bash
-git commit -m 'merge test branch'
-git push
+$ git commit -m 'merge test branch'
+$ git push
 ~~~
 
 But in this way you will lose the changelogs in the test branch. Solution is, use `rebase` instead of `merge` (IF we have solved the branches conflicts). Please refer to [http://git-scm.com/book/en/v2/Git-Branching-Rebasing](http://git-scm.com/book/en/v2/Git-Branching-Rebasing) for further info.
 
 ~~~bash
-git checkout master
-git pull
-git checkout test
-git pull
-git rebase -i master
-git checkout master
-git merge test
+$ git checkout master
+$ git pull
+$ git checkout test
+$ git pull
+$ git rebase -i master
+$ git checkout master
+$ git merge test
 ~~~
 
 The major benefit of rebasing is that you get a much cleaner project history.
@@ -112,8 +107,8 @@ The major benefit of rebasing is that you get a much cleaner project history.
 The only thing you need to avoid is: **never use `rebase` on `master` branch!** I.e. never do this:
 
 ~~~bash
-git checkout master
-git rebase -i test
+$ git checkout master
+$ git rebase -i test
 ~~~
 
 ## Delete a remote/local branch or tag
@@ -121,26 +116,27 @@ git rebase -i test
 ### Delete a branch
 Assuming that yours is a branch called `bugfix`, you have to do the following:
 
- * locally: `git branch -D bugfix`
- * remotely: `git push origin :bugfix`
+~~~bash
+$ git branch -D bugfix    # locally
+$ git push origin :bugfix # remotely
+~~~
 
 ### Delete a tag
 
-If you want to delete a local tag then you would do `git tag -d <tag name>` (as you did with the branch). But if you want to delete remote tag, then the syntax is a little different:
+Local tag deletion is similar to local branch deletion. But if you want to delete remote tag, then the syntax is a little different:
 
 ~~~bash
-$ git push origin :refs/tags/<tag name>
+$ git tag -d <tag name>                 # locally
+$ git push origin :refs/tags/<tag name> # remotely
 ~~~
-
-This will delete the tag on the remote origin.
 
 ## Copy files between branches
 
 To copy a file from one branch to another, e.g. from the `experiment` branch to the `master` branch,
 
 ~~~bash
-git checkout master                 # get back to master
-git checkout experiment -- file.txt # copy the version of the file from "experiment"
+$ git checkout master                 # get back to master
+$ git checkout experiment -- file.txt # copy the version of the file from "experiment"
 ~~~
 
 # Remote URLs
@@ -332,13 +328,13 @@ Rebasing interactively means that you have a chance to edit the commits which ar
 Start it with the last commit you want to retain as-is:
 
 ~~~bash
-git rebase -i <after-this-commit>
+$ git rebase -i <after-this-commit>
 ~~~
 
 For example, let's assume that you want to reorder the last 5 commits, such that what was HEAD~4 becomes the new HEAD. To achieve that, you would call `git rebase` like this:
 
 ~~~bash
-git rebase -i HEAD~5
+$ git rebase -i HEAD~5
 ~~~
 
 An editor will be fired up with all the commits in your current branch (ignoring merge commits), which come after the given commit. You can reorder the commits in this list to your heart’s content, and you can remove them. The list looks more or less like this:
@@ -387,7 +383,7 @@ If you are not absolutely sure that the intermediate revisions are consistent (t
 In order to temporarily go back to a previous commit, fool around, then come back to the master, all you have to do is check out the desired commit:
 
 ~~~bash
-git checkout 0d1d7fc32
+$ git checkout 0d1d7fc32
 ~~~
 
 This will detach your HEAD, that is, leave you with no branch checked out.
@@ -397,7 +393,7 @@ This will detach your HEAD, that is, leave you with no branch checked out.
 In order to make commits from that commit, a new branch is needed:
 
 ~~~bash
-git checkout -b old-state 0d1d7fc32
+$ git checkout -b old-state 0d1d7fc32
 ~~~
 
 ## Hard delete commits
@@ -409,7 +405,7 @@ To get rid of everything you've done since then, there are two possibilities.
 If those commits have not been published yet, simply reset:
 
 ~~~bash
-git reset --hard 0d1d7fc32
+$ git reset --hard 0d1d7fc32
 ~~~
 
 This will destroy any local modifications. *Don't do it if you have uncommitted work you want to keep.*
@@ -417,9 +413,9 @@ This will destroy any local modifications. *Don't do it if you have uncommitted 
 Alternatively, if there's work to keep:
 
 ~~~bash
-git stash
-git reset --hard 0d1d7fc32
-git stash pop
+$ git stash
+$ git reset --hard 0d1d7fc32
+$ git stash pop
 ~~~
 
 This saves the modifications, then reapplies that patch after resetting. You could get merge conflicts, if you've modified things which were changed since the commit you reset to. If you mess up, you've already thrown away your local changes, but you can at least get back to where you were before by resetting again.
@@ -431,31 +427,31 @@ On the other hand, if you've published the work, you probably don't want to rese
 This will create three separate revert commits:
 
 ~~~bash
-git revert a867b4af 25eee4ca 0766c053
+$ git revert a867b4af 25eee4ca 0766c053
 ~~~
 
 It also takes ranges. This will revert the last two commits:
 
 ~~~bash
-git revert HEAD~2..HEAD
+$ git revert HEAD~2..HEAD
 ~~~
 
 Reverting a merge commit
 
 ~~~bash
-git revert -m 1 <merge_commit_sha>
+$ git revert -m 1 <merge_commit_sha>
 ~~~
 
 To get just one, you could use `rebase -i` to squash them afterwards. Or, you could do it manually (be sure to do this at top level of the repo) get your index and work tree into the desired state, without changing HEAD:
 
 ~~~bash
-git checkout 0d1d7fc32 .
+$ git checkout 0d1d7fc32 .
 ~~~
 
 Then commit. Be sure and write a good message describing what you just did!
 
 ~~~bash
-git commit
+$ git commit
 ~~~
 
 The [`git-revert` manpage](http://schacon.github.io/git/git-revert.html) actually covers a lot of this in its description. Another useful link is this [git-scm.com blog post](http://git-scm.com/blog/2010/03/02/undoing-merges.html) discussing `git-revert`.
@@ -508,7 +504,7 @@ That shows the tagger information, the date the commit was tagged, and the annot
 ### Creating annotated tags for past commits
 
 ~~~bash
-git tag -a v1.2 9fceb02 -m "Message here"
+$ git tag -a v1.2 9fceb02 -m "Message here"
 ~~~
 
 Where `9fceb02` is the beginning part of the commit id. You can then push them up using
@@ -518,13 +514,13 @@ Where `9fceb02` is the beginning part of the commit id. You can then push them u
 By default, the `git push` command doesn't transfer tags to remote servers. You will have to explicitly push tags to a shared server after you have created them. This process is just like sharing remote branches - you can run `git push origin [tagname]`:
 
 ~~~bash
-git push origin v1.5
+$ git push origin v1.5
 ~~~
 
 If you have a lot of tags that you want to push up at once, you can also use the `--tags` option to the `git push` command. This will transfer all of your tags to the remote server that are not already there.
 
 ~~~bash
-git push --tags origin master
+$ git push --tags origin master
 ~~~
 
 Now, when someone else clones or pulls from your repository, they will get all your tags as well. Here is [a good chapter on tagging](http://git-scm.com/book/en/v2/Git-Basics-Tagging).
@@ -588,7 +584,7 @@ $ git checkout master -- modules/virtualContactGeneration/
 In most projects/repositories, there are some files whose default version is important to track, but that change very often and whose change is machine dependent (e.g. configuration files) or is a consequence of automatic change while building the code. Usually, you don't want to un-track them, you just don't want them to appear as modified and you don't want them to be staged when you `git add`. The command is the following:
 
 ~~~bash
-git update-index --assume-unchanged [<file> ...]
+$ git update-index --assume-unchanged [<file> ...]
 ~~~
 
 Git will fail (gracefully) in case it needs to modify this file in the index e.g. when merging in a commit; thus, in case the assumed-untracked file is changed upstream, you will need to handle the situation manually.
@@ -596,7 +592,7 @@ Git will fail (gracefully) in case it needs to modify this file in the index e.g
 Importantly, in order to undo the previous command and start tracking again, use:
 
 ~~~bash
-git update-index --no-assume-unchanged [<file> ...]
+$ git update-index --no-assume-unchanged [<file> ...]
 ~~~
 
 ## What if I forgot what files were untracked?
@@ -606,7 +602,7 @@ You can use `git ls-files -v`. If the character printed is lower-case, the file 
 To print just the files that are unchanged use:
 
 ~~~bash
-git ls-files -v | grep '^[[:lower:]]'
+$ git ls-files -v | grep '^[[:lower:]]'
 ~~~
 
 To embrace your lazy programmer, turn this into a git alias. Edit your `.gitconfig` file to add this snippet:
