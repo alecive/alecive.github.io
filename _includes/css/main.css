@@ -159,7 +159,7 @@ h4 {
     text-transform: none;
 }
 
-tt, code, kbd, samp, pre, .img-caption {
+tt, code, kbd, samp, pre {
     font-family: 'Hack', 'Meslo LG S for Powerline', 'Menlo', monospace !important;
 }
 
@@ -613,12 +613,6 @@ section.success p {
     position: relative;
 }
 
-.img-caption {
-    word-break: break-all;
-    word-wrap: break-word;
-    box-sizing: border-box;
-}
-
 .img-container {
     display: table;
 }
@@ -691,6 +685,13 @@ code,
 
 .img-caption {
     padding-top: .6em;
+
+    /*word-break: break-all;*/
+    /*word-wrap: break-word;*/
+    box-sizing: border-box;
+    text-align: justify;
+    font-size: 0.9em;
+    color: #{{ site.color.articletext}};
 }
 
 pre {
