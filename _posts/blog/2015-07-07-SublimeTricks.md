@@ -38,7 +38,7 @@ Adds shortcuts and menu entries for opening a terminal at the current file, or t
 
 In addition to the key bindings, terminals can also be opened via the editor context menu and the sidebar context menus.
 
-The only problem is that the `ctrl+shift+t` key binding is already associated with the "Reopen closed file" feature that I use a lot. In order to avoid overlapping, I decided to move these key bindings to `ctrl+alt+t` and `ctrl+alt+shift+t`. Custom key bindings such as this would be added to the file opened when accessing the `Preferences > Key Bindings – User` menu entry (the file name varies by operating system).
+The only problem is that the `ctrl+shift+t` key binding is already associated with the "Reopen closed file" feature that I use a lot. In order to avoid overlapping, I decided to move these key bindings to `ctrl+alt+t` and `ctrl+alt+shift+t`. Custom key bindings such as this would be added to the file opened when accessing the `Preferences` → `Key Bindings – User` menu entry (the file name varies by operating system).
 
 ~~~json
 [
