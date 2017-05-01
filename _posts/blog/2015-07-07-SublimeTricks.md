@@ -1,13 +1,14 @@
 ---
 layout: post
 title: Sublime Tricks
-link: 
-link-alt: 
+link:
+link-alt:
 date: 2015-07-07
 category: blog
 description: Tips and tricks for Sublime Text Editor
 tags: [blog,how to,tutorial,sublime text,tips and tricks]
 article: yes
+permalink: sublime_tricks.html
 
 ---
 
@@ -21,9 +22,8 @@ article: yes
 
 GitHub repo: [https://github.com/weslly/ColorPicker](https://github.com/weslly/ColorPicker)
 
-Gives you the ability to change colors with a color picker on the fly. To insert or change a selected color, use `ctrl+shift+c`
-
-By default, the hex color code is inserted using uppercase letters (`#ABCDEF`, for example). To use lowercase letters (`#abcdef`) instead, copy the contents of `Preferences``→``Package Settings``→``ColorPicker``→``Settings—Default` to the empty file created by selecting `Preferences``→``Package Settings``→``ColorPicker``→``Settings—User`, then change "color_upper_case" to false.
+Gives you the ability to change colors with a color picker on the fly. To insert or change a selected color, use `ctrl+shift+c`.
+By default, the hex color code is inserted using uppercase letters (`#ABCDEF`, for example). To use lowercase letters (`#abcdef`) instead, copy the contents of `Preferences` → `Package Settings` → `ColorPicker` → `Settings—Default` to the empty file created by selecting `Preferences` → `Package Settings` → `ColorPicker` → `Settings—User`, then change `color_upper_case` to false.
 
 # Terminal
 
@@ -42,10 +42,10 @@ The only problem is that the `ctrl+shift+t` key binding is already associated wi
 
 ~~~json
 [
-    { "keys": ["ctrl+shift+7"],      "command": "toggle_comment",   "args": { "block": false } },
-    { "keys": ["alt+m"],             "command": "markdown_preview", "args": {"target": "browser", "parser":"markdown"} },
-    { "keys": ["ctrl+alt+t"],        "command": "open_terminal" },
-    { "keys": ["ctrl+alt+shift+t"],  "command": "open_terminal_project_folder" }
+  { "keys": ["ctrl+shift+7"],      "command": "toggle_comment",   "args": { "block": false } },
+  { "keys": ["alt+m"],             "command": "markdown_preview", "args": {"target": "browser", "parser":"markdown"} },
+  { "keys": ["ctrl+alt+t"],        "command": "open_terminal" },
+  { "keys": ["ctrl+alt+shift+t"],  "command": "open_terminal_project_folder" }
 ]
 ~~~
 
@@ -58,32 +58,32 @@ I found the solution [here](http://stackoverflow.com/a/16346444/3333040): the au
 ~~~json
 [
 { "keys": ["`"], "command": "insert_snippet", "args": {"contents": "`$0`"}, "context":
-    [
-        { "key": "setting.auto_match_enabled", "operator": "equal", "operand": true },
-        { "key": "selection_empty", "operator": "equal", "operand": true, "match_all": true },
-        { "key": "following_text", "operator": "regex_contains", "operand": "^(?:\t| |\\)|]|;|\\}|$)", "match_all": true }
-    ]
+  [
+    { "key": "setting.auto_match_enabled", "operator": "equal", "operand": true },
+    { "key": "selection_empty", "operator": "equal", "operand": true, "match_all": true },
+    { "key": "following_text", "operator": "regex_contains", "operand": "^(?:\t| |\\)|]|;|\\}|$)", "match_all": true }
+  ]
 },
 { "keys": ["`"], "command": "insert_snippet", "args": {"contents": "`${0:$SELECTION}`"}, "context":
-    [
-        { "key": "setting.auto_match_enabled", "operator": "equal", "operand": true },
-        { "key": "selection_empty", "operator": "equal", "operand": false, "match_all": true }
-    ]
+  [
+    { "key": "setting.auto_match_enabled", "operator": "equal", "operand": true },
+    { "key": "selection_empty", "operator": "equal", "operand": false, "match_all": true }
+  ]
 },
 { "keys": ["`"], "command": "move", "args": {"by": "characters", "forward": true}, "context":
-    [
-        { "key": "setting.auto_match_enabled", "operator": "equal", "operand": true },
-        { "key": "selection_empty", "operator": "equal", "operand": true, "match_all": true },
-        { "key": "following_text", "operator": "regex_contains", "operand": "^`", "match_all": true }
-    ]
+  [
+    { "key": "setting.auto_match_enabled", "operator": "equal", "operand": true },
+    { "key": "selection_empty", "operator": "equal", "operand": true, "match_all": true },
+    { "key": "following_text", "operator": "regex_contains", "operand": "^`", "match_all": true }
+  ]
 },
 { "keys": ["backspace"], "command": "run_macro_file", "args": {"file": "Packages/Default/Delete Left Right.sublime-macro"}, "context":
-    [
-        { "key": "setting.auto_match_enabled", "operator": "equal", "operand": true },
-        { "key": "selection_empty", "operator": "equal", "operand": true, "match_all": true },
-        { "key": "preceding_text", "operator": "regex_contains", "operand": "`$", "match_all": true },
-        { "key": "following_text", "operator": "regex_contains", "operand": "^`", "match_all": true }
-    ]
+  [
+    { "key": "setting.auto_match_enabled", "operator": "equal", "operand": true },
+    { "key": "selection_empty", "operator": "equal", "operand": true, "match_all": true },
+    { "key": "preceding_text", "operator": "regex_contains", "operand": "`$", "match_all": true },
+    { "key": "following_text", "operator": "regex_contains", "operand": "^`", "match_all": true }
+  ]
 }
 ]
 ~~~
@@ -120,7 +120,7 @@ My workflow when trying to push code to the server inside of Sublime Text looks 
 
 ## Staging Files and Committing In One Step
 
-To add and commit all in one step, just skip straight to the Quick Commit command. That will stage and commit for you. It’s the equivalent of `git commit -am 'im staging and committing!'`. 
+To add and commit all in one step, just skip straight to the Quick Commit command. That will stage and commit for you. It’s the equivalent of `git commit -am 'I'm staging and committing!'`.
 
 # Theme: SpaceGray
 
@@ -142,43 +142,43 @@ You can choose whichever flavor you like, but don't forget to change *both* colo
 
 Default flavor based on Base16 Ocean Dark color scheme.
 
-{% highlight json linenos %}
+~~~json
 {
   "theme": "Spacegray.sublime-theme",
   "color_scheme": "Packages/Theme - Spacegray/base16-ocean.dark.tmTheme"
 }
-{% endhighlight %}
+~~~
 
 ### Spacegray Light
 
 Light variation based on Base16 Ocean Light color scheme.
 
-{% highlight json linenos %}
+~~~json
 {
   "theme": "Spacegray Light.sublime-theme",
   "color_scheme": "Packages/Theme - Spacegray/base16-ocean.light.tmTheme"
 }
-{% endhighlight %}
+~~~
 
 ### Spacegray Eighties
 
 A variation based on Base16 Eighties Dark color scheme.
 
-{% highlight json linenos %}
+~~~json
 {
   "theme": "Spacegray Eighties.sublime-theme",
   "color_scheme": "Packages/Theme - Spacegray/base16-eighties.dark.tmTheme"
 }
-{% endhighlight %}
+~~~
 
 ### Misc options I'm using
 
-{% highlight json linenos %}
+~~~json
 {
   "spacegray_sidebar_font_small": true,
   "spacegray_tabs_font_normal"  : true,
   "spacegray_tabs_xlarge"       : true,
   "spacegray_tabs_auto_width"   : true
 }
-{% endhighlight %}
- 
+~~~
+
