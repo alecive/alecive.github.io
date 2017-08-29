@@ -39,10 +39,75 @@ Class prefix        .col-xs-        .col-sm-    .col-md-    .col-lg-    .col-xl-
     font-weight: 100;
 }
 
+@font-face {
+    font-family: 'KlinicSlab';
+    src: url("{{ site.baseurl }}/fonts/KlinicSlab/KlinicSlabBook.otf") format("opentype");
+    font-weight: 400;
+}
+
+@font-face {
+    font-family: 'KlinicSlab';
+    src: url("{{ site.baseurl }}/fonts/KlinicSlab/KlinicSlabLight.otf") format("opentype");
+    font-weight: 100;
+}
+
+@font-face {
+    font-family: 'KlinicSlab';
+    src: url("{{ site.baseurl }}/fonts/KlinicSlab/KlinicSlabMedium.otf") format("opentype");
+    font-weight: 700;
+}
+
+@font-face {
+    font-family: 'KlinicSlab';
+    src: url("{{ site.baseurl }}/fonts/KlinicSlab/KlinicSlabBookIt.otf") format("opentype");
+    font-weight: 400;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'KlinicSlab';
+    src: url("{{ site.baseurl }}/fonts/KlinicSlab/KlinicSlabLightIt.otf") format("opentype");
+    font-weight: 100;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'KlinicSlab';
+    src: url("{{ site.baseurl }}/fonts/KlinicSlab/KlinicSlabMediumIt.otf") format("opentype");
+    font-weight: 700;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'FreightText';
+    src: url("{{ site.baseurl }}/fonts/FreightText/FreightText-Book.otf") format("opentype");
+    font-weight: 400;
+}
+
+@font-face {
+    font-family: 'FreightText';
+    src: url("{{ site.baseurl }}/fonts/FreightText/FreightText-Bold.otf") format("opentype");
+    font-weight: 700;
+}
+
+@font-face {
+    font-family: 'FreightText';
+    src: url("{{ site.baseurl }}/fonts/FreightText/FreightText-BookItalic.otf") format("opentype");
+    font-weight: 400;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'FreightText';
+    src: url("{{ site.baseurl }}/fonts/FreightText/FreightText-BoldItalic.otf") format("opentype");
+    font-weight: 700;
+    font-style: italic;
+}
+
 body {
     overflow-x: hidden;
     font-size: 17.5px;
-    font-family: 'Assistant', sans-serif;
+    font-family: 'FreightText', serif;
 }
 
 p,
