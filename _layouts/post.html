@@ -6,8 +6,12 @@
     <body id="page-top" class="index">
 
     {% include header.html %}
-    {% include post.html %}
-    {% include about.html %}
+    {% if page.type == "article" %}
+      {% include post.html %}
+      {% include about.html %}
+    {% elsif page.type == "cv" %}
+      {% include post-cv.html %}
+    {% endif%}
     {% include footer.html %}
     {% include js.html %}
 

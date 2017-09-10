@@ -1,10 +1,10 @@
 ---
-layout: post-cv
+layout: post
 title: Curriculum Vitae
 category: cv
 description: I am a robotics engineer, a computer scientist, and an interaction designer.
-article: yes
 permalink: cv.html
+type: cv
 tags: [robotics,artificial intelligence,advanced manufacturing,humanoid robotics,cognitive robotics,human robto interaction,cv,personal,resume,curriculum,online,research,design,iit,istituto italiando di tecnologia,phd,yale,university,postdoc,assistant professor,candidate]
 ---
 
