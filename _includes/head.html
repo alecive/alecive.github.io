@@ -21,7 +21,7 @@
     {% endif %}
     {% endfor %}
 
-    {% if include.post %}
+    {% if page.type == "article" %}
     {% if page.img %}
     <meta name="thumbnail"    content="/img/portfolio/{{ page.img }}" />
     <!-- <meta property="og:image" content="{{ /img/portfolio/{{ page.img }} | prepend: site.baseurl }}" /> -->
@@ -29,7 +29,7 @@
     <meta name="thumbnail"    content="/img/default_thumbnail.png" />
     <!-- <meta property="og:image" content="/img/default_thumbnail.png" /> -->
     {% endif %}
-    {% elsif include.cv %}
+    {% elsif page.type == "cv" %}
     <meta name="thumbnail"    content="{{ site.cv-image }}" />
     <!-- <meta property="og:image" content="{{ site.cv-image }}" /> -->
     {% else %}
@@ -76,7 +76,7 @@
 
     {% include json-ld/author.json %}
 
-    {% if include.post %}
+    {% if page.type == "article" %}
     {% include json-ld/blogPosting.json %}
     {% endif %}
 

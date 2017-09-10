@@ -1,5 +1,5 @@
    <!-- Navigation -->
-    <nav class="navbar navbar-default navbar-fixed-top {% if include.cv or include.404 %}no-print{% endif %}">
+    <nav class="navbar navbar-default navbar-fixed-top {% if page.type == "cv" or page.type == "fourofour" %}no-print{% endif %}">
         <div class="container">
             <!-- Brand and toggle get grouped for better mobile display -->
             <div class="navbar-header page-scroll">
@@ -9,7 +9,7 @@
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                 </button>
-                <a class="navbar-brand" href="{% if include.home %}#page-top{% else %}/{% endif %}">
+                <a class="navbar-brand" href="{% if page.type == "research" %}#page-top{% else %}/{% endif %}">
                     <img class="img-responsive" src="/img/logo_transparent.svg">
                 </a>
             </div>
@@ -20,30 +20,39 @@
                     <li class="hidden">
                         <a href="#page-top"></a>
                     </li>
-                    {% if include.home %}
+                    {% if page.type == "research" %}
                     <li class="page-scroll">
                         <a href="#research">Research</a>
+                    </li>
+                    <li class="page-scroll">
+                        <a href="/design.html">Design</a>
+                    </li>
+                    {% elsif page.type == "design" %}
+                    <li class="page-scroll">
+                        <a href="/">Research</a>
                     </li>
                     <li class="page-scroll">
                         <a href="#design">Design</a>
                     </li>
                     {% endif %}
-                    {% if include.blog %}
+                    {% if page.type == "blog" %}
                     <li class="page-scroll">
                         <a href="#blog">Blog</a>
                     </li>
                     {% endif %}
-                    {% if include.home or include.post or include.blog %}
+                    {% if page.type == "research" or page.type == "design" or page.type == "fourofour" or
+                          page.type == "article"  or page.type == "blog" %}
                     <li class="page-scroll">
                         <a href="#about">About</a>
                     </li>
                     {% endif %}
-                    {% if include.home or include.post or include.cv %}
+                    {% if page.type == "research" or page.type == "design" or page.type == "fourofour" or
+                          page.type == "article"  or page.type == "cv" %}
                     <li class="page-scroll">
                         <a href="/blog.html">Blog</a>
                     </li>
                     {% endif %}
-                    {% if include.cv %}
+                    {% if page.type == "cv" %}
                     <li class="page-scroll">
                         <a href="/{{ site.resume-industry-link }}" target="_blank">[Industry Resume]</a>
                     </li>
@@ -62,28 +71,29 @@
         <!-- /.container-fluid -->
     </nav>
 
-    {% if include.home or include.blog %}
+    {% if page.type == "research" or page.type == "design" or page.type == "blog" %}
+    <!-- Header -->
     <header>
         <div class="container">
             <div class="row">
                 <div class="col-lg-12">
                     <img class="img-responsive with-shadow-on-hover logo-img" src="/img/logo_transparent.svg" alt="alecive-logo">
                     <div class="intro-text">
-                        <span class="{% if include.home %}name{% else %}name-small{% endif %}">{{ site.title }}</span>
+                        <span class="{% if page.type == "research" or page.type == "design" %}name{% else %}name-small{% endif %}">{{ site.title }}</span>
                         <hr class="separating-line">
-                        <span class="{% if include.home %}owner{% else %}owner-small{% endif %}">{{ site.owner }}</span>
+                        <span class="{% if page.type == "research" or page.type == "design" %}owner{% else %}owner-small{% endif %}">{{ site.owner }}</span>
                     </div>
                 </div>
             </div>
         </div>
     </header>
-    {% elsif include.cv %}
+    {% elsif page.type == "cv" %}
     <!-- Header -->
     <header>
         <div class="container">
             <div class="row">
                 <div class="col-lg-12">
-                    <img class="img-responsive no-print with-shadow-on-hover cv-img" src="{{ site.cv-image }}" alt="alecive-alessandro-roncone">
+                    <img class="img-responsive no-print with-shadow-on-hover cv-img" src="{{ site.cv-image }}" alt="alessandro-roncone">
                     <div class="intro-text">
                         <span class="name-small no-print">{{ page.title }}</span>
                         <hr class="separating-line no-print">
