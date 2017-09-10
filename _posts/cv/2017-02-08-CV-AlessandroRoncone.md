@@ -15,22 +15,23 @@ tags: [robotics,artificial intelligence,advanced manufacturing,humanoid robotics
 # Who am I
 
 {% include years_elap.html from="2010" %}
-Energetic and resourceful Robotics Engineer with more than <b>{{ yearDiffStr | strip_newlines }} years'</b> research experience and a proven publication track record.
-Motivated by intellectually challenging projects that push the limits of current technologies, I pride myself on possessing a broad range of skills, matured from my unique career trajectory.
-I am capable of pursuing individual research aimed at the development of innovative applications, but I particularly love to be part of a team of bright people working toward ambitious ideas.
+**My work bridges the gap between robot planning and human–robot interaction**.
+I look at problems that lie at the intersection of these two fields, and I develop human-accessible robot control systems that cooperate with and empower people.
+I aim at lowering the barriers to entry for humans to naturally interact with robots, and in doing so I implement robot technologies that better interface with the external world and humans.
+To me, **the engineering is as important as the science**.
+As such, I implement technological advancements through production-quality software that uses modern software engineering workflows (_versioning_, _continuous integration_, _unit testing_, _containerization_).
 I **make robots work**, and I hold a deep commitment to doing so while implementing **scalable**, **robust**, and **elegant** code.
 
 ---
 {: class="no-print"}
 
- * Extensive background in **Humanoid Robotics**, **Cognitive Robotics**, and **Human-Robot Interaction**.
- * Research interests: **kinematics, optimization, robot control, decision making, planning under uncertainty, calibration, tactile sensing, machine learning, 2d and 3d computer vision, IMU processing**.
- * **C++** developer, with a deep knowledge of the _YARP_ and _iCub_ software libraries. Growing experience with the _ROS_ middleware and the _Baxter_ robot.
- * Proven ability to manage multiple projects and supervise multiple people while meeting challenging deadlines. Mentored
-and trained technicians, Ph.D. students, and post-docs, adapting to various scientific levels and backgrounds.
- * Obsessed by two things: _pixel-perfect graphics_, and _bit-perfect code_. This website is intended to showcase the former; for the latter, stalk me on [GitHub](http://github.com/alecive/), or take a look at some of the GitHub organizations I belong to: [Robotology](https://github.com/robotology) and [ScazLab](https://github.com/scazlab).
+ * <b>{{ yearDiffInt | strip_newlines }} years'</b> research experience in **Humanoid Robotics**, **Cognitive Robotics**, and **Human-Robot Interaction**.
+ * Extensive background in kinematics, optimization, robot control, decision making, planning under uncertainty, calibration, tactile sensing, machine learning, 2d and 3d computer vision, IMU processing.
+ * Mastery of **C++**, with a deep knowledge of the _ROS_ and _YARP_ middlewares. Daily experience with the _iCub_ humanoid and the _Baxter_ collaborative robot.
+ * Proven ability to manage multiple projects and supervise multiple people while meeting challenging deadlines.
  * Strong presentation/communication skills thanks to experience in giving both technical and non-technical talks to both small and big groups, tailoring to the audience. Presented to major international robotics conferences, as well as several outreach events, ranging from exhibitions and fairs, to live TV shows and various interviews.
- * Confident in writing technical reports as well as scientific papers. Authored and co-authored numerous international peer-reviewed scientific articles and journals. Some experience with research grant writing.
+ * Confident in writing technical reports as well as scientific papers. Authored and co-authored numerous international peer-reviewed scientific articles and journals. Experience with research grant writing.
+ * Obsessed by two things: _pixel-perfect graphics_, and _bit-perfect code_. This website is intended to showcase the former; for the latter, stalk me on [GitHub](http://github.com/alecive/), or take a look at some of the GitHub organizations I belong to: [Robotology](https://github.com/robotology) and [ScazLab](https://github.com/scazlab).
 
 # Summary
 
