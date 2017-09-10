@@ -6,7 +6,7 @@ link-alt:
 date: 2015-11-12
 category: blog
 description: From a completely naive user's standpoint
-article: yes
+type: article
 tags: [blog,how to,tutorial,ros,installation,indigo,ubuntu,14.04,robotics,baxter,simulator]
 permalink: ros_installation.html
 

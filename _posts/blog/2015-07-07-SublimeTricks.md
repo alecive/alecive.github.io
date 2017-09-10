@@ -7,7 +7,7 @@ date: 2015-07-07
 category: blog
 description: Tips and tricks for Sublime Text Editor
 tags: [blog,how to,tutorial,sublime text,tips and tricks]
-article: yes
+type: article
 permalink: sublime_tricks.html
 
 ---

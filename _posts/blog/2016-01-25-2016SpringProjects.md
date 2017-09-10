@@ -5,7 +5,7 @@ link:
 link-alt:
 category: blog
 description: Spring projects for students at the Social Robotics Lab
-article: yes
+type: article
 
 ---
 
