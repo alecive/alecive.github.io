@@ -65,11 +65,13 @@
     - name: cvs
       knowledge: 40
     - name: Continous Integration
-      knowledge: 82
+      knowledge: 88
     - name: Unit Testing
       knowledge: 78
     - name: Debugging
       knowledge: 78
+    - name: Docker
+      knowledge: 64
     - name: UX/UI
       knowledge: 88
     - name: Gimp
