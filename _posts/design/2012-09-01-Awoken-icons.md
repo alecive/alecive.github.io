@@ -10,7 +10,7 @@ alt: awoken-icons
 category: design
 description: Minimalism at its finest
 tags: [design,icon pack,icon theme,icons,minimal,token,gray,grey,design,linux,gtk,kde,lxde,ubuntu,xfce,png,arch,fedora,desktop environment,gnome,open source]
-article: yes
+type: article
 
 ---
 
