@@ -6,11 +6,11 @@
     <body id="page-top" class="index">
 
     {% include header.html %}
-    {% if page.type == "article" %}
+    {% if page.type == "cv" %}
+      {% include post-cv.html %}
+    {% else %}
       {% include post.html %}
       {% include about.html %}
-    {% elsif page.type == "cv" %}
-      {% include post-cv.html %}
     {% endif%}
     {% include footer.html %}
     {% include js.html %}
