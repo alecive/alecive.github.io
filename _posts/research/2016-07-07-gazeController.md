@@ -9,7 +9,7 @@ alt: gaze-controller
 date: 2016-07-07
 category: research
 description:
-article: yes
+type: article
 tags: [research,robotics,icub,robot,humanoids,control,gaze stabilization,inertial sensor,imu,velocity control,whole body motion,walking,balancing,open source,github]
 authors: Alessandro Roncone, Ugo Pattacini, Giorgio Metta, and Lorenzo Natale
 submission: 2016 Robotics - Science and Systems, Ann Arbor, MI, U.S.A., June 18-22, 2016

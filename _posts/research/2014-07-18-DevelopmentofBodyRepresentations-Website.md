@@ -8,9 +8,9 @@ img: developmentofbodyrepresentations.jpg
 img-thumb: developmentofbodyrepresentations_thumb.jpg
 alt: development-of-body-representations-website
 category: research
-description: 
+description:
 tags: [research,robotics,icub,robot,humanoids,cognitive robotics,body representations,body schema,icdl,epirob,2014,workshop,website,html5,css,design,flat design]
-article: yes
+type: article
 
 ---
 
@@ -33,7 +33,7 @@ In order to achieve a variety of goals, humans and animals seamlessly command th
 
 ## Concept
 
-This workshop will capitalize on the ICDL-Epirob focus that lies at the intersection of scientific and engineering disciplines that are concerned with development, but provide a more specific theme, namely body representations and their development. The workshop will be divided into two main sessions. In the first, the invited speakers (already confirmed) will provide their perspectives on the topic and set the stage for a discussion. The speakers were carefully chosen, such that they cover all the disciplines that are at the core of the topic: developmental psychology (Jeffrey Lockman, Kevin O'Regan), computational neuroscience (Stuart Wilson), and cognitive developmental robotics (Minoru Asada). All of the speakers are specifically concerned with body representations in their current research. A second block will consist of short presentations / flash talks and a poster session. This will be open to the community at large – we will advertise the workshop in appropriate channels and solicit 1-page abstracts, which can report on recent or ongoing work, or even future work and ideas. These will be reviewed by the organizers (we will organize the review process, such that each submission is reviewed by at least one expert from the empirical sciences and one from a synthetic discipline). The abstracts will be made accessible on the workshop website. Based on the number and quality of submissions, we will consider organizing a follow-up special issue of a journal such as IEEE Transactions on Autonomous Mental Development or Adaptive Behavior. 
+This workshop capitalized on the ICDL-Epirob focus that lies at the intersection of scientific and engineering disciplines that are concerned with development, but provide a more specific theme, namely body representations and their development. The workshop was be divided into two main sessions. In the first, the invited speakers (already confirmed) provided their perspectives on the topic and set the stage for a discussion. The speakers were carefully chosen, such that they cover all the disciplines that are at the core of the topic: developmental psychology (Jeffrey Lockman, Kevin O'Regan), computational neuroscience (Stuart Wilson), and cognitive developmental robotics (Minoru Asada). All of the speakers are specifically concerned with body representations in their current research. A second block consisted of short presentations / flash talks and a poster session. This was open to the community at large – we advertised the workshop in appropriate channels and solicit 1-page abstracts, which can report on recent or ongoing work, or even future work and ideas. These were reviewed by at least one expert from the empirical sciences and one from a synthetic discipline). The abstracts were made accessible on the workshop website.
 
 ## Target Audience
 

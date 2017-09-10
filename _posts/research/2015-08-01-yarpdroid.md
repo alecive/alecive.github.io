@@ -9,7 +9,7 @@ alt: yarpdroid
 date: 2015-08-01
 category: research
 description:
-article: yes
+type: article
 tags: [research,middleware,yarp,android,yarpdroid,computer science,software development,ndk,android studio,robotics,icub,mobile development,google glass]
 
 ---
