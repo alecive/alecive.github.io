@@ -20,39 +20,10 @@
                     <li class="hidden">
                         <a href="#page-top"></a>
                     </li>
-                    {% if page.type == "research" %}
-                    <li class="page-scroll">
-                        <a href="#research">Research</a>
-                    </li>
-                    <li class="page-scroll">
-                        <a href="/design.html">Design</a>
-                    </li>
-                    {% elsif page.type == "design" %}
-                    <li class="page-scroll">
-                        <a href="/">Research</a>
-                    </li>
-                    <li class="page-scroll">
-                        <a href="#design">Design</a>
-                    </li>
-                    {% endif %}
-                    {% if page.type == "blog" %}
-                    <li class="page-scroll">
-                        <a href="#blog">Blog</a>
-                    </li>
-                    {% endif %}
-                    {% if page.type == "research" or page.type == "design" or page.type == "fourofour" or
-                          page.type == "article"  or page.type == "blog" %}
-                    <li class="page-scroll">
-                        <a href="#about">About</a>
-                    </li>
-                    {% endif %}
-                    {% if page.type == "research" or page.type == "design" or page.type == "fourofour" or
-                          page.type == "article"  or page.type == "cv" %}
-                    <li class="page-scroll">
-                        <a href="/blog.html">Blog</a>
-                    </li>
-                    {% endif %}
                     {% if page.type == "cv" %}
+                    <li class="page-scroll">
+                        <a href="/">Home</a>
+                    </li>
                     <li class="page-scroll">
                         <a href="/{{ site.resume-industry-link }}" target="_blank">[Industry Resume]</a>
                     </li>
@@ -60,6 +31,36 @@
                         <a href="/{{ site.resume-academia-link }}" target="_blank">[Academia Resume]</a>
                     </li>
                     {% else %}
+                    {% if page.type == "research" %}
+                    <li class="page-scroll">
+                        <a href="#research">Research</a>
+                    </li>
+                    {% else %}
+                    <li class="page-scroll">
+                        <a href="/">Research</a>
+                    </li>
+                    {% endif %}
+                    {% if page.type == "design" %}
+                    <li class="page-scroll">
+                        <a href="#design">Design</a>
+                    </li>
+                    {% else %}
+                    <li class="page-scroll">
+                        <a href="/design.html">Design</a>
+                    </li>
+                    {% endif %}
+                    {% if page.type == "blog" %}
+                    <li class="page-scroll">
+                        <a href="#blog">Blog</a>
+                    </li>
+                    {% else %}
+                    <li class="page-scroll">
+                        <a href="/blog.html">Blog</a>
+                    </li>
+                    {% endif %}
+                    <li class="page-scroll">
+                        <a href="#about">About</a>
+                    </li>
                     <li class="page-scroll">
                         <a href="/cv.html">CV</a>
                     </li>
