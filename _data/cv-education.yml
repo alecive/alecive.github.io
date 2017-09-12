@@ -4,21 +4,21 @@
    end: 2015
    location: Italian Institute of Technology (IIT), Genova IT
    location-link: http://www.iit.it
-   description: "I focused on improving the sensorimotor capabilities of the <b>iCub</b> humanoid, by implementing a bio-inspired system able to learn a multisensory representation of the space around the robot's body (or <i>peripersonal space</i>). The robot is equipped with a whole-body artificial skin and learns the consequences of its interaction with the self and the environment by means of a multisensory (tactile-motor and tactile-visual) representation. This results in the <i>extension of the robot's tactile domain toward the nearby space</i>, in such a way that it implicitly copes with modeling or calibration errors. Finally, this representation is then exploited with a <i>sensory-based guidance of the motor actions</i> performed by the robot. That is, an avoidance and reaching controller capable of using any body part in order to either prevent collision with or come into contact with incoming objects."
+   description: "By and large, my Ph.D. research had three core contributions: i) I implemented a bio-inspired approach able to <i>integrate multisensory information</i> into a cohesive representation of the nearby space of a robot; ii) I demonstrated for the first time how novel <i>touch sensing technologies</i> can be exploited to dramatically increase the amount of information available to a robot; iii) I provided a compelling use case for this technology, in that I proved how, by imbuing a robot with local information about its nearby space, a <i>distributed robot controller</i> can be implemented that is capable of significantly enhancing the interaction capabilities of a robot with its environment. More precisely, I improved the sensorimotor capabilities of the <i>iCub</i> humanoid with a system able to learn a multisensory representation of the space around the robot's body (or peripersonal space, PPS). The robot, equipped with a whole-body artificial skin, learns the consequences of its interaction with the self and the environment by means of a tactile-motor and tactile-visual representation. The peripersonal space model I implemented has the unique capability of extending the robot's tactile domain toward the nearby space, in such a way that it implicitly copes with modeling or calibration errors. This feature has been then exploited with a sensory-based guidance of the motor actions performed by the robot. That is, an avoidance and reaching controller capable of <i>using any body part in order to either move away from or seek contact with</i> nearby objects."
  - name: M.Sc. with honors in NeuroEngineering
    title: Thesis title `Visuo-Haptic Integration for Object Characterization in an Unstructured Environment`
    start: 2008
    end: 2011
    location: Università degli studi di Genova, IT
    location-link: http://www.unige.it
-   description: "I implemented an <b>SVM</b>-based framework able to integrate visual and haptic information, read from the <b>force/torque</b> sensor of the <b>iCub</b> robot. The system proved successful in improving the vision-based detection of a set of objects by means of the haptic exploration of the same objects."
+   description: "I implemented an <i>SVM</i>-based framework able to integrate visual and haptic information, read from the <i>force/torque</i> sensor of the <i>iCub</i> robot. The system proved successful in improving the vision-based detection of a set of objects by means of the haptic exploration of the same objects."
  - name: B.Sc. with honors in Biomedical Engineering
    title: Thesis title `Support Vector Machine Analysis applied to a Manipulator in a Non-Structured Environment`
    start: 2005
    end: 2009
    location: Università degli studi di Genova, IT
    location-link: http://www.unige.it
-   description: "I used <b>SVM</b>s to train a <b>PUMA</b> robotic arm how to be the goalkeeper in an air hockey game. The robot observed which of the previously experienced puck trajectories scored a point. Based on this, it learned how to prevent such scores by predicting the final outcome of a trajectory from its first 30ms. Its success rate was beyond <b>95%</b>."
+   description: "I used <i>SVM</i>s to train a <i>PUMA</i> robotic arm how to be the goalkeeper in an air hockey game. The robot observed which of the previously experienced puck trajectories scored a point. Based on this, it learned how to prevent such scores by predicting the final outcome of a trajectory from its first 30ms. Its success rate was beyond <i>95%</i>."
  - name: Student (with scholarship) at ISICT
    title:
    start: 2005
