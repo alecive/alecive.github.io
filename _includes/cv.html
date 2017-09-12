@@ -69,6 +69,7 @@
             <h1>Misc</h1>
             {% for item in site.data.cv-misc %}
                 <div class="row cv-item">
+                    {% if item.year or item.venue or item.where %}
                     <div class="col-sm-4">
                         <h3 class="inlineifprinted">{{item.year}}</h3>
                         <h4 class="inlineifprinted">{{item.venue}}</h4>
@@ -76,6 +77,9 @@
                     </div>
 
                     <div class="col-sm-8">
+                    {% else %}
+                    <div class="col-sm-12">
+                    {% endif %}
                         <h2>{{item.title}}</h2>
                         <p>{% if item.authors %}<i class="no-print">{{item.authors}}</i><br class="no-print">{% endif %}
                         {{item.description}}
@@ -87,6 +91,7 @@
             <h1>Graphic Design</h1>
             {% for item in site.data.cv-graphics %}
                 <div class="row cv-item">
+                    {% if item.start or item.end or item.location or item.location-link %}
                     <div class="col-sm-3">
                         <h3 class="inlineifprinted">{{item.start}} - {{item.end}}</h3>
                         {% if item.location-link %}<h4 class="inlineifprinted"><a href="{{item.location-link}}" target="_blank">{{item.location}}</a></h4>
@@ -95,6 +100,9 @@
                     </div>
 
                     <div class="col-sm-9">
+                    {% else %}
+                    <div class="col-sm-12">
+                    {% endif %}
                         <h2>{{item.name}}</h2>
                         <p>{% if item.title %}<i>{{item.title}}</i><br>{% endif %}
                         {{item.description}}
