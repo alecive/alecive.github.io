@@ -1,5 +1,4 @@
 ---
-layout: post
 title: A New Start
 link: http://alecive.deviantart.com/art/A-New-Start-1-3-169100684
 link-alt: A New Start Suite on DeviantART

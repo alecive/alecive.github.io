@@ -1,5 +1,4 @@
 ---
-layout: post
 title: Android integration onto the iCub platform
 link: https://github.com/alecive/yarpdroid
 link-alt: GitHub repository

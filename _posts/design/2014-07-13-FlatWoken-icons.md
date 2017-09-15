@@ -1,5 +1,4 @@
 ---
-layout: post
 title: FlatWoken icons
 link: https://github.com/alecive/FlatWoken
 link-alt:  FlatWoken icons on GitHub

@@ -1,5 +1,4 @@
 ---
-layout: post
 title: Transparency and Coordination in Human-Robot Collaboration
 link: https://github.com/scazlab/baxter_collaboration
 link-alt: GitHub repository

@@ -1,5 +1,4 @@
 ---
-layout: post
 title: Curriculum Vitae
 category: cv
 description: I am a robotics engineer, a computer scientist, and an interaction designer.

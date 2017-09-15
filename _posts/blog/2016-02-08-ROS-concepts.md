@@ -1,5 +1,4 @@
 ---
-layout: post
 title: ROS Concepts
 link:
 link-alt:

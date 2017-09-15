@@ -1,5 +1,4 @@
 ---
-layout: post
 title: YARP cross-compilation
 link: https://github.com/alecive/yarpdroid
 link-alt: GitHub Repo

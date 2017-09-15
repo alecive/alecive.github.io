@@ -1,5 +1,4 @@
 ---
-layout: post
 title: Sublime Tricks
 link:
 link-alt:

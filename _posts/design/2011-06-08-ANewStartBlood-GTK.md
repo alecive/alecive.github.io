@@ -1,5 +1,4 @@
 ---
-layout: post
 title: A New Start Blood
 link: http://alecive.deviantart.com/art/ANewStartBLOOD-1-0-273905913
 link-alt: A New Start Blood Suite on DeviantART

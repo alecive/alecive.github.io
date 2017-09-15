@@ -1,5 +1,4 @@
 ---
-layout: post
 title: Physiologically Inspired Blinking Behavior for a Humanoid Robot
 link: https://github.com/robotology/funny-things
 link-alt: GitHub repository

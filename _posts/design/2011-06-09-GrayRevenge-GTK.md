@@ -1,5 +1,4 @@
 ---
-layout: post
 title: Gray Revenge
 link: http://alecive.deviantart.com/art/Gray-Revenge-1-7-194633730
 link-alt: GrayRevenge Suite on DeviantART

@@ -1,5 +1,4 @@
 ---
-layout: post
 title: Visuo-tactile integration and margin of safety around the body
 link: https://github.com/alecive/periPersonalSpace
 link-alt: GitHub repository

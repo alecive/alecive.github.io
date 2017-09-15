@@ -1,5 +1,4 @@
 ---
-layout: post
 title: How to install ROS indigo
 link:
 link-alt:

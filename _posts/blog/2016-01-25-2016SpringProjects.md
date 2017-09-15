@@ -1,5 +1,4 @@
 ---
-layout: post
 title: 2016 Spring Projects
 link:
 link-alt:

@@ -1,5 +1,4 @@
 ---
-layout: post
 title: A Cartesian 6-DoF Gaze Controller for Humanoid Robots
 link: http://wiki.icub.org/iCub/main/dox/html/icub_gaze_interface.html
 link-alt: Documentation and tutorials

@@ -1,5 +1,4 @@
 ---
-layout: post
 title: AwOken icons
 link: http://alecive.deviantart.com/art/AwOken-163570862
 link-alt:  AwOken icons on DeviantART
