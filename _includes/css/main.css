@@ -946,11 +946,6 @@ span.label:hover e.ok {
     z-index: 2;
 }
 
-#research h2,
-#design h2 {
-    color: #{{ site.color.secondary }};
-}
-
 .btn-outline {
     margin-top: 4px;
     border: solid 2px #fff;
