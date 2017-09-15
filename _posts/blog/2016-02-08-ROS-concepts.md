@@ -1,8 +1,5 @@
 ---
 title: ROS Concepts
-link:
-link-alt:
-date: 2016-02-08
 category: blog
 description: Summary about some ROS concepts and tools
 type: article

@@ -1,8 +1,5 @@
 ---
 title: How to install ROS indigo
-link:
-link-alt:
-date: 2015-11-12
 category: blog
 description: From a completely naive user's standpoint
 type: article

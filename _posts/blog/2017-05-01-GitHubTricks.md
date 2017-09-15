@@ -1,7 +1,5 @@
 ---
 title: GitHub Tricks
-link:
-link-alt:
 category: blog
 description: Useful commands for my everyday GitHub life
 tags: [blog,how to,tutorial,github,git,tips and tricks]
