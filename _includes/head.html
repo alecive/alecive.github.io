@@ -26,15 +26,15 @@
     <meta name="thumbnail"    content="/img/portfolio/{{ page.img }}" />
     <!-- <meta property="og:image" content="{{ /img/portfolio/{{ page.img }} | prepend: site.baseurl }}" /> -->
     {% else %}
-    <meta name="thumbnail"    content="/img/default_thumbnail.png" />
-    <!-- <meta property="og:image" content="/img/default_thumbnail.png" /> -->
+    <meta name="thumbnail"    content="{{ site.logo }}" />
+    <!-- <meta property="og:image" content="{{ site.logo }}" /> -->
     {% endif %}
     {% elsif page.type == "cv" %}
     <meta name="thumbnail"    content="{{ site.cv-image }}" />
     <!-- <meta property="og:image" content="{{ site.cv-image }}" /> -->
     {% else %}
-    <meta name="thumbnail"    content="/img/default_thumbnail.png" />
-    <!-- <meta property="og:image" content="{{ /img/default_thumbnail.png | prepend: site.baseurl }}" /> -->
+    <meta name="thumbnail"    content="{{ site.logo }}" />
+    <!-- <meta property="og:image" content="{{ {{ site.logo }} | prepend: site.baseurl }}" /> -->
     {% endif%}
 
     <!-- Custom CSS & Bootstrap Core CSS - Uses Bootswatch Flatly Theme: http://bootswatch.com/flatly/ -->

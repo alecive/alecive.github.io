@@ -23,6 +23,8 @@ social:
   - title: linkedin
     url: https://www.linkedin.com/in/alessandroroncone
 
+logo: /img/logo.svg
+
 # Postal address (add as many lines as necessary)
 address:
   - line: Yale University,
@@ -39,6 +41,7 @@ permalink: pretty
 plugins:
   - jekyll-sitemap
   - rouge
+  - jekyll-seo-tag
   #- jemoji
   #- jekyll-mentions
 
