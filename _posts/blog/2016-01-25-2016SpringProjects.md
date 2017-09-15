@@ -1,9 +1,6 @@
 ---
 title: 2016 Spring Projects
-category: blog
 description: Spring projects for students at the Social Robotics Lab
-type: article
-
 ---
 
 {:.no_toc}

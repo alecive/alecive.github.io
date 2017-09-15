@@ -5,11 +5,8 @@ link-alt: GrayRevenge Suite on DeviantART
 img: grayRevenge.jpg
 img-thumb: grayRevenge_thumb.jpg
 alt: grayrevenge-suite
-category: design
 description:
 tags: [design,gtk,theme,gnome,linux,open source,lxde,xfce,a new start blood,gtk2,gtk3]
-type: article
-
 ---
 
 Dark toolbars and menubars coupled with clear window content means fruibility. *Pixel-perfect graphics* makes it the best theme ever. Because _every detail matters_.

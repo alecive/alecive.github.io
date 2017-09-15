@@ -3,11 +3,8 @@ title: YARP cross-compilation
 link: https://github.com/alecive/yarpdroid
 link-alt: GitHub Repo
 date: 2015-08-31
-category: blog
 description: Tutorial for cross-compiling yarp on armeabi-v7a
-type: article
 tags: [blog,how to,tutorial,yarp,android,yarpdroid,computer science,software development,ndk,android studio,robotics,middleware,icub,mobile development]
-
 ---
 
 # Contents

@@ -1,11 +1,8 @@
 ---
 title: ROS Concepts
-category: blog
 description: Summary about some ROS concepts and tools
-type: article
 tags: [blog,how to,tutorial,ros,concepts,tools,command-line,indigo,ubuntu,14.04,robotics,baxter,simulator]
 permalink: ros_concepts.html
-
 ---
 
 # Contents

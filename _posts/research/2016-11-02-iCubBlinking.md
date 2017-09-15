@@ -6,15 +6,12 @@ img: iCubBlinking.jpg
 img-thumb: iCubBlinking_thumb.jpg
 alt: peripersonal-space
 date: 2016-11-02
-category: research
 description:
 tags: [research,robotics,icub,robot,humanoids,blinking,open source,github]
-type: article
 authors: Hagen Lehmann, Alessandro Roncone, Ugo Pattacini, and Giorgio Metta
 submission: 2016 International Conference on Social Robotics (ICSR16), Kansas City, MO, U.S.A., November 1-3
 paper_pdf: "[Lehmann et al. 2016] Physiologically Inspired Blinking Behavior for a Humanoid Robot"
 paper_title: "Physiologically Inspired Blinking Behavior for a Humanoid Robot"
-
 ---
 
 Blinking behavior is an important part of human nonverbal communication. It signals the psychological state of the social partner. In this study, we implemented different blinking behaviors for a humanoid robot with pronounced physical eyes. The blinking patterns implemented were either statistical or based on human physiological data. We investigated in an online study the influence of the different behaviors on the perception of the robot by human users with the help of the Godspeed questionnaire [[Bartneck2009](http://www.bartneck.de/publications/2009/measurementInstrumentsRobots/)]. Our results showed that, in the condition with human-like blinking behavior, the robot was perceived as being more intelligent compared to not blinking or statistical blinking.

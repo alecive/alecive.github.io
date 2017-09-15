@@ -1,11 +1,8 @@
 ---
 title: How to install ROS indigo
-category: blog
 description: From a completely naive user's standpoint
-type: article
 tags: [blog,how to,tutorial,ros,installation,indigo,ubuntu,14.04,robotics,baxter,simulator]
 permalink: ros_installation.html
-
 ---
 
 # Contents

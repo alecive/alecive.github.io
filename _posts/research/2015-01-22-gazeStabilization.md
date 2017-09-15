@@ -6,15 +6,12 @@ img: gazeStabilization.jpg
 img-thumb: gazeStabilization_thumb.jpg
 alt: gaze-stabilization
 date: 2015-01-22
-category: research
 description:
 tags: [research,robotics,icub,robot,humanoids,control,gaze stabilization,inertial sensor,imu,velocity control,whole body motion,walking,balancing,open source,github]
-type: article
 authors: Alessandro Roncone, Ugo Pattacini, Giorgio Metta, and Lorenzo Natale
 submission: 2014 IEEE-RAS International Conference on Humanoid Robots, Madrid, Spain, November 18-20, 2014
 paper_pdf: "[Roncone et al. 2014] - Gaze stabilization for humanoid robots: a Comprehensive Framework"
 paper_title: "Gaze Stabilization for Humanoid Robots: a Comprehensive Framework"
-
 ---
 
 ## Video

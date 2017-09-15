@@ -1,11 +1,8 @@
 ---
 title: Sublime Tricks
-category: blog
 description: Tips and tricks for Sublime Text Editor
 tags: [blog,how to,tutorial,sublime text,tips and tricks]
-type: article
 permalink: sublime_tricks.html
-
 ---
 
 # Contents

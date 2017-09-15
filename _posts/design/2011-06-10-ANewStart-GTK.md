@@ -5,11 +5,8 @@ link-alt: A New Start Suite on DeviantART
 img: aNewStart.jpg
 img-thumb: aNewStart_thumb.jpg
 alt: anewstart-suite
-category: design
 description:
 tags: [design,gtk,theme,gnome,linux,open source,lxde,xfce,a new start blood,gtk2,gtk3]
-type: article
-
 ---
 
 Minimal, fresh and relaxing, ANewStart is a complete suite for Linux desktops. Nearly *100000 downloads* make it one of the most downloaded themes ever.

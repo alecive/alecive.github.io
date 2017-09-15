@@ -6,11 +6,8 @@ img: yarpdroid.jpg
 img-thumb: yarpdroid_thumb.jpg
 alt: yarpdroid
 date: 2015-08-01
-category: research
 description:
-type: article
 tags: [research,middleware,yarp,android,yarpdroid,computer science,software development,ndk,android studio,robotics,icub,mobile development,google glass]
-
 ---
 
 Over the past month, I've been tinkering with Android Studio and tried to seamlessly integrate it with `yarp` in particular (and the `iCub` software architecture in general). I really believe that a robot can dramatically benefit from the number of sensors a smartphone is provided with. And this can be dual: better HRI, better feedback from the robot, and so on.

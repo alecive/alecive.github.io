@@ -48,6 +48,32 @@ defaults:
       path: "" # an empty string here means all files in the project
     values:
       layout: "default"
+  -
+    scope:
+      path: "_drafts"
+    values:
+      category: "blog"
+      type: "article"
+  -
+    scope:
+      path: "_posts"
+    values:
+      type: "article"
+  -
+    scope:
+      path: "_posts/research"
+    values:
+      category: "research"
+  -
+    scope:
+      path: "_posts/design"
+    values:
+      category: "design"
+  -
+    scope:
+      path: "_posts/blog"
+    values:
+      category: "blog"
 
 # Some more default colors
 #

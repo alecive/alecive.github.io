@@ -6,15 +6,12 @@ img: gazeController.jpg
 img-thumb: gazeController_thumb.jpg
 alt: gaze-controller
 date: 2016-07-07
-category: research
 description:
-type: article
 tags: [research,robotics,icub,robot,humanoids,control,gaze stabilization,inertial sensor,imu,velocity control,whole body motion,walking,balancing,open source,github]
 authors: Alessandro Roncone, Ugo Pattacini, Giorgio Metta, and Lorenzo Natale
 submission: 2016 Robotics - Science and Systems, Ann Arbor, MI, U.S.A., June 18-22, 2016
 paper_pdf: "[Roncone et al. 2016] A Cartesian 6-DoF Gaze Controller for Humanoid Robots"
 paper_title: A Cartesian 6-DoF Gaze Controller for Humanoid Robots
-
 ---
 
 We have developed a 6 degrees of freedom (DoFs) gaze controller for humanoid robots. Our goal is the control of the head of the iCub robot, which is equipped with a 3-DoFs neck and a 3-DoFs binocular system capable of version and vergence behaviors. Potential applications range from the more standard tracking and attentive systems to image stabilization capabilities during whole body motions such as walking and balancing.

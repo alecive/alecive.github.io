@@ -5,11 +5,8 @@ link-alt: A New Start Blood Suite on DeviantART
 img: aNewStartBlood.jpg
 img-thumb: aNewStartBlood_thumb.jpg
 alt: anewstartblood-suite
-category: design
 description:
 tags: [design,gtk,theme,gnome,linux,open source,lxde,xfce,a new start blood,gtk2,gtk3]
-type: article
-
 ---
 
 A New Start Blood is the dark version of ANewStart suite for Linux. Tough color palette, gloomy mood, as well as harmony and care for details.

@@ -6,11 +6,8 @@ date: 2012-09-01
 img: awoken.jpg
 img-thumb: awoken_thumb.jpg
 alt: awoken-icons
-category: design
 description: Minimalism at its finest
 tags: [design,icon pack,icon theme,icons,minimal,token,gray,grey,design,linux,gtk,kde,lxde,ubuntu,xfce,png,arch,fedora,desktop environment,gnome,open source]
-type: article
-
 ---
 
 *AwOken* is a project born in 2010 with the attempt to bring a whole new experience in Linux community. Being inspired by the great work of _brsev_ on *Token icons*, AwOken project is aimed to provide a complete and coherent iconset, with an eye on design and minimalism. It comes with three different flavours (AwOken, AwOkenDark, AwOkenWhite), but is provided with a script that let you customize it with *40590000000* unique combinations.

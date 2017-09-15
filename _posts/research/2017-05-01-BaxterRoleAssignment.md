@@ -5,15 +5,12 @@ link-alt: GitHub repository
 img: BaxterRoleAssignment.jpg
 img-thumb: BaxterRoleAssignment_thumb.jpg
 alt: baxter-role-assignment
-category: research
 description:
 tags: [research,robotics,baxter,hri,human robot interaction,collaborative manufacturing,human robot collaboration,advanced manufacturing,open source,github]
-type: article
 authors: Alessandro Roncone, Olivier Mangin, and Brian Scassellati
 submission: IEEE International Conference on Robotics and Automation (ICRA2014), Singapore, May 29-June 3, 2017
 paper_pdf: "[Roncone et al. 2017] Transparent Role Assignment and Task Allocation in Human Robot Collaboration"
 paper_title: "Transparent Role Assignment and Task Allocation in Human Robot Collaboration"
-
 ---
 
 ## Video
