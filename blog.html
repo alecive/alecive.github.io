@@ -5,28 +5,4 @@ title: "Blog"
 description: "Personal blog in which I put everything I might find useful for myself. It is not meant to be consulted by others, but you might find it useful anyway!"
 ---
 
-    <section id="{{ page.type }}">
-        <div class="container" id="portfolio">
-            <div class="row">
-                <div class="col-lg-12 text-center">
-                    <h2>{{ page.type }}</h2>
-                    <hr class="separating-line {{ page.type }}">
-                </div>
-                <!-- <div class="col-lg-12">
-                    <p style="margin-bottom: 36px;">This is a (not so) secret page, and as such you should not be here. In here, I put everything I might find useful for myself. It is not meant to be consulted (nor consumed) by others. You might find it useful, though: look around, there might be some good stuff in there!</p>
-                </div>  -->
-
-                {% for post in site.posts %}
-                    {% if post.categories contains page.type %}
-                        <div class="col-md-10 col-md-offset-1 portfolio-item">
-                            <a href="{{ post.url }}" class="no-border with-shadow portfolio-link" style="max-width:100%">
-                                <p class="post-date">{{ post.date | date: '%B %d, %Y'  }}</p>
-                                <h3>{{ post.title }}</h3>
-                                <p class="post-description">{{ post.description }}</p>
-                            </a>
-                        </div>
-                    {% endif %}
-                {% endfor %}
-            </div>
-        </div>
-    </section>
+This is a (not so) secret page, and as such you should not be here. In here, I put everything I might find useful for myself. It is not meant to be consulted (nor consumed) by others. You might find it useful, though: look around, there might be some good stuff in there!
