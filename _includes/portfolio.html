@@ -9,7 +9,7 @@
             </div>
             <div class="row">
                 {% if page.type == "research" or  page.type == "design" %}
-                <div class="col-lg-12 hidden-xs" id="article" style="margin-top: 0px; margin-bottom: 40px;">
+                <div class="col-lg-12" id="article" style="margin-top: 0px; margin-bottom: 40px;">
                     {{ content | markdownify }}
                 </div>
                 {% endif %}
