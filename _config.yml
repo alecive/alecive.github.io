@@ -85,7 +85,7 @@ color:
 # I've put different combinations to test
 #
 # ALTERNATIVE 0
-  articletext: 3c3c3c                     # This is the text color
+  articletext: 333333                     # This is the text color
   primary: b5c0c7                         # This is the gray color with a blue tint
   secondary: 0892d0                       # This is the blue color
   secondary-dark: 055c83                  # This is the blue color
@@ -105,7 +105,7 @@ color:
   # secondary: f4676d                       # This is reddish
   # secondary-dark: f24e55                  # This is reddish
 # ALTERNATIVE 4 - B and W
-  articletext: 3c3c3c                     # This is the text color
+  articletext: 333333                     # This is the text color
   primary:  f9fafb                        # This is the background of the logo, light gray
   secondary: 3c3c3c                       # This is dark gray
   secondary-dark: 323232                  # This is darker gray
