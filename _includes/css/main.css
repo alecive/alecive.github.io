@@ -763,6 +763,15 @@ pre code {
     font-size: inherit;
 }
 
+.nobottommargin {
+    margin-bottom: 0px;
+}
+
+.notopmargin,
+#article table.notopmargin {
+    margin-top: 0px;
+}
+
 span {
     /*color: #fff;*/
     border: none;
