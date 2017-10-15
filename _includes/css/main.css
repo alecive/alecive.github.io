@@ -77,8 +77,8 @@ a:active,
 a.active,
 #article a:hover,
 #blog a:hover h3,
-.navbar-expand-md .navbar-nav > li > a:hover,
-.navbar-expand-md .navbar-nav > li > a:focus {
+.navbar-expand-md .navbar-nav .nav-link:hover,
+.navbar-expand-md .navbar-nav .nav-link:focus {
     color: #{{ site.color.accent }};
     text-decoration: none;
     -webkit-transition: all ease .7s;
@@ -96,8 +96,8 @@ header img:hover,
 .scroll-top .btn:hover,
 .scroll-top .btn:focus,
 .btn-social:hover,
-.navbar-default .navbar-toggle:hover,
-.navbar-default .navbar-toggle:focus  {
+.navbar-default .navbar-toggler:hover,
+.navbar-default .navbar-toggler:focus  {
     background-color: #{{ site.color.accent }};
     -webkit-transition: all ease 1s;
     -moz-transition: all ease 1s;
@@ -291,13 +291,13 @@ header .intro-text .owner-small {
     .cv-img {
         max-width: 256px;
     }
+}
 
-    .navbar-fixed-top {
-        padding: 0px 0;
-        -webkit-transition: padding .3s;
-        -moz-transition: padding .3s;
-        transition: padding .3s;
-    }
+.navbar-fixed-top {
+    padding: 0px 0;
+    -webkit-transition: padding .3s;
+    -moz-transition: padding .3s;
+    transition: padding .3s;
 }
 
 .navbar .navbar-nav {
@@ -333,7 +333,7 @@ header .intro-text .owner-small {
     padding-bottom: 10px;
 }
 
-.navbar .navbar-nav li a:focus {
+.navbar .navbar-nav .nav-link:focus {
     outline: 0;
 }
 
@@ -369,13 +369,13 @@ header .intro-text .owner-small {
         height: 70px;
     }
 
-    .navbar-nav > li > a {
+    .navbar-expand-md .navbar-nav .nav-link {
         padding-top: 10px;
         padding-bottom: 10px;
     }
 
     .navbar-shrink {
-        margin-top: -48px;
+        margin-top: -49px;
         -webkit-transition: all ease .3s;
         -moz-transition: all ease .3s;
         transition: all ease .3s;
@@ -442,25 +442,95 @@ section.success p {
         padding-top: 75px;
     }
 
-    .navbar-default .navbar-toggle {
+    .navbar-toggler {
         border: none;
         border-radius: 0;
         margin-top: 18px;
         margin-bottom: 18px;
+        margin-right: 15px;
         padding-right: 2px;
-        background-color: #{{ site.color.secondary }};
         -webkit-transition: margin .3s;
         -moz-transition: margin .3s;
         transition: margin .3s;
+        opacity: 0.8;
+        background-color: #{{ site.color.secondary }};
     }
 
-    .navbar-default.navbar-shrink .navbar-toggle {
+    .navbar-toggler:hover {
+        opacity: 1;
+    }
+
+    .navbar-default.navbar-shrink .navbar-toggler {
         margin-top: 14px;
         margin-bottom: 14px;
     }
+
+    .navbar-toggler span {
+        display: block;
+        background-color: #fff;
+        height: 2px;
+        width: 28px;
+        margin-top: 6px;
+        margin-bottom: 6px;
+        margin-right: 4px;
+        -webkit-transform: rotate(0deg);
+        -moz-transform: rotate(0deg);
+        -o-transform: rotate(0deg);
+        transform: rotate(0deg);
+        position: relative;
+        left: 0;
+        opacity: 1;
+    }
+
+    .navbar-toggler span:nth-child(1),
+    .navbar-toggler span:nth-child(3) {
+        -webkit-transition: transform .35s ease-in-out;
+        -moz-transition: transform .35s ease-in-out;
+        -o-transition: transform .35s ease-in-out;
+        transition: transform .35s ease-in-out;
+    }
+
+    .navbar-toggler span:nth-child(2) {
+        -webkit-transition: opacity .35s ease-in-out;
+        -moz-transition: opacity .35s ease-in-out;
+        -o-transition: opacity .35s ease-in-out;
+        transition: opacity .35s ease-in-out;
+    }
+
+    .navbar-toggler:not(.collapsed) span:nth-child(1) {
+        /*position: absolute;*/
+        left: 0px;
+        top: 13px;
+        margin-top: 0px;
+        margin-bottom: 0px;
+        -webkit-transform: rotate(135deg);
+        -moz-transform: rotate(135deg);
+        -o-transform: rotate(135deg);
+        transform: rotate(135deg);
+    }
+
+    .navbar-toggler:not(.collapsed) span:nth-child(2) {
+        height: 12px;
+        margin-top: 7px;
+        margin-bottom: 7px;
+        opacity: 0;
+        background-color: transparent;
+    }
+
+    .navbar-toggler:not(.collapsed) span:nth-child(3) {
+        /*position: absolute;*/
+        left: 0px;
+        top: -15px;
+        margin-top: 0px;
+        margin-bottom: 0px;
+        -webkit-transform: rotate(-135deg);
+        -moz-transform: rotate(-135deg);
+        -o-transform: rotate(-135deg);
+        transform: rotate(-135deg);
+    }
 }
 
-@media (min-width:768px) {
+@media (max-width:991px) {
     .container {
         width:95%;
         max-width:95%;
