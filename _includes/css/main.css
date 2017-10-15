@@ -40,6 +40,7 @@ Class prefix        .col-xs-        .col-sm-    .col-md-    .col-lg-    .col-xl-
 }
 
 body {
+    position: relative;
     overflow-x: hidden;
     font-size: 17.5px;
     font-family: 'Assistant', sans-serif;
@@ -76,8 +77,8 @@ a:active,
 a.active,
 #article a:hover,
 #blog a:hover h3,
-.navbar-default .navbar-nav > li > a:hover,
-.navbar-default .navbar-nav > li > a:focus {
+.navbar-expand-md .navbar-nav > li > a:hover,
+.navbar-expand-md .navbar-nav > li > a:focus {
     color: #{{ site.color.accent }};
     text-decoration: none;
     -webkit-transition: all ease .7s;
@@ -86,9 +87,9 @@ a.active,
 }
 
 header img:hover,
-.navbar-default .navbar-nav > .active > a,
-.navbar-default .navbar-nav > .active > a:hover,
-.navbar-default .navbar-nav > .active > a:focus,
+.navbar-expand-md .navbar-nav .nav-link.active,
+.navbar-expand-md .navbar-nav .nav-link.active:hover,
+.navbar-expand-md .navbar-nav .nav-link.active:focus,
 .navbar-default .navbar-brand:hover,
 .navbar-default .navbar-brand:focus,
 #article .progress:hover .progress-bar,
@@ -101,6 +102,12 @@ header img:hover,
     -webkit-transition: all ease 1s;
     -moz-transition: all ease 1s;
     transition: all ease 1s;
+}
+
+.navbar-expand-md .navbar-nav .nav-link.active,
+.navbar-expand-md .navbar-nav .nav-link.active:hover,
+.navbar-expand-md .navbar-nav .nav-link.active:focus {
+    color: #fff;
 }
 
 .cv-img:hover,
@@ -299,26 +306,28 @@ header .intro-text .owner-small {
     padding-bottom: 10px;
 }
 
-.navbar-nav > li > a {
+.navbar-expand-md .navbar-nav .nav-link {
     margin-top: 6px;
     padding-top:    20px;
     padding-bottom: 20px;
+    padding-right: 15px;
+    padding-left: 15px;
     -webkit-transition: all .3s;
     -moz-transition: all .3s;
     transition: all .3s;
 }
 
-.navbar-default .navbar-nav > li > a:hover,
-.navbar-default .navbar-nav > li > a:focus,
-.navbar-default .navbar-nav > .active > a,
-.navbar-default .navbar-nav > .active > a:hover,
-.navbar-default .navbar-nav > .active > a:focus  {
+.navbar-expand-md .navbar-nav .nav-link:hover,
+.navbar-expand-md .navbar-nav .nav-link:focus,
+.navbar-expand-md .navbar-nav .nav-link.active,
+.navbar-expand-md .navbar-nav .nav-link.active:hover,
+.navbar-expand-md .navbar-nav .nav-link.active:focus  {
     -webkit-transition: all ease .3s;
     -moz-transition: all ease .3s;
     transition: all ease .3s;
 }
 
-.navbar-fixed-top.navbar-shrink .navbar-nav > li > a {
+.navbar-fixed-top.navbar-shrink .navbar-nav .nav-link {
     margin-top: 0px;
     padding-top: 10px;
     padding-bottom: 10px;
@@ -384,8 +393,8 @@ header .intro-text .owner-small {
 }
 
 section {
+    padding: 100px 0;
     color: #{{ site.color.secondary }};
-    padding: 80px 0;
 }
 
 section p {
@@ -454,24 +463,28 @@ section.success p {
 @media (min-width:768px) {
     .container {
         width:95%;
+        max-width:95%;
     }
 }
 
 @media (min-width:992px) {
     .container {
         width:85%;
+        max-width:85%;
     }
 }
 
 @media (min-width:1200px) {
     .container {
         width:80%;
+        max-width:80%;
     }
 }
 
 @media (min-width:1500px) {
     .container {
         width:1200px;
+        max-width:1200px;
     }
 }
 
