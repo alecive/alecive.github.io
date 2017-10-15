@@ -1,5 +1,6 @@
    <!-- Navigation -->
     <nav id="navbar-scrollspy" class="navbar navbar-expand-md navbar-default navbar-fixed-top {% if page.type == "cv" or page.type == "fourofour" %}no-print{% endif %}">
+        <div class="container">
         <a class="navbar-brand" href="{% if page.type == "research" %}#page-top{% else %}/{% endif %}">
             <img class="img-responsive" src="{{ site.logo }}">
         </a>
@@ -11,7 +12,7 @@
 
         <!-- Collect the nav links, forms, and other content for toggling -->
         <div class="collapse navbar-collapse" id="navbarCollapse">
-            <ul class="nav navbar-nav">
+            <ul class="nav navbar-nav navbar-right">
                 <li class="hidden">
                     <a class="nav-link" href="#page-top"></a>
                 </li>
@@ -61,6 +62,7 @@
                 </li>
                 {% endif %}
             </ul>
+        </div>
         </div>
     </nav>
 
