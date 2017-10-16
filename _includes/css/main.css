@@ -1290,6 +1290,10 @@ pre code span:hover {
         margin-top: 6px;
         font-size: 0.94em;
     }
+
+    .inlineifprinted {
+        display: inline;
+    }
 }
 
 @media(max-width:450px) {
@@ -1330,10 +1334,6 @@ pre code span:hover {
 
     #article .cv-item h4 {
         margin-top: 7px;
-    }
-
-    .inlineifprinted {
-        display: inline;
     }
 }
 
