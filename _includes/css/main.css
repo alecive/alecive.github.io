@@ -366,6 +366,7 @@ header .intro-text .owner-small {
     .navbar-default .navbar-brand img {
         width: 70px;
         height: 70px;
+        margin-right: 10px;
     }
 
     .navbar-expand-md .navbar-nav .nav-link {
@@ -472,7 +473,7 @@ section.success p {
         width: 28px;
         margin-top: 6px;
         margin-bottom: 6px;
-        margin-right: 4px;
+        margin-right: 6px;
         -webkit-transform: rotate(0deg);
         -moz-transform: rotate(0deg);
         -o-transform: rotate(0deg);
