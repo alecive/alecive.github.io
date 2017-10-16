@@ -96,8 +96,7 @@ header img:hover,
 .scroll-top .btn:hover,
 .scroll-top .btn:focus,
 .btn-social:hover,
-.navbar-default .navbar-toggler:hover,
-.navbar-default .navbar-toggler:focus  {
+.navbar-toggler:hover  {
     background-color: #{{ site.color.accent }};
     -webkit-transition: all ease 1s;
     -moz-transition: all ease 1s;
@@ -452,15 +451,14 @@ section.success p {
         margin-bottom: 18px;
         margin-right: 15px;
         padding-right: 2px;
-        -webkit-transition: margin .3s;
-        -moz-transition: margin .3s;
-        transition: margin .3s;
-        opacity: 0.8;
+        -webkit-transition: all ease 1s;
+        -moz-transition: all ease 1s;
+        transition: all ease 1s;
         background-color: #{{ site.color.secondary }};
     }
 
     .navbar-toggler:hover {
-        opacity: 1;
+        background-color: #{{ site.color.accent }};
     }
 
     .navbar-default.navbar-shrink .navbar-toggler {
@@ -483,7 +481,6 @@ section.success p {
         transform: rotate(0deg);
         position: relative;
         left: 0;
-        opacity: 1;
     }
 
     .navbar-toggler span:nth-child(1),
@@ -534,10 +531,17 @@ section.success p {
     }
 }
 
-@media (max-width:991px) {
+@media (max-width:767px) {
     .container {
         width:100%;
         max-width:100%;
+    }
+}
+
+@media (max-width:991px) {
+    .container {
+        width:95%;
+        max-width:95%;
     }
 }
 
