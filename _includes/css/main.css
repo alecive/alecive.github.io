@@ -304,6 +304,7 @@ header .intro-text .owner-small {
     letter-spacing: 1px;
     padding-top: 10px;
     padding-bottom: 10px;
+    margin: auto;
 }
 
 .navbar-expand-md .navbar-nav .nav-link {
@@ -391,6 +392,7 @@ header .intro-text .owner-small {
 .navbar-fixed-top .navbar-collapse {
     box-shadow: none;
     max-height: 360px;
+    margin: auto;
 }
 
 section {
@@ -468,7 +470,8 @@ section.success p {
 
     .navbar-toggler span {
         display: block;
-        background-color: #fff;
+        color: #fff !important;
+        background-color: #fff !important;
         height: 2px;
         width: 28px;
         margin-top: 6px;
@@ -491,12 +494,12 @@ section.success p {
         transition: transform .35s ease-in-out;
     }
 
-    .navbar-toggler span:nth-child(2) {
+    /*.navbar-toggler span:nth-child(2) {
         -webkit-transition: opacity .35s ease-in-out;
         -moz-transition: opacity .35s ease-in-out;
         -o-transition: opacity .35s ease-in-out;
         transition: opacity .35s ease-in-out;
-    }
+    }*/
 
     .navbar-toggler:not(.collapsed) span:nth-child(1) {
         /*position: absolute;*/
@@ -533,22 +536,22 @@ section.success p {
 
 @media (max-width:991px) {
     .container {
-        width:95%;
-        max-width:95%;
+        width:100%;
+        max-width:100%;
     }
 }
 
 @media (min-width:992px) {
     .container {
-        width:85%;
-        max-width:85%;
+        width:90%;
+        max-width:90%;
     }
 }
 
 @media (min-width:1200px) {
     .container {
-        width:80%;
-        max-width:80%;
+        width:85%;
+        max-width:85%;
     }
 }
 

@@ -1,6 +1,6 @@
 
 <section id="post-cv">
-    <div class="container" style="margin-top:0px; margin-bottom:0px;">
+    <div class="container">
         <div class="row only-print">
             <div class="col-lg-12 text-center">
                 <h2>{{ site.owner }}</h2>
@@ -13,14 +13,14 @@
             <h1>Professional Experience</h1>
             {% for item in site.data.cv-professional %}
                 <div class="row cv-item">
-                    <div class="col-sm-3">
+                    <div class="col-md-3">
                         <h3 class="inlineifprinted">{{item.start}} - {{item.end}}</h3>
                         {% if item.location-link %}<h4 class="inlineifprinted"><a href="{{item.location-link}}" target="_blank">{{item.location}}</a></h4>
                         {% else %}<h4 class="inlineifprinted">{{item.location}}</h4>
                         {% endif %}
                     </div>
 
-                    <div class="col-sm-9">
+                    <div class="col-md-9">
                         <h2>{{item.name}}</h2>
                         <p>{% if item.title %}<i>{{item.title}}</i><br>{% endif %}
                         {{item.description}}
@@ -32,14 +32,14 @@
             <h1>Education</h1>
             {% for college in site.data.cv-education %}
                 <div class="row cv-item">
-                    <div class="col-sm-3">
+                    <div class="col-md-3">
                         <h3 class="inlineifprinted">{{college.start}} - {{college.end}}</h3>
                         {% if college.location-link %}<h4 class="inlineifprinted"><a href="{{college.location-link}}" target="_blank">{{college.location}}</a></h4>
                         {% else %}<h4 class="inlineifprinted">{{college.location}}</h4>
                         {% endif %}
                     </div>
 
-                    <div class="col-sm-9">
+                    <div class="col-md-9">
                         <h2>{{college.name}}</h2>
                         <p>{% if college.title %}<i>{{college.title}}</i><br>{% endif %}
                         {{college.description}}
@@ -51,13 +51,13 @@
             <h1>Publications</h1>
             {% for item in site.data.cv-publications %}
                 <div class="row cv-item">
-                    <div class="col-sm-4">
+                    <div class="col-md-4">
                         <h3 class="inlineifprinted">{{item.year}}</h3>
                         <h4 class="inlineifprinted">{{item.venue}}</h4>
                         <p  class="no-print hidden-xs">{{item.where}}</p>
                     </div>
 
-                    <div class="col-sm-8">
+                    <div class="col-md-8">
                         <h2>{{item.title}}{% if item.pdf %}<a class="no-print" href="{{ site.url }}/papers/{{ item.pdf }}.pdf" target="_blank"> [PDF]</a><a class="no-print" href="{{ site.url }}/papers/{{ item.pdf }}.bib" target="_blank"> [BIB]</a>{% endif %}</h2>
                         <p><i>{{item.authors}}</i><br>
                         {{item.description}}
@@ -70,15 +70,15 @@
             {% for item in site.data.cv-misc %}
                 <div class="row cv-item">
                     {% if item.year or item.venue or item.where %}
-                    <div class="col-sm-4">
+                    <div class="col-md-4">
                         <h3 class="inlineifprinted">{{item.year}}</h3>
                         <h4 class="inlineifprinted">{{item.venue}}</h4>
                         <p  class="no-print hidden-xs">{{item.where}}</p>
                     </div>
 
-                    <div class="col-sm-8">
+                    <div class="col-md-8">
                     {% else %}
-                    <div class="col-sm-12">
+                    <div class="col-md-12">
                     {% endif %}
                         <h2>{{item.title}}</h2>
                         <p>{% if item.authors %}<i class="no-print">{{item.authors}}</i><br class="no-print">{% endif %}
@@ -92,16 +92,16 @@
             {% for item in site.data.cv-graphics %}
                 <div class="row cv-item">
                     {% if item.start or item.end or item.location or item.location-link %}
-                    <div class="col-sm-3">
+                    <div class="col-md-3">
                         <h3 class="inlineifprinted">{{item.start}} - {{item.end}}</h3>
                         {% if item.location-link %}<h4 class="inlineifprinted"><a href="{{item.location-link}}" target="_blank">{{item.location}}</a></h4>
                         {% else %}<h4 class="inlineifprinted">{{item.location}}</h4>
                         {% endif %}
                     </div>
 
-                    <div class="col-sm-9">
+                    <div class="col-md-9">
                     {% else %}
-                    <div class="col-sm-12">
+                    <div class="col-md-12">
                     {% endif %}
                         <h2>{{item.name}}</h2>
                         <p>{% if item.title %}<i>{{item.title}}</i><br>{% endif %}
@@ -115,7 +115,7 @@
             <p class="no-print">The following is a list of my so-called <i>skills</i>, i.e. a set of progress bars that have little meaning and are totally subjective. They fall short in depicting who I really am, but they are a fair rundown of my practical talents nonetheless.</p>
             {% for skill in site.data.cv-skills %}
             <div class="row cv-item">
-                <div class="col-sm-12">
+                <div class="col-md-12">
                     <p><b>{{ skill.name }}: </b></p>
                     <div class="only-print">
                     {% for item in skill.items %}

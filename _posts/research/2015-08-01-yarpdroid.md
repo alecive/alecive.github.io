@@ -36,10 +36,10 @@ The only thing that is missing in order to provide a complete template applicati
 ## Screenshots
 
 <div class="row">
-  <div class="col-sm-6 col-print-6">
+  <div class="col-md-6 col-print-6">
     {% include image.html url="portfolio/yarpdroid_speechtotext.png" description="<b><i>Speech-to-text</i></b> interaction running on the application. This can be sent onto the YARP network to perform a variety of tasks (e.g. verbal interaction with the robot)." %}
   </div>
-  <div class="col-sm-6 col-print-6">
+  <div class="col-md-6 col-print-6">
     {% include image.html url="portfolio/yarpdroid_view.png" description="<b><i>Camera Viewers</i></b> from the robot: it is possible to send image data from the YARP network onto the smartphone in order to <i>'see with iCub's eyes'</i>" %}
   </div>
 </div>
