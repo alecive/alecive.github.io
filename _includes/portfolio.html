@@ -18,23 +18,22 @@
                     {% if post.categories contains page.type %}
                         {% if page.type == "research" or  page.type == "design" %}
                             {% if post.double %}
-                            <div class="col-sm-6 col-sm-offset-3 portfolio-item">
-                            {% else %}
-                            <div class="col-sm-6 portfolio-item">
+                            <div class="col-md-3"></div>
                             {% endif %}
+                            <div class="col-md-6 portfolio-item">
                                 <a href="{{ post.url }}" class="with-shadow portfolio-link">
                                     <div class="caption">
                                         <div class="caption-content">
                                             <!-- <i class="fa fa-plus fa-3x"></i> -->
-                                            <h2>+</h2>
-                                            <h4>{{ post.title }}</h4>
+                                            <p>+</p>
+                                            <h3>{{ post.title }}</h3>
                                         </div>
                                     </div>
-                                    <img src="img/portfolio/{% if post.img-thumb %}{{ post.img-thumb }}{% else %}{{ post.img }}{% endif %}" class="img-responsive" alt="{{ post.alt }}">
+                                    <img src="img/portfolio/{% if post.img-thumb %}{{ post.img-thumb }}{% else %}{{ post.img }}{% endif %}" class="img-fluid" alt="{{ post.alt }}">
                                 </a>
                             </div>
                         {% elsif page.type == "blog" %}
-                            <div class="col-md-10 col-md-offset-1 portfolio-item">
+                            <div class="col-md-10 mx-auto portfolio-item">
                                 <a href="{{ post.url }}" class="no-border with-shadow portfolio-link" style="max-width:100%">
                                     <p class="post-date">{{ post.date | date: '%B %d, %Y'  }}</p>
                                     <h3>{{ post.title }}</h3>

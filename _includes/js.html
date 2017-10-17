@@ -1,7 +1,13 @@
-    <!-- jQuery Version 1.11.0 -->
-    <script src="{{ "/js/jquery-1.11.0.js" | prepend: site.baseurl }}"></script>
+    <!-- jQuery Version 3.2.1 -->
+    <!-- <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script> -->
+    <script src="{{ "/js/jquery-3.2.1.min.js" | prepend: site.baseurl }}"></script>
 
-    <!-- Bootstrap Core JavaScript -->
+    <!-- Popper Version 1.11.0 -->
+    <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.11.0/umd/popper.min.js" integrity="sha384-b/U6ypiBEHpOf/4+1nzFpr53nxSS+GLCkfwBdFNTxtclqqenISfwAzpKaMNFNmj4" crossorigin="anonymous"></script> -->
+    <script src="{{ "/js/popper.min.js" | prepend: site.baseurl }}"></script>
+
+    <!-- Bootstrap Version 4.0.0 -->
+    <!-- <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/js/bootstrap.min.js" integrity="sha384-h0AbiXch4ZDo7tp9hKZ4TsHbi047NrKGLO3SEJAg45jXxnGIfYzk4Si90RDIqNm1" crossorigin="anonymous"></script> -->
     <script src="{{ "/js/bootstrap.min.js" | prepend: site.baseurl }}"></script>
 
     <!-- Plugin JavaScript -->
@@ -9,18 +15,12 @@
     <script src="{{ "/js/classie.js" | prepend: site.baseurl }}"></script>
 
     <script>
-      /**
-       * cbpAnimatedHeader.js v1.0.0
-       *
-       * Licensed under the MIT license.
-       * http://www.opensource.org/licenses/mit-license.php
-       *
-       * Copyright 2013, Codrops http://www.codrops.com
-       */
+      // cbpAnimatedHeader.js v1.0.0
       var cbpAnimatedHeader = (function() {
 
         var docElem = document.documentElement,
-          header = document.querySelector( '.navbar-fixed-top' ),
+          header = document.querySelector( '.navbar' ),
+          collapse = document.querySelector( '.navbar-collapse' ),
           didScroll = false,
           changeHeaderOn = 300;
 
@@ -40,6 +40,11 @@
 
           if ( sy > lsy ) {
             classie.add( header, 'navbar-shrink' );
+
+            // Disable the toggler while moving down or up
+            if (collapse.classList.contains('show')) {
+              $('.navbar-toggler:visible').click();
+            }
           }
           else {
             classie.remove( header, 'navbar-shrink' );
@@ -58,11 +63,6 @@
     </script>
 
     <script>
-      /*!
-       * Start Bootstrap - Freelancer Bootstrap Theme (http://startbootstrap.com)
-       * Code licensed under the Apache License v2.0.
-       * For details, see http://www.apache.org/licenses/LICENSE-2.0.
-       */
       // jQuery for page scrolling feature - requires jQuery Easing plugin
       $(function() {
           $('.page-scroll a').bind('click', function(event) {
@@ -76,12 +76,12 @@
 
       // Highlight the top nav as scrolling occurs
       $('body').scrollspy({
-          target: '.navbar-fixed-top'
+          target: '#navbar-scrollspy'
       })
 
       // Closes the Responsive Menu on Menu Item Click
       $('.navbar-collapse ul li a').click(function() {
-          $('.navbar-toggle:visible').click();
+          $('.navbar-toggler:visible').click();
       });
 
       window.addEventListener("hashchange", function() { scrollBy(0, -110) });
