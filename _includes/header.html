@@ -1,8 +1,8 @@
    <!-- Navigation -->
-    <nav id="navbar-scrollspy" class="navbar navbar-expand-md navbar-default navbar-fixed-top {% if page.type == "cv" or page.type == "fourofour" %}no-print{% endif %}">
+    <nav id="navbar-scrollspy" class="navbar fixed-top navbar-expand-md {% if page.type == "cv" or page.type == "fourofour" %}no-print{% endif %}">
         <div class="container">
         <a class="navbar-brand" href="{% if page.type == "research" %}#page-top{% else %}/{% endif %}">
-            <img class="img-responsive" src="{{ site.logo }}">
+            <img class="img-fluid" src="{{ site.logo }}">
         </a>
         <button type="button" class="navbar-toggler collapsed" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
             <span> </span>
@@ -12,8 +12,8 @@
 
         <!-- Collect the nav links, forms, and other content for toggling -->
         <div class="collapse navbar-collapse" id="navbarCollapse">
-            <ul class="nav navbar-nav navbar-right">
-                <li class="hidden">
+            <ul class="navbar-nav ml-auto w-100 justify-content-end">
+                <li class="d-none">
                     <a class="nav-link" href="#page-top"></a>
                 </li>
                 {% if page.type == "cv" %}
@@ -72,7 +72,7 @@
         <div class="container">
             <div class="row">
                 <div class="col-lg-12">
-                    <img class="img-responsive with-shadow-on-hover logo-img" src="{{ site.logo }}" alt="alecive-logo">
+                    <img class="img-fluid with-shadow-on-hover logo-img" src="{{ site.logo }}" alt="alecive-logo">
                     <div class="intro-text">
                         <span class="name">{{ page.type }}</span>
                         <hr class="separating-line">
@@ -88,7 +88,7 @@
         <div class="container">
             <div class="row">
                 <div class="col-lg-12">
-                    <img class="img-responsive no-print with-shadow-on-hover cv-img" src="{{ site.cv-image }}" alt="alessandro-roncone">
+                    <img class="img-fluid no-print with-shadow-on-hover cv-img" src="{{ site.cv-image }}" alt="alessandro-roncone">
                     <div class="intro-text">
                         <span class="name-small no-print">{{ page.title }}</span>
                         <hr class="separating-line no-print">
