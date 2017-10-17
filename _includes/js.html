@@ -23,6 +23,7 @@
 
         var docElem = document.documentElement,
           header = document.querySelector( '.navbar' ),
+          collapse = document.querySelector( '.navbar-collapse' ),
           didScroll = false,
           changeHeaderOn = 300;
 
@@ -42,6 +43,11 @@
 
           if ( sy > lsy ) {
             classie.add( header, 'navbar-shrink' );
+
+            console.log(collapse.classList);
+            if (collapse.classList.contains('show')) {
+              $('.navbar-toggler:visible').click();
+            }
           }
           else {
             classie.remove( header, 'navbar-shrink' );

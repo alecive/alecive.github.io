@@ -167,6 +167,10 @@ header .intro-text .owner-small {
     font-weight: 100;
 }
 
+h3 {
+    margin-top: 21px;
+}
+
 #article thead tr th strong,
 h4 {
     text-transform: none;
@@ -207,6 +211,12 @@ header hr.separating-line {
 
 ul {
     list-style-type: square;
+}
+
+.list-inline-item {
+    margin-right: 0px !important;
+    padding-left: 5px;
+    padding-right: 5px;
 }
 
 .img-centered {
@@ -323,8 +333,8 @@ header .intro-text .owner-small {
     margin-top: 6px;
     padding-top:    20px;
     padding-bottom: 20px;
-    padding-right: 15px;
-    padding-left: 15px;
+    padding-right: 15px !important;
+    padding-left: 15px !important;
     -webkit-transition: all .3s;
     -moz-transition: all .3s;
     transition: all .3s;
@@ -824,7 +834,8 @@ pre code {
 
 #article table.table td,
 #article table.table th {
-    padding: .6rem;
+    border: none;
+    padding: .4em;
     /*border: 1px solid #e5e5e5;*/
 }
 
@@ -1060,6 +1071,7 @@ span.label:hover e.ok {
 #portfolio .portfolio-item .portfolio-link .caption .caption-content h3 {
     line-height: 1.6em;
     font-size: 19px;
+    text-align: center;
 }
 
 #portfolio * {
@@ -1186,6 +1198,7 @@ p code, li code {
 }
 
 pre {
+    padding: 4px;
     font-size: .85em;
     line-height: 1.5;
     overflow-x: auto;
@@ -1216,7 +1229,7 @@ pre code span:hover {
 
 .highlight {
     margin: .5em 0em;
-    line-height: 2.1667;
+    line-height: 1.8;
     color: #d0d0d0;
     background-color: #272822;
     -webkit-border-radius: 3px;
@@ -1309,9 +1322,18 @@ pre code span:hover {
         margin-right: 0px;
     }
 
+    #article .cv-item h2 {
+        margin-top: 10px;
+        margin-bottom: 7px;
+    }
+
     #article .cv-item h3 {
         margin-top: 6px;
         font-size: 0.94em;
+    }
+
+    #article .cv-item p {
+        margin-bottom: 0px;
     }
 
     .inlineifprinted {
@@ -1348,11 +1370,6 @@ pre code span:hover {
     #article .cv-item div {
         padding-left: 5px;
         padding-right: 5px;
-    }
-
-    #article .cv-item h2 {
-        margin-top: 10px;
-        margin-bottom: 7px;
     }
 
     #article .cv-item h4 {
