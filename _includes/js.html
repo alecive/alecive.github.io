@@ -22,7 +22,7 @@
       var cbpAnimatedHeader = (function() {
 
         var docElem = document.documentElement,
-          header = document.querySelector( '.navbar-fixed-top' ),
+          header = document.querySelector( '.navbar' ),
           didScroll = false,
           changeHeaderOn = 300;
 
@@ -83,7 +83,7 @@
 
       // Closes the Responsive Menu on Menu Item Click
       $('.navbar-collapse ul li a').click(function() {
-          $('.navbar-toggle:visible').click();
+          $('.navbar-toggler:visible').click();
       });
 
       window.addEventListener("hashchange", function() { scrollBy(0, -110) });
