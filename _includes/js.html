@@ -13,6 +13,7 @@
     <!-- Plugin JavaScript -->
     <script src="{{ "/js/jquery.easing.min.js" | prepend: site.baseurl }}"></script>
     <script src="{{ "/js/classie.js" | prepend: site.baseurl }}"></script>
+    <script src="{{ "/js/svg-injector.min.js" | prepend: site.baseurl }}"></script>
 
     <script>
       // cbpAnimatedHeader.js v1.0.0
@@ -83,6 +84,10 @@
       $('.navbar-collapse ul li a').click(function() {
           $('.navbar-toggler:visible').click();
       });
+
+      // Injects css animations and styling into svg icons and logos
+      var SVGToInject = document.querySelectorAll('.svg-inject');
+      SVGInjector(SVGToInject);
 
       window.addEventListener("hashchange", function() { scrollBy(0, -110) });
     </script>

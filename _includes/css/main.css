@@ -370,25 +370,43 @@ header .intro-text .owner-small {
 
 .navbar-brand {
     padding: 0px;
-    height: auto;
     margin: 0px;
+    height: 90px;
 }
 
-.navbar-brand img {
+.navbar-brand svg {
     margin-left: 10px;
     margin-right: 25px;
     width: 90px;
     height: 90px;
+}
+
+.navbar-brand,
+.navbar-brand svg,
+.navbar-brand svg * {
     -webkit-transition: all ease .3s;
     -moz-transition: all ease .3s;
     transition: all ease .3s;
 }
 
+.navbar-brand:hover {
+    background: none;
+}
+
+.navbar-brand:hover svg g .logo-svg-c {
+    opacity: 1;
+    fill: #{{ site.color.accent }};
+}
+
 @media(max-width:767px) {
-    .navbar-brand img {
+
+    .navbar-brand {
+        height: 70px;
+    }
+
+    .navbar-brand svg {
         width: 70px;
         height: 70px;
-        margin-right: 10px;
     }
 
     .navbar-nav .nav-link {
@@ -404,7 +422,11 @@ header .intro-text .owner-small {
     }
 }
 
-.navbar-shrink .navbar-brand img {
+.navbar-shrink .navbar-brand {
+    height: 61px;
+}
+
+.navbar-shrink .navbar-brand svg {
     width: 61px;
     height: 61px;
     margin-right: 15px;
