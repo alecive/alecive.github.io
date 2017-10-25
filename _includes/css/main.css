@@ -93,7 +93,6 @@ a.active,
     transition: all ease .7s;
 }
 
-header img:hover,
 .navbar-nav .nav-link.active,
 .navbar-nav .nav-link.active:hover,
 .navbar-nav .nav-link.active:focus,
@@ -234,11 +233,65 @@ header .container {
     padding-bottom: 50px;
 }
 
-header img {
+header svg {
     display: block;
     margin: 0 auto 20px;
     border-radius: 100%;
     background-color: #{{ site.color.secondary }};
+}
+
+header svg:hover g .logo-svg-a {
+    animation: opacity-change-a 5s linear;
+    animation-iteration-count: infinite;
+    -webkit-animation: opacity-change-a 5s linear;
+    -webkit-animation-iteration-count: infinite;
+}
+
+@keyframes opacity-change-a
+{
+    0%   {opacity: 1.0;}
+    25%  {opacity: 0.5;}
+    50%  {opacity: 0.1;}
+    75%  {opacity: 0.5;}
+    100% {opacity: 1.0;}
+}
+
+@-webkit-keyframes opacity-change-a
+{
+    0%   {opacity: 1.0;}
+    25%  {opacity: 0.5;}
+    50%  {opacity: 0.1;}
+    75%  {opacity: 0.5;}
+    100% {opacity: 1.0;}
+}
+
+header svg:hover g .logo-svg-c {
+    animation: opacity-change-c 5s linear;
+    animation-iteration-count: infinite;
+    -webkit-animation: opacity-change-c 5s linear;
+    -webkit-animation-iteration-count: infinite;
+}
+
+@keyframes opacity-change-c
+{
+    0%   {opacity: 0.5;}
+    25%  {opacity: 1.0;}
+    50%  {opacity: 0.5;}
+    75%  {opacity: 0.1;}
+    100% {opacity: 0.5;}
+}
+
+@-webkit-keyframes opacity-change-c
+{
+    0%   {opacity: 0.5;}
+    25%  {opacity: 1.0;}
+    50%  {opacity: 0.5;}
+    75%  {opacity: 0.1;}
+    100% {opacity: 0.5;}
+}
+
+header svg:hover g .logo-svg-l {
+    opacity: 0;
 }
 
 .logo-img {
