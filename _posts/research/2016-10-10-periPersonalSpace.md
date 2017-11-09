@@ -10,11 +10,11 @@ description:
 tags: [research,robotics,icub,robot,humanoids,artificial skin,peripersonal space,visuo-tactile,multisensory integration,sensor fusion,parzen windows,cognitive robotics,body representations,iros,iros 2015,open source,github]
 authors: Alessandro Roncone, Matej Hoffmann, Ugo Pattacini, Luciano Fadiga, and Giorgio Metta
 submission: 2016 PLOS ONE
-paper_pdf: "[Roncone et al. 2016] Peripersonal Space and Margin of Safety around the Body: Learning Visuo-tactile Associations in a Humanoid Robot with Artificial Skin"
+paper_pdf: "2016_Roncone_plosONE_peripersonal_space"
 paper_title: "Peripersonal Space and Margin of Safety around the Body: Learning Visuo-tactile Associations in a Humanoid Robot with Artificial Skin"
 ---
 
-### Conference paper: _Learning peripersonal space representation through artificial skin for avoidance and reaching with whole body surface_ <a class="no-print" href="{{ site.url }}/papers/[Roncone et al. 2015] - Learning peripersonal space representation through artificial skin for avoidance and reaching with whole body surface.pdf" target="_blank"> [PDF]<a class="no-print" href="{{ site.url }}/papers/[Roncone et al. 2015] - Learning peripersonal space representation through artificial skin for avoidance and reaching with whole body surface.bib" target="_blank"> [BIB]</a>
+### Conference paper: _Learning peripersonal space representation through artificial skin for avoidance and reaching with whole body surface_ <a class="no-print" href="{{ site.url }}/papers/2015_Roncone_IROS_peripersonal_space.pdf" target="_blank"> [PDF]<a class="no-print" href="{{ site.url }}/papers/2015_Roncone_IROS_peripersonal_space.bib" target="_blank"> [BIB]</a>
 
 **Authors:** _Alessandro Roncone, Matej Hoffmann, Ugo Pattacini, and Giorgio Metta_
 
