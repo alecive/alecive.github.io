@@ -54,7 +54,7 @@
                     <div class="col-md-4">
                         <h3 class="inlineifprinted">{{item.year}}</h3>
                         <h4 class="inlineifprinted">{{item.venue}}</h4>
-                        <p  class="no-print d-none d-md-block">{{item.where}}</p>
+                        {% if item.where %}<p  class="no-print d-none d-md-block">{{item.where}}</p>{% endif %}
                     </div>
 
                     <div class="col-md-8">
