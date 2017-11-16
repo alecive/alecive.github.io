@@ -107,7 +107,7 @@ Reading here and there, I added this to my `~/.bashrc` file:
 
 ~~~bash
 # Ros stuff
-export ROS_ROOT="~/code/ros_catkin_ws/install_isolated"
+export ROS_ROOT="$HOME/code/ros_catkin_ws/install_isolated"
 export PATH=$ROS_ROOT/bin:$PATH
 source $ROS_ROOT/setup.bash
 ~~~
