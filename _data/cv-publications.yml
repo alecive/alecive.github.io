@@ -48,6 +48,12 @@
    venue: IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS)
    where: Hamburg, Germany, September 28-October 2
    pdf: "2015_Roncone_IROS_peripersonal_space"
+ - title: "Expanding Sensorimotor capabilities of Humanoid Robots through Multisensory Integration - a study on the implementation of Peripersonal Space on the iCub"
+   authors: <b>Alessandro Roncone</b>
+   year: 2015
+   venue: Ph.D. Thesis
+   where: University of Genoa and Italian Institute of Technology
+   pdf: "2015_Roncone_PhD_thesis"
  - title: "Gaze Stabilization for Humanoid Robots: A Comprehensive Framework"
    authors: <b>Alessandro Roncone</b>, Ugo Pattacini, Giorgio Metta, and Lorenzo Natale
    year: 2014
