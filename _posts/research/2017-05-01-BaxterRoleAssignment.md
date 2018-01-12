@@ -57,7 +57,7 @@ A series of snapshots illustrating the task is shown in Fig. 2.
 
 ## Results
 
-The framework has been released under the `LGPLv2.1` open-source license, and it is freely accessible on [https://github.com/scazlab/baxter_collaboration](github.com/scazlab/baxter\_collaboration) for the Baxter's controllers, and [https://github.com/scazlab/task-models](github.com/scazlab/task-models) for the HTM to POMDP planner.
+The framework has been released under the `LGPLv2.1` open-source license, and it is freely accessible on [github.com/scazlab/baxter_collaboration](https://github.com/scazlab/baxter_collaboration) for the Baxter's controllers, and [github.com/scazlab/task-models](https://github.com/scazlab/task-models) for the HTM to POMDP planner.
 Although the majority of the codebase is robot-independent, the control architecture is readily available for any Baxter robot.
 
 We test the proposed system in a proof-of-concept scenario in which the human and the robot are engaged in the joint construction of a stool. The system has been evaluated with 8 participants, in a within-subjects design.
