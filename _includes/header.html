@@ -1,5 +1,5 @@
    <!-- Navigation -->
-    <nav id="navbar-scrollspy" class="navbar fixed-top navbar-expand-md {% if page.type == "cv" or page.type == "fourofour" %}no-print{% endif %}">
+    <nav id="navbar-scrollspy" class="navbar fixed-top navbar-expand-lg {% if page.type == "cv" or page.type == "fourofour" %}no-print{% endif %}">
         <div class="container">
         <a class="navbar-brand" href="{% if page.type == "research" %}#page-top{% else %}/{% endif %}">
             <img class="img-fluid" src="{{ site.logo }}">
@@ -29,36 +29,45 @@
                 {% else %}
                 {% if page.type == "research" %}
                 <li class="nav-item page-scroll">
-                    <a class="nav-link" href="#research">Research</a>
+                    <a class="nav-link" href="#research">research</a>
                 </li>
                 {% else %}
                 <li class="nav-item page-scroll">
-                    <a class="nav-link" href="/">Research</a>
+                    <a class="nav-link" href="/">research</a>
                 </li>
                 {% endif %}
                 {% if page.type == "design" %}
                 <li class="nav-item page-scroll">
-                    <a class="nav-link" href="#design">Design</a>
+                    <a class="nav-link" href="#design">design</a>
                 </li>
                 {% else %}
                 <li class="nav-item page-scroll">
-                    <a class="nav-link" href="/design.html">Design</a>
+                    <a class="nav-link" href="/design.html">design</a>
                 </li>
                 {% endif %}
                 {% if page.type == "blog" %}
                 <li class="nav-item page-scroll">
-                    <a class="nav-link" href="#blog">Blog</a>
+                    <a class="nav-link" href="#blog">blog</a>
                 </li>
                 {% else %}
                 <li class="nav-item page-scroll">
-                    <a class="nav-link" href="/blog.html">Blog</a>
+                    <a class="nav-link" href="/blog.html">blog</a>
+                </li>
+                {% endif %}
+                {% if page.type == "publications" %}
+                <li class="nav-item page-scroll">
+                    <a class="nav-link" href="#post-cv">publications</a>
+                </li>
+                {% else %}
+                <li class="nav-item page-scroll">
+                    <a class="nav-link" href="/publications.html">publications</a>
                 </li>
                 {% endif %}
                 <li class="nav-item page-scroll">
-                    <a class="nav-link" href="#about">About</a>
+                    <a class="nav-link" href="#about">about</a>
                 </li>
                 <li class="nav-item page-scroll">
-                    <a class="nav-link" href="/cv.html">CV</a>
+                    <a class="nav-link" href="/cv.html">cv</a>
                 </li>
                 {% endif %}
             </ul>
@@ -66,7 +75,7 @@
         </div>
     </nav>
 
-    {% if page.type == "research" or page.type == "design" or page.type == "blog" %}
+    {% if page.type == "research" or page.type == "design" or page.type == "blog" or page.type == "publications" %}
     <!-- Header -->
     <header>
         <div class="container">

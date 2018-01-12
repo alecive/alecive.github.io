@@ -5,6 +5,12 @@ description: I am a robotics engineer, a computer scientist, and an interaction 
 permalink: cv.html
 type: cv
 tags: [robotics,artificial intelligence,advanced manufacturing,humanoid robotics,cognitive robotics,human robto interaction,cv,personal,resume,curriculum,online,research,design,iit,istituto italiando di tecnologia,phd,yale,university,postdoc,assistant professor,candidate]
+pubyears:
+ - 2018
+ - 2017
+ - 2016
+ - 2015
+ - 2014
 ---
 
 <div><p class="only-print">Personal Website: <a href="https://alecive.github.io">https://alecive.github.io</a></p></div>

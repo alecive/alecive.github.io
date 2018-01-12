@@ -384,7 +384,7 @@ header .intro-text .owner-small {
     transition: all ease .3s;
 }
 
-@media(max-width:767px) {
+@media(max-width:991px) {
     .navbar-brand img {
         width: 70px;
         height: 70px;
@@ -401,69 +401,6 @@ header .intro-text .owner-small {
         -webkit-transition: all ease .3s;
         -moz-transition: all ease .3s;
         transition: all ease .3s;
-    }
-}
-
-.navbar-shrink .navbar-brand img {
-    width: 61px;
-    height: 61px;
-    margin-right: 15px;
-}
-
-.fixed-top .navbar-collapse {
-    box-shadow: none;
-    max-height: 360px;
-    margin: auto;
-}
-
-section {
-    padding: 100px 0;
-    color: #{{ site.color.secondary }};
-}
-
-section p {
-    color: #{{ site.color.articletext }};
-}
-
-#post {
-    padding-top: 160px;
-}
-
-section h2 {
-    margin: 0;
-    font-size: 2.8em;
-}
-
-section h2,
-section h3 {
-    text-align: left;
-}
-
-section.success {
-    /*color: #fff;*/
-    background-color: #{{ site.color.primary }};
-    /*background-image: url('/img/bg.png');*/
-}
-
-section.success p {
-    /*color: #fff;*/
-}
-
-@media(max-width:767px) {
-    #post {
-        padding-top: 120px;
-    }
-
-    #post-cv {
-        padding-top: 40px;
-    }
-
-    section {
-        padding: 75px 0;
-    }
-
-    section.first {
-        padding-top: 75px;
     }
 
     .navbar-toggler {
@@ -551,6 +488,69 @@ section.success p {
         -moz-transform: rotate(-135deg);
         -o-transform: rotate(-135deg);
         transform: rotate(-135deg);
+    }
+}
+
+.navbar-shrink .navbar-brand img {
+    width: 61px;
+    height: 61px;
+    margin-right: 15px;
+}
+
+.fixed-top .navbar-collapse {
+    box-shadow: none;
+    max-height: 360px;
+    margin: auto;
+}
+
+section {
+    padding: 100px 0;
+    color: #{{ site.color.secondary }};
+}
+
+section p {
+    color: #{{ site.color.articletext }};
+}
+
+#post {
+    padding-top: 160px;
+}
+
+section h2 {
+    margin: 0;
+    font-size: 2.8em;
+}
+
+section h2,
+section h3 {
+    text-align: left;
+}
+
+section.success {
+    /*color: #fff;*/
+    background-color: #{{ site.color.primary }};
+    /*background-image: url('/img/bg.png');*/
+}
+
+section.success p {
+    /*color: #fff;*/
+}
+
+@media(max-width:767px) {
+    #post {
+        padding-top: 120px;
+    }
+
+    #post-cv {
+        padding-top: 40px;
+    }
+
+    section {
+        padding: 75px 0;
+    }
+
+    section.first {
+        padding-top: 75px;
     }
 }
 
@@ -1535,16 +1535,3 @@ pre code span:hover {
         display: inline;
     }
 }
-
-footer .footer-above,
-.navbar,
-header
-{
-    /*box-shadow: #333 0px 1px 4px 0px;*/
-}
-
-/*.with-shadow,
-.with-shadow-on-hover:hover {
-    box-shadow: 0px 2px 5px rgba(0,0,0,0.4);
-}*/
-

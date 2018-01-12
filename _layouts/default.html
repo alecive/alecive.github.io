@@ -8,13 +8,16 @@
     {% include header.html %}
     {% if page.type == "research" or page.type == "design" or page.type == "blog" %}
       {% include portfolio.html %}
-      {% include about.html %}
     {% elsif page.type == "cv" %}
       {% include cv.html %}
+    {% elsif page.type == "publications" %}
+      {{ content }}
     {% else %}
       {% include article.html %}
+    {% endif %}
+    {% if page.type != "cv" %}
       {% include about.html %}
-    {% endif%}
+    {% endif %}
     {% include footer.html %}
     {% include js.html %}
 
