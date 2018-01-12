@@ -15,7 +15,7 @@ Dark toolbars and menubars coupled with clear window content means fruibility. *
 
 ## Description
 
-*GrayRevenge* is a complete suite for *GNOME 3.4*. It comes with _GTK2, GTK3, Metacity, Unity, Gnome-shell, Cinnamon, Xfwm themes_. Slick, fast, and elegant. All the credits go to [minteastwood](http://minteastwood.deviantart.com/) for the XFWM theme.
+*GrayRevenge* is a complete suite for *GNOME 3.4*. It comes with _GTK2, GTK3, Metacity, Unity, Gnome-shell, Cinnamon, Xfwm themes_. Slick, fast, and elegant. All the credits go to **minteastwood** for the XFWM theme.
 
 WARNING: this theme works for GNOME3.4 / Ubuntu 12.04 users, but it will not work for previous versions of GNOME or Ubuntu.
 
