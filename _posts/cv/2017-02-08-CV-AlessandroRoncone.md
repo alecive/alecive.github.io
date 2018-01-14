@@ -36,7 +36,7 @@ As such, I implement technological advancements through production-quality softw
  * Proven ability to manage multiple projects and supervise multiple people while meeting challenging deadlines.
  * Strong presentation/communication skills thanks to experience in giving both technical and non-technical talks to both small and big groups, tailoring to the audience. Presented to major international robotics conferences, as well as several outreach events, ranging from exhibitions and fairs, to live TV shows and various interviews.
  * Confident in writing technical reports as well as scientific papers. Authored and co-authored numerous international peer-reviewed scientific articles and journals. Experience with research grant writing.
- * Obsessed by two things: _pixel-perfect graphics_, and _bit-perfect code_. This website is intended to showcase the former; for the latter, stalk me on [GitHub](http://github.com/alecive/), or take a look at some of the GitHub organizations I belong to: [Robotology](https://github.com/robotology) and [ScazLab](https://github.com/scazlab).
+ * Obsessed by two things: _pixel-perfect graphics_, and _bit-perfect code_. This website is intended to showcase the former; for the latter, stalk me on [GitHub](http://github.com/alecive/), or take a look at some of the GitHub organizations I am part of: [Robotology](https://github.com/robotology) and [ScazLab](https://github.com/scazlab).
 
 # Summary
 
