@@ -16,19 +16,19 @@ cv-image: /img/cv.jpg
 
 # Social networks usernames (many more available: google-plus, flickr, dribbble, pinterest, instagram, tumblr, linkedin, etc.)
 social:
-  - title: google-plus
-    url: https://plus.google.com/+AlessandroRoncone
   - title: github-alt
     url: http://github.com/alecive
   - title: linkedin
     url: https://www.linkedin.com/in/alessandroroncone
+  - title: graduation-cap
+    url: https://scholar.google.com/citations?user=nV-XGVIAAAAJ&hl
 
 logo: /img/logo.svg
 
 # Postal address (add as many lines as necessary)
 address:
-  - line: Yale University,
-  - line: Computer Science Department,
+  - line: 51 Prospect St, Office 509,
+  - line: Computer Science Dept, Yale University,
   - line: New Haven, 06511, CT, U.S.A.
 
 # Build settings
