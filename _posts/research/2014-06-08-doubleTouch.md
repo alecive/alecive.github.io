@@ -1,12 +1,11 @@
 ---
-title: Automatic kinematic calibration using artificial skin via double Touch
+title: Automatic kinematic calibration using artificial skin via double touch
 link: https://github.com/alecive/periPersonalSpace
 link-alt: GitHub repository
 img: doubleTouch.jpg
 img-thumb: doubleTouch_thumb.jpg
 alt: double-touch
-date: 2014-06-08
-description:
+description: Bio-inspired self-calibration technique for the iCub humanoid robot
 tags: [research,robotics,icub,robot,humanoids,double touch,self touch,inverse kinematics,denavit-hartenberg,dh parameters,ipopt,optimization,cognitive robotics,body representations,icra,icra 2014,body schema,open source,github]
 authors: Alessandro Roncone, Matej Hoffmann, Ugo Pattacini, and Giorgio Metta
 submission: IEEE International Conference on Robotics and Automation (ICRA2014), Hong Kong, China, May 31-June 7, 2014

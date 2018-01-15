@@ -5,8 +5,7 @@ link-alt: GitHub repository
 img: periPersonalSpace.jpg
 img-thumb: periPersonalSpace_thumb.jpg
 alt: peripersonal-space
-date: 2016-10-10
-description:
+description: multimodal integration of visuo-tactile information for nearby space perception and peripersonal space representations
 tags: [research,robotics,icub,robot,humanoids,artificial skin,peripersonal space,visuo-tactile,multisensory integration,sensor fusion,parzen windows,cognitive robotics,body representations,iros,iros 2015,open source,github]
 authors: Alessandro Roncone, Matej Hoffmann, Ugo Pattacini, Luciano Fadiga, and Giorgio Metta
 submission: 2016 PLOS ONE

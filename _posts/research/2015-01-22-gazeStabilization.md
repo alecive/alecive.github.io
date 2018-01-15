@@ -5,8 +5,7 @@ link-alt: GitHub repository
 img: gazeStabilization.jpg
 img-thumb: gazeStabilization_thumb.jpg
 alt: gaze-stabilization
-date: 2015-01-22
-description:
+description: gaze stabilization system for binocular robot heads
 tags: [research,robotics,icub,robot,humanoids,control,gaze stabilization,inertial sensor,imu,velocity control,whole body motion,walking,balancing,open source,github]
 authors: Alessandro Roncone, Ugo Pattacini, Giorgio Metta, and Lorenzo Natale
 submission: 2014 IEEE-RAS International Conference on Humanoid Robots, Madrid, Spain, November 18-20, 2014

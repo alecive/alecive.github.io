@@ -5,8 +5,7 @@ link-alt: GitHub repository
 img: yarpdroid.jpg
 img-thumb: yarpdroid_thumb.jpg
 alt: yarpdroid
-date: 2015-08-01
-description:
+description: how to control a humanoid robot with Android
 tags: [research,middleware,yarp,android,yarpdroid,computer science,software development,ndk,android studio,robotics,icub,mobile development,google glass]
 ---
 

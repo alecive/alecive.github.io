@@ -5,8 +5,7 @@ link-alt: GitHub repository
 img: iCubBlinking.jpg
 img-thumb: iCubBlinking_thumb.jpg
 alt: peripersonal-space
-date: 2016-11-02
-description:
+description: blinking behaviors for an humanoid robot during non verbal human-robot interaction
 tags: [research,robotics,icub,robot,humanoids,blinking,open source,github]
 authors: Hagen Lehmann, Alessandro Roncone, Ugo Pattacini, and Giorgio Metta
 submission: 2016 International Conference on Social Robotics (ICSR16), Kansas City, MO, U.S.A., November 1-3

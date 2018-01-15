@@ -5,7 +5,7 @@ link-alt: GitHub repository
 img: BaxterRoleAssignment.jpg
 img-thumb: BaxterRoleAssignment_thumb.jpg
 alt: baxter-role-assignment
-description:
+description: transparent human-robot collaborative system to increase efficiency in small and medium manufacturing
 tags: [research,robotics,baxter,hri,human robot interaction,collaborative manufacturing,human robot collaboration,advanced manufacturing,open source,github]
 authors: Alessandro Roncone, Olivier Mangin, and Brian Scassellati
 submission: IEEE International Conference on Robotics and Automation (ICRA2014), Singapore, May 29-June 3, 2017
