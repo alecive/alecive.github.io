@@ -69,9 +69,19 @@
                     <div class="col-md-12">
                     {% endif %}
                         <h2>{{item.title}}</h2>
-                        <p>{% if item.authors %}<i class="no-print">{{item.authors}}</i><br class="no-print">{% endif %}
-                        {{item.description}}
-                        </p>
+                        {% if item.elems %}
+                            <ul>
+                            {% for elem in item.elems %}
+                                {% if elem.year %}
+                                <li><b>{{ elem.year }}</b> - <i>{{ elem.where }}</i></li>
+                                {% else %}<li>{{ elem }}</li>{% endif %}
+                            {% endfor %}
+                            </ul>
+                        {% else %}
+                            <p>{% if item.authors %}<i class="no-print">{{item.authors}}</i><br class="no-print">{% endif %}
+                            {{ item.description }}
+                            </p>
+                        {% endif %}
                     </div>
                 </div>
             {% endfor %}
