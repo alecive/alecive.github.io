@@ -21,8 +21,8 @@ pubyears:
 
 {% include years_elap.html from="2010" %}
 **My work bridges the gap between robot planning and human–robot interaction**.
-I look at problems that lie at the intersection of these two fields, and I develop human-accessible robot control systems that cooperate with and empower people.
-I aim at lowering the barriers to entry for humans to naturally interact with robots, and in doing so I implement robot technologies that better interface with the external world and humans.
+I look at problems that lie at the intersection of these two fields, and I design human-accessible robot control systems that cooperate with and empower people.
+My goal is to develop robot technologies that better interface with the external world and humans, and in doing so to lower the barriers to entry for humans to naturally interact with robots.
 To me, **the engineering is as important as the science**.
 As such, I implement technological advancements through production-quality software that uses modern software engineering workflows (_versioning_, _continuous integration_, _unit testing_, _containerization_).
 **I make robots work**, and I hold a deep commitment to doing so while implementing scalable, robust, and elegant code.
