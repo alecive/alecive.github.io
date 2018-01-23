@@ -79,6 +79,11 @@ defaults:
       path: "_posts/blog"
     values:
       category: "blog"
+  -
+    scope:
+      path: "_posts/hidden"
+    values:
+      category: "hidden"
 
 # Some more default colors
 #
