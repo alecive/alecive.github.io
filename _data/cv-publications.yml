@@ -4,6 +4,11 @@
    venue: ACM/IEEE International Conference on Human-Robot Interaction (HRI)
    where: Chicago, IL, U.S.A., March 5-8
    pdf: "2018_Nguyen_HRI_physical_hri_controller"
+ - title: "Predicting Supportive Behaviors based on User Preferences for Human-Robot Collaboration"
+   authors: Elena Corina Grigore, Olivier Mangin, <b>Alessandro Roncone</b>, and Brian Scassellati
+   year: 2018
+   venue: International Conference on Autonomous Agents and Multiagent Systems (AAMAS)
+   where: Stockholm, Sweden, July 11-13
  - title: "How to be Helpful? Implementing Supportive Behaviors for Human--Robot Collaboration"
    authors: Olivier Mangin, <b>Alessandro Roncone</b>, and Brian Scassellati
    year: 2018
