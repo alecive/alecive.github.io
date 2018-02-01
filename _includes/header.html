@@ -78,7 +78,7 @@
         </div>
     </nav>
 
-    {% if page.type == "research" or page.type == "design" or page.type == "blog" or page.type == "publications" %}
+    {% if page.type == "research" or page.type == "design" or page.type == "blog" %}
     <!-- Header -->
     <header>
         <div class="container">
@@ -94,7 +94,7 @@
             </div>
         </div>
     </header>
-    {% elsif page.type == "cv" %}
+    {% elsif page.type == "cv" or page.type == "publications" %}
     <!-- Header -->
     <header>
         <div class="container">
@@ -102,9 +102,15 @@
                 <div class="col-lg-12">
                     <img class="img-fluid no-print with-shadow-on-hover cv-img" src="{{ site.cv-image }}" alt="alessandro-roncone">
                     <div class="intro-text">
+                        {% if page.type == "publications" %}
+                        <span class="name-small no-print">{{ page.type }}</span>
+                        <hr class="separating-line no-print">
+                        <span class="owner-small no-print">{{ site.owner }}</span>
+                        {% else %}
                         <span class="name-small no-print">{{ page.title }}</span>
                         <hr class="separating-line no-print">
                         <span class="owner-small no-print">{{ page.description }}</span>
+                        {% endif %}
                     </div>
                 </div>
             </div>
