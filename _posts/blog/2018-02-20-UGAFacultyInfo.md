@@ -11,43 +11,6 @@ permalink: /hidden/uga.html
 * This line will be replaced by the ToC, excluding the "Contents" header
 {:toc}
 
-# Suchendra Bhandarkar, Professor of CS
-
- * Computer Vision. Image Processing, Computer Graphics and Multimedia Systems
- * Parallel Processing, Parallel Architectures, Neural Networks and Genetic Algorithms with an emphasis on Computer Vision and Image Processing applications.
- * I direct the Visual and Parallel Computing Laboratory (VPCL) in the Department of Computer Science at the University of Georgia.
-
-## CAD Model based Machine Vision
-
-Design and analysis of algorithms for the recognition and localization of three dimensional objects from range and intensity images. I have designed surface matching algorithms [8] and recognition/localization algorithms based on the Generalized Hough Transform (GHT) [7]. I have investigated hypergraph based representation schemes and designed efficient algorithms based on hypergraph monomorphism for three dimensional object recognition and localization [2]. I have investigated means of improving the robustness and accuracy of range image segmentation algorithms by an appropriate combination of edge- and surface based segmentation approaches [6].
-
-# Thiab R. Taha
-
- * Prof. and Department Head Computer Science Department
-
-Computational Science and Parallel Computing i. Deriving numerical methods for solving problems in Science and Engineering such as: a) problems that model optical fiber communication systems; b) problems that model water waves and waves i in plasma physics, etc. ii. Software development for solving evolution equations.
-Bioinformatics: Involved in a project called: .Computing Life. with scientists from Physics and Genetics. My role is to a) solve the system of differential equations that model biochemical reaction networks byi using efficient numerical methods; b) develop parallel algorithms to speed up the computations;
-Symbolic Computations: Deriving numerical methods for solving important physical problems
-
-
-# Prashant Doshi
-
-Professor of CS, director of THINC lab, founding director of faculty of robotics, member of the Institute for AI
-
-* Ph.D. from the Dept. of Computer Science of the University of Illinois at Chicago in 2005
-* M.S. from the MCS Dept. of Drexel University, Philadelphia, in 2001.
-* 2009, he also received the Outstanding Faculty Research award from the CS department at UGA
-* 2011, he received UGA's Creative Research Medal, which acknowledges exceptional achievements in creativity and research.
-* 2009 NSF CAREER award for his research on multiagent decision making.
-
-His research interests lie in decision making and specifically in decision making under uncertainty in multiagent settings; in semantic Web and specifically in ontology alignment and learning; and in services-oriented computing and specifically in composing Web services and adapting the compositions.
-
-## Decision making in multiagent settings
-
-Researchers are investigating the problem of sequential decision making or planning by autonomous agents in uncertain multiagent settings. Multiagent settings are challenging because the physical state and rewards are influenced by the joint actions of all agents. Research predominantly focuses on a recognized framework for sequential decision making in non-cooperative and cooperative multiagent settings that generalizes partially observable Markov decision processes (POMDP) to multiagent settings, called the interactive POMDP (I-POMDP). Researchers are investigating algorithms for solving I-POMDPs exactly and approximation techniques for scaling the solutions to large problem domains.
-
-Autonomous control of unmanned aerial vehicles planning in multi-robot settings. UAV reconnaissance problems are being simulated within the Georgia testbed for autonomous control of vehicles (GaTAC). GaTAC provides a low-cost, scalable and realistic simulation environment for I-POMDP based control of UAVs in theaters populated by ground targets and other hostile UAVs. Researchers are also investigating simultaneous localization and mapping by robots in settings populated by other robots whose actions may alter the environment. This research applies state estimation algorithms developed within the decision making framework.
-
 # Manijeh Keshtgari
 
 Lecturer of CS
@@ -64,8 +27,44 @@ He is the primary liaison with the division of physical and mathematical science
 
 Hydroclimatology, synoptic climatology/meteorology, applications of remote sensing in meteorology/climatology
 
-# John Miller
+# Shelby Funk
 
+I did my graduate studies at the Computer Science Department of the University of North Carolina at Chapel Hill, where I worked on real-time scheduling theory with Sanjoy Baruah.
+
+# [Prashant Doshi](http://thinc.cs.uga.edu/personnel.html)
+
+[Institute for AI](http://www.ai.uga.edu/)
+[Faculty of Robotics](https://robotics.uga.edu/)
+
+Professor of CS, director of THINC lab, founding director of faculty of robotics, member of the Institute for AI
+
+* Ph.D. from the Dept. of Computer Science of the University of Illinois at Chicago in 2005
+* M.S. from the MCS Dept. of Drexel University, Philadelphia, in 2001.
+* 2009, he also received the Outstanding Faculty Research award from the CS department at UGA
+* 2011, he received UGA's Creative Research Medal, which acknowledges exceptional achievements in creativity and research.
+* 2009 NSF CAREER award for his research on multiagent decision making.
+
+ * Decision making under uncertainty in multiagent settings
+ * semantic Web and specifically in ontology alignment and learning
+ * services-oriented computing and specifically in composing Web services and adapting the compositions.
+
+## Decision making in multiagent settings
+
+Researchers are investigating the problem of sequential decision making or planning by autonomous agents in uncertain multiagent settings. Multiagent settings are challenging because the physical state and rewards are influenced by the joint actions of all agents. Research predominantly focuses on a recognized framework for sequential decision making in non-cooperative and cooperative multiagent settings that generalizes partially observable Markov decision processes (POMDP) to multiagent settings, called the interactive POMDP (I-POMDP). Researchers are investigating algorithms for solving I-POMDPs exactly and approximation techniques for scaling the solutions to large problem domains.
+
+Autonomous control of unmanned aerial vehicles planning in multi-robot settings. UAV reconnaissance problems are being simulated within the Georgia testbed for autonomous control of vehicles (GaTAC). GaTAC provides a low-cost, scalable and realistic simulation environment for I-POMDP based control of UAVs in theaters populated by ground targets and other hostile UAVs. Researchers are also investigating simultaneous localization and mapping by robots in settings populated by other robots whose actions may alter the environment. This research applies state estimation algorithms developed within the decision making framework.
+
+# [Liming Cai](http://cobweb.cs.uga.edu/~cai/)
+
+Bioinformatics and data science
+
+One of my recent works is a novel machine learning framework called Markov k-tree that is effective and efficient for mining global relationships in sequence data.
+
+I co-direct RNA-Informatics Lab at UGA with Russell Malmberg of Departments of Plant Biology and Genetics.
+
+# [John Miller](http://cobweb.cs.uga.edu/~jam/)
+
+ * Big grants
  * Professor of CS
  * Web-based Simulation
  * Workflow Management
@@ -121,3 +120,21 @@ The Institute's strengths include logic programming, expert systems, neural nets
  * postdoc in Daniel Kifer's machine learning lab at PennState university
 
 My research interests lie at the intersections of data mining, machine learning, data privacy, and security. My primary interest is on data privacy --- providing strong privacy guarantees while making accurate computations on sensitive datasets possible. I work on developing new methodologies for performing machine learning and data mining tasks on sensitive data.
+
+# Suchendra Bhandarkar, Professor of CS
+
+ * Computer Vision. Image Processing, Computer Graphics and Multimedia Systems
+ * Parallel Processing, Parallel Architectures, Neural Networks and Genetic Algorithms with an emphasis on Computer Vision and Image Processing applications.
+ * I direct the Visual and Parallel Computing Laboratory (VPCL) in the Department of Computer Science at the University of Georgia.
+
+## CAD Model based Machine Vision
+
+Design and analysis of algorithms for the recognition and localization of three dimensional objects from range and intensity images. I have designed surface matching algorithms [8] and recognition/localization algorithms based on the Generalized Hough Transform (GHT) [7]. I have investigated hypergraph based representation schemes and designed efficient algorithms based on hypergraph monomorphism for three dimensional object recognition and localization [2]. I have investigated means of improving the robustness and accuracy of range image segmentation algorithms by an appropriate combination of edge- and surface based segmentation approaches [6].
+
+# Thiab R. Taha
+
+ * Prof. and Department Head Computer Science Department
+
+Computational Science and Parallel Computing i. Deriving numerical methods for solving problems in Science and Engineering such as: a) problems that model optical fiber communication systems; b) problems that model water waves and waves i in plasma physics, etc. ii. Software development for solving evolution equations.
+Bioinformatics: Involved in a project called: .Computing Life. with scientists from Physics and Genetics. My role is to a) solve the system of differential equations that model biochemical reaction networks byi using efficient numerical methods; b) develop parallel algorithms to speed up the computations;
+Symbolic Computations: Deriving numerical methods for solving important physical problems
