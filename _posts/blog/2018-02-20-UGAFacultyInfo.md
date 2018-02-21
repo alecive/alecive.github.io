@@ -37,7 +37,11 @@ Member of the [Institute for AI](http://www.ai.uga.edu/)
 
 Director of the [Faculty of Robotics](https://robotics.uga.edu/)
 
-Director of the [THINC lab](http://thinc.cs.uga.edu/)
+Director of the [THINC lab](http://thinc.cs.uga.edu/) : inverse RL, decision making for self driving cars
+
+Big lab, two postdocs, three phd students
+
+[Introduction to Robotics](http://bulletin.uga.edu/Link.aspx?cid=CSCI%204530)
 
 * Ph.D. from the Dept. of Computer Science of the University of Illinois at Chicago in 2005, M.S. from the MCS Dept. of Drexel University, Philadelphia, in 2001.
 * 2009, he also received the Outstanding Faculty Research award from the CS department at UGA
