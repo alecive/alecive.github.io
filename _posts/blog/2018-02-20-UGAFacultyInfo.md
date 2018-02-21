@@ -33,20 +33,20 @@ I did my graduate studies at the Computer Science Department of the University o
 
 # [Prashant Doshi](http://thinc.cs.uga.edu/personnel.html)
 
-[Institute for AI](http://www.ai.uga.edu/)
-[Faculty of Robotics](https://robotics.uga.edu/)
+Member of the [Institute for AI](http://www.ai.uga.edu/)
 
-Professor of CS, director of THINC lab, founding director of faculty of robotics, member of the Institute for AI
+Director of the [Faculty of Robotics](https://robotics.uga.edu/)
 
-* Ph.D. from the Dept. of Computer Science of the University of Illinois at Chicago in 2005
-* M.S. from the MCS Dept. of Drexel University, Philadelphia, in 2001.
+Director of the [THINC lab](http://thinc.cs.uga.edu/)
+
+* Ph.D. from the Dept. of Computer Science of the University of Illinois at Chicago in 2005, M.S. from the MCS Dept. of Drexel University, Philadelphia, in 2001.
 * 2009, he also received the Outstanding Faculty Research award from the CS department at UGA
 * 2011, he received UGA's Creative Research Medal, which acknowledges exceptional achievements in creativity and research.
 * 2009 NSF CAREER award for his research on multiagent decision making.
 
- * Decision making under uncertainty in multiagent settings
- * semantic Web and specifically in ontology alignment and learning
- * services-oriented computing and specifically in composing Web services and adapting the compositions.
+* Decision making under uncertainty in multiagent settings
+* semantic Web and specifically in ontology alignment and learning
+* services-oriented computing and specifically in composing Web services and adapting the compositions.
 
 ## Decision making in multiagent settings
 
