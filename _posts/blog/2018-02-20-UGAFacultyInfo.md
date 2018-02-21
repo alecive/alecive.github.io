@@ -54,6 +54,18 @@ Researchers are investigating the problem of sequential decision making or plann
 
 Autonomous control of unmanned aerial vehicles planning in multi-robot settings. UAV reconnaissance problems are being simulated within the Georgia testbed for autonomous control of vehicles (GaTAC). GaTAC provides a low-cost, scalable and realistic simulation environment for I-POMDP based control of UAVs in theaters populated by ground targets and other hostile UAVs. Researchers are also investigating simultaneous localization and mapping by robots in settings populated by other robots whose actions may alter the environment. This research applies state estimation algorithms developed within the decision making framework.
 
+# [Kang Li](http://cobweb.cs.uga.edu/~kangli/)
+
+Kang Li's research interests are in the area of computer network and operating systems, especially system issues related to data security and privacy. His recent research focuses on detecting bugs in system software such as virtualization and cloud platforms. His research topics also include DNS security and defenses against various network abuses, such as Denial-of-Service attacks, Phishing, and SPAM.
+
+Current Research Projects:
+
+ * Device and Firmware Security
+ * Virtualization and Cloud Security
+ * DNS Security
+
+He is the Director of Georgia Institute for Cybersecurity and Privacy.
+
 # [Liming Cai](http://cobweb.cs.uga.edu/~cai/)
 
 Bioinformatics and data science
@@ -73,6 +85,14 @@ I co-direct RNA-Informatics Lab at UGA with Russell Malmberg of Departments of P
  * Genetic Algorithms
  * Database Systems
  * Parallel and Distributed Systems
+
+# [Jaewoo Lee](http://cobweb.cs.uga.edu/~jwlee/)
+
+ * Assistant Professor of Computer Science
+ * Ph.D.: Purdue University , 2014 (privacy-preserving data analysis techniques, Prof. Chris Clifton)
+ * postdoc in Daniel Kifer's machine learning lab at PennState university
+
+My research interests lie at the intersections of data mining, machine learning, data privacy, and security. My primary interest is on data privacy --- providing strong privacy guarantees while making accurate computations on sensitive datasets possible. I work on developing new methodologies for performing machine learning and data mining tasks on sensitive data.
 
 # Hamid Arabnia, Professor of Computer Science, Graduate Coordinator
 
@@ -112,14 +132,6 @@ The Institute for Artificial Intelligence is an interdepartmental research and i
 In addition, the Institute participates in two combined undergraduate/graduate programs, allowing a student to earn within 5 years either an AB in Cognitive science or a BS in Computer science as well as MS in Artificial Intelligence.
 
 The Institute's strengths include logic programming, expert systems, neural nets, genetic algorithms, natural language processing and computational psycholinguistics. Affiliated with the Institute are over 75 people from over 10 different countries. We pride ourselves on the diversity of our student body and the ability of our programs to allow for the pursuit of personal research interests.
-
-# Jaewoo Lee
-
- * Assistant Professor of Computer Science
- * Ph.D.: Purdue University , 2014 (privacy-preserving data analysis techniques, Prof. Chris Clifton)
- * postdoc in Daniel Kifer's machine learning lab at PennState university
-
-My research interests lie at the intersections of data mining, machine learning, data privacy, and security. My primary interest is on data privacy --- providing strong privacy guarantees while making accurate computations on sensitive datasets possible. I work on developing new methodologies for performing machine learning and data mining tasks on sensitive data.
 
 # Suchendra Bhandarkar, Professor of CS
 
