@@ -557,28 +557,37 @@ section.success p {
     /*color: #fff;*/
 }
 
-@media(max-width:767px) {
-    #post {
-        padding-top: 120px;
-    }
-
-    #post-cv {
-        padding-top: 40px;
-    }
-
-    section {
-        padding: 75px 0;
-    }
-
-    section.first {
-        padding-top: 75px;
+@media(max-width:575px) {
+    .container {
+        padding-left:  0px;
+        padding-right: 0px;
     }
 }
 
-@media (max-width:767px) {
+@media(max-width:767px) {
     .container {
         width:100%;
         max-width:100%;
+    }
+
+    #post {
+        padding-top: 100px;
+    }
+
+    #post-cv {
+        padding-top: 50px;
+    }
+
+    section {
+        padding: 50px 0;
+    }
+
+    hr.separating-line {
+        margin-bottom: 25px;
+    }
+
+    #post hr.separating-line {
+        margin-bottom: 0px;
     }
 }
 
@@ -586,7 +595,7 @@ section.success p {
     .container {
         width:95%;
         max-width:95%;
-        box-sizing: content-box;
+        /*box-sizing: content-box;*/
     }
 
     .container * {
@@ -620,7 +629,7 @@ section.success p {
 }
 
 #article {
-    margin: 40px 0px 0px 0px;
+    margin: 0px;
     text-align: justify;
     color: #{{ site.color.articletext }};
 }
@@ -661,6 +670,13 @@ section.success p {
     text-align: left;
     border-left: 10px solid #{{ site.color.secondary }};
     border-radius: 0;
+}
+
+#article h1:first-child,
+#article h2:first-child
+#article h3:first-child,
+#article h4:first-child {
+    margin-top: 0px;
 }
 
 #article h1 {
@@ -1370,14 +1386,6 @@ pre code span:hover {
 
     section h3 {
         font-size: 1.4em;
-    }
-
-    hr.separating-line {
-        margin-bottom: 40px;
-    }
-
-    #post hr.separating-line {
-        margin-bottom: 0px;
     }
 
     footer .footer-below {

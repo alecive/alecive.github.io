@@ -13,10 +13,6 @@ pubyears:
  - 2014
 ---
 
-<div><p class="only-print">Personal Website: <a href="https://alecive.github.io">https://alecive.github.io</a></p></div>
-
-<div><p class="only-print">GitHub Page: <a href="http://github.com/alecive">http://github.com/alecive</a></p></div>
-
 # Who am I
 
 {% include years_elap.html from="2010" %}
