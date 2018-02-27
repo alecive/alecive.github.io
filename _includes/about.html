@@ -14,7 +14,8 @@
                 </div>
                 <div class="col-lg-6">
                     {% include years_elap.html from="2010" %}
-                    <p>Alessandro has more than {{ yearDiffStr | strip_newlines }} years' research experience in robotics. He worked full time with the iCub, one of the most advanced humanoid robots, on machine perception and artificial intelligence. His mastery of C++ and the YARP/ROS software architectures has been employed for research in human-robot interaction, kinematics, tactile perception and robot control.</p>
+                    <p>Alessandro has more than {{ yearDiffStr | strip_newlines }} years' research experience in robotics. He worked full time with the iCub, one of the most advanced humanoid robots, on machine perception and artificial intelligence. His mastery of C++ and the YARP/ROS software architectures has been employed for research in human-robot interaction, kinematics, tactile perception and robot control.
+                    {% if site.banner %}<span class="about-banner">{{ site.banner }}</span>{% endif %}</p>
                 </div>
                 <div class="col-lg-1"></div>
             </div>

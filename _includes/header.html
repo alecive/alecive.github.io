@@ -121,11 +121,7 @@
         {% endif %}
         </header>
 
-        {% if site.banner %}
-        <div class="site-banner alert alert-danger" role="alert">
-            <strong>{{ site.banner }}</strong>
-        </div>
-        {% endif %}
+        {% if site.banner %}<div class="site-banner alert alert-danger" role="alert">{{ site.banner }}</div>{% endif %}
     {% endif %}
 
 

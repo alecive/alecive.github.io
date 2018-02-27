@@ -509,9 +509,19 @@ header .intro-text .owner-small {
     border-radius: 0px;
     text-align: center;
     font-size: 1.4em;
+    font-weight: bold;
     margin-bottom: 0px;
-    background-color: #bf4040;
+    background-color: #{{ site.color.banner }};
     color: #fff;
+}
+
+.about-banner,
+.about-banner:hover {
+    font: inherit;
+    font-weight: bold;
+    background-color: inherit;
+    text-transform: inherit;
+    color: #{{ site.color.banner }};
 }
 
 section {
