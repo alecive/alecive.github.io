@@ -78,43 +78,54 @@
         </div>
     </nav>
 
-    {% if page.type == "research" or page.type == "design" or page.type == "blog" %}
     <!-- Header -->
-    <header>
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-12">
-                    <img class="img-fluid with-shadow-on-hover logo-img" src="{{ site.logo }}" alt="alecive-logo">
-                    <div class="intro-text">
-                        <span class="name">{{ page.type }}</span>
-                        <hr class="separating-line">
-                        <span class="owner">{{ site.owner }}</span>
+    {% if page.type == "design" or page.type == "blog" or page.type ==     "research"
+                                or page.type ==   "cv" or page.type == "publications" %}
+        <header>
+        {% if page.type == "design" or page.type == "blog" %}
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-12">
+                        <img class="img-fluid with-shadow-on-hover logo-img" src="{{ site.logo }}" alt="alecive-logo">
+                        <div class="intro-text">
+                            <span class="name">{{ page.type }}</span>
+                            <hr class="separating-line">
+                            <span class="owner">{{ site.owner }}</span>
+                        </div>
                     </div>
                 </div>
             </div>
-        </div>
-    </header>
-    {% elsif page.type == "cv" or page.type == "publications" %}
-    <!-- Header -->
-    <header>
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-12">
-                    <img class="img-fluid no-print with-shadow-on-hover cv-img" src="{{ site.cv-image }}" alt="alessandro-roncone">
-                    <div class="intro-text">
-                        {% if page.type == "publications" %}
-                        <span class="name-small no-print">{{ page.type }}</span>
-                        <hr class="separating-line no-print">
-                        <span class="owner-small no-print">{{ site.owner }}</span>
-                        {% else %}
-                        <span class="name-small no-print">{{ page.title }}</span>
-                        <hr class="separating-line no-print">
-                        <span class="owner-small no-print">{{ page.description }}</span>
-                        {% endif %}
+        {% elsif page.type == "research" or page.type == "cv" or page.type == "publications" %}
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-12">
+                        <img class="img-fluid no-print with-shadow-on-hover cv-img" src="{{ site.cv-image }}" alt="alessandro-roncone">
+                        <div class="intro-text">
+                            {% if page.type == "research" %}
+                            <span class="name">{{ page.type }}</span>
+                            <hr class="separating-line">
+                            <span class="owner">{{ site.owner }}</span>
+                            {% elsif page.type == "publications" %}
+                            <span class="name-small no-print">{{ page.type }}</span>
+                            <hr class="separating-line no-print">
+                            <span class="owner-small no-print">{{ site.owner }}</span>
+                            {% else %}
+                            <span class="name-small no-print">{{ page.title }}</span>
+                            <hr class="separating-line no-print">
+                            <span class="owner-small no-print">{{ page.description }}</span>
+                            {% endif %}
+                        </div>
                     </div>
                 </div>
             </div>
+        {% endif %}
+        </header>
+
+        {% if site.banner %}
+        <div class="site-banner alert alert-danger" role="alert">
+            <strong>{{ site.banner }}</strong>
         </div>
-    </header>
+        {% endif %}
     {% endif %}
+
 

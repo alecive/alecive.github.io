@@ -144,7 +144,8 @@ header .intro-text .name-small,
 header .intro-text .owner,
 header .intro-text .owner-small,
 #article .progress > .progress-type,
-#article thead tr th strong {
+#article thead tr th strong,
+.site-banner {
     text-transform: uppercase;
     /*font-family: 'Proxima Nova', sans-serif;*/
     font-family: 'Montserrat', Helvetica, sans-serif !important;
@@ -501,6 +502,16 @@ header .intro-text .owner-small {
     box-shadow: none;
     max-height: 360px;
     margin: auto;
+}
+
+.site-banner {
+    border: none;
+    border-radius: 0px;
+    text-align: center;
+    font-size: 1.4em;
+    margin-bottom: 0px;
+    background-color: #bf4040;
+    color: #fff;
 }
 
 section {
