@@ -140,9 +140,7 @@ h6,
 .navbar,
 .navbar a,
 header .intro-text .name,
-header .intro-text .name-small,
 header .intro-text .owner,
-header .intro-text .owner-small,
 #article .progress > .progress-type,
 #article thead tr th strong,
 .site-banner {
@@ -163,8 +161,7 @@ h6,
 #article thead tr th strong
 section h3,
 footer h3,
-header .intro-text .owner,
-header .intro-text .owner-small {
+header .intro-text .owner {
     font-weight: 100;
 }
 
@@ -258,28 +255,24 @@ header .intro-text {
     color: #{{ site.color.secondary }};
 }
 
-header .intro-text .name,
-header .intro-text .name-small {
+header .intro-text .name {
     background-color: transparent;
     display: block;
     font-size: 4em;
 }
 
-header .intro-text .owner,
-header .intro-text .owner-small {
+header .intro-text .owner {
     background-color: transparent;
     font-size: 1.75em;
 }
 
 @media(max-width:550px) {
-    header .intro-text .name,
-    header .intro-text .name-small {
+    header .intro-text .name {
         font-size: 3em;
         word-wrap: break-word;
     }
 
-    header .intro-text .owner,
-    header .intro-text .owner-small {
+    header .intro-text .owner {
         font-size: 1.5em;
     }
 }
@@ -291,15 +284,11 @@ header .intro-text .owner-small {
     }
 
     header .intro-text .name {
-        font-size: 5.3em;
-    }
-
-    header .intro-text .name-small {
         font-size: 4.1em;
     }
 
     header .intro-text .owner {
-        font-size: 2.35em;
+        font-size: 2.25em;
     }
 
     header hr.separating-line {
