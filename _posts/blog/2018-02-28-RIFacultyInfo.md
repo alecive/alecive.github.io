@@ -44,6 +44,70 @@ Robot structures, Kinematics and Dynamics, Haptics, pHRI, Mechanisms and Actuati
 * Haptic HCI with computed or remote environments. Here a goal is to enable truly transparent and high-fidelity interaction with eventual application to medicine, computer-augmented design, and telemanipulation, including scaled manipulation of microscopic and nanoscopic objects.
 * Intelligent mobile robots which are dynamically stable, including both rolling and walking machines. If such robots are to operate successfully in peopled environments, they must be agile and responsive to physical interaction with humans and their surroundings.
 
+# [Aaron Steinfeld](http://www.cs.cmu.edu/~astein/)
+
+My specialty is **human-robot interaction** and advanced transportation. I am interested in how to enable timely and appropriate interaction when interfaces are restricted through design, tasks, the environment, time pressures, and/or user abilities. I utilize training and experience in robotics, intelligent transportation, rehabilitation, human factors and ergonomics, human-computer interaction, universal design, and research methods.
+
+From [marynel.net](http://marynel.net): The goal of my research is to understand how we can build interactive computing technologies that are meaningful, intuitive, and appropriate for users, especially in complex social environments. Elements from robot perception, computer vision, machine learning, social science, and design.
+
+
+# [Chris Atkeson](http://www.cs.cmu.edu/~cga/)
+
+My life goal is to fulfill the science fiction vision of machines that achieve human levels of competence in perceiving, thinking, and acting. A more narrow technical goal is to understand how to get machines to generate and perceive human behavior. I use two complementary approaches, exploring humanoid robotics and human aware environments. Building humanoid robots tests our understanding of how to generate human-like behavior, and exposes the gaps and failures in current approaches. Building human aware environments (environments that perceive human activity and estimate human internal state) pushes the development of machine perception of humans. In addition to being socially useful, building human aware environments helps us develop humanoid robots that are capable of understanding and interacting with humans.
+
+Machine learning underlies much of my work in both humanoid robotics and human aware environments. I am an experimentalist in the field of robot learning, specializing in the learning of challenging dynamic tasks such as juggling. I combine designing learning algorithms with exploring their behavior in implementations on actual robots and in intelligent environments. My research interests include nonparametric learning, memory-based learning, reinforcement learning, learning from demonstration, and modeling human behavior.
+
+Perception: Robot Skin
+
+I have a longstanding interest in perception and aware environments (Classroom 2000, Aware Home, CareMedia, see the biographical slides mentioned above for more information). Now I am applying what I have learned from building those systems to robot skin. The key idea is to cover the robot with eyeballs (cameras), and have transparent skin. [FingerVision, Humanoids 2017].
+
+# [Katya Sycara](http://www.cs.cmu.edu/~sycara/)
+
+The issue of learning and adaptation in multi-agent systems has been given increasing attention in artificial intelligence research. It is becoming clear, given the dynamic environments in which we want our agent teams to interact, that behavioral repertoires and activities cannot simply be defined in advance. Our approach to multi-agent learning, unlike the top-down model of assuming an agent's state in advance, is notable for its similarity to the types of learning exhibited by lower animal societies.
+
+Research Goal
+
+Our research goal is to enable multiple agents to learn a cooperative and coordinated behavior in a dynamic environment using reinforcement learning.
+
+Assumptions
+
+    An agent does not have any prior knowledge.
+
+    An agent is a self-interested entity and behaves to achieve maximum reward in the range of its knowledge of the environment.
+
+Method
+
+Our method is Profit Sharing Plan (PSP), which is a type of reinforcement learning algorithm. The PSP algorithm allows an autonomous agent to learn a behavior progressively without any instruction and only with delayed rewards. PSP differs from other approaches to learning (like Markov Decision Processes) in that it does not assume an agent's state in advance.
+
+
+
+In artificial intelligence research, agent-based systems technology has been hailed as a new paradigm for conceptualizing, designing, and implementing software systems. Agents are sophisticated computer programs that act autonomously on behalf of their users, across open and distributed environments, to solve a growing number of complex problems. Increasingly, however, applications require multiple agents that can work together. A multi-agent system (MAS) is a loosely coupled network of software agents that interact to solve problems that are beyond the individual capacities or knowledge of each problem solver.
+
+Advantages of a Multi-Agent Approach
+An MAS has the following advantages over a single agent or centralized approach:
+
+    An MAS distributes computational resources and capabilities across a network of interconnected agents. Whereas a centralized system may be plagued by resource limitations, performance bottlenecks, or critical failures, an MAS is decentralized and thus does not suffer from the "single point of failure" problem associated with centralized systems.
+
+    An MAS allows for the interconnection and interoperation of multiple existing legacy systems. By building an agent wrapper around such systems, they can be inporporated into an agent society.
+
+    An MAS models problems in terms of autonomous interacting component-agents, which is proving to be a more natural way of representing task allocation, team planning, user preferences, open environments, and so on.
+
+    An MAS efficiently retrieves, filters, and globally coordinates information from sources that are spatially distributed.
+
+    An MAS provides solutions in situations where expertise is spatially and temporally distributed.
+
+    An MAS enhances overall system performance, specifically along the dimensions of computational efficiency, reliability, extensibility, robustness, maintainability, responsiveness, flexibility, and reuse.
+
+# [Scott Hudson](https://www.hcii.cmu.edu/people/scott-hudson)
+
+ Scott Hudson is a Professor in the Human-Computer Interaction Institute within the School of Computer Science at Carnegie Mellon University where he serves as the founding director of the HCII PhD program. He was previously an Associate Professor in the College of Computing at the Georgia Institute of Technology and prior to that an Assistant Professor of Computer Science at the University of Arizona. He earned his Ph.D. in Computer Science at the University of Colorado in 1986.
+
+Elected to the CHI Academy in 2006, he has published over 150 technical papers. He has regularly served on program committees for the SIGCHI and UIST conferences, served as papers co-chair for CHI '09, and again for CHI '10. He has previously served as Program Chair for UIST '90 and UIST '00, as well as Symposium Chair for UIST '93 and the founding UIST Doctoral Symposium chair from 2003 to 2005. He also served as a founding Associate Editor for ACM Transactions on Computer Human Interaction. His recent research funding has been from the National Science Foundation, Microsoft, and Disney Research.
+
+You can find out more about Scott's research here and teaching here. The best way to contact Scott is by email at  scott.hudson (at) cs.cmu.edu  (or see the contact information page).
+
+My research interests have covered a wide range of topics within the area of user interface software and technology. However, my work has always revolved around the invention and building of things which lead to a better user experience (although often indirectly through tools for the UI developer). This page provides a brief overview of some past and current projects. This list will inevitably be incomplete and out of date -- see my CV or papers in the ACM Digital Library for a more complete picture.
+
 # [Matt Travers](https://www.ri.cmu.edu/ri-faculty/matthew-j-travers/)
 
 Works in the biorobotics lab that is managed by howie choset
@@ -51,12 +115,6 @@ Works in the biorobotics lab that is managed by howie choset
 Biologically inspired dynamic locomotion and learning, compliant manipulation for agriculture and food preparation, **managing uncertainty in human-robot interaction**, and field-ready search and rescue robotics.
 
 Mechanism design of highly articulated mechanisms for search and rescue robotics
-
-# [Aaron Steinfeld](http://www.cs.cmu.edu/~astein/)
-
-My specialty is **human-robot interaction** and advanced transportation. I am interested in how to enable timely and appropriate interaction when interfaces are restricted through design, tasks, the environment, time pressures, and/or user abilities. I utilize training and experience in robotics, intelligent transportation, rehabilitation, human factors and ergonomics, human-computer interaction, universal design, and research methods.
-
-From [marynel.net](http://marynel.net): The goal of my research is to understand how we can build interactive computing technologies that are meaningful, intuitive, and appropriate for users, especially in complex social environments. Elements from robot perception, computer vision, machine learning, social science, and design.
 
 # [Martial Hebert](http://www.cs.cmu.edu/~hebert/)
 
@@ -89,6 +147,16 @@ How complex motor behavior can be modeled and learned, how motor skills can be g
 
 High-dimensional planning in real-time, **planning that "learns how to plan"** based on experience, automatic generation of compact representation of planning problems, high-dimensional planning under uncertainty in real-time and others. Most of our approaches are centered around the development of new graph search algorithms for real-time planning on huge graphs, study of new graph search algorithms for learning how to search these graphs efficiently from experience and methods for learning compact graph representations of planning problems.
 
+# [Hanbyul Joo](http://www.cs.cmu.edu/~hanbyulj/)
+
+ I am a Ph.D. candidate (expect to graduate in May 2018) in the Robotics Institute at Carnegie Mellon University, under the supervision of Prof. Yaser Sheikh. I am also actively collaborating with Prof. Mina Cikara in Harvard University and Prof. Hyun Soo Park in UMN. I interned at Oculus Research Pittsburgh (Summer and Fall, 2017) and Disney Research Zurich (Summer, 2015). Before joining CMU, I spent three years as a researcher at ETRI, a government-funded research organization in Korea. I received my M.S. in Electrical Engineering (under the supervision of Prof. In So Kweon), and B.S. in Computer Science, both from KAIST, Korea. The Samsung Scholarship is supporting my graduate study.
+Research
+
+The goal of my research is the creation of a new scientific discipline of computational behavioral science, by measuring the full spectrum of social signals transmitted during an interpersonal social interaction. I have been developing a unique sensing system at CMU, the Panoptic Studio, which is composed of more than 500 synchronized cameras. My research is based on the tools of computer vision, machine learning, computer graphics, and robotics.
+
+
+
+
 # [Jean Oh](http://www.cs.cmu.edu/~jeanoh/)
 
 My research interests lie in the area of AI in robotics including autonomy, language understanding, multimodal perception, path planning, and machine learning. Robots that can
@@ -113,15 +181,9 @@ In my research, I try to understand the principles of legged dynamic systems und
 
 I believe that understanding the principles of legged dynamics and their connection to motor control will change how we simulate human locomotion, engineer artificial legs, and rehabilitate patients.
 
-# [Chris Atkeson](http://www.cs.cmu.edu/~cga/)
+# [Jessica Hodgins](http://www.cs.cmu.edu/~jkh/)
 
-My life goal is to fulfill the science fiction vision of machines that achieve human levels of competence in perceiving, thinking, and acting. A more narrow technical goal is to understand how to get machines to generate and perceive human behavior. I use two complementary approaches, exploring humanoid robotics and human aware environments. Building humanoid robots tests our understanding of how to generate human-like behavior, and exposes the gaps and failures in current approaches. Building human aware environments (environments that perceive human activity and estimate human internal state) pushes the development of machine perception of humans. In addition to being socially useful, building human aware environments helps us develop humanoid robots that are capable of understanding and interacting with humans.
-
-Machine learning underlies much of my work in both humanoid robotics and human aware environments. I am an experimentalist in the field of robot learning, specializing in the learning of challenging dynamic tasks such as juggling. I combine designing learning algorithms with exploring their behavior in implementations on actual robots and in intelligent environments. My research interests include nonparametric learning, memory-based learning, reinforcement learning, learning from demonstration, and modeling human behavior.
-
-Perception: Robot Skin
-
-I have a longstanding interest in perception and aware environments (Classroom 2000, Aware Home, CareMedia, see the biographical slides mentioned above for more information). Now I am applying what I have learned from building those systems to robot skin. The key idea is to cover the robot with eyeballs (cameras), and have transparent skin. [FingerVision, Humanoids 2017].
+  Jessica Hodgins is a Professor in the Robotics Institute and Computer Science Department at Carnegie Mellon University. From 2008-2016, she founded and ran research labs for Disney, rising to VP of Research and leading the labs in Pittsburgh and Los Angeles. From 2005-2015, she was Associate Director for Faculty in the Robotics Institute, running the promotion and tenure process and creating a mentoring program for pre-tenure faculty. Prior to moving to Carnegie Mellon in 2000, she was an Associate Professor and Assistant Dean in the College of Computing at Georgia Institute of Technology. She received her Ph.D. in Computer Science from Carnegie Mellon University in 1989. Her research focuses on computer graphics, animation, and robotics with an emphasis on generating and analyzing human motion. She has received a NSF Young Investigator Award, a Packard Fellowship, and a Sloan Fellowship. She was editor-in-chief of ACM Transactions on Graphics from 2000-2002 and ACM SIGGRAPH Papers Chair in 2003. She was an elected director at large on the ACM SIGGRAPH Executive Committee from 2012-2017 and in 2017 she was elected ACM SIGGRAPH President. In 2010, she was awarded the ACM SIGGRAPH Computer Graphics Achievement Award and in 2017 she was awarded the Steven Anson Coons Award for Outstanding Creative Contributions to Computer Graphics.
 
 # [David Held](http://davheld.github.io/)
 
