@@ -947,6 +947,13 @@ span.label:hover e.ok {
     display: none;
 }
 
+.mjx-chtml,
+.mjx-chtml span {
+    background-color: transparent !important;
+    margin: auto !important;
+    text-transform: none;
+}
+
 .progress {
     font-size: 0.82em;
     line-height: 22px;
