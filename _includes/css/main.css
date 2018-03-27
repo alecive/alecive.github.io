@@ -143,7 +143,8 @@ header .intro-text .name,
 header .intro-text .owner,
 #article .progress > .progress-type,
 #article thead tr th strong,
-.site-banner {
+.site-banner,
+.btn-danger {
     text-transform: uppercase;
     /*font-family: 'Proxima Nova', sans-serif;*/
     font-family: 'Montserrat', Helvetica, sans-serif !important;
@@ -1152,7 +1153,9 @@ span.label:hover e.ok {
     color: #fff;
 }
 
-.btn-default {
+.btn-default,
+#article a .btn-danger,
+.btn-danger {
     color: #fff;
     border: none;
     background-color: #{{ site.color.secondary }};
@@ -1166,6 +1169,21 @@ span.label:hover e.ok {
 .btn-default:active {
     color: #fff;
     background-color: #{{ site.color.secondary-dark }};
+}
+
+#article a .btn-danger,
+.btn-danger {
+    color: #fff !important;
+    background-color: #{{ site.color.banner }};
+}
+
+#article a .btn-danger:hover,
+#article a .btn-danger:focus,
+#article a .btn-danger:active,
+.btn-danger:hover,
+.btn-danger:focus,
+.btn-danger:active {
+    background-color: #{{ site.color.accent }};
 }
 
 footer {
