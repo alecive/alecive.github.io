@@ -67,15 +67,26 @@ BioEngineering Chair of ChemEng
 
 # [Spencer Smith](http://www.cas.mcmaster.ca/~smiths/)
 
-1) Application of Software Engineering Principles to Scientific Computation
+Application of Software Engineering Principles to Scientific Computation
 
 - Requirements documentation for modelling of physical phenomena
 - Module interface specification for numerical methods, such as the finite element method
 - Use of the principles of information hiding and encapsulation in numerical software
 - An open framework for finite element code
 
-2) Improvement in the Application of Numerical Algorithms to Practical Engineering Problems
+Improvement in the Application of Numerical Algorithms to Practical Engineering Problems
 
 - Implementation of the finite element method using different descriptions of motion
 - Investigation of new finite elements, such as the average strain element
 - Investigation of computational problems in polymer processing and metal forming
+
+# [William Farmer](http://imps.mcmaster.ca/wmfarmer/)
+
+ * Applied logic
+ * Mechanized mathematics
+ * Symbolic computation
+ * Theorem proving systems
+ * Mathematical knowledge management
+ * Formal methods
+ * IMPS Interactive Mathematical Proof System
+ * MathScheme Project
