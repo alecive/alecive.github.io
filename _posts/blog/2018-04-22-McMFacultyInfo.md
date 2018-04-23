@@ -37,11 +37,11 @@ The overarching theme of my research group is the application of lasers in the c
 
 Rong Zheng's research interests include Cyber Physical Systems, mobile computing and networked systems.
 
-    Autonomous monitoring of data centre operations (NSERC CRD)
-    Mobile crowdsensing (NSERC SPG)
-    Indoor localization and mapping (NSERC ENGAGE)
-    Wireless network monitoring & security (NSERC CFI)
-    Sequential learning in wireless resource management (NSERC Discovery)
+ * Autonomous monitoring of data centre operations (NSERC CRD)
+ * Mobile crowdsensing (NSERC SPG)
+ * Indoor localization and mapping (NSERC ENGAGE)
+ * Wireless network monitoring & security (NSERC CFI)
+ * Sequential learning in wireless resource management (NSERC Discovery)
 
 # [Mark Lawford](https://www.cas.mcmaster.ca/~lawford/)
 
