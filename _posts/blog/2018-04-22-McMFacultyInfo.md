@@ -25,6 +25,67 @@ permalink: /hidden/fi.html
  * Programming Theory and Tools for Multi-Core Concurrency
  * pState
 
+# [Martin v. Mohrenschildt](http://www.cas.mcmaster.ca/~mohrens/)
+
+## Model Predictive Control
+
+The objective in control is to determine inputs to a system such that the outputs exhibit the desired behavior. In practice the input can not be chosen entirely freely but has to satisfy constraints. Many different control strategies have been developed to solve this problem including control strategies for hybrid systems. In situations where optimal operation is at an extremum of the constraint set or the process is nonlinear one single control strategy can not satisfy all objectives over the entire runtime of the system and it is difficult to handle constraints with some control strategies. To overcome these problems we propose a control algorithm that combines several different control strategies into one controller.
+
+## Hybrid Systems
+
+In engineering mathematics discontinuities appear in many equations. Based on our theory for closed form solutions of differential equations with piecewise coefficients or perturbation, we perform further research on the theoretical and computational aspect of piecewise functions.
+
+## Immersive Simulation
+
+Together with Dr. Shedden and Dr. Watter from Psychology are are investigating the effects of a fully immersive environment (motion simulator) on humans. One goal is to further our understanding about how motion cues are processed and integrated with other information to enhance learning and facilitate transfer of learning outside of the simulator.
+
+# [Michael Thompson](https://www.eng.mcmaster.ca/people/faculty/michael-thompson)
+
+Associate Dean (Graduate Studies) Department of Chemical Engineering
+
+Industrial Ph.D.
+
+Tell him I was a biomedical engineer
+
+# [Antoine Deza](http://www.cas.mcmaster.ca/~deza/)
+
+Advanced Optimization Laboratory Seminars Series
+
+Fields Institute Industrial Optimization Seminar Series
+
+# Ryszard Janicki
+
+Concurrency theory, fundamentals of software engineering, ranking theory
+
+# [Alan Wassyng](http://www.cas.mcmaster.ca/~wassyng/)
+
+Automotive stuff
+
+ * Software certification - see McSCert above. Also, I am a founding member of the Software Certification Consortium (SCC)
+ * Assurance Cases
+ * Real-time and embedded systems - especially safety-critical systems
+ * Timing issues in requirements and software design
+ * Tabular expressions - and their use in industry
+ * Methods for rigorous software development
+ * Software tools for rigorous software development
+ * Software engineering education
+
+# [Ryan Leduc](http://www.cas.mcmaster.ca/~leduc/)
+
+Control Discrete Event Systems
+
+My area of research is Discrete-Event Systems (DES). Particular areas of interest are Supervisory Control of DES, hierarchical structure, concurrency and implementation issues, and DES as software and hardware. I am also interested in hierarchical approaches to formal verification of software.
+
+# [Jacques Carette](https://www.cas.mcmaster.ca/~carette/)
+
+Math,Games
+
+ * Mechanized Mathematics, especially system building (MathScheme). A nice glossy overview was recently published.
+ * Program Transformation, Meta Programming, and Program Generation.
+ * Mathematical knowledge management
+ * Probabilistic Programming: Hakaru
+ * Game Design
+
 # [Ishwar Puri](http://www.ikpuri.com/index.html)
 
 Dr. Puri is best known for his contributions to the sciences of combustion (with applications to fire safety and combustor design), magnetic fluid and particle transport (by providing insights into thermomagnetic convection, dynamic self assembly and magnetic inks for 3D printing), mathematical biology of disease (that explains the cancer stem cell hypothesis and Alzheimer's disease), and nanoscale transport phenomena (that elucidates new insights into heat transfer and soft matter behavior).
