@@ -46,7 +46,6 @@ Kenny Mitchell BSc (Hons), MSc, Ph.D., is a Senior Research Scientist providing 
 
 * [Language-Based Interactions](https://www.disneyresearch.com/publication/learning-and-reusing-dialog-for-repeated-interactions-with-a-situated-social-agent/) At Disney Research Pittsburgh, I contributed to an architecture to engage in social chat and task-based language interactions. This work was conducted with both children and adults. It hinged on using Amazon Mechanical Turk as a means of automating dialog graph growth. I used the architecture to explore generalization mechanisms, dialog graph traversal strategies and more. All of this work was conducted under the guidance of Jill Lehman and with the support of a fantastic team of PostDocs and Interns.
 
-
 James Kennedy received his Ph.D. from Plymouth University, U.K. in 2017 for his work using social robots to tutor children. During his Ph.D., he worked as a Research Assistant on the EU-funded DREAM (Development of Robot-Enhanced therapy for children with AutisM spectrum disorders) project and collaborated with the ALIZ-E (Adaptive Strategies for Sustainable Long-Term Social Interaction), and L2TOR (Second Language Tutoring using Social Robots) projects. In 2016, James was a Lab Associate with Disney Research. His research interests lie in Human-Robot Interaction and Socially Intelligent Agents.
 
 # [Daniel Campos Zamora](https://www.danielcamposzamora.com/)
@@ -85,3 +84,7 @@ Morgan Pope was born in a small rural town near the Utah/Idaho border, where he 
  * Zoetrope
 
 During his early career, Lanny held leadership positions in telecommunications research at Bell Labs, Bellcore, and Telcordia. He later moved on to Walt Disney Imagineering’s Research and Development group, where for nine years he led technical teams that focused their efforts on innovative sensing, HCI, robotics, imaging, and effects. Lanny is now the Associate Lab Director for Disney Research. He and the Lab are responsible for next-generation visual, HCI, and robotic systems. Lanny holds bachelors and masters degrees in electrical engineering have earned over 70 patents for his work and has appeared numerous times in both scholarly and mainstream publications and media. He was named a Disney Research Fellow in 2014 in recognition of his contributions to the Walt Disney Company.
+
+# [David Christensen](https://www.disneyresearch.com/people/david-christensen/)
+
+David Christensen is excited to be moving from Apple to Disney Research. He completed his Ph.D. in robotic actuators, haptics and sensors at Stanford where his thesis was on microrobots enabled with macro-forces was advised by Mark Cutkosky and Tom Kenny. These 1-inch “uTug” microrobots can freely run but still generate enough surface grip for 6 them to move a car. This is all enabled by the magic of Gecko Adhesives that grip without being sticky. Prior to graduate school, he served as Director of Research and Development at Valimet Inc. a manufacturer of micron-sized spherical metal powders used in applications including aerospace and metallic 3d printing.
