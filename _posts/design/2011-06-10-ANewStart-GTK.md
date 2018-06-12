@@ -21,10 +21,10 @@ This themes comes also with: _AWN Theme, CoverGloobus Theme, Conky files, Firefo
 
 Miscellanea:
 
-  * Icon Theme: [AwOken icons](http://alecive.github.io/design/2012/09/01/Awoken-icons/), colored with 99/15/00 color combination (from 2.4 version, the color combination is 3/217/255 since I've moved from CMY to RGB)
-  * Wallpapers: [Frozen by TheOats](http://theoats.deviantart.com/art/Frozen-148293611) and [Cold Wallpaper by xhoOp](http://xhoop.deviantart.com/art/Cold-Wallpaper-271689860)
-  * IDEA: [pure](http://www.deviantart.com/deviation/161401583/) by [Folter-x](http://folter-x.deviantart.com/)
-  * KDE PORTING: [ANewStart_KDE](http://lgsalvati.deviantart.com/art/AnewStart-Kde-1-0-303043841) by [luigisalvati](http://lgsalvati.deviantart.com/) (if you have time, take a look to his gallery, is simply amazing!)
+  * Icon Theme: [AwOken icons]({% post_url design/2012-09-01-Awoken-icons %}), colored with `99/15/00` color combination (from 2.4 version, the color combination is `3/217/255` since I've moved from CMY to RGB)
+  * Wallpapers: [Frozen by TheOats](https://theoats.deviantart.com/art/Frozen-148293611) and [Cold Wallpaper by xhoOp](https://xhoop.deviantart.com/art/Cold-Wallpaper-271689860)
+  * IDEA: [pure](https://folter-x.deviantart.com/art/pure-161401583) by [Folter-x](http://folter-x.deviantart.com/)
+  * KDE PORTING: [ANewStart_KDE](https://lgsalvati.deviantart.com/art/AnewStart-Kde-1-0-303043841) by [luigisalvati](https://lgsalvati.deviantart.com/) (if you have time, take a look at his gallery, it's simply amazing!)
 
 ### Dependencies
 

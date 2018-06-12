@@ -1088,8 +1088,8 @@ span.label:hover e.ok {
 }
 
 #portfolio .portfolio-item .portfolio-link:hover .img-fluid {
-    -webkit-filter: brightness(60%) grayscale(80%); /* blur(1px); /* Safari 6.0 - 9.0 */ */
-            filter: brightness(60%) grayscale(80%); /* blur(1px); */
+    -webkit-filter: brightness(56%) grayscale(84%); /* blur(1px); /* Safari 6.0 - 9.0 */ */
+            filter: brightness(56%) grayscale(84%); /* blur(1px); */
 }
 
 #portfolio .portfolio-item .portfolio-link .caption .caption-content {

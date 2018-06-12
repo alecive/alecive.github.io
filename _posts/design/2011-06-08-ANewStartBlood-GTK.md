@@ -1,6 +1,6 @@
 ---
 title: A New Start Blood
-link: http://alecive.deviantart.com/art/ANewStartBLOOD-1-0-273905913
+link: https://alecive.deviantart.com/art/ANewStartBLOOD-1-0-273905913
 link-alt: A New Start Blood Suite on DeviantART
 img: aNewStartBlood.jpg
 img-thumb: aNewStartBlood_thumb.jpg
@@ -19,9 +19,9 @@ A New Start Blood is the dark version of ANewStart suite for Linux. Tough color 
 
 Miscellanea:
 
-  * Icons: [AwOken icons](http://alecive.github.io/design/2012/09/01/Awoken-icons/), colored with 20/99/99 color combination
-  * Wallpaper: [Autumn Leaf by seand00de0211](http://seand00de0211.deviantart.com/art/Autumn-leaf-251476077)
-  * IDEA: [ANewStart suite](http://0.0.0.0:4000/design/2011/06/10/ANewStart-GTK/)
+  * Icons: [AwOken icons]({% post_url design/2012-09-01-Awoken-icons %}), colored with `20/99/99` color combination
+  * Wallpaper: [Autumn Leaf](https://seand00de0211.deviantart.com/art/Autumn-leaf-251476077) by [seand00de0211](https://seand00de0211.deviantart.com)
+  * IDEA: [ANewStart suite]({% post_url design/2011-06-10-ANewStart-GTK %})
 
 ### Dependencies
 
@@ -30,4 +30,4 @@ Miscellanea:
 
 ### Credits
 
-This work is freely inspired by the great [Red Light District by BigRZA](http://bigrza.deviantart.com/art/Red-Light-District-166233527). GTK2 theme is modified from his [Black Element GTK theme](http://gnome-look.org/content/show.php/black-element?content=124850)!
+This work is freely inspired by the great [Red Light District by BigRZA](https://bigrza.deviantart.com/art/Red-Light-District-166233527). GTK2 theme is modified from his [Black Element GTK theme](http://gnome-look.org/content/show.php/black-element?content=124850)!

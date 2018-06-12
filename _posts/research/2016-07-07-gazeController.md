@@ -1,6 +1,6 @@
 ---
 title: A Cartesian 6-DoF Gaze Controller for Humanoid Robots
-link: http://wiki.icub.org/iCub/main/dox/html/icub_gaze_interface.html
+link: http://www.icub.org/software_documentation/icub_gaze_interface.html
 link-alt: Documentation and tutorials
 img: gazeController.jpg
 img-thumb: gazeController_thumb.jpg
@@ -33,7 +33,7 @@ The additional behaviors listed above are added to the main goal if requested by
 
 ### Results
 
-The control architecture depicted in Figure 1 has been implemented and released under the GPL open source license. As such, it is freely accessible on [GitHub](https://github.com/robotology/icub-main). It is developed for the iCub humanoid robot, and it is readily available for any iCub robot. Nonetheless, it is generically applicable to any humanoid head, and the code has been designed to be modular and easy to adapt to any other robotic platform (provided that a suitable kinematic representation is available). In this regard, a porting onto the 6-DoF head of the Vizzy robot [has been already carried out](http://mediawiki.isr.ist.utl.pt/wiki/Vizzy\_Cartesian\_Interface).
+The control architecture depicted in Figure 1 has been implemented and released under the GPL open source license. As such, it is freely accessible on [GitHub](https://github.com/robotology/icub-main). It is developed for the iCub humanoid robot, and it is readily available for any iCub robot. Nonetheless, it is generically applicable to any humanoid head, and the code has been designed to be modular and easy to adapt to any other robotic platform (provided that a suitable kinematic representation is available). In this regard, a porting onto the 6-DoF head of the Vizzy robot [has been already carried out](http://mediawiki.isr.ist.utl.pt/wiki/Vizzy_Cartesian_Interface).
 
 Particular attention has been given to the design of the software interface that is exposed to the user. For example, the desired target can be sent to the controller in different formats (e.g. either the 3D cartesian point to look at or a triangulation of the target coordinates in both the left and the right image frames). A configuration interface allows the user to tune the internal parameters of the Gaze Controller for a finer control of the software (e.g. enabling/disabling saccadic movements, triggering the neck stabilization on and off, tuning the execution time for the neck and eyes controllers, and so on).
 

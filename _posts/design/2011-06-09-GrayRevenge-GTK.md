@@ -1,6 +1,6 @@
 ---
 title: Gray Revenge
-link: http://alecive.deviantart.com/art/Gray-Revenge-1-7-194633730
+link: https://alecive.deviantart.com/art/Gray-Revenge-1-7-194633730
 link-alt: GrayRevenge Suite on DeviantART
 img: grayRevenge.jpg
 img-thumb: grayRevenge_thumb.jpg
@@ -21,9 +21,9 @@ WARNING: this theme works for GNOME3.4 / Ubuntu 12.04 users, but it will not wor
 
 Miscellanea:
 
-  * Wallpaper: [Kogalani by Arclight-17](http://arclight-17.deviantart.com/art/Kogalani-167333074)
-  * Font in the preview: [Alte Haas Grotesk](http://www.deviantart.com/users/outgoing?http://www.dafont.com/alte-haas-grotesk.font)
-  * Gnome-shell font: [Aller](http://www.deviantart.com/users/outgoing?http://www.fontsquirrel.com/fonts/Aller)
-  * Icons: [AwOken icons](http://alecive.github.io/design/2012/09/01/Awoken-icons/)
+  * Wallpaper: [Kogalani by Arclight-17](https://arclight-17.deviantart.com/art/Kogalani-167333074)
+  * Font in the preview: [Alte Haas Grotesk](http://www.dafont.com/alte-haas-grotesk.font)
+  * Gnome-shell font: [Aller](http://www.fontsquirrel.com/fonts/Aller)
+  * Icons: [AwOken icons]({% post_url design/2012-09-01-Awoken-icons %})
 
 Installation instructions and more informations are provided in the README pdf file.
