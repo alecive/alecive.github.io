@@ -121,14 +121,14 @@ Let's create a catkin workspace (as I said, I have everything in my `code` folde
 ~~~bash
 cd code/
 mkdir -p catkin_ws/src
-cd catkin_ws/src
-catkin_init_workspace
+cd catkin_ws/
+catkin init -w .
 ~~~
 
 Even though the workspace is empty (there are no packages in the `src` folder, just a single `CMakeLists.txt` link) you can still `build` the workspace:
 ~~~bash
-cd ../
-catkin_make
+cd catkin_ws/
+catkin build
 ~~~
 
 The catkin_make command is a convenience tool for working with catkin workspaces. If you look in your current directory you should now have a `build` and `devel` folder. Inside the `devel` folder you can see that there are now several `setup.*sh` files. Sourcing any of these files will overlay this workspace on top of your environment:
