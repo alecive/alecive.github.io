@@ -13,11 +13,9 @@ permalink: ros_concepts.html
 
 This page is a summary about the main ROS concepts and some useful command-line tools. For [a tutorial on how to install ROS from a completely naive user's standpoint, go here]({% post_url blog/2018-06-14-ROS-scazlab-installation %}).
 
-# ROS concepts
+Below, you can find a summary of what is available [here](http://wiki.ros.org/ROS/Concepts).
 
-A summary of what is available [here](http://wiki.ros.org/ROS/Concepts). I will start from [here](http://wiki.ros.org/Nodes).
-
-## Master
+# Master
 
 The ROS Master provides naming and registration services to the rest of the nodes in the ROS system. It tracks publishers and subscribers to topics as well as services. The role of the Master is to enable individual ROS nodes to locate one another. Once these nodes have located each other they communicate with each other peer-to-peer.
 
@@ -25,7 +23,7 @@ The Master also provides the Parameter Server.
 
 The Master is most commonly run using the `roscore` command, which loads the ROS Master along with other essential components.
 
-## Nodes
+# Nodes
 
 A node is a process that performs computation. Nodes are combined together into a graph and communicate with one another using _streaming topics_, _RPC services_, and the _Parameter Server_. These nodes are meant to operate at a fine-grained scale; a robot control system will usually comprise many nodes.
 
@@ -33,7 +31,7 @@ All running nodes have a graph resource name that uniquely identifies them to th
 
 A ROS node is written with the use of a ROS client library, such as `roscpp` or `rospy`.
 
-## Topics
+# Topics
 
 Topics are named buses over which nodes exchange messages. Topics have anonymous publish/subscribe semantics, which decouples the production of information from its consumption. In general, nodes are not aware of who they are communicating with. Instead, nodes that are interested in data subscribe to the relevant topic; nodes that generate data publish to the relevant topic. There can be multiple publishers and subscribers to a topic.
 
@@ -41,7 +39,7 @@ Topics are intended for unidirectional, streaming communication. Nodes that need
 
 Each topic is strongly typed by the ROS message type used to publish to it and nodes can only receive messages with a matching type. The Master does not enforce type consistency among the publishers, but subscribers will not establish message transport unless the types match. Furthermore, all ROS clients check to make sure that an MD5 computed from the msg files match. This check ensures that the ROS Nodes were compiled from consistent code bases.
 
-## Services
+# Services
 
 The publish/subscribe model is a very flexible communication paradigm, but its many-to-many one-way transport is not appropriate for RPC request/reply interactions, which are often required in a distributed system. Request/reply is done via a service, which is defined by a pair of messages: one for the request and one for the reply. A providing ROS node offers a service under a string name, and a client calls the service by sending the request message and awaiting the reply. Client libraries usually present this interaction to the programmer as if it were a remote procedure call.
 
@@ -49,7 +47,7 @@ Services are defined using `srv` files, which are compiled into source code by a
 
 A client can make a persistent connection to a service, which enables higher performance at the cost of less robustness to service provider changes.
 
-## Messages
+# Messages
 
 Nodes communicate with each other by publishing messages to topics. A message is a simple data structure, comprising typed fields. Standard primitive types (integer, floating point, boolean, etc.) are supported, as are arrays of primitive types. Messages can include arbitrarily nested structures and arrays (much like C structs).
 Nodes can also exchange a request and response message as part of a ROS service call. These request and response messages are defined in `srv` files.
@@ -58,9 +56,9 @@ Message types use standard ROS naming conventions: `package_name/msg_file_name`.
 
 In addition to the message type, messages are versioned by an MD5 sum of the `.msg` file. Nodes can only communicate messages for which both the message type and MD5 sum match.
 
-### Field types
+## Field types
 
-#### Built-in types
+### Built-in types
 
 |---------------------+-----------------------------------+-------------------+-----------------|
 | **Primitive Type**  | **Serialization**                 | **C++**           | **Python**      |
@@ -75,7 +73,7 @@ In addition to the message type, messages are versioned by an MD5 sum of the `.m
 |     duration        | secs/nsecs  signed 32-bit ints    | ros::Duration     | rospy.Duration  |
 {: class="table"}
 
-#### Array Handling
+### Array Handling
 
 |-------------------+-------------------------+---------------------------------------------------+-------------|
 | **Array Type**    | **Serialization**       | **C++**                                           | **Python**  |
@@ -87,7 +85,7 @@ In addition to the message type, messages are versioned by an MD5 sum of the `.m
 |-------------------+-------------------------+---------------------------------------------------+-------------|
 {: class="table"}
 
-## Bags
+# Bags
 
 A bag is a file format in ROS for storing ROS messages. Bags -- so named because of their .bag extension -- have an important role in ROS, and a variety of tools have been written to allow you to store, process, analyze, and visualize them. **The bag file format is very efficient for both recording and playback**, as messages are stored in the same representation used in the network transport layer of ROS. As such, **bags are the primary mechanism in ROS for data logging**, which means that they have a variety of offline uses.
 
@@ -95,13 +93,13 @@ Bags are typically created by a tool like `rosbag`, which subscribe to one or mo
 
 Using bag files within a ROS Computation Graph is generally no different from having ROS nodes send the same data, though you can run into issues with timestamped data stored inside of message data. For this reason, the `rosbag` tool includes an option to publish a simulated clock that corresponds to the time the data was recorded in the file.
 
-## Parameter server
+# Parameter server
 
 A parameter server is a shared, multi-variate dictionary that is accessible via network APIs. Nodes use this server to store and retrieve parameters at runtime. It is meant to be globally viewable so that tools can easily inspect the configuration state of the system and modify if necessary.
 
 The Parameter Server is implemented using XMLRPC and runs inside of the ROS Master, which means that its API is accessible via normal XMLRPC libraries.
 
-### Parameters
+## Parameters
 
 Parameters are named using the normal ROS naming convention. This means that ROS parameters have a hierarchy that matches the namespaces used for topics and nodes, meant to protect parameter names from colliding. The hierarchical scheme also allows parameters to be accessed individually or as a tree. For example, for the following parameters:
 
@@ -151,7 +149,7 @@ You can either read them back separately, i.e. retrieving `/gains/P` would retur
 
 Just like the ROS naming hierarchy, you can nest dictionaries within dictionaries to represent child namespaces.
 
-### Private Parameters
+## Private Parameters
 
 The ROS naming convention refers to ~name as a private name. These private names primarily are for parameters specific to a single Node. The `~` prefix prepends the Node's name to use it as a semi-private namespace -- they are still accessible from other parts of the system, but they are generally protected from accidental name collisions.
 
@@ -174,7 +172,7 @@ rosrun rospy_tutorials talker _param:=1.0
  * `rossrv = ros+srv` : provides information related to ROS service definitions
  * `catkin_make` : makes (compiles) a ROS package
 
-## Using `rospack`
+# Using `rospack`
 
 `rospack` allows you to get information about packages. In this tutorial, we are only going to cover the find option, which returns the path to package.
 
@@ -183,7 +181,7 @@ rosrun rospy_tutorials talker _param:=1.0
 /home/alecive/code/ros_catkin_ws/install_isolated/share/roscpp
 ~~~
 
-## Using `roscd`
+# Using `roscd`
 
 `roscd` is part of the `rosbash` suite. It allows you to change directory to a package or a stack. Like other ROS tools, it will **only** find ROS packages that are within the directories listed in your `ROS_PACKAGE_PATH`.
 
@@ -195,7 +193,7 @@ rosrun rospy_tutorials talker _param:=1.0
 [alecive@malakim]$
 ~~~
 
-### What to do if your package is not listed in `roscd`
+## What to do if your package is not listed in `roscd`
 
 You need to update the database:
 
@@ -203,7 +201,7 @@ You need to update the database:
 rospack profile
 ~~~
 
-## Using `rosmsg`
+# Using `rosmsg`
 
 Example Usage:
 
@@ -235,7 +233,7 @@ You will see:
     int64 num
 ~~~
 
-## Using `rossrv`
+# Using `rossrv`
 
 Example Usage:
 
@@ -269,7 +267,7 @@ int64 b
 int64 sum
 ~~~
 
-## `msg` and `srv`
+# `msg` and `srv`
 
 `msg` files are stored in the `msg` directory of a package, and `srv` files are stored in the `srv` directory.
 
@@ -305,7 +303,7 @@ The full specification for the message format is available at the [Message Descr
 
 If you are building C++ nodes which use your new messages, you will also need to declare a dependency between your node and your message, as described in the [catkin msg/srv build documentation](http://docs.ros.org/hydro/api/catkin/html/howto/format2/building_msgs.html).
 
-### Using `msg` in your package
+## Using `msg` in your package
 
 We need to make sure that the msg files are turned into source code for C++, Python, and other languages:
 
@@ -355,7 +353,7 @@ catkin_package(
 # )
 ~~~
 
-### Using `srv` in your package
+## Using `srv` in your package
 
 Let's start by copying an existing one from another package:
 
