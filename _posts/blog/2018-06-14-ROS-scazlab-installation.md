@@ -1,6 +1,6 @@
 ---
 title: How to install ROS indigo
-description: From a completely naive user's standpoint
+description: and live happily ever after
 tags: [blog,how to,tutorial,ros,installation,indigo,ubuntu,14.04,robotics,baxter,simulator]
 permalink: ros_installation.html
 ---
@@ -11,22 +11,23 @@ permalink: ros_installation.html
 * This line will be replaced by the ToC, excluding the "Contents" header
 {:toc}
 
-**Disclaimer:** although I've been doing robotics for years, I have **never** used ROS. These are the very first step I made in order to having a working `ros` environment on my laptop. As such, they should be taken as-they-are. They are mainly notes for myself in order to track down what I did and avoid doing the same errors.
+These guide is intended for students in the [Scazlab](http://scazlab.yale.edu). It is the most pain-free, future-proof way of installing `ros indigo` on a Ubuntu 14.04 machine. It is a collection of information from a variety of different sources, and the gist of it is that it will install `ROS` from sources in user space in order to avoid messing around with debian packages that are usually out-of-date and/or conflicting with more advanced features.s
 
 This page is going to be about ROS installation. For [a summary about the main ROS concepts and some useful command-line tools, go here]({% post_url blog/2016-02-08-ROS-concepts %}).
 
 # Installing ROS indigo from sources
 
-Why `ros indigo`? Because it is the same version that has been installed on the [Baxter robot](http://sdk.rethinkrobotics.com/wiki/Main_Page) I am going to use at the [Social Robotics Lab](http://scazlab.yale.edu/).
+Why `ros indigo`? Because it is the same version that has been installed on the [Baxter robot](http://sdk.rethinkrobotics.com/wiki/Main_Page) we are using at the [Social Robotics Lab](http://scazlab.yale.edu/).
 
-I decided to install from sources. I am used to that when I was working on [yarp](https://github.com/robotology/yarp), and it is the way to go if you want to have access to the source files and get a better idea of the middleware. I went [here](http://wiki.ros.org/indigo/Installation/Source), and I followed the instructions. Here is a summary of what I did.
+Why installing from sources? It is the way to go if you want to have access to the source files and get a better idea of the middleware. Below, there is a set of instructions, heavily inspired by [the official ros wiki](http://wiki.ros.org/indigo/Installation/Source).
 
 **NOTE**: [This page](http://sdk.rethinkrobotics.com/wiki/Workstation_Setup#Step_3:_Create_Baxter_Development_Workspace) provides a complete step-by-step guide on how to setup a workstation for the Baxter robot.
 
 ## Prerequisites
 
 ### Setup `sources.list`
-Installing `ros indigo` was not particularly difficult. First thing has been to setup my computer to accept software from `packages.ros.org`. I was lucky that `ros indigo` supports `trusty` (i.e. Ubuntu 14.04). I followed [this page](http://wiki.ros.org/indigo/Installation/Ubuntu#indigo.2BAC8-Installation.2BAC8-Sources.Setup_your_sources.list) (Section 1.2 and 1.3):
+
+Installing `ros indigo` is not particularly difficult. First thing is to setup the machine to accept software from `packages.ros.org`. According to [this page](http://wiki.ros.org/indigo/Installation/Ubuntu#indigo.2BAC8-Installation.2BAC8-Sources.Setup_your_sources.list) (Section 1.2 and 1.3):
 
 ~~~bash
 sudo sh -c 'echo "deb http://packages.ros.org/ros/ubuntu $(lsb_release -sc) main" > /etc/apt/sources.list.d/ros-latest.list'
@@ -50,7 +51,8 @@ rosdep update
 ~~~
 
 ## Building the `catkin` packages
-As far as I understood, `ros` devs have been moving away from `rosbuild` and started to used `catkin`. From [here](http://wiki.ros.org/catkin/conceptual_overview):
+
+`ros` moved away from `rosbuild` and started to used `catkin`. From [here](http://wiki.ros.org/catkin/conceptual_overview):
 
   > _"catkin combines CMake macros and Python scripts to provide some functionality on top of CMake's normal workflow. catkin was designed to be more conventional than rosbuild, allowing for better distribution of packages, better cross-compiling support, and better portability. catkin's workflow is very similar to CMake's but adds support for automatic 'find package' infrastructure and building multiple, dependent projects at the same time.
   The name catkin comes from the tail-shaped flower cluster found on willow trees -- a reference to Willow Garage where catkin was created."_
@@ -93,17 +95,11 @@ Invoke `catkin_make_isolated`:
 ./src/catkin/bin/catkin_make_isolated --install -DCMAKE_BUILD_TYPE=Release
 ~~~
 
-**WARNING:** this took me loong time. I don't really remember how long, but I'd say one hour for the desktop-full install.
+**WARNING:** this takes a loong time. Go grab a coffee or enjoy your life.
 
-Now everything should be set up correctly. It's time to [follow some tutorials](http://wiki.ros.org/ROS/Tutorials).
+### `.bashrc`
 
-# Installing and Configuring Your ROS Environment
-
-**LINK:** [http://wiki.ros.org/ROS/Tutorials/InstallingandConfiguringROSEnvironment](http://wiki.ros.org/ROS/Tutorials/InstallingandConfiguringROSEnvironment)
-
-## `.bashrc`
-
-Reading here and there, I added this to my `~/.bashrc` file:
+Add this to your `~/.bashrc` file:
 
 ~~~bash
 # Ros stuff
@@ -112,35 +108,48 @@ export PATH=$ROS_ROOT/bin:$PATH
 source $ROS_ROOT/setup.bash
 ~~~
 
-Otherwise, I would not have been able to do the steps below.
+Now everything should be set up correctly. It's time to [follow some tutorials](http://wiki.ros.org/ROS/Tutorials).
 
-## Create a ROS workspace
+# Installing Baxter SDK from sources
 
-Let's create a catkin workspace (as I said, I have everything in my `code` folder):
+If you need to use the [Baxter Research Robot](http://sdk.rethinkrobotics.com/wiki/Baxter_Setup), it is best if you download and install its SDK. It is even better if you download and install the Gazebo simulator to simulate it!
+
+## Installing the Baxter simulator
+
+# Creating a development ROS workspace
+
+In order to decouple the stable ros installation from the development packages you are working on, it is better to keep two separate workspaces. Below, you can find instructions on how to create a new workspace (from [here](http://wiki.ros.org/ROS/Tutorials/InstallingandConfiguringROSEnvironment)).
 
 ~~~bash
-cd code/
-mkdir -p catkin_ws/src
-cd catkin_ws/
+mkdir -p ros_devel_ws
+mkdir -p ros_devel_ws/src
+cd ros_devel_ws/
 catkin init -w .
 ~~~
 
-Even though the workspace is empty (there are no packages in the `src` folder, just a single `CMakeLists.txt` link) you can still `build` the workspace:
+Even though the workspace is empty (there are no packages in the `src` folder) you can still `build` the workspace:
+
 ~~~bash
-cd catkin_ws/
+cd ros_devel_ws/
 catkin build
 ~~~
 
-The catkin_make command is a convenience tool for working with catkin workspaces. If you look in your current directory you should now have a `build` and `devel` folder. Inside the `devel` folder you can see that there are now several `setup.*sh` files. Sourcing any of these files will overlay this workspace on top of your environment:
+The `catkin build` command is a convenience tool for working with catkin workspaces. If you look in your current directory you should now have a `build` and `devel` folder. Inside the `devel` folder you can see that there are now several `setup.*sh` files. Sourcing any of these files will overlay this workspace on top of your environment:
 
 ~~~bash
 source devel/setup.bash
 ~~~
 
-To make sure your workspace is properly overlayed by the setup script, make sure `ROS_PACKAGE_PATH` environment variable includes the directory you're in.
+To make this change permanent, you have to again go back to the `~/.bashrc`, and add the following:
 
 ~~~bash
-[alecive@malakim]$ echo $ROS_PACKAGE_PATH
-/home/alecive/code/catkin_ws/src:/home/alecive/code/ros_catkin_ws/install_isolated/share:/home/alecive/code/ros_catkin_ws/install_isolated/stacks
+source ros_devel_ws/devel/setup.bash
+~~~
+
+To make sure your workspace is properly overlayed by the setup script, make sure `ROS_PACKAGE_PATH` environment variable includes the directory you are in.
+
+~~~bash
+[scazlab@baxter]$ echo $ROS_PACKAGE_PATH
+/home/scazlab/code/ros_devel_ws/src:/home/scazlab/code/ros_catkin_ws/install_isolated/share:/home/scazlab/code/ros_catkin_ws/install_isolated/stacks
 ~~~
 

@@ -13,7 +13,7 @@ permalink: ros_concepts.html
 
 **Disclaimer:** although I've been doing robotics for years, I have **never** used ROS. These are some notes I think are going to be useful (to me) in the future. As such, they should be taken as-they-are.
 
-This page is a summary about the main ROS concepts and some useful command-line tools. For [a tutorial on how to install ROS from a completely naive user's standpoint, go here]({% post_url blog/2015-11-12-ROS-naive-installation %}).
+This page is a summary about the main ROS concepts and some useful command-line tools. For [a tutorial on how to install ROS from a completely naive user's standpoint, go here]({% post_url blog/2018-06-14-ROS-scazlab-installation %}).
 
 # ROS concepts
 
