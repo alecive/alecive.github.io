@@ -110,12 +110,6 @@ source $ROS_ROOT/setup.bash
 
 Now everything should be set up correctly. It's time to [follow some tutorials](http://wiki.ros.org/ROS/Tutorials).
 
-# Installing Baxter SDK from sources
-
-If you need to use the [Baxter Research Robot](http://sdk.rethinkrobotics.com/wiki/Baxter_Setup), it is best if you download and install its SDK. It is even better if you download and install the Gazebo simulator to simulate it!
-
-## Installing the Baxter simulator
-
 # Creating a development ROS workspace
 
 In order to decouple the stable ros installation from the development packages you are working on, it is better to keep two separate workspaces. Below, you can find instructions on how to create a new workspace (from [here](http://wiki.ros.org/ROS/Tutorials/InstallingandConfiguringROSEnvironment)).
@@ -153,3 +147,25 @@ To make sure your workspace is properly overlayed by the setup script, make sure
 /home/scazlab/code/ros_devel_ws/src:/home/scazlab/code/ros_catkin_ws/install_isolated/share:/home/scazlab/code/ros_catkin_ws/install_isolated/stacks
 ~~~
 
+# Installing Baxter SDK from sources
+
+If you need to use the [Baxter Research Robot](http://sdk.rethinkrobotics.com/wiki/Baxter_Setup), it is best if you download and install its SDK. It is even better if you download and install the Gazebo simulator to simulate it!
+
+Similarly to before, it is recommended to create and setup a third `ros` workspace with the baxter code.
+
+~~~bash
+mkdir -p ros_baxter_ws
+mkdir -p ros_baxter_ws/src
+cd ros_baxter_ws/
+catkin init -w .
+catkin build
+~~~
+
+Again, go back to the `~/.bashrc`, and add the following:
+
+~~~bash
+source ros_baxter_ws/devel/setup.bash
+~~~
+
+
+## Installing the Baxter simulator
