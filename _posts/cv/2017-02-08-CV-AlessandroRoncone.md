@@ -26,7 +26,7 @@ As such, I implement technological advancements through production-quality softw
 ---
 {: class="no-print"}
 
- * <b>{{ yearDiffInt | strip_newlines }} years'</b> research experience in **Humanoid Robotics**, **Cognitive Robotics**, and **Human-Robot Interaction**.
+ * <b>{{ yearDiffInt | strip_newlines }} years'</b> research experience in **Humanoid Robotics**, **Human-Robot Interaction** and **Cognitive Robotics**.
  * Extensive background in kinematics, optimization, robot control, decision making, planning under uncertainty, calibration, tactile sensing, machine learning, 2d and 3d computer vision, IMU processing.
  * Mastery of **C++**, with a deep knowledge of the _ROS_ and _YARP_ middlewares. Daily experience with the _iCub_ humanoid and the _Baxter_ collaborative robot.
  * Proven ability to manage multiple projects and supervise multiple people while meeting challenging deadlines.
