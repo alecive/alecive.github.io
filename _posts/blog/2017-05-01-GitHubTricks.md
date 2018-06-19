@@ -1,6 +1,6 @@
 ---
 title: GitHub Tricks
-description: Useful commands for my everyday GitHub life
+description: Useful commands for the everyday GitHub user
 tags: [blog,how to,tutorial,github,git,tips and tricks]
 permalink: github_tricks.html
 ---

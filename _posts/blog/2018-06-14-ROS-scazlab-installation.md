@@ -13,7 +13,7 @@ permalink: ros_installation.html
 
 These guide is intended for students in the [Scazlab](http://scazlab.yale.edu). It is the most pain-free, future-proof way of installing `ros indigo` on a Ubuntu 14.04 machine. It is a collection of information from a variety of different sources, and the gist of it is that it will install `ROS` from sources in user space in order to avoid messing around with debian packages that are usually out-of-date and/or conflicting with more advanced features.s
 
-This page is going to be about `ros` installation. For [a summary about the main `ros` concepts and some useful command-line tools, go here]({% post_url blog/2016-02-08-ROS-concepts %}).
+This page is going to be about `ros` installation. For [a summary about the main `ros` concepts and some useful command-line tools, go here]({% post_url blog/2018-04-18-ROS-concepts %}).
 
 # Installing ROS indigo from sources
 
