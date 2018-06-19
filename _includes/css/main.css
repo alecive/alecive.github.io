@@ -1256,6 +1256,12 @@ p code, li code {
     background-color: #{{ site.color.primary }};
 }
 
+li pre code {
+    background-color: transparent;
+    margin: 0;
+    padding: 0;
+}
+
 pre {
     padding: 4px;
     font-size: .85em;

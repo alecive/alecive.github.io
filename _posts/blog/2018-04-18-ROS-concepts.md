@@ -297,7 +297,6 @@ int64 Sum
 ~~~
 
 The full specification for the message format is available at the [Message Description Language](http://wiki.ros.org/ROS/Message_Description_Language) page.
-
 If you are building C++ nodes which use your new messages, you will also need to declare a dependency between your node and your message, as described in the [catkin msg/srv build documentation](http://docs.ros.org/hydro/api/catkin/html/howto/format2/building_msgs.html).
 
 ## Using `msg` in your package
@@ -306,53 +305,53 @@ We need to make sure that the `msg` files are turned into source code for C++, P
 
  1. Open `package.xml`, and make sure these two lines are in it and uncommented:
 
-~~~xml
-<build_depend>message_generation</build_depend>
-<run_depend>message_runtime</run_depend>
-~~~
+    ~~~xml
+    <build_depend>message_generation</build_depend>
+    <run_depend>message_runtime</run_depend>
+    ~~~
 
  2. Add the `message_generation` dependency to the `find_package` call which already exists in your `CMakeLists.txt` so that you can generate messages:
 
-~~~cmake
-find_package(catkin REQUIRED COMPONENTS
-  roscpp
-  rospy
-  std_msgs
-  message_generation
-)
-~~~
+    ~~~cmake
+    find_package(catkin REQUIRED COMPONENTS
+      roscpp
+      rospy
+      std_msgs
+      message_generation
+    )
+    ~~~
 
  3. Make sure you export the message runtime dependency:
 
-~~~cmake
-catkin_package(
-  ...
-  CATKIN_DEPENDS message_runtime ...
-  ...)
-~~~
+    ~~~cmake
+    catkin_package(
+      ...
+      CATKIN_DEPENDS message_runtime ...
+      ...)
+    ~~~
 
- 4. Uncomment the following block of code in your `CMakeLists.txt`, and replace the stand in `Message*.msg` files with your `.msg` file.
+ 4. Uncomment the following block of code in your `CMakeLists.txt`, and replace the stand in `Message*.msg` files with your `.msg` file:
 
-~~~cmake
-add_message_files(
-  FILES
-  Message1.msg
-  Message2.msg
-)
-~~~
+    ~~~cmake
+    add_message_files(
+      FILES
+      Message1.msg
+      Message2.msg
+    )
+    ~~~
 
  5. We must ensure the `generate_messages()` function is called. Uncomment these lines:
 
-~~~cmake
-generate_messages(
-  DEPENDENCIES
-  std_msgs
-)
-~~~
+    ~~~cmake
+    generate_messages(
+      DEPENDENCIES
+      std_msgs
+    )
+    ~~~
 
 ## Using `srv` in your package
 
-We need to make sure that the `srv` files are turned into source code for C++, Python, and other languages. Do step #1, #2, #3, #5 from previous section, and then uncomment the following lines, and replace the placeholder Service*.srv files for your service files:
+We need to make sure that the `srv` files are turned into source code for C++, Python, and other languages. Do step #1, #2, #3, #5 from previous section, and then uncomment the following lines, and replace the placeholder `Service*.srv` files for your service files:
 
 ~~~cmake
 add_service_files(
