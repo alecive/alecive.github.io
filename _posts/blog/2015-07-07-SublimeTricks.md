@@ -126,52 +126,44 @@ It's the best one, available in three options:
 ## How to Activate
 
 Activate the UI theme and color scheme by modifying your user preferences file, which you can find using the menu item `Sublime Text -> Preferences -> Settings - User` (`⌘` `,` on Mac).
+You can choose whichever flavor you like, but do not forget to change *both* color scheme and UI theme so they match.
 
-You can choose whichever flavor you like, but don't forget to change *both* color scheme and UI theme so they match.
+***Note: do not forget to restart Sublime Text after activating the theme.***
 
-***Note: Don't forget to restart Sublime Text after activating the theme.***
+ * **Spacegray**: Default flavor based on Base16 Ocean Dark color scheme.
 
-### Spacegray
+    ~~~json
+    {
+      "theme": "Spacegray.sublime-theme",
+      "color_scheme": "Packages/Theme - Spacegray/base16-ocean.dark.tmTheme"
+    }
+    ~~~
 
-Default flavor based on Base16 Ocean Dark color scheme.
+ * **Spacegray Light**: Light variation based on Base16 Ocean Light color scheme.
 
-~~~json
-{
-  "theme": "Spacegray.sublime-theme",
-  "color_scheme": "Packages/Theme - Spacegray/base16-ocean.dark.tmTheme"
-}
-~~~
+    ~~~json
+    {
+      "theme": "Spacegray Light.sublime-theme",
+      "color_scheme": "Packages/Theme - Spacegray/base16-ocean.light.tmTheme"
+    }
+    ~~~
 
-### Spacegray Light
+ * **Spacegray Eighties**: A variation based on Base16 Eighties Dark color scheme.
 
-Light variation based on Base16 Ocean Light color scheme.
+    ~~~json
+    {
+      "theme": "Spacegray Eighties.sublime-theme",
+      "color_scheme": "Packages/Theme - Spacegray/base16-eighties.dark.tmTheme"
+    }
+    ~~~
 
-~~~json
-{
-  "theme": "Spacegray Light.sublime-theme",
-  "color_scheme": "Packages/Theme - Spacegray/base16-ocean.light.tmTheme"
-}
-~~~
+ * Misc options I am using
 
-### Spacegray Eighties
-
-A variation based on Base16 Eighties Dark color scheme.
-
-~~~json
-{
-  "theme": "Spacegray Eighties.sublime-theme",
-  "color_scheme": "Packages/Theme - Spacegray/base16-eighties.dark.tmTheme"
-}
-~~~
-
-### Misc options I'm using
-
-~~~json
-{
-  "spacegray_sidebar_font_small": true,
-  "spacegray_tabs_font_normal"  : true,
-  "spacegray_tabs_xlarge"       : true,
-  "spacegray_tabs_auto_width"   : true
-}
-~~~
-
+    ~~~json
+    {
+      "spacegray_sidebar_font_small": true,
+      "spacegray_tabs_font_normal"  : true,
+      "spacegray_tabs_xlarge"       : true,
+      "spacegray_tabs_auto_width"   : true
+    }
+    ~~~
