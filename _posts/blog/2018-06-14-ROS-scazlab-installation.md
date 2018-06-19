@@ -73,7 +73,7 @@ Now, there are a number of options to choose from. The recommended one is the _D
 
 ~~~bash
 rosinstall_generator desktop_full --rosdistro indigo --deps --wet-only --tar > indigo-desktop-full-wet.rosinstall
-wstool init -j8 src indigo-desktop-full-wet.rosinstall
+wstool init -j8 src indigo-desktop-full-wet.ros
 ~~~
 
 ### Resolving dependencies
