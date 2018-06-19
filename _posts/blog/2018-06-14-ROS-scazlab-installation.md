@@ -119,7 +119,7 @@ From here onward, we will use here `catkin_tools` instead of `catkin_make`, so l
 cd ~/src
 git clone https://github.com/catkin/catkin_tools.git
 cd catkin_tools
-pip install -r requirements.txt --upgrade
+pip install -r requirements.txt --upgrade --user
 python setup.py install --user --record install_manifest.txt
 ~~~
 

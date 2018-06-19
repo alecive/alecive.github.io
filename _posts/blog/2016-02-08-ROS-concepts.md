@@ -11,33 +11,30 @@ permalink: ros_concepts.html
 * This line will be replaced by the ToC, excluding the "Contents" header
 {:toc}
 
-This page is a summary about the main ROS concepts and some useful command-line tools. For [a tutorial on how to install ROS from a completely naive user's standpoint, go here]({% post_url blog/2018-06-14-ROS-scazlab-installation %}).
-
-Below, you can find a summary of what is available [here](http://wiki.ros.org/ROS/Concepts).
+This page is a summary about the main ROS concepts and some useful command-line tools. It is a summary of what is available [here](http://wiki.ros.org/ROS/Concepts). For a tutorial on how to install ROS `indigo` and the Baxter SDK from sources, go [here]({% post_url blog/2018-06-14-ROS-scazlab-installation %}).
 
 # Master
 
 The ROS Master provides naming and registration services to the rest of the nodes in the ROS system. It tracks publishers and subscribers to topics as well as services. The role of the Master is to enable individual ROS nodes to locate one another. Once these nodes have located each other they communicate with each other peer-to-peer.
-
 The Master also provides the Parameter Server.
 
 The Master is most commonly run using the `roscore` command, which loads the ROS Master along with other essential components.
 
 # Nodes
 
-A node is a process that performs computation. Nodes are combined together into a graph and communicate with one another using _streaming topics_, _RPC services_, and the _Parameter Server_. These nodes are meant to operate at a fine-grained scale; a robot control system will usually comprise many nodes.
+A node is a process that performs computation. Nodes are combined together into a graph and communicate with one another using _streaming topics_, _RPC services_, and the _Parameter Server_. These nodes are meant to operate at a fine-grained scale; a robot control system will usually be comprised of many nodes.
 
-All running nodes have a graph resource name that uniquely identifies them to the rest of the system - e.g. `/hokuyo_node`. Nodes also have a node type, that simplifies the process of referring to a node executable on the fileystem. These node types are package resource names with the name of the node's package and the name of the node executable file. In order to resolve a node type, ROS searches for all executables in the package with the specified name and chooses the first that it finds. As such, you need to be careful and not produce different executables with the same name in the same package.
+All running nodes have a graph resource name that uniquely identifies them to the rest of the system - e.g. `/hrc_controller`. Nodes also have a node type, that simplifies the process of referring to a node executable on the fileystem. These node types are package resource names with the name of the node's package and the name of the node executable file. In order to resolve a node type, ROS searches for all executables in the package with the specified name and chooses the first that it finds. As such, you need to be careful and not produce different executables with the same name in the same package.
 
 A ROS node is written with the use of a ROS client library, such as `roscpp` or `rospy`.
 
 # Topics
 
-Topics are named buses over which nodes exchange messages. Topics have anonymous publish/subscribe semantics, which decouples the production of information from its consumption. In general, nodes are not aware of who they are communicating with. Instead, nodes that are interested in data subscribe to the relevant topic; nodes that generate data publish to the relevant topic. There can be multiple publishers and subscribers to a topic.
+Topics are named buses over which nodes exchange messages. Topics have anonymous publish/subscribe semantics, which decouples the production of information from its consumption. In general, _nodes are not aware of who they are communicating with_. Instead, nodes that are interested in data subscribe to the relevant topic; nodes that generate data publish to the relevant topic. There can be multiple publishers and subscribers to a topic.
 
 Topics are intended for unidirectional, streaming communication. Nodes that need to perform remote procedure calls, i.e. receive a response to a request, should use services instead. There is also the Parameter Server for maintaining small amounts of state.
 
-Each topic is strongly typed by the ROS message type used to publish to it and nodes can only receive messages with a matching type. The Master does not enforce type consistency among the publishers, but subscribers will not establish message transport unless the types match. Furthermore, all ROS clients check to make sure that an MD5 computed from the msg files match. This check ensures that the ROS Nodes were compiled from consistent code bases.
+Each topic is strongly typed by the ROS message type used to publish to it and nodes can only receive messages with a matching type. The Master does not enforce type consistency among the publishers, but subscribers will not establish message transport unless the types match. Furthermore, all ROS clients check to make sure that an MD5 computed from the `msg` files match. This check ensures that the ROS Nodes were compiled from consistent code bases.
 
 # Services
 
@@ -212,15 +209,15 @@ rosmsg show beginner_tutorials/Num
 You will see:
 
 ~~~bash
-    int64 num
+int64 num
 ~~~
 
 In the previous example, the message type consists of two parts:
 
  * beginner_tutorials -- the package where the message is defined
- * Num -- The name of the msg Num.
+ * Num -- The name of the `msg` Num.
 
-If you can't remember which Package a msg is in, you can leave out the package name. Try:
+If you can't remember which Package a `msg` is in, you can leave out the package name. Try:
 
 ~~~bash
 rosmsg show Num
@@ -229,8 +226,8 @@ rosmsg show Num
 You will see:
 
 ~~~bash
-    [beginner_tutorials/Num]:
-    int64 num
+[beginner_tutorials/Num]:
+int64 num
 ~~~
 
 # Using `rossrv`
@@ -243,16 +240,16 @@ rossrv show beginner_tutorials/AddTwoInts
 
 You will see:
 
-~~~
-    int64 a
-    int64 b
-    ---
-    int64 sum
+~~~bash
+int64 a
+int64 b
+---
+int64 sum
 ~~~
 
-Similar to rosmsg, you can find service files like this without specifying package name:
+Similar to `rosmsg`, you can find service files like this without specifying package name:
 
-~~~
+~~~bash
 rossrv show AddTwoInts
 [beginner_tutorials/AddTwoInts]:
 int64 a
@@ -277,11 +274,11 @@ int64 sum
  * float32, float64
  * string
  * time, duration
- * other msg files
+ * other `msg` files
  * variable-length array[] and fixed-length array[C]
 
 There is also a special type in ROS: the **header**, which contains a timestamp and coordinate frame information that are commonly used in ROS.
-Here is an example of a msg that uses a Header, a string primitive, and two other msgs :
+Here is an example of a `msg` that uses a Header, a string primitive, and two other msgs :
 
 ~~~
 Header header
@@ -290,7 +287,7 @@ geometry_msgs/PoseWithCovariance pose
 geometry_msgs/TwistWithCovariance twist
 ~~~
 
-`srv` files are just like `msg` files, except they contain two parts: a request and a response. The two parts are separated by a `---` line. Here is an example of a srv file where A and B are the request, and Sum is the response:
+`srv` files are just like `msg` files, except they contain two parts: a request and a response. The two parts are separated by a `---` line. Here is an example of a `srv` file where A and B are the request, and Sum is the response:
 
 ~~~
 int64 A
@@ -305,72 +302,64 @@ If you are building C++ nodes which use your new messages, you will also need to
 
 ## Using `msg` in your package
 
-We need to make sure that the msg files are turned into source code for C++, Python, and other languages:
+We need to make sure that the `msg` files are turned into source code for C++, Python, and other languages. To this end, follow these steps:
 
- * open `package.xml, and make sure these two lines are in it and uncommented:
+ 1. Open `package.xml`, and make sure these two lines are in it and uncommented:
 
 ~~~xml
 <build_depend>message_generation</build_depend>
 <run_depend>message_runtime</run_depend>
 ~~~
 
- * Add the `message_generation` dependency to the `find_package` call which already exists in your `CMakeLists.txt` so that you can generate messages:
+ 2. Add the `message_generation` dependency to the `find_package` call which already exists in your `CMakeLists.txt` so that you can generate messages:
 
-~~~
+~~~cmake
 find_package(catkin REQUIRED COMPONENTS
-   roscpp
-   rospy
-   std_msgs
-   message_generation
+  roscpp
+  rospy
+  std_msgs
+  message_generation
 )
 ~~~
 
- * Make sure you export the message runtime dependency:
+ 3. Make sure you export the message runtime dependency:
 
-~~~
+~~~cmake
 catkin_package(
   ...
   CATKIN_DEPENDS message_runtime ...
   ...)
 ~~~
 
- * Uncomment the following block of code in your `CMakeLists.txt`, and replace the stand in `Message*.msg` files with your `.msg` file.
+ 4. Uncomment the following block of code in your `CMakeLists.txt`, and replace the stand in `Message*.msg` files with your `.msg` file.
 
-~~~
-# add_message_files(
-#   FILES
-#   Message1.msg
-#   Message2.msg
-# )
+~~~cmake
+add_message_files(
+  FILES
+  Message1.msg
+  Message2.msg
+)
 ~~~
 
- * We must ensure the generate_messages() function is called. Uncomment these lines:
+ 5. We must ensure the `generate_messages()` function is called. Uncomment these lines:
 
-~~~
-# generate_messages(
-#   DEPENDENCIES
-#   std_msgs
-# )
+~~~cmake
+generate_messages(
+  DEPENDENCIES
+  std_msgs
+)
 ~~~
 
 ## Using `srv` in your package
 
-Let's start by copying an existing one from another package:
+We need to make sure that the `srv` files are turned into source code for C++, Python, and other languages. Do step #1, #2, #3, #5 from previous section, and then uncomment the following lines, and replace the placeholder Service*.srv files for your service files:
 
-~~~bash
-roscp rospy_tutorials AddTwoInts.srv srv/AddTwoInts.srv
+~~~cmake
+add_service_files(
+  FILES
+  Service1.srv
+  Service2.srv
+)
 ~~~
 
-Now we need to make sure that the srv files are turned into source code for C++, Python, and other languages. Do step #1, #2, #3, #5 from previous section, and then:
-
- * Uncomment the following lines, and replace the placeholder Service*.srv files for your service files:
-
-~~~
-# add_service_files(
-#   FILES
-#   Service1.srv
-#   Service2.srv
-# )
-~~~
-
-Now you're ready to generate source files from your service definition. If you want to do so right now, skip next sections to Common step for msg and srv.
+Now you're ready to generate source files from your service definition.
