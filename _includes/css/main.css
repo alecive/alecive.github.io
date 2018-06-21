@@ -514,6 +514,10 @@ header .intro-text .owner {
     color: #{{ site.color.banner }};
 }
 
+.color-banner {
+    color: #{{ site.color.banner }} !important;
+}
+
 section {
     padding: 100px 0;
     color: #{{ site.color.secondary }};

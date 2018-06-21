@@ -21,7 +21,7 @@ I look at problems that lie at the intersection of these two fields, and I desig
 My goal is to develop robot technologies that better interface with the external world and humans, and in doing so to lower the barriers to entry for humans to naturally interact with robots.
 To me, **the engineering is as important as the science**.
 As such, I implement technological advancements through production-quality software that uses modern software engineering workflows (_versioning_, _continuous integration_, _unit testing_, _containerization_).
-**I make robots work**, and I hold a deep commitment to doing so while implementing scalable, robust, and elegant code.
+**I make robots work**{:.color-banner}, and I hold a deep commitment to doing so while implementing scalable, robust, and elegant code.
 
 ---
 {: class="no-print"}

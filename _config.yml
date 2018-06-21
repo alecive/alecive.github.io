@@ -118,4 +118,4 @@ color:
   secondary-dark: 323232                    # This is darker gray
   secondary-alpha: rgba(40,40,40,.7)        # This is the same as the secondary color but with an alpha value
   # accent: 4982a7
-  accent: 3d6c8b
+  accent: 3d6c8b                            # This is a light blue accent
