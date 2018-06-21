@@ -12,13 +12,15 @@
     - year: 2015-2016
       where: CPSC 472 Intelligent Robotics class, Yale University, New Haven, CT
       description: I did two guest lectures at the Intelligent Robotics course held by Prof. Brian Scassellati. Both my lectures were meant to introduce students to the research we perform at the Italian Institute of Technology. The title of my talk was <i>iCub - a shared platform for research in Robotics and AI</i> <a href="/slides/[Roncone 2016] iCub - a shared platform for research in Robotics and AI.pdf" target="_blank">[PDF]</a>.
+ - title: "Program Committee member"
+   elems:
+    - "<i>ACM International Conference on Human-Robot Interaction</i> (<b>HRI</b>, 2018)"
+    - "<i>International Conference on Artificial Intelligence</i> (<b>AAAI</b>, 2018)"
  - title: "Reviews"
    elems:
     - "<i>IEEE Transactions on Robotics</i> (<b>T-RO</b>, 2018)"
     - "<i>IEEE International Conference on Robotics and Automation</i> (<b>ICRA</b>, 2018, 2017, 2016)"
     - "<i>IEEE/RSJ International Conference on Intelligent Robots and Systems</i> (<b>IROS</b>, 2017, 2016, 2015)"
-    - "<i>ACM International Conference on Human-Robot Interaction</i> (<b>HRI</b>, 2018)"
-    - "<i>International Conference on Artificial Intelligence</i> (<b>AAAI</b>, 2018)"
     - "<i>ACM Transactions on Human-Robot Interaction</i> (<b>T-HRI</b>, 2018)"
     - "<i>Robotics and Automation Letters</i> (<b>RA-L</b>, 2018)"
     - "<i>Robotics: Science and Systems</i> (<b>RSS</b>, 2016)"
