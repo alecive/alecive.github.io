@@ -1042,6 +1042,15 @@ span.label:hover e.ok {
     margin-bottom: 10px;
 }
 
+#article .pub p:last-child {
+    margin-bottom: 0.4rem;
+}
+
+#article .pub h2:first-child,
+#article .pub h4:first-child {
+    margin-top: 0.4rem;
+}
+
 #portfolio {
     margin-top: 0px;
 }
