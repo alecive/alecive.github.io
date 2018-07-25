@@ -20,6 +20,7 @@
    venue: International Conference on Autonomous Agents and Multiagent Systems [AAMAS]
    where: Stockholm, Sweden, July 11-13
    pdf: "2018_Grigore_AAMAS_predicting_supportive_behaviors_hrc"
+   description: Extended abstract
  - title: "Compact Real-time avoidance on a Humanoid Robot for Human-Robot interaction"
    authors: Dong Hai Phuong Nguyen, Matej Hoffmann, <b>Alessandro Roncone</b>, Ugo Pattacini, and Giorgio Metta
    year: 2018
@@ -30,7 +31,6 @@
    authors: Olivier Mangin, <b>Alessandro Roncone</b>, and Brian Scassellati
    year: 2017
    venue: ArXiv e-prints
-   where: Under review
    pdf: "2017_Mangin_supportive_behaviors"
  - title: "Transparent Role Assignment and Task Allocation in Human Robot Collaboration"
    authors: <b>Alessandro Roncone</b>, Olivier Mangin, and Brian Scassellati
