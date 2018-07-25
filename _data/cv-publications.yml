@@ -14,18 +14,19 @@
    venue: IEEE/RSJ International Conference on Intelligent Robots and Systems [IROS]
    where: Madrid, Spain, October 1-5
    pdf: "2018_Zeylikman_hrc_model_set"
+ - title: "Predicting Supportive Behaviors for Human-Robot Collaboration"
+   authors: Elena Corina Grigore, Olivier Mangin, <b>Alessandro Roncone</b>, and Brian Scassellati
+   year: 2018
+   venue: International Conference on Autonomous Agents and Multiagent Systems [AAMAS]
+   where: Stockholm, Sweden, July 11-13
+   pdf: "2018_Grigore_AAMAS_predicting_supportive_behaviors_hrc"
  - title: "Compact Real-time avoidance on a Humanoid Robot for Human-Robot interaction"
    authors: Dong Hai Phuong Nguyen, Matej Hoffmann, <b>Alessandro Roncone</b>, Ugo Pattacini, and Giorgio Metta
    year: 2018
    venue: ACM/IEEE International Conference on Human-Robot Interaction [HRI]
    where: Chicago, IL, U.S.A., March 5-8
    pdf: "2018_Nguyen_HRI_physical_hri_controller"
- - title: "Predicting Supportive Behaviors based on User Preferences for Human-Robot Collaboration"
-   authors: Elena Corina Grigore, Olivier Mangin, <b>Alessandro Roncone</b>, and Brian Scassellati
-   year: 2018
-   venue: International Conference on Autonomous Agents and Multiagent Systems [AAMAS]
-   where: Stockholm, Sweden, July 11-13
- - title: "How to be Helpful? Implementing Supportive Behaviors for Human--Robot Collaboration"
+ - title: "How to be Helpful? Implementing Supportive Behaviors for Human-Robot Collaboration"
    authors: Olivier Mangin, <b>Alessandro Roncone</b>, and Brian Scassellati
    year: 2017
    venue: ArXiv e-prints
