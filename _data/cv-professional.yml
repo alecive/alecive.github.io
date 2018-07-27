@@ -1,16 +1,23 @@
+ - name: Assistant Professor
+   title: Computer Science Department, University of Colorado at Boulder
+   start: Aug. 2018
+   end: present
+   location: University of Colorado, Boulder, CO USA
+   location-link: https://www.colorado.edu/cs/
+   description: "<strong class=\"color-banner\">I am excited to start as assistant professor at CU Boulder in Fall 2018!</strong> The scope of my research is within the larger field of human-robot collaboration [HRC] and advanced manufacturing, with potential impact in other fields. I develop intuitive, human-centered technologies where robots transition from being recipients of human instructions to becoming proficient and proactive collaborators. My work revolves around the idea that shared knowledge and transparent commitment to the task are central for collaborative behaviors."
  - name: Post-Doc @ Yale University
    title: Social Robotics Lab, Computer Science Department, Yale University
    start: Nov. 2015
    end: Jul. 2018
    location: Yale University, New Haven, CT USA
    location-link: http://scazlab.yale.edu
-   description: "The scope of my current research is within the larger field of human-robot collaboration [HRC] and advanced manufacturing, with potential impact in other fields. I develop <i>transparent</i> robotic applications, that aim at fundamentally changing the interaction between humans and robots. I implement intuitive, human-centered technologies where robots transition from being recipients of human instructions to becoming proficient and proactive collaborators. My work revolves around the idea that shared knowledge and transparent commitment to the task are central for collaborative behaviors. I incorporate natural language into classical task planning algorithms, with the goal of developing robots that are able to: i) provide effective support to the human when she needs it the most; ii) learn complex hierarchical representations from single instructions; iii) proactively ask questions and provide contextual information to query and share internal states and intents."
+   description: "I incorporate natural language into classical task planning algorithms, with the goal of developing robots that are able to: i) provide effective support to the human when she needs it the most; ii) learn complex hierarchical representations from single instructions; iii) proactively ask questions and provide contextual information to query and share internal states and intents."
  - name: Post-Doc @ iCub Facility
    start: Jan.
    end: Oct. 2015
    location: Italian Institute of Technology (IIT), Genova IT
    location-link: http://www.iit.it
-   description: "I continued the work I started during my Ph.D. fellowship at the iCub Facility. Specifically, I was interested in the exploitation of the peripersonal space model I implemented during my Ph.D., by focusing toward two types of applications: i) better, richer body representations (in collaboration with CITEC @Bielefeld) ii) distributed motor control via whole-body awareness (partially collaborating with WYSIWYD project partners). My research also made contributions to the field of optimization-based approaches to inverse kinematics and robot control. Specifically, I implemented a state of the art <i>gaze stabilization</i> framework---later integrated with an existing <i>gaze controller</i>. My work in the topic formally solved the problem of controlling a binocular head to foveate toward an arbitrary 3D point in space, and concurrently exploiting redundancy to stabilize gaze at the same time. I also contributed to an HRI project aimed at developing natural <i>non-verbal behaviors</i> in the iCub humanoid robot during verbal communication."
+   description: "I continued the work I started during my Ph.D. fellowship at the iCub Facility. Specifically, I was interested in the exploitation of the peripersonal space model I implemented during my Ph.D., by focusing toward two types of applications: i) rich body representations ii) distributed motor control via whole-body awareness. I also made contributions to the field of optimization-based approaches to inverse kinematics and robot control. I implemented a state of the art <i>gaze stabilization</i> framework---later integrated with an existing <i>gaze controller</i>. My work in the topic formally solved the problem of controlling a binocular head to foveate toward an arbitrary 3D point in space, and concurrently exploiting redundancy to stabilize gaze at the same time."
  - name: Ph.D. Fellow @ iCub Facility
    title: Life and Humanoid Technologies
    start: Nov. 2011
@@ -23,4 +30,4 @@
    end: Jul. 2011
    location: Italian Institute of Technology (IIT), Genova IT
    location-link: http://www.iit.it
-   description: I have partnered with the Italian Institute of Technology during my MSc thesis. See the <i>`Education`</i> section below for details about my master thesis.
+   description: I have worked at the Italian Institute of Technology during my MSc thesis. See the <i>`Education`</i> section below for details about my master thesis.
