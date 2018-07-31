@@ -2,7 +2,7 @@
 title: alecive
 email: alecive87@gmail.com
 url: https://alecive.github.io
-phone: +1 (682) 253-2483
+phone: +1 (203) 606-3896
 google-analytics-id: UA-80094809-1
 description: "Personal website of Alessandro Roncone, also known as alecive, Ph.D. in robotics engineering, computer scientist, interaction designer, father and runner."
 owner: Alessandro Roncone
@@ -31,9 +31,9 @@ logo: /img/logo.svg
 
 # Postal address (add as many lines as necessary)
 address:
-  - line: 51 Prospect St, Office 509,
-  - line: Computer Science Dept, Yale University,
-  - line: New Haven, 06511, CT, U.S.A.
+  - line: 1111 Engineering Dr,
+  - line: Computer Science Dept, University of Colorado,
+  - line: Boulder, 80309, CO, U.S.A.
 
 # Build settings
 markdown: kramdown
