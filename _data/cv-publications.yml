@@ -3,17 +3,19 @@
    year: 2018
    venue: IEEE/RSJ International Conference on Intelligent Robots and Systems [IROS]
    where: Madrid, Spain, October 1-5
+   pdf: "2018_Brawer_IROS_situated_hrc"
  - title: "Preference-Based Assistance Prediction for Human-Robot Collaboration Tasks"
    authors: Elena Corina Grigore, <b>Alessandro Roncone</b>, Olivier Mangin, and Brian Scassellati
    year: 2018
    venue: IEEE/RSJ International Conference on Intelligent Robots and Systems [IROS]
    where: Madrid, Spain, October 1-5
+   pdf: "2018_Grigore_IROS_assistance_prediction"
  - title: "The HRC Model set for Human-Robot Collaboration Research"
    authors: Sofya Zeylikman, Sarah Widder, <b>Alessandro Roncone</b>, Olivier Mangin, and Brian Scassellati
    year: 2018
    venue: IEEE/RSJ International Conference on Intelligent Robots and Systems [IROS]
    where: Madrid, Spain, October 1-5
-   pdf: "2018_Zeylikman_hrc_model_set"
+   pdf: "2018_Zeylikman_IROS_hrc_model_set"
  - title: "Predicting Supportive Behaviors for Human-Robot Collaboration"
    authors: Elena Corina Grigore, Olivier Mangin, <b>Alessandro Roncone</b>, and Brian Scassellati
    year: 2018
