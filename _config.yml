@@ -74,6 +74,16 @@ defaults:
       category: "research"
   -
     scope:
+      path: "_posts/research/humanoid_robotics"
+    values:
+      subcategory: "Humanoid Robotics"
+  -
+    scope:
+      path: "_posts/research/human_robot_collaboration"
+    values:
+      subcategory: "Human-Robot Collaboration"
+  -
+    scope:
       path: "_posts/design"
     values:
       category: "design"
