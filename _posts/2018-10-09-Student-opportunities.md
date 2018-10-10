@@ -27,7 +27,7 @@ If you want to know more about the graduate program, please [go here](https://ww
 
 ## Who am I
 
- * Someone who thinks **robotics is cool**{:.color-banner}
+ * Someone who thinks **robotics is cool!!**{:.color-banner}
  * Someone who thinks robotics is cool because:
    1. There are a lot of scientific problems to solve
    2. There is a lot of engineering involved
