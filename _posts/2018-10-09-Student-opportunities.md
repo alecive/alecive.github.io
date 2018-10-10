@@ -10,7 +10,7 @@ I am looking for students at any level to join my lab at University of Colorado 
 
  * Somebody who likes robotics
  * Somebody dedicated to achieving their graduate and career goals
- * Somebody who works hard without being pushed by me (in return, I will work hard for your success)
+ * Somebody who works hard without being pushed by me (in return, I will work hard for _your_ success)
 
 ### If you are a current CU student
 
@@ -27,12 +27,13 @@ If you want to know more about the graduate program, please [go here](https://ww
 
 ## Who am I
 
- * Someone who thinks **robotics is cool!!**{:.color-banner}
+ * Someone who thinks robotics is cool!!
  * Someone who thinks robotics is cool because:
    1. There are a lot of scientific problems to solve
-   2. There is a lot of engineering involved
+   2. There is a lot of engineering involved (and the engineering component is a scientific pursuit in its own right)
+   3. Both of them are challenging and interesting topics to work on
  * Someone with a couple cool robots waiting for students to use them
- * Someone who loves running, hiking, skiing, beach volley
+ * Someone who loves running, hiking, skiing, beach volley (but is not necessarily good at any of them)
 
 
 
