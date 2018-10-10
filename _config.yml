@@ -27,7 +27,8 @@ social:
 
 logo: /img/logo.svg
 
-# banner: "Excited to start as assistant professor at CU Boulder in Fall 2018!"
+banner: "I am looking for students!"
+banner-link: student_opportunities.html
 
 # Postal address (add as many lines as necessary)
 address:
