@@ -11,6 +11,7 @@ authors: Sofya Zeylikman, Sarah Widder, Alessandro Roncone, Olivier Mangin, and 
 submission: IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS2018), Madrid, Spain, October 1-5, 2018
 paper_pdf: "2018_Zeylikman_IROS_hrc_model_set"
 paper_title: "The HRC model set for human-robot collaboration research"
+double: yes
 ---
 
 
