@@ -1,5 +1,5 @@
 ---
-title: The HRC Model Set
+title: The HRC Model Set for Human-Robot Collaboration research
 link: https://scazlab.github.io/HRC-model-set
 link-alt: webpage
 img: HRCmodelset.jpg
