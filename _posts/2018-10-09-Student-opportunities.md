@@ -27,7 +27,7 @@ If you are a current CU graduate or undergraduate student, please [send me an em
 
 ### If you are a prospective graduate student
 
-If you are a prospective graduate student (PhD or MS), please apply to the graduate program! Feel free to [send me an email](mailto:{{ site.email }}) if you have any questions.
+If you are a prospective graduate student (PhD or MS), please [apply to the graduate program](https://www.colorado.edu/cs/apply/graduate-admissions)! Feel free to [send me an email](mailto:{{ site.email }}) if you have any questions.
 For Fall 2019, the application submission deadline is **December 15th, 2018**{:.color-banner}.
 If you want to know more about the graduate program, please [go here](https://www.colorado.edu/cs/apply/graduate-admissions). Here is an overview of the research performed in the Computer Science Department at CU Boulder:
 
