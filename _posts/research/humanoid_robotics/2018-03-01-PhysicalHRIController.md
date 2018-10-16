@@ -21,6 +21,10 @@ We have developed a new framework for safe interaction of a robot with a human c
 
 {% include image.html url="portfolio/PhysicalHRIController_architecture.png" max-width="100%" description="<b><i>Figure 1</i></b>. Software architecture for physical human-robot interaction. In this work, we develop a framework composed of: i) a human pose estimation algorithm, ii) a 2D to 3D disparity mapping, iii) a peripersonal space collision predictor, iv) a pHRI robot controller for distributed collision avoidance." %}
 
+Here's another video of the controller in action:
+
+{% include video.html url="//www.youtube.com/embed/ArrwbhvKdew" description="Controller in action. The controller can seamlessly process both tactile (physical contact) and visual (prior-to-contact) information in order to avoid obstacles while still optimizing its trajectory to accomplish the primary reaching task." %}
+
 The main novelty lies in the formation of the protective safety margin around the robot's body parts---in a distributed fashion and adhering closely to the robot structure---and its use in a reaching controller that dynamically incorporates threats in its peripersonal space into the task.
 The framework is tested in real experiments that reveal the effectiveness of this approach in protecting both human and robot against collisions during the interaction.
 Our solution is compact, self-contained (on-board stereo cameras in the robot's head being the only sensor), and flexible, as different modulations of the defensive peripersonal space are possible---here we demonstrate stronger avoidance of the human head compared to rest of the body.
