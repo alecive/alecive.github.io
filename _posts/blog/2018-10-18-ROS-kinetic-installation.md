@@ -1,7 +1,7 @@
 ---
 title: How to install ROS kinetic
 description: and live happily ever after
-tags: [blog,how to,tutorial,ros,installation,kinetic,ubuntu,14.04,robotics,Sawyer,simulator]
+tags: [blog,how to,tutorial,ros,installation,kinetic,ubuntu,16.04,robotics,Sawyer,simulator]
 permalink: ros_kinetic_installation.html
 ---
 
@@ -11,9 +11,9 @@ permalink: ros_kinetic_installation.html
 * This line will be replaced by the ToC, excluding the "Contents" header
 {:toc}
 
-This guide is intended to be a most pain-free, future-proof way of installing `ros kinetic` on a Ubuntu 14.04 machine. It is a collection of information from a variety of different sources, and the gist of it is that it will install `ROS` from sources in user space in order to avoid messing around with debian packages that are usually out-of-date and/or conflicting with more advanced features.s
+This guide is intended to be a most pain-free, future-proof way of installing `ros kinetic` on a Ubuntu 14.04 machine. It is a collection of information from a variety of different sources, and the gist of it is that it will install `ROS` from sources in user space in order to avoid messing around with debian packages that are usually out-of-date and/or conflicting with more advanced features.
 
-This page is going to be about `ros` installation. For [a summary about the main `ros` concepts and some useful command-line tools, go here]({% post_url blog/2018-04-18-ROS-concepts %}).
+This page is about `ros` installation. For a summary about the main `ros` concepts and some useful command-line tools, go [here]({% post_url blog/2018-04-18-ROS-concepts %}).
 
 # Installing ROS kinetic from sources
 
