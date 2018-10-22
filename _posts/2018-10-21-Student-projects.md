@@ -21,7 +21,7 @@ Below, there is a non-comprehensive list of projects in this area. If you are in
  * Human detection and sensing
  * Augmented/virtual reality
  * Reinforcement learning for HRC
- * Cognitive systems to transfer knowledge to and from the human
+ * Cognitive systems to transfer knowledge to and from the human (humans teaching robots, robots teaching humans)
  * High-level transfer learning and self adaptation to unforeseen circumstances
 
 # Physical Human-Robot Interaction [p-HRI] :robot:

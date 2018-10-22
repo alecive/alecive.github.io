@@ -47,7 +47,7 @@ plugins:
   - jekyll-sitemap
   - rouge
   - jekyll-seo-tag
-  #- jemoji
+  - jemoji
   #- jekyll-mentions
 
 defaults:
