@@ -5,7 +5,7 @@ permalink: student_opportunities.html
 ---
 
 **Want do to robotics?**{:.color-banner}
-I am looking for graduate students and research assistants to join my lab at University of Colorado Boulder and conduct research in Human-Robot Interaction, Robot Control and Artificial Intelligence. For more information about my research, please [visit my homepage](/).
+I am looking for graduate students and research assistants to join my lab at University of Colorado Boulder and conduct research in Human-Robot Interaction, Robot Control and Artificial Intelligence. For more information about my research, please [visit my homepage](/). If you want to see a list of student projects, please take a look at this page [[LINK]]({% post_url 2018-10-21-Student-projects %}).
 
 ## Who you are
 
@@ -19,7 +19,17 @@ I am looking for graduate students and research assistants to join my lab at Uni
    * Linux (all the robot code runs on Ubuntu)
    * ROS, the Robot Operating System
 
-It is not necessary to have _all_ the skills I listed above, however, experience with at least one of the tools/techniques and a willingness to learn others as needed will allow us to do some cool research!
+It is not necessary to have _all_ the skills I listed above, however, experience with at least one of the tools/techniques and willingness to learn others as needed will allow us to do some cool research!
+At the end of your project, you will have expertise in (in random order):
+
+ * ROS, the Robot Operating System
+ * Robotics perception
+ * Robotics control
+ * Computer science skills
+ * Machine learning (depending on project)
+ * Optimization techniques (depending on project)
+
+If all goes well, a conference publication for the senior projects is more than reasonable. Plus, a cool robot demo is always something to be proud of!! :sunglasses:
 
 ### If you are a current CU student
 
@@ -37,6 +47,20 @@ If you want to know more about the graduate program, please [go here](https://ww
 
 First, good choice! Doing a post-doc was my best decision ever.
 Second, as I am currently building up my laboratory, I am not explicitly looking for post-docs, but if you _really_ want to work with me, [shoot me an email](mailto:{{ site.email }}) and we can talk about it!
+
+## Our robots
+
+Currently, our lab has a Sawyer robot and a Kuri robot. More platforms are coming!
+
+### Sawyer Robot
+
+{% include image.html exturl="https://spectrum.ieee.org/image/Mjg2MjU0OQ.jpeg" description="Sawyer robot" %}
+
+### Kuri Robot
+
+{% include image.html exturl="https://www.heykuri.com/wp-content/uploads/2017/01/Kuri_Home-Robot-Blog-default.jpg" description="Kuri robot" %}
+
+
 
 ## Who am I
 
