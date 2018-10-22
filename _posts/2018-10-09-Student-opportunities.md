@@ -4,8 +4,14 @@ description: In particular, people who think robotics is cool.
 permalink: student_opportunities.html
 ---
 
+# Contents
+{:.no_toc}
+
+* This line will be replaced by the ToC, excluding the "Contents" header
+{:toc}
+
 **Want do to robotics?**{:.color-banner}
-I am looking for graduate students and research assistants to join my lab at University of Colorado Boulder and conduct research in Human-Robot Interaction, Robot Control and Artificial Intelligence. For more information about my research, please [visit my homepage](/).
+I am looking for graduate students and research assistants to join my lab at University of Colorado Boulder and conduct research in Human-Robot Interaction, Robot Control and Artificial Intelligence. For more information about my research, please [visit my homepage](/). If you want to see a list of student projects, please [take a look at this page [LINK]]({% post_url 2018-10-21-Student-projects %}).
 
 ## Who you are
 
