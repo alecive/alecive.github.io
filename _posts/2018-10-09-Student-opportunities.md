@@ -24,6 +24,7 @@ I am looking for graduate students and research assistants to join my lab at Uni
    * Kinematics, Computer Vision, Robotics, Control, Machine Learning, Natural Language Processing (in no particular order)
    * Linux (all the robot code runs on Ubuntu)
    * ROS, the Robot Operating System
+ * You don't need to be an expert programmer if you have strong background in electrical engineering, mechanical engineering, aerospace engineering or industrial/product design.
 
 It is not necessary to have _all_ the skills I listed above, however, experience with at least one of the tools/techniques and willingness to learn others as needed will allow us to do some cool research!
 At the end of your project, you will have expertise in (in random order):
@@ -39,7 +40,7 @@ If all goes well, a conference publication for the senior projects is more than 
 
 ### If you are a current CU student
 
-If you are a current CU graduate or undergraduate student, please [send me an email](mailto:{{ site.email }}) and include a description of your background, research interests and CV. ​
+If you are a current CU graduate or undergraduate student, please [send me an email](mailto:{{ site.email }}) with the subject: [RESEARCH OPPORTUNITY]. Please explain in your email why you want to work with me, and attach a transcript of your classes and a CV. If you have an online portfolio or code repository, provide a link to them as well in your email.
 
 ### If you are a prospective graduate student
 
