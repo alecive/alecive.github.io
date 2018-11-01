@@ -11,7 +11,7 @@ permalink: ros_kinetic_installation.html
 * This line will be replaced by the ToC, excluding the "Contents" header
 {:toc}
 
-This guide is intended to be a most pain-free, future-proof way of installing `ros kinetic` on a Ubuntu 14.04 machine. It is a collection of information from a variety of different sources, and the gist of it is that it will install `ROS` from sources in user space in order to avoid messing around with debian packages that are usually out-of-date and/or conflicting with more advanced features.
+This guide is intended to be a most pain-free, future-proof way of installing `ros kinetic` on a Ubuntu 16.04 machine. It is a collection of information from a variety of different sources, and the gist of it is that it will install `ROS` from sources in user space in order to avoid messing around with debian packages that are usually out-of-date and/or conflicting with more advanced features.
 
 This page is about `ros` installation. For a summary about the main `ros` concepts and some useful command-line tools, go [here]({% post_url blog/2018-04-18-ROS-concepts %}).
 
