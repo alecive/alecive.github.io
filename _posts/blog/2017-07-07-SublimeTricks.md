@@ -162,8 +162,10 @@ You can choose whichever flavor you like, but do not forget to change *both* col
     ~~~json
     {
       "spacegray_sidebar_font_small": true,
-      "spacegray_tabs_font_normal"  : true,
+      "spacegray_sidebar_tree_small": true,
+      "spacegray_tabs_font_small"   : true,
       "spacegray_tabs_xlarge"       : true,
-      "spacegray_tabs_auto_width"   : true
+      "spacegray_tabs_auto_width"   : true,
+      "spacegray_fileicons"         : true,
     }
     ~~~
