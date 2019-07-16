@@ -1,17 +1,7 @@
- - title: "Invited Talks"
+ - title: "Principal Investigator"
    elems:
-    - year: 2017
-      where: iCub Facility, Italian Institute of Technology, Genoa, IT
-      description: Invited to give a talk at the iCub Facility on my latest work at Yale University. The title of my talk was <i>Robots, inequality, and you</i>.
-    - year: 2017
-      where: Computation and Cognitive Development Lab, Yale University, New Haven, CT
-      description: Invited to give a talk at the Computation and Cognitive Development Lab directed by prof. Julian Jara-Ettinger. The title of my talk was <i>Humans, Robots, and everything in between</i>.
-    - year: 2016
-      where: Synthetic Method in Social Robotics workshop, International Conference on Social Robotics (ICSR16), Kansas City, MO, U.S.A., November 1-3
-      description: My talk dealt with the topic of Artificial Sociality in mixed human-robot social ecologies in general, and human-robot collaboration in particular.
-    - year: 2015-2016
-      where: CPSC 472 Intelligent Robotics class, Yale University, New Haven, CT
-      description: Two guest lectures at the Intelligent Robotics course held by Prof. Brian Scassellati. Both my lectures were meant to introduce students to the research we perform at the Italian Institute of Technology. The title of my talk was <i>iCub - a shared platform for research in Robotics and AI</i> <a href="/slides/[Roncone 2016] iCub - a shared platform for research in Robotics and AI.pdf" target="_blank">[PDF]</a>.
+    - "Research and Innovation Office Seed Grant. Joint project with Jianliang Xiao and
+Emiliano Dall’Anese, with title <i>Programmable and reconfigurable soft robots for symbiotic soft/rigid robotic systems</i>. (2019)"
  - title: "Associate Editor"
    elems:
     - "<i>IEEE International Conference on Robotics and Automation</i> (<b>ICRA</b>, 2019)"
@@ -35,6 +25,24 @@
     - "<i>IEEE RAS/EMBS International Conference on Biomedical Robotics and Biomechatronics</i> (<b>BioRob</b>, 2016)"
     - "<i>IEEE International Symposium on Robot and Human Interactive Communication</i> (<b>ROMAN</b>, 2014)"
     - "<i>IEEE International Conference on Robotics and Biomimetics</i> (<b>ROBIO</b>, 2013)"
+ - title: "Teaching Experience"
+   elems:
+    - "<i>Spring 2019:</i> <b>CSCI 7000</b> Physical Human-Robot Interaction"
+    - "<i>Fall   2018:</i> <b>CSCI 3392</b> Intro to Robotics"
+ - title: "Invited Talks"
+   elems:
+    - year: 2017
+      where: iCub Facility, Italian Institute of Technology, Genoa, IT
+      description: Invited to give a talk at the iCub Facility on my latest work at Yale University. The title of my talk was <i>Robots, inequality, and you</i>.
+    - year: 2017
+      where: Computation and Cognitive Development Lab, Yale University, New Haven, CT
+      description: Invited to give a talk at the Computation and Cognitive Development Lab directed by prof. Julian Jara-Ettinger. The title of my talk was <i>Humans, Robots, and everything in between</i>.
+    - year: 2016
+      where: Synthetic Method in Social Robotics workshop, International Conference on Social Robotics (ICSR16), Kansas City, MO, U.S.A., November 1-3
+      description: My talk dealt with the topic of Artificial Sociality in mixed human-robot social ecologies in general, and human-robot collaboration in particular.
+    - year: 2015-2016
+      where: CPSC 472 Intelligent Robotics class, Yale University, New Haven, CT
+      description: Two guest lectures at the Intelligent Robotics course held by Prof. Brian Scassellati. Both my lectures were meant to introduce students to the research we perform at the Italian Institute of Technology. The title of my talk was <i>iCub - a shared platform for research in Robotics and AI</i> <a href="/slides/[Roncone 2016] iCub - a shared platform for research in Robotics and AI.pdf" target="_blank">[PDF]</a>.
  - title: International Ph.D. Thesis Reviewer
    year: 2017
    venue: Robotics Lab
