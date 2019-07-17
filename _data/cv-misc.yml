@@ -1,7 +1,11 @@
- - title: "Principal Investigator"
+ - title: "Grants"
    elems:
-    - "Research and Innovation Office Seed Grant. Joint project with Jianliang Xiao and
-Emiliano Dall’Anese, with title <i>Programmable and reconfigurable soft robots for symbiotic soft/rigid robotic systems</i>. (2019)"
+    - year: 2019
+      where: Principal Investigator in a Research and Innovation Office [RIO] seed grant
+      description: "Joint project with Jianliang Xiao and Emiliano Dall’Anese, with title <i>Programmable and reconfigurable soft robots for symbiotic soft/rigid robotic systems</i>."
+ - title: "Vice Chair"
+   inline: yes
+   description: "and Educational Advisor of the IEEE Denver Computer, Information Theory and Robotics Society [CIR]."
  - title: "Associate Editor"
    elems:
     - "<i>IEEE International Conference on Robotics and Automation</i> (<b>ICRA</b>, 2019)"
