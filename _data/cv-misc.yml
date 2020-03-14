@@ -3,9 +3,14 @@
     - year: 2019
       where: Principal Investigator in a Research and Innovation Office [RIO] seed grant
       description: "Joint project with Jianliang Xiao and Emiliano Dall’Anese, with title <i>Programmable and reconfigurable soft robots for symbiotic soft/rigid robotic systems</i>."
- - title: "Vice Chair"
-   inline: yes
-   description: "and Educational Advisor of the IEEE Denver Computer, Information Theory and Robotics Society [CIR]."
+ - title: "External Service"
+   elems:
+    - year: 2019-2020
+      where: IEEE Denver Computer, Information Theory and Robotics Society [CIR]
+      description: "Vice Chair and Educational Advisor."
+    - year: 2019-2020
+      where: St. Vrain Valley School District [SVVSD, serving 37000 students in K-12]
+      description: "Educational Advisor for Artificial Intelligence Education."
  - title: "Associate Editor"
    elems:
     - "<i>IEEE International Conference on Robotics and Automation</i> (<b>ICRA</b>, 2019)"
@@ -18,11 +23,12 @@
     - "<i>IEEE Transactions on Robotics</i> (<b>T-RO</b>, 2019, 2018)"
     - "<i>IEEE International Conference on Robotics and Automation</i> (<b>ICRA</b>, 2018, 2017, 2016)"
     - "<i>IEEE/RSJ International Conference on Intelligent Robots and Systems</i> (<b>IROS</b>, 2017, 2016, 2015)"
+    - "<i>ACM International Conference on Human-Robot Interaction</i> (<b>HRI</b>, 2020)"
     - "<i>ACM Transactions on Human-Robot Interaction</i> (<b>T-HRI</b>, 2018)"
     - "<i>Robotics and Automation Letters</i> (<b>RA-L</b>, 2018)"
     - "<i>Robotics: Science and Systems</i> (<b>RSS</b>, 2016)"
     - "<i>Frontiers in NeuroRobotics</i>  (2018, 2019)"
-    - "<i>Frontiers in Robotics and AI</i>  (2017)"
+    - "<i>Frontiers in Robotics and AI</i>  (2019, 2018, 2017)"
     - "<i>IEEE/RAS International Conference on Humanoid Robots</i> (<b>Humanoids</b>, 2017, 2016, 2014, 2012)"
     - "<i>International Journal of Humanoid Robotics</i> (2014)"
     - "<i>IEEE International Conference on Development and Learning and on Epigenetic Robotics</i> (<b>ICDL-Epirob</b>, 2017, 2016, 2015)"
@@ -31,8 +37,8 @@
     - "<i>IEEE International Conference on Robotics and Biomimetics</i> (<b>ROBIO</b>, 2013)"
  - title: "Teaching Experience"
    elems:
-    - "<i>Spring 2019:</i> <b>CSCI 7000</b> Physical Human-Robot Interaction"
-    - "<i>Fall   2018:</i> <b>CSCI 3392</b> Intro to Robotics"
+    - "<b>CSCI 7000</b> Physical Human-Robot Interaction (<i>Spring 2019</i>)"
+    - "<b>CSCI 3302</b> Intro to Robotics (<i>Fall 2018, Spring 2020</i>)"
  - title: "Invited Talks"
    elems:
     - year: 2017
