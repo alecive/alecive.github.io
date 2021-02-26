@@ -57,12 +57,6 @@
                 </div>
             {% endfor %}
 
-            <h1>Publications</h1>
-            {% for y in page.pubyears %}
-                <h2>{{ y }}</h2>
-                {% include pubs.html year=y %}
-            {% endfor %}
-
             <h1>Research, Teaching & Service</h1>
             {% for item in site.data.cv-misc %}
                 <div class="row cv-item">
@@ -92,6 +86,12 @@
                         {% endif %}
                     </div>
                 </div>
+            {% endfor %}
+
+            <h1>Publications</h1>
+            {% for y in page.pubyears %}
+                <h2>{{ y }}</h2>
+                {% include pubs.html year=y %}
             {% endfor %}
 
             <h1>Graphic Design</h1>

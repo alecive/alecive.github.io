@@ -1,11 +1,12 @@
 ---
 title: Curriculum Vitae
 category: cv
-description: I am a robotics engineer, a computer scientist, and an interaction designer.
+description: I am a robotics engineer, a computer scientist, and a team lead.
 permalink: cv.html
 type: cv
 tags: [robotics,artificial intelligence,advanced manufacturing,humanoid robotics,cognitive robotics,human robto interaction,cv,personal,resume,curriculum,online,research,design,iit,istituto italiando di tecnologia,phd,yale,university,postdoc,assistant professor,candidate]
 pubyears:
+ - 2020
  - 2018
  - 2017
  - 2016
@@ -15,7 +16,7 @@ pubyears:
 
 # Who am I
 
-{% include years_elap.html from="2010" %}
+{% include years_elap.html from="2008" %}
 **My work bridges the gap between robot planning and human–robot interaction**.
 I look at problems that lie at the intersection of these two fields, and I design human-accessible robot control systems that cooperate with and empower people.
 My goal is to develop robot technologies that better interface with the external world and humans, and in doing so to lower the barriers to entry for humans to naturally interact with robots.
