@@ -22,13 +22,15 @@ social:
     url: https://www.linkedin.com/in/alessandroroncone
   - title: graduation-cap
     url: https://scholar.google.com/citations?user=nV-XGVIAAAAJ&hl
+  - title: robot
+    url: https://hiro-group.ronc.one
   # - title: calendar-o
   #   url: https://calendar.google.com/calendar/embed?&bgcolor=%23FFFFFF&src=alecive87%40gmail.com&color=%232952A3&src=l5g5teoouu34et18910uckvkhg%40group.calendar.google.com&color=%23711616&src=06ovc3en5h9bad60rmtu87ru8c%40group.calendar.google.com&color=%235229A3&ctz=America%2FNew_York
 
 logo: /img/logo.svg
 
 banner: "I am looking for students!"
-banner-link: student_opportunities.html
+banner-link: https://hiro-group.ronc.one/join_us.html
 
 # Postal address (add as many lines as necessary)
 address:

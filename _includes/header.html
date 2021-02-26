@@ -118,7 +118,7 @@
         </header>
 
         {% if site.banner %}
-            {% if site.banner-link %}<a href="{{ site.url }}/{{ site.banner-link }}" target="_blank">{% endif %}
+            {% if site.banner-link %}<a href="{{ site.banner-link }}" target="_blank">{% endif %}
             <div class="site-banner alert alert-danger" role="alert">{{ site.banner }}{% if site.banner-link %} [LINK]{% endif %}</div>
             {% if site.banner-link %}</a>{% endif %}
         {% endif %}
