@@ -27,7 +27,7 @@ My goal is to develop robot technologies that better interface with the external
 
  * <b>{{ yearDiffInt | strip_newlines }} years'</b> research experience in **Humanoid Robotics**, **Human-Robot Interaction** and **Cognitive Robotics**.
  * Director of the [Human Interaction and RObotics [HIRO] Group](https://hiro-group.ronc.one) at CU Boulder, where I lead a team of ~20 graduate and undergraduate students to perform state-of-the-art research and publish to top conferences in the field. Proven ability to manage multiple projects and supervise multiple people while meeting challenging deadlines.
- * Extensive background in kinematics, optimization, robot control, decision making, planning under uncertainty, calibration, tactile sensing, machine learning, 2d and 3d computer vision, IMU processing.
+ * Extensive background in kinematics, optimization, robot control, decision making, planning under uncertainty, calibration, tactile sensing, machine learning, 2D and 2D computer vision, IMU processing.
  * Mastery of **C++**, with a deep knowledge of the _ROS_ and _YARP_ middlewares. Daily experience with the _iCub_ humanoid and the _Baxter_ collaborative robot.
  * Strong presentation/communication skills thanks to experience in giving both technical and non-technical talks to both small and big groups, tailoring to the audience. Presented to major international robotics conferences, as well as several outreach events, ranging from exhibitions and fairs, to live TV shows and various interviews.
  * Confident in writing technical reports as well as scientific papers. Authored and co-authored numerous international peer-reviewed scientific articles and journals. Experience with research grant writing.
