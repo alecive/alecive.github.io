@@ -6,7 +6,9 @@ permalink: cv.html
 type: cv
 tags: [robotics,artificial intelligence,advanced manufacturing,humanoid robotics,cognitive robotics,human robto interaction,cv,personal,resume,curriculum,online,research,design,iit,istituto italiando di tecnologia,phd,yale,university,postdoc,assistant professor,candidate]
 pubyears:
+ - 2021
  - 2020
+ - 2019
  - 2018
  - 2017
  - 2016
