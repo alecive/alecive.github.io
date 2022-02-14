@@ -22,7 +22,7 @@ pubyears:
 # Who am I
 
 {% include years_elap.html from="2008" %}
-My work lies at the intersection of _Human-Robot Interaction_, _Artificial Intelligence_, and _Robot Control & Planning_ with the goal of **developing robot technologies that enable close, natural, and extended cooperation with humans**.
+My work lies at the intersection of _Robotics_, _Artificial Intelligence_, and _Human-Robot Interaction_ with the goal of **developing robot technologies that enable close, natural, and extended cooperation with humans**.
 I aim at lowering the barriers to entry for humans to naturally interact with robots, and in doing so I design human-aware robot systems that are able to work with and around people.
 To me, the engineering is as important as the science: **I make robots work**{:.color-banner}, and I hold a deep commitment to doing so while implementing scalable, robust, and elegant systems.
 
