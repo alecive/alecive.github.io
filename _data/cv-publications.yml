@@ -1,3 +1,30 @@
+ - title: "Interactive Policy Shaping for Human-Robot Collaboration with Transparent Matrix Overlays"
+   authors: Jake Brawer, Debasmita Ghose, Kate Candon, Meiying Qin, Alessandro Roncone, Marynel Vázquez, and Brian Scassellati
+   year: 2023
+   venue: ACM/IEEE International Conference on Human-Robot Interaction [HRI]
+   where: Stockholm, Sweden, March 13-16
+   pdf: "2023_Brawer_HRI_Chefbot"
+ - title: "A Framework for the Systematic Evaluation of Obstacle Avoidance and Object-Aware Controllers"
+   authors: Caleb Escobedo, Nataliya Nechyporenko, Shreyas Kadekodi, Alessandro Roncone
+   year: 2022
+   venue: IEEE/RSJ International Conference on Intelligent Robots and Systems [IROS]
+   where: Kyoto, Japan, October 23-27
+   pdf: "2022_Escobedo_IROS_object_aware_controllers"
+   host: https://hiro-group.ronc.one
+ - title: "Bilevel Optimization for Just-in-Time Robotic Kitting and Delivery via Adaptive Task Segmentation and Scheduling"
+   authors: Yi-Shiuan Tung, Kayleigh Bishop, Bradley Hayes, Alessandro Roncone
+   year: 2022
+   venue: "IEEE International Conference on Robot & Human Interactive Communication"
+   where: Naples, Italy, August 29
+   pdf: "2022_Tung_ROMAN_kitting"
+   host: https://hiro-group.ronc.one
+ - title: "Open-Domain Dialogue Generation: What We Can Do, Cannot Do, And Should Do Next"
+   authors: Katharina Kann, Abteen Ebrahimi, Joewie J. Koh, Shiran Dudy, Alessandro Roncone
+   year: 2022
+   venue: "Workshop on Natural Language Processing for Conversational AI @ ACL 2022"
+   where: Dublin, Ireland, May 27
+   pdf: "2022_Kann_NLP4ConvAI_dialogue_generation"
+   host: https://hiro-group.ronc.one
  - title: "PokeRRT: Poking as a Skill and Failure Recovery Tactic for Planar Non-Prehensile Manipulation"
    authors: Anuj Pasricha, Yi-Shiuan Tung, Bradley Hayes, Alessandro Roncone
    year: 2022
