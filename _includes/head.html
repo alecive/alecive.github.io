@@ -94,8 +94,18 @@
 
     </script>
 
-    <!-- Use MathJax when there are equations -->
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id={{ site.google-analytics-id-new }}"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      gtag('config', '{{ site.google-analytics-id-new }}');
+    </script>
+
     {% if page.math %}
+    <!-- Use MathJax when there are equations -->
     <script type="text/x-mathjax-config">
       MathJax.Hub.Config({
         tex2jax: {
