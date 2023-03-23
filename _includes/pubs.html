@@ -1,7 +1,7 @@
 
             {% for item in site.data.cv-publications %}
 
-                {% if include.year == "all" %} {% assign year = item.year %}
+                {% if include.year == "all" %} {% assign year =    item.year %}
                 {% else %}                     {% assign year = include.year %}
                 {% endif %}
 
@@ -17,6 +17,7 @@
                             <p><i>{{item.authors}}</i><br>
                             {% if item.description %}{{item.description}}{% endif %}
                             </p>
+                            {% if item.award %}<p class="award"><i class="fa fa-fw fa-trophy"></i> {{item.award}} <i class="fa fa-fw fa-trophy"></i></p> {% endif %}
                         </div>
                     </div>
                 {% endif %}
