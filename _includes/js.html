@@ -10,9 +10,6 @@
     <!-- <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/js/bootstrap.min.js" integrity="sha384-h0AbiXch4ZDo7tp9hKZ4TsHbi047NrKGLO3SEJAg45jXxnGIfYzk4Si90RDIqNm1" crossorigin="anonymous"></script> -->
     <script src="{{ "/js/bootstrap.min.js" | prepend: site.baseurl }}"></script>
 
-    <!-- Plugin JavaScript -->
-    <script src="{{ "/js/jquery.easing.min.js" | prepend: site.baseurl }}"></script>
-
     <script>
       // cbpAnimatedHeader.js v1.0.0
       var cbpAnimatedHeader = (function() {
@@ -62,14 +59,12 @@
     </script>
 
     <script>
-      // jQuery for page scrolling feature - requires jQuery Easing plugin
-      $(function() {
-          $('.page-scroll a').bind('click', function(event) {
-              var $anchor = $(this);
-              $('html, body').stop().animate({
-                  scrollTop: $($anchor.attr('href')).offset().top
-              }, 1500, 'easeInOutExpo');
-              event.preventDefault();
+      document.addEventListener('DOMContentLoaded', function() {
+          const scrollToTopButton = document.querySelector('.page-scroll-up');
+
+          scrollToTopButton.addEventListener('click', function(event) {
+              event.preventDefault();  // Prevent the default action
+              window.scrollTo({ top: 0, behavior: 'smooth' });
           });
       });
 
