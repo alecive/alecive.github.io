@@ -58,7 +58,7 @@ p.small {
 }
 
 a {
-    color: #fff;
+    color: white;
     outline: none;
     text-decoration: none;
     font-weight: bold;
@@ -326,6 +326,7 @@ header .intro-text .owner {
 }
 
 .navbar-nav .nav-link {
+    color: white;
     margin-top: 6px;
     padding-top:    20px;
     padding-bottom: 20px;
@@ -415,6 +416,13 @@ header .intro-text .owner {
 
     .navbar-toggler:hover {
         background-color: #{{ site.color.accent }};
+    }
+
+    .navbar-toggler:focus,
+    .navbar-toggler:active,
+    .navbar-toggler-icon:focus {
+        outline: none;
+        box-shadow: none;
     }
 
     .navbar.navbar-shrink .navbar-toggler {
