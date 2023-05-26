@@ -4,7 +4,7 @@ email: alessandro.roncone@colorado.edu
 url: https://alecive.github.io
 phone: +1 (203) 606-3896
 google-analytics-id:  G-P2X4L2HRL9
-description: "Personal website of Alessandro Roncone, also known as alecive, Ph.D. in robotics engineering, computer scientist, interaction designer, father and runner."
+description: "Personal website of Alessandro Roncone, Ph.D. in robotics, computer scientist, team lead, father, and runner."
 owner: Alessandro Roncone
 owner-title: Ph.D.
 owner-job: Robotics Engineer
@@ -29,8 +29,8 @@ social:
 
 logo: /img/logo.svg
 
-banner: "I am looking for students!"
-banner-link: https://hiro-group.ronc.one/join_us.html
+banner: "This website is not actively maintained. Please visit my lab's website!"
+banner-link: https://hiro-group.ronc.one
 
 # Postal address (add as many lines as necessary)
 address:

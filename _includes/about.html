@@ -10,12 +10,12 @@
             <div class="row">
                 <div class="col-lg-1"></div>
                 <div class="col-lg-4">
-                    <p>{{ site.description }} From Fall 2018, he became Assistant Professor of Robotics in the CS Department at University of Colorado Boulder, where he directs the Human Interaction and RObotics [HIRO] Group.</p>
+                    <p>{{ site.description }} From August 2018, he became Assistant Professor of Robotics in the CS Department at CU Boulder, where he directs the Human Interaction and RObotics [HIRO] Group. Since January 2022, Alessandro is also Chief Technology Officer of Lab0.</p>
                 </div>
                 <div class="col-lg-6">
                     {% include years_elap.html from="2008" %}
-                    <p>Alessandro has more than {{ yearDiffStr | strip_newlines }} years' research experience in robotics. He worked full time with the iCub, one of the most advanced humanoid robots, on machine perception and artificial intelligence. His mastery of C++ and the YARP/ROS software architectures has been employed for research in human-robot interaction, kinematics, tactile perception and robot control.</p>
-                    <p>{% if site.banner %}
+                    <p>Alessandro has more than {{ yearDiffStr | strip_newlines }} years' research experience in robotics. He worked with the iCub robot, one of the most advanced humanoid robots, on machine perception, robot control, and artificial intelligence. His research focus is in human-robot interaction: with the goal of creating robots that work with and around people, he focuses on motion planning, artificial intelligence, and robot control.
+                    {% if site.banner %}
                         {% if site.banner-link %}<a href="{{ site.banner-link }}" target="_blank">{% endif %}
                         <span class="about-banner">{{ site.banner }}{% if site.banner-link %} [LINK]{% endif %}</span>
                         {% if site.banner-link %}</a>{% endif %}
