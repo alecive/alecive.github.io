@@ -36,7 +36,7 @@
                                                 <h3>{{ post.title }}</h3>
                                             </div>
                                         </div>
-                                        <img src="img/portfolio/{% if post.img-thumb %}{{ post.img-thumb }}{% else %}{{ post.img }}{% endif %}" class="img-fluid" alt="{{ post.alt }}">
+                                        <img src="/img/portfolio/{% if post.img-thumb %}{{ post.img-thumb }}{% else %}{{ post.img }}{% endif %}" class="img-fluid" alt="{{ post.alt }}">
                                     </a>
                                 </div>
                             {% elsif page.type == "blog" %}

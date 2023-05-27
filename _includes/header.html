@@ -1,7 +1,7 @@
    <!-- Navigation -->
     <nav id="navbar-scrollspy" class="navbar fixed-top navbar-expand-lg no-print">
         <div class="container">
-        <a class="navbar-brand" href="{% if page.type == "research" %}#{% else %}/{% endif %}">
+        <a class="navbar-brand" href="{% if page.type == "cv" %}#{% else %}/{% endif %}">
             <img class="img-fluid" src="{{ site.logo }}">
         </a>
         <button type="button" class="navbar-toggler collapsed" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
@@ -16,27 +16,13 @@
                 <li class="d-none">
                     <a class="nav-link" href="#"></a>
                 </li>
-                {% if page.type == "cv" %}
-                <li class="nav-item page-scroll">
-                    <a class="nav-link" href="/">Home</a>
-                </li>
-                <li class="nav-item page-scroll">
-                    <a class="nav-link" href="/publications.html">publications</a>
-                </li>
-                <li class="nav-item page-scroll">
-                    <a class="nav-link" href="/{{ site.resume-link }}" target="_blank">[Resumé]</a>
-                </li>
-                <li class="nav-item page-scroll">
-                    <a class="nav-link" href="/{{ site.cv-link }}" target="_blank">[CV]</a>
-                </li>
-                {% else %}
                 {% if page.type == "research" %}
                 <li class="nav-item page-scroll">
                     <a class="nav-link" href="#research">research</a>
                 </li>
                 {% else %}
                 <li class="nav-item page-scroll">
-                    <a class="nav-link" href="/">research</a>
+                    <a class="nav-link" href="/research.html">research</a>
                 </li>
                 {% endif %}
                 {% if page.type == "design" %}
@@ -70,9 +56,8 @@
                     <a class="nav-link" href="#about">about</a>
                 </li>
                 <li class="nav-item page-scroll">
-                    <a class="nav-link" href="/cv.html">cv</a>
+                    <a class="nav-link" href="/{{ site.cv-link }}" target="_blank">CV</a>
                 </li>
-                {% endif %}
             </ul>
         </div>
         </div>
@@ -106,7 +91,7 @@
                             <hr class="separating-line no-print">
                             <span class="owner no-print">{{ site.owner }}</span>
                             {% else %}
-                            <span class="name no-print">{{ page.title }}</span>
+                            <span class="name no-print">{{ site.owner }}</span>
                             <hr class="separating-line no-print">
                             <span class="owner no-print">{{ page.description }}</span>
                             {% endif %}
