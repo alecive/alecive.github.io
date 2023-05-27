@@ -10,7 +10,6 @@ owner-title: Ph.D.
 owner-job: Robotics Engineer
 
 # These should be put at the root of your website
-resume-link: AlessandroRoncone_resume.pdf
 cv-link: AlessandroRoncone_cv.pdf
 cv-image: /img/cv.jpg
 
@@ -29,7 +28,7 @@ social:
 
 logo: /img/logo.svg
 
-banner: "This website is not actively maintained. Please visit my lab's website!"
+banner: "This website is not actively maintained any more! Please visit my lab's website"
 banner-link: https://hiro-group.ronc.one
 
 # Postal address (add as many lines as necessary)
@@ -104,7 +103,7 @@ defaults:
 # with a number of combinations to play with
 color:
 # ORIGINAL - B&W
-  banner: 66a329                            # This is a green banner color (for red, use bf4040)
+  banner: bf4040                            # This is a red banner color (for green, use 66a329)
   articletext: 292929                       # This is the text color
   primary:  f9fafb                          # This is the background of the logo, light gray
   secondary: 3c3c3c                         # This is dark gray

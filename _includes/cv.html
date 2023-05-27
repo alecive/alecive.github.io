@@ -9,15 +9,12 @@
         </div>
         <div id="article">
             <div class="row d-lg-none">
-                <div class="col-sm-6 text-center">
+                <div class="col-sm-12 mb-5 text-center">
                     <a class="btn btn-danger btn-lg" style="width: 60%;" href="/{{ site.cv-link }}" target="_blank">[CV]</a>
-                </div>
-                <div class="col-sm-6 text-center">
-                    <a class="btn btn-danger btn-lg" style="width: 60%;" href="/{{ site.resume-link }}" target="_blank">[Resumé]</a>
                 </div>
             </div>
 
-            {{ content }}
+            {{ content | markdownify }}
 
             <h1>Professional Experience</h1>
             {% for item in site.data.cv-professional %}
@@ -57,6 +54,12 @@
                 </div>
             {% endfor %}
 
+            <h1>Publications</h1>
+            {% for y in page.pubyears %}
+                <h2>{{ y }}</h2>
+                {% include pubs.html year=y %}
+            {% endfor %}
+
             <h1>Research, Teaching & Service</h1>
             {% for item in site.data.cv-misc %}
                 <div class="row cv-item">
@@ -86,12 +89,6 @@
                         {% endif %}
                     </div>
                 </div>
-            {% endfor %}
-
-            <h1>Publications</h1>
-            {% for y in page.pubyears %}
-                <h2>{{ y }}</h2>
-                {% include pubs.html year=y %}
             {% endfor %}
 
             <h1>Graphic Design</h1>
