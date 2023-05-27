@@ -1,3 +1,11 @@
+ - title: "Hierarchical Reinforcement Learning for Ad Hoc Teaming"
+   authors: Stéphane Aroca-Ouellette, Miguel Aroca-Ouellette, Upasana Biswas, Katharina Kann, Alessandro Roncone
+   year: 2023
+   venue: "International Conference on Autonomous Agents and Multiagent Systems [AAMAS]"
+   where: London, Uk, May 28-June 02
+   pdf: "2023_Aroca-Ouellette_AAMAS_HAHA"
+   description: Extended abstract
+   host: https://hiro-group.ronc.one
  - title: "Interactive Policy Shaping for Human-Robot Collaboration with Transparent Matrix Overlays"
    authors: Jake Brawer, Debasmita Ghose, Kate Candon, Meiying Qin, Alessandro Roncone, Marynel Vázquez, and Brian Scassellati
    year: 2023
@@ -5,6 +13,20 @@
    where: Stockholm, Sweden, March 13-16
    pdf: "2023_Brawer_HRI_Chefbot"
    award: Best Technical Paper Award!!
+ - title: "Improving Human Legibility in Collaborative Robot Tasks through Augmented Reality and Workspace Preparation"
+   authors: Yi-Shiuan Tung, Matthew B. Luebbers, Alessandro Roncone, Bradley Hayes
+   year: 2023
+   venue: "6th International Workshop on Virtual, Augmented, and Mixed-Reality for Human-Robot Interactions (VAM-HRI)"
+   where: Stockholm, Sweden, March 13
+   pdf: "2023_Tung_VAMHRI_legibility"
+   host: https://hiro-group.ronc.one
+ - title: "Designing an AI Partner for Jigsaw classrooms"
+   authors: Jie Cao, Rachel Dickler, Marie Grace, Jeffrey B. Bush, Alessandro Roncone, Leanne M. Hirshfield, Marilyn A. Walker, Martha S. Palmer
+   year: 2023
+   venue: Workshop on Language-Based AI Agent Interaction with Children [AIAIC]
+   where: Los Angeles, USA, February 21
+   pdf: "2023_Cao_AI_Partner"
+   host: https://hiro-group.ronc.one
  - title: "A Framework for the Systematic Evaluation of Obstacle Avoidance and Object-Aware Controllers"
    authors: Caleb Escobedo, Nataliya Nechyporenko, Shreyas Kadekodi, Alessandro Roncone
    year: 2022
