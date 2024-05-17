@@ -2,3 +2,4 @@ _site
 _drafts
 *.sublime*
 .jekyll-cache/
+.DS_Store
